@@ -14,7 +14,7 @@ En cas d'erreur sur un fichier de quiz, l'application affiche une erreur et perm
 
 ### Ecran 2 de configuration du nombre de question
 Vous choisisser le nombre de question parmi les options disponibles ou en entrant un nombre
-Le système vérifier que le nombre retenu n'excède pas le nombre de questions disponibles
+Le système vérifie que le nombre retenu n'excède pas le nombre de questions disponibles
 
 ### Ecran 3 quiz
 Les questions sont toutes affichées dans le désordre au format QCM, vous repondez aux questions puis validez.
@@ -23,6 +23,23 @@ Les questions sont toutes affichées dans le désordre au format QCM, vous repon
 Une fois toutes les questions répondues, le système reprendre les questions en indiquant la réussite ou pas.
 En cas d'erreur, la bonne réponse est indiquée avec l'extrait du texte expliquant la réponse.
 Pour chaque question nous indiquons le référentiel utilisé ainsi que le chapitre concerné
+
+
+## Pour l'administrateur, définition de la liste des référentiels
+La liste est chargée depuis le fichier "json/liste_referentiels.json" qui a la structure suivante :
+ {
+"liste": [
+    {
+        "nom" : "Nom du référentiel",
+        "chemin" : "Chemin d'accès au JSON"
+    },
+    {
+        "nom" : "Nom du référentiel",
+        "chemin" : "Chemin d'accès au JSON"
+    }
+  ]
+ }
+Le fichier est édité manuellement par la personne ayant les droits sur l'hébergement du quiz.
 
 
 ## Pour générer un fichier JSON à partir du référentiel, tu peux utiliser le prompt suivant : 
