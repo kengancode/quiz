@@ -1,0 +1,1056 @@
+{
+    "metadata": {
+        "titre": "IGI 1300 - Protection du secret de la défense nationale",
+        "source": "IGI 1300 - 2.pdf",
+        "date_creation": "2026-06-07",
+        "nombre_questions": 69,
+        "chapitres_couverts": [
+            "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "PARTIE 2 - GESTION DES RISQUES",
+            "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "PARTIE 5 - ENVIRONNEMENT NUMERIQUE",
+            "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "CHAPITRE II - DISPOSITIONS DE COORDINATION",
+            "CHAPITRE III - AUTRES DISPOSITIONS"
+        ]
+    },
+    "questions": [
+        {
+            "id": "Q1_2_2",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.2.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.2.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.2.2 : qualités (cf. 1.2.2.3 b) et 3.1.4), les agents des...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.2.2",
+                "Fausse réponse 2 pour la section 1.2.2",
+                "Fausse réponse 3 pour la section 1.2.2"
+            ],
+            "extrait_source": "qualités (cf. 1.2.2.3 b) et 3.1.4), les agents des assemblées p arlementaires qui les assistent font l’objet d’une",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.2 : parties 3.2 et 3.3. 63 I V d e l ’ a r t i c l e 6...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.2",
+                "Fausse réponse 2 pour la section 3.2",
+                "Fausse réponse 3 pour la section 3.2"
+            ],
+            "extrait_source": "parties 3.2 et 3.3. 63 I V d e l ’ a r t i c l e 6 nonies de l’ordonnance n° 58-1100 du 17 novembre 1958 relative au fon ctionnement des assemblées parlementaires. 64 Article L. 773-2 du code de justice administrative. 65 Article L. 2312-5 du code de la défense. 66 Article L. 832-5 du code de la sécurité intérieure.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1_4",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.1.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.1.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.1.4 : que la délivrance d’une décisi on d’habilitation s...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.1.4",
+                "Fausse réponse 2 pour la section 3.1.4",
+                "Fausse réponse 3 pour la section 3.1.4"
+            ],
+            "extrait_source": "que la délivrance d’une décisi on d’habilitation soit nécessaire (cf. 3.1.4)56. Cour des comptes Dans l’exercice de ses attributions non juridictionnelles, la C our des comptes peut être appelée à accéder à des informations ou supports classi fiés, ainsi qu’à en émettre. Conformément au décret n° 2012-383 du 20 mars 2012 relatif aux attributions du ha ut fonctionnaire de défense et de sécurité auprès du Premier ministre, le secrétair e général du Gouvernement peut assister la Cour des comptes dans la mise en œuvr e des règles relatives à la pro tection du secret de la défense nationale. À ce titre, il délivre les décisions d’habilitation des membres et d u personnel de la Cour qui ont besoin d’accéder à des informations et supports classifiés dans l’accomplissement de leurs attributions non juridictionnelles en relation avec le Gouvernement. La déclassification des informa tions et supports classifiés émi s par la Cour des comptes est décidée par le président de la Cour des comptes , après avis du Premier ministr e. Délégation parlementaire au renseignement Conformément à l’article 6 nonies de l’ordonnance n° 58-1100 du 17 novembre 1958 relative au fonctionnement des assemblées parlementaires, les membres de la délégation parlementaire au renseignement, ainsi que les agents des assemb lées parlementaires qui les assi stent, peuvent, pour l’exercice du contrôle parlementaire de l’action du Gouve rnement en matière de renseig nement et l’accomplissement de sa mission d’évaluation de la politique publique en ce domaine, avoir beso in d’accéder à des informations ou supports classifiés. 55Décret du 20 décembre 2016 portant délégation de signature du P remier ministre au directeur du groupement interministériel de contrôle. 56 Article L. 773-2 du code de justice administrative.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.1.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.1.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.1.2 : à jour selon les modalités définies au 3.1.2.2, co...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.1.2",
+                "Fausse réponse 2 pour la section 3.1.2",
+                "Fausse réponse 3 pour la section 3.1.2"
+            ],
+            "extrait_source": "à jour selon les modalités définies au 3.1.2.2, complétées le c as échéant des dispositions de l’instruction ministérielle, des directives techniques particulières applicables et des stipulations du plan contractuel de sécurité. Ce catalogue des emplois tient lieu de répertoire des postes né cessitant l’accès à des informations ou supports classifiés. Il indique le niveau, les dates de délivrance et de fin de validité des décisions d’habilitation du personnel. Une mise à jour annuelle est réalisée et, à cette occasion, le représentant légal de la personne morale vér ifie que les personnes habilitées ont effectivement eu accès à des informations et supports class ifiés pour le niveau concerné et supprime, le cas échéant, les fonctions et missions ne nécessit ant plus d’accéder au secret de la défense nationale. Dès lors qu’une personne physique est susceptible, dans l’exécu tion de son contra t de travail, de connaître ou de détenir des inf ormations et supports classif iés, son contrat de travail comporte, dans la mesure du possi ble, une clause de protection du secret de la défense nationale conforme à la clause-type figurant à l’Annexe 17. En cas de cha ngement d’affectation amenant le salarié à travailler dans les conditions définies au premier alinéa, le contrat de travail fait l’objet d’un avenant écrit conforme aux présentes dispositions. Les parties au contrat de travail peuvent compléter ou adapter la c lause-type selon les spécifici tés dudit contrat sans lui être contraire. Obligations du titulaire a) Devoir de discrétion de la personne morale habilitée La personne morale et son pers onnel titulaire d’une décision d’ habilitation ne peut publiquement en faire état ni s’en prévaloir. Elle ne peut communiquer à des tiers cette décision, ni aucune information résultant d es informations et supports au xquels elle a accès pour l’exécution des prestations du c ontrat nécessitant l’accès à de s informations et supports classifiés, sauf autorisation e xpresse de l’autorité publique c ontractante ou en réponse à des procédures contractuelle s qui l’exigeraient.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_5",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.5",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.5 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.5 : Ainsi, conformément aux dispositi ons détaillées a...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.5",
+                "Fausse réponse 2 pour la section 2.5",
+                "Fausse réponse 3 pour la section 2.5"
+            ],
+            "extrait_source": "Ainsi, conformément aux dispositi ons détaillées au paragraphe 3 .2.5, un ressortissant étranger peut, sous réserve de son habilitation préalable au niveau requ is et dans la stricte limite du besoin d’en connaître, accéder à des informations et supports c lassifiés aux niveaux Secret et Très Secre t. De même, une personne morale de droit étranger peut être qualif iée pour accéder à des informations et supports classifiés aux niveaux Secret et Très Secret , dès lors qu’il existe, un accord de sécurité, général ou spécifique, entre la France et l ’État ou l’organisation internationale dont relève l’orga nisme et que les exigences fix ées par cet accord sont remplies",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.2.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.2.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.2.1 : - au niveau Très Secret , le bureau de protection ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.2.1",
+                "Fausse réponse 2 pour la section 7.2.1",
+                "Fausse réponse 3 pour la section 7.2.1"
+            ],
+            "extrait_source": "- au niveau Très Secret , le bureau de protection du secret (cf. 7.2.1.2). Au niveau Très Secret , le nombre et le numéro des supports attribués à chaque destin ataire ainsi que le numéro des exemplaires c onservés par l’émetteur sont pré cisés dans la liste de diffusion (deux exemplaires au moins, dont un original destiné à terme au x archives). Après marquage et enregistrement de chaque support, il est proc édé aux opérations suivantes : a) Conditionnement L’envoi de supports classifiés se fait sous double enveloppe. Chaque enveloppe présente des garanties de solidité suffisant es pour garantir au maximum son intégrité physique : - l’enveloppe extérieure : renfor cée, elle porte l’indication du service expéditeur, l’adresse du destinataire (sans mention trop explicite de natur e à attirer l’attention sur le caractère classifié du contenu) et la mention du suivi. Elle ne porte en aucun cas la mention du niveau de classifica tion de l’information ou du supp ort qu’elle contient ; - l’enveloppe intérieure de sécur ité : opaque, toilée ou armée, elle interdit l’ouverture ou la refermeture discrète. Elle porte le timbre du niveau de clas sification, la référence des supports transmis, le cachet de l’ autorité expéditrice, le nom et la fonction du destinataire ainsi que l’indication de l’organisme dans lequel il est affecté.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1_3",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.1.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.1.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.1.3 : visées au paragraphe 2.1.3, par ces autorités, en ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.1.3",
+                "Fausse réponse 2 pour la section 2.1.3",
+                "Fausse réponse 3 pour la section 2.1.3"
+            ],
+            "extrait_source": "visées au paragraphe 2.1.3, par ces autorités, en conformité av ec la présente instruction. Avant de décider d’apposer un timbre de classification sur une information ou un support, l’auteur d’informations ou suppor ts classifiés procède à l’anal yse de l’importance de l’information105 au regard de son contexte et eu égard aux directives de classification applicables. Il veille ainsi, sous le contrôle de son autorité hiérarchique, ainsi que sous la responsabilité de son responsable d’organisme et de l’autorité émettrice pour laq uelle il procède à la classification, à ce que le niveau de classification soit approprié à l’information ou au support concernés, c’est-à-dire à ce qu’il soit à la fois strictement nécessaire et suffisant.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.3 : d’information classifié audité selon les modalités...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.3",
+                "Fausse réponse 2 pour la section 3.3",
+                "Fausse réponse 3 pour la section 3.3"
+            ],
+            "extrait_source": "d’information classifié audité selon les modalités détaillées à la partie 3.3. Toutefois, lorsque les droits qui leur sont octroyés initialement sur le système d ’information classifié sont étendus, leur permettant notamment d’outrepasser leurs droits ou de masq uer leurs actions sur celui-ci, les auditeurs doivent être habilités au niveau Très Secret . 102 Chapitre III du décret n° 2015-350 du 27 mars 2015 relatif à l a qualification des produits de sécurité et des prestataires de service de confiance pour les besoins de la séc urité des systèmes d’information.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3_2",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.3.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.3.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.3.2 : précise et limitative par arrêté du Premier minist...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.3.2",
+                "Fausse réponse 2 pour la section 2.3.2",
+                "Fausse réponse 3 pour la section 2.3.2"
+            ],
+            "extrait_source": "précise et limitative par arrêté du Premier ministre. Cet arrêt é est actualisé chaque année (cf. 2.3.2.2). 91 Conformément à l’article 413-9 du code pénal, les réseaux info rmatiques et données informatisées qui ont fait l’objet de mesures de classification destinées à restreindre le ur diffusion ou leur accès présentent un caractère de secret de la défense nationale. Il en découle que les lieux dan s lesquels sont conservés ces réseaux informatiques et données informatisées sont des lieux abritant.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_6_3",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.6.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.6.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.6.3 : applicables (cf. 7.6.3.7). Cette base de données c...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.6.3",
+                "Fausse réponse 2 pour la section 7.6.3",
+                "Fausse réponse 3 pour la section 7.6.3"
+            ],
+            "extrait_source": "applicables (cf. 7.6.3.7). Cette base de données comprend toute s les décisions de déclassification émises à compter de sa mise en service. Afin d e renforcer sa complétude, elle est progressivement complétée des décisions antérieures. Déclassification des informati ons et supports cla ssifiés d’orig ine étrangère Pour les informations et supports classifiés d’origine étrangèr e, seule l’autorité étrangère émettrice peut procéder à leur déclassification ou leur déclass ement. Le service du haut fonctionnaire de défense et de sécurité saisit le secrétariat g énéral de la défense et de la sécurité nationale, en sa qualité d’autorité nationale de sécurité, afin d’obtenir des informations sur la procédure d’accès à de tels documents. Règles de communication des documents déclassifiés La déclassification formelle ou automatique d’un document ne le rend pas nécessairement communicable. En effet, d’autres motifs d’incommunicabilité pré vus à l’article L. 311-5 du code des relations entre le pub lic et l’administration et/ou d’ autres délais de communicabilité au titre de l’article L. 213-2 du code du patrimoine peuvent s’ appliquer. Ainsi, lorsque le service détent eur d’un document déclassifié est saisi d’une demande de communication, il s’assure de sa communicabilité au regard des règles de l’article L. 311-5 du code des relations entre le pub lic et l’administration et L. 21 3-2 du code du patrimoine et instruit la demande en conséquence.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1_2",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.1.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.1.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.1.2 : d’attribution (cf. 2.1.2.1). Le bureau de protecti...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.1.2",
+                "Fausse réponse 2 pour la section 2.1.2",
+                "Fausse réponse 3 pour la section 2.1.2"
+            ],
+            "extrait_source": "d’attribution (cf. 2.1.2.1). Le bureau de protection du secret est composé exclusivement de personnes choisies parmi le pers onnel de l’organisme, habilitée s au niveau Très Secret . Il",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.2 : à la partie 2.2. c) Obligations spécifiques des pr...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.2",
+                "Fausse réponse 2 pour la section 2.2",
+                "Fausse réponse 3 pour la section 2.2"
+            ],
+            "extrait_source": "à la partie 2.2. c) Obligations spécifiques des primo-contractants En cas de recours à des sous-t raitants ou sous-contractants pour l’exécution de son contrat qui ont besoin, à cet effet, d’accéd er à des informations et suppor ts classifiés, le primo-contractant en informe l’autorité publique c ontractante au moment de la sig nature du contrat, sauf impossibilité caractérisée, et ju stifie leur besoin d’en connaître pour exécuter le contrat.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_4_2",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.4.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.4.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.4.2 : destinataire met alors en œuvr e les dispositions ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.4.2",
+                "Fausse réponse 2 pour la section 1.4.2",
+                "Fausse réponse 3 pour la section 1.4.2"
+            ],
+            "extrait_source": "destinataire met alors en œuvr e les dispositions du 1.4.2.3. Transport Supports classifiés a) Sur le territoire national, à l’intéri eur d’un site ou d’une même emprise Les supports classifiés sont transportés par le détenteur lui-même, par une personne habilitée au niveau requis ou un convoyeur autorisé de l’organisme détenteur ou une personne du service de courrier interne de cet organisme. La position des supports classifiés doit être suivie sans disco ntinuité, notamment dans le système d’enregistrement des supports classifiés. Une fiche de suivi, établie pour chaque support classifié au ni veau Très Secret , permet d’en contrôler la position et est éma rgée par chaque personne qualif iée y ayant accès. La fiche de suivi est conservée par le bureau de protection du secret dans les mêmes conditions que pour un support classifié au niveau Très Secret. b) Sur le territoire national, avec changement de site ou d’emprise Le transport s’opère : - aux niveaux Secret et Très Secret , par un porteur, qui est : soit une personne habilitée de l’o rganisme détenteur ou d’un au tre organisme",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_5_5",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.5.5",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.5.5 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.5.5 : de plein droit en application de l’article L. 213-...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.5.5",
+                "Fausse réponse 2 pour la section 7.5.5",
+                "Fausse réponse 3 pour la section 7.5.5"
+            ],
+            "extrait_source": "de plein droit en application de l’article L. 213-2 du code du patrimoine (cf. 7.5.5.1). Déclassification nécessitant une décision formelle matérialisée par un timbre de déclassification Les dispositions qui suivent s’a ppliquent aux seuls information s et supports classifiés qui ne comportent pas d’échéance de c lassification et pour lesquels le s délais de communicabilité prévus à l’article L. 213-2 du c ode du patrimoine ne sont pas é chus et qui ne peuvent, en conséquence, être déclassifiés qu’après une décision formelle d e déclassification, matérialisée sur le document par l’apposition d’un timbre de déclassificatio n. Organisation de la fonc tion de déclassification Conformément à l’article R. 2311-4 du code de la défense : « Toute modification du niveau de classification, déclassification, modificati on ou suppression d’une me ntion particulière de protection d’une information ou d’un support cla ssifié est décidée par l’autorité sous la responsabilité de laquelle il a ét é procédé à la classification . ». Ainsi, lorsque le support classifi é ne comporte pas dans son ti mbre de classification de date à partir de laquelle il est automatiquement déclassifié – cas gén éral pour les supports classifiés préalablement à l’entrée en vigue ur de la présente instruction et cas dérogatoire et exceptionnel",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_4",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.4 : ministériel ou d’un organisme lié par contrat (cf....",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.4",
+                "Fausse réponse 2 pour la section 4.4",
+                "Fausse réponse 3 pour la section 4.4"
+            ],
+            "extrait_source": "ministériel ou d’un organisme lié par contrat (cf. 4.4) ; soit une personne ayant la qualité de convoyeur autorisé. Le co nvoyeur autorisé est une personne physique appartenant à l’organisme détenteur, titu laire d’une décision de sécurité convoyeur (cf. Annexe 42) délivrée par l’autorité d ’habilitation après réalisation, par l’autorité com pétente, d’une e nquête administr ative (cf. Annexe 6). Conformément à la demande de l’autorité d’habilitation, cette d écision est valide soit pour une mission particuliè re, soit pour une durée nécessa irement inférieure à trois ans. Cette décision peut ê tre renouvelée par une demande qui est nécessairement effectuée avant l’expiration du délai fixé. Cett e décision n’autorise en aucun cas à prendre connaissan ce d’informations et supports classifiés. Le porteur ne peut se dessaisir des informations et supports cl assifiés jusqu’à leur remise au destinataire, sauf dérogation exceptionnelle accordée par le ministre dont il relève après consultation du secrétaire général de la défense et de la sécurité nationale.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_6_4",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.6.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.6.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.6.4 : traçabilité du système d’informati on prévues par ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.6.4",
+                "Fausse réponse 2 pour la section 6.6.4",
+                "Fausse réponse 3 pour la section 6.6.4"
+            ],
+            "extrait_source": "traçabilité du système d’informati on prévues par la présente in struction décrites au 6.6.4.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_3",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.3 : dans le cadre d’une convention au titre de la part...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.3",
+                "Fausse réponse 2 pour la section 4.3",
+                "Fausse réponse 3 pour la section 4.3"
+            ],
+            "extrait_source": "dans le cadre d’une convention au titre de la partie 4.3 : cet avis n’est pas obligatoire avant la détention et intervient au plus tard à l’occasion d’un contrôle organisé par le",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2_3",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.2.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.2.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.2.3 : « ACSSI »114 (cf. 2.2.3). Il dresse un invent aire...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.2.3",
+                "Fausse réponse 2 pour la section 2.2.3",
+                "Fausse réponse 3 pour la section 2.2.3"
+            ],
+            "extrait_source": "« ACSSI »114 (cf. 2.2.3). Il dresse un invent aire annuel des informations e t supports classifiés qu’il traite. Pour remplir ses missions, le bureau de protection du secret pe ut mettre en place un système assurant par voie informati que les fonctions suivantes : - identification du support d’information (numéro d’enregistreme nt arrivée ou départ, autorité émettrice et auteur de l’information ou du support cla ssifié, date de création, domaine, titre ou objet, nombre de pages, niveau de classificat ion, mode et date prévue de déclassification, nombre d’ex emplaires gérés par le bureau d e protection du secret) ; - traçabilité des événements concer nant les exemplaires du suppo rt d’information (arrivée, départ, reproduction, archivage, destruction, déclass ification, numéro de référence de l’événement, date de l’événement, référence indivi duelle des exemplaires, nom et fonction du détenteur de chaque exemplaire) ; - recherche sur les supports d’information (détenteurs successifs d’un exemplaire, date de création, service émetteur, etc.) ; - inventaire des informations et supports classifiés ; - fourniture d’états relatifs aux actions effectuées sur les supports d’information (historique, fiche d’enregistreme nt, fiche de suivi, bordereau d’envoi, procès-verbal de destruction, avis de déclassifi cation, archivage, reproduction, etc.). Aucun organisme ne peut élaborer , traiter, conserver, détruire ou acheminer des informations et supports classifiés au niveau Très Secret faisant l’objet d’une classification spéciale sans y avoir été préalablement autorisé par le secrétaire général de l a défense et de la sécurité nationale. Organisation des échanges d’info rmations et de supports classif iés avec des personnes physiques ou mora les de droit étranger Conformément à l’artic le 414-9 du code pénal, la France assure la même protection aux informations et supports classifiés étrangers, reçus ou produit s en commun en vertu d’un accord de sécurité, général ou spécifi que, régulièrement approuvé et p ublié, qu’aux informations et supports classifiés français de niveau équivalent. Symétriquement, la c ommunication d’informations ou supports cla ssifiés français à une personne physique ou morale relev ant de la juridiction d’un Éta t étranger ou d’une organisation internationale n’est possible qu’en vertu d’un accord intergouv ernemental conclu entre la France et l’État ou l’organisati on internationale considéré ou conformément aux règles de sécurité de l’organisation internationale, lorsque ces dernière s sont directement applicables. Les accords intergouvernementaux relatifs à l’échange et à la p rotection d’informations classifiées peuvent porter soit : - sur un domaine spécifique (généralement celui de la défense) : l’accord est alors qualifié d’accord de sécurité dans le domaine considéré ; - sur l’ensemble de l’action gouve rnementale : l’accord est alor s qualifié d’accord général de sécurité. Plutôt que de définir, avec cha que partenaire, des mesures de p rotection ad hoc , ces accords fonctionnent sur la base d’un modèle-type et orga nisent la prot ection des informations et supports échangés sur la base d’un régime d’équivalence entre l es niveaux de classification 114 Instruction générale interministérielle n° 910/SGDSN/ANSSI du 22 octobre 2013 relative aux articles contrôlés de la sécurité des systèmes d’information (ACSSI).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_1",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.1 : contrat conformément a ux parties 4.1, 4.2, 4.3 et...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.1",
+                "Fausse réponse 2 pour la section 4.1",
+                "Fausse réponse 3 pour la section 4.1"
+            ],
+            "extrait_source": "contrat conformément a ux parties 4.1, 4.2, 4.3 et 4.4), il appa rtient au responsable de l’organisme de désigner, en son sein, une personne ayant l a fonction d’autorité qualifié e en sécurité des systèmes d’information. Il en informe le fonctionnaire de sécur ité des systèmes d’information du ministère dont il relève. b) Missions de l’autorité qualifiée en sécurité des systèmes d’information L’autorité qualifiée en sécurité des systèmes d’information déf init les lignes directrices relatives à la sécurité des systèmes d’information classi fiés pour les organismes relev ant de ses attributions et en contrôle l’application 58. À ce titre, elle approuve les exigences de sécurité relatives à la sécurité des systèmes d’information classifiés",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3_1",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.3.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.3.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.3.1 : relatives à la sécurité du système d’information d...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.3.1",
+                "Fausse réponse 2 pour la section 2.3.1",
+                "Fausse réponse 3 pour la section 2.3.1"
+            ],
+            "extrait_source": "relatives à la sécurité du système d’information de l’organisme (cf. 2.3.1.2) prévoient des moyens et des procédures de sauve garde et de conservation sécur isés et pérennes des informations classifiées contenue s au sein des systèmes d’infor mation classifiés utilisés. Ces moyens et procédures respectent le besoin d’en connaître. Le sy stème de sauvegarde est du même niveau de classification que le système d’information trai tant les données. Reproduction Chaque ministre définit dans son instruction ministérielle les consignes pour la reproduction et l’impression de supports c lassifiés de niveaux Secret et Très Secret . Ces consignes : - désignent les personnes habilit ées à autoriser la reproduction ; - fixent les procédures et les mesures techniques garantissant l a traçabilité des impressions, le contrôle du pro cessus par le détenteur, de bout en bout, du lancement de l’impression jusqu’à la récupéra tion de l’information classifié e imprimée. Le détenteur de l’information ou du support classifié initial e st responsable des reproductions et impressions qu’il entreprend jusqu’à leur attribution à un a utre détenteur conformément aux modalités de la présente instruction, complétées, le cas échéant, par l’instruction ministérielle, les directives techniques particulières et le plan contractuel de sécurité applicables. Les matériels utilisés pour la re production d’informations clas sifiées (photocopieuses, télécopieurs, systèmes informa tiques, etc.) sont physiquement p rotégés afin d’en limiter l’emploi aux seules personnes autorisées. Si ces matériels sont connectés à un système d’information, ils sont intégré s dans le périmètre d’homologation du système d’information. Les opérations de maintenance su r ces matériels sont effectuées dans des conditions permettant de garantir la sécurité des inf ormations classifiées qui ont ét é reproduites, dans le respect des dispositions de la présente instruction complétées, le cas éché ant, par l’instruction ministérielle, les directives techniques particulières et le plan contractuel de sécurité applicables. Il en est de",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_2",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.2 : d’opérateur ou le plan particulier de protection (...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.2",
+                "Fausse réponse 2 pour la section 4.2",
+                "Fausse réponse 3 pour la section 4.2"
+            ],
+            "extrait_source": "d’opérateur ou le plan particulier de protection (cf. 4.2) et, pour les autres personnes morales liées à l’État",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.5.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.5.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.5.2 : d’habilitation selon les m odalités décrites au 3....",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.5.2",
+                "Fausse réponse 2 pour la section 3.5.2",
+                "Fausse réponse 3 pour la section 3.5.2"
+            ],
+            "extrait_source": "d’habilitation selon les m odalités décrites au 3.5.2. Conservation des décisions Pendant leur durée de validité, les décisions d’habilitation so nt conservées par l’officier de sécurité ou par l’autorité compétente désignée dans l’instructi on ministérielle. Ces documents ne sont en aucun cas remis aux intéressés, ni reproduits. Certificat de sécurité Afin d’attester de son habilitation, il peut être remis à l’int éressé un certificat de sécurité (cf. Annexe 14) d’une durée de validité limitée à un an au maxim um et pour une mission déterminée. Ce certificat de sécurité est délivré par l’autorit é d’habilitation ou par l’officier de sécurité de l’organisme de l’intéressé. L’intéressé procède ou fait procéder à sa destruction avant la fin de validité mentionnée sur le certificat. Renouvellement Afin d’éviter une interrupti on inopportune des conditions d’emp loi, dans l’exercice de la fonction ou l’accomplissement de la mission du titulaire d’une décision d’habilitation lorsque la durée d’habilitation, qui ne peut excéder celle de l’avis de sécurité, est inférieure à celle de la fonction ou de la mission la justifiant, la validité de la décision initiale est tacitement prorogée d’une durée maximale de douze mois après la fin de validité de la décision initiale sous réserve qu’une demande de renouvellement , pour la même fonction ou la même mission, soit engagée dans un délai d’un an minimum et, au plus tard, trois mois avan t la date d’expiration de l’habilitation en cours. Cette demande de ren ouvellement s’accompagne d’un nouveau dossi er de demande",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2_3",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.2.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.2.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.2.3 : les procédures simplifiée (cf. 3.2.3) et d’urgence...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.2.3",
+                "Fausse réponse 2 pour la section 3.2.3",
+                "Fausse réponse 3 pour la section 3.2.3"
+            ],
+            "extrait_source": "les procédures simplifiée (cf. 3.2.3) et d’urgence (cf. 3.2.4). L’autorité qui sollicite l’habilitation doit avoir à l’esprit que ces procédures offrent des garanties de sécurité moindres que la procédure de droit commun. Il revient ainsi au responsable d’organisme sollicitant l’habilita tion, par le biais de son officier de sécurité, de procéder systématiquement à une b alance « coût-avantage » avant de solliciter l’enclenchement d’une procédure dérogatoire. En tous les cas, le recours à la procédure simplifiée ou à la p rocédure d’urgence est prohibé pour l’habilitation des agents des services spécialisés de renseignement visés à l’ article R. 811-1 du code de la sécurité intérieure, à l’exception de ceux nommés conformément à l’article 13 de la Constitution ou relevant du chapitre Ier du titre II du décret n° 2019-1594 du 31 décembre 2019 relatif aux emplois de direction de l’État. Par ailleurs, conformément aux règles propres à l eur service, les agents des s ervices de renseignement peuvent faire l’objet d’une procédure d’habilitation pl us approfondie que celle décri te dans la présente instruction. Procédure d’habilitation de droit commun Cette procédure (cf. Annexe 5) concerne toutes les personnes ap pelées à occuper un poste pour lequel le besoin d’habilitation au niveau Secret ou Très Secret, y compris pour les classifications spéciales de ce dernier nive au, est avéré. Une habilitation temporaire peut être délivrée à l’issue de cet te procédure selon les conditions définies au",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_4_1",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.4.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.4.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.4.1 : qu’il soit recouru à ces deux procédures (cf. 3.4....",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.4.1",
+                "Fausse réponse 2 pour la section 3.4.1",
+                "Fausse réponse 3 pour la section 3.4.1"
+            ],
+            "extrait_source": "qu’il soit recouru à ces deux procédures (cf. 3.4.1.2) - « avis défavorable » : des inf ormations précises font apparaît re que le candidat présente des vulnérabilités faisant peser sur le secret de la défense nation ale des risques tels qu’aucune mesure de sécurité ne permettrait de maîtriser. 72 Les dossiers des personnels militaires qui ont fait l’objet d’ un avis de sécurité émis par les services enquêteurs du ministè re de la défense leur restent attachés, dans l’hypothèse d’une nouvelle enquête administrative, pendant un délai de cinq ans après la c essation de leurs fonctions. 73 Chaque ministère peut décliner, dans l’instruction ministériel le, chacune de ces trois catégories pour l’adapter à ses besoin s propres.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.3.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.3.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.3.2 : contrat, le candidat dépose simultanément une dema...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.3.2",
+                "Fausse réponse 2 pour la section 3.3.2",
+                "Fausse réponse 3 pour la section 3.3.2"
+            ],
+            "extrait_source": "contrat, le candidat dépose simultanément une demande d’habilitation pour chacune d’elles. Cette demande est instr uite en procédure d’urgence (cf. 3.3.2). La délivrance d’une décision d’habilitation provisoire des pe rsonnes qui accèderont aux info rmations et supports classifiés dans le strict besoin de l’élaboration de l’offre ne préjuge pas de l’habilitation de la personne morale pour exécute r ledit contrat. Le candidat dont l’offre n’est pas retenue détenant des informa tions et supports classifiés est tenu de les restituer à l’autorité contractante dès la notifica tion du rejet de son offre et selon les modalités définies par l’autorité publique contractante. Il rem et à l’autorité publique contractante une attestation pa r laquelle il certifie ne conser ver aucune information ni support classifié. Dans le cas où des in formations ou supports classifi és ont été transmis sous forme dématérialisée, il fournit une attestation précisant que les do cuments ont été effacés conformément aux dispositions de la présente instruction. Si le s systèmes d’information classifiés et les articles contrôlés de la sécurité des système s d’information utilisés pour 85Article R. 2311-6-1 du code de la défense. 86 Article R. 2343-5 du code de la commande publique.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3_1",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.3.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.3.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.3.1 : l’avis de sécurité émis co nformément au 3.3.1.3 d...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.3.1",
+                "Fausse réponse 2 pour la section 3.3.1",
+                "Fausse réponse 3 pour la section 3.3.1"
+            ],
+            "extrait_source": "l’avis de sécurité émis co nformément au 3.3.1.3 d). Dans le cas où le service enquête ur n’a pas encore rendu son avis, en cas d’urgence justifiée et après saisine du service enquête ur, l’autorité d’habilitation, peut exceptionnellement prendre sa décision au vu d’autres éléments utiles en sa possession . L’habilitation ainsi délivrée est provisoire. Tout changement de fait ou de dro it dans la situation de la per sonne morale de droit privé intervenant après la décision doit être signalé à l’autorité d’ habilitation afin de lui permettre, le cas échéant, de reconsidérer sa décision. La décision de refus d’habilitation (cf. Annexe 24) est notifiée au représentant légal de la",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_4_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.4.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.4.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.4.2 : la personne morale dans les mêm es formes que le r...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.4.2",
+                "Fausse réponse 2 pour la section 3.4.2",
+                "Fausse réponse 3 pour la section 3.4.2"
+            ],
+            "extrait_source": "la personne morale dans les mêm es formes que le refus d’habilit ation (cf. 3.4.2.2). L’abrogation de la décision d’habilitation n’entraîne pas néces sairement la résiliation du contrat, en particulier si l’ accès aux informations et supports classifiés n’est plus nécessaire à son exécution. Les conséquences d ’une telle décision doivent ainsi être examinées au cas par cas. 89 Article R. 2311-9 du code de la défense.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2_4",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.2.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.2.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.2.4 : La procédure d’urgence est engagé e dans les seuls...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.2.4",
+                "Fausse réponse 2 pour la section 3.2.4",
+                "Fausse réponse 3 pour la section 3.2.4"
+            ],
+            "extrait_source": "La procédure d’urgence est engagé e dans les seuls cas prévus au 3.2.4. Le dossier d’habilitation est identique",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2_6",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.2.6",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.2.6 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.2.6 : étranger suit le même formalisme (cf. 3.2.6.2). Ob...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.2.6",
+                "Fausse réponse 2 pour la section 3.2.6",
+                "Fausse réponse 3 pour la section 3.2.6"
+            ],
+            "extrait_source": "étranger suit le même formalisme (cf. 3.2.6.2). Obligation de discrétion de la personne habilitée Une personne titulaire d’une décision d’habilitation ne peut en faire état ni révéler son niveau d’habilitation sauf si la communication de ces i nformations est nécessaire à l ’exercice de ses fonctions ou de l’accomplissement d’une mission à raison desquelles elle a été habilitée. Portée de la décision en matière internationale Toute décision d’habilitation émise au niveau national pour un ressortissant français peut, sous réserve du besoin d’en connaître, donner acc ès, de manière exceptionnelle, aux informations et s upports classifiés du niveau correspondant et des nivea ux inférieurs échangés dans un cadre international en application de l’accord de sécurité conclu entre les États membres de l’OTAN et des dis positions mises en place dans le cadre de l’Union européenne. Un certificat de sécurité peut être émis par l’autorité d’habil itation. CYCLE DE VIE DE LA DECISION D ’HABILITATION Durée de validité La décision d’habilitation cesse de produire ses effets : - soit à la fin de validité figurant sur la décision qui peut êt re au plus égale à celle de l’avis de sécurité",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5_8",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.5.8",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.5.8 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.5.8 : La procédure relative au retrait des droits d’accè...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.5.8",
+                "Fausse réponse 2 pour la section 3.5.8",
+                "Fausse réponse 3 pour la section 3.5.8"
+            ],
+            "extrait_source": "La procédure relative au retrait des droits d’accès (cf. 3.5.8) est validée par l’autorité d’emploi du système. Elle est précisée dans la politique de sécurité du système d’information considéré",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5_3",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.5.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.5.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.5.3 : et qu’aucun changement de situa tion justifiant sa...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.5.3",
+                "Fausse réponse 2 pour la section 3.5.3",
+                "Fausse réponse 3 pour la section 3.5.3"
+            ],
+            "extrait_source": "et qu’aucun changement de situa tion justifiant sa révision (cf. 3.5.3) n’est survenu, la nouvelle décision d’habilitation est délivrée sur la base de l’avis de sécurité en cours et n’excède pas la durée de validité de ce dernier. Afin de garantir la portabilité de l’avis de sécurité en cas de changement d’autorité d’habilitation, l’officier de sécurité de l’organisme quitté ou l’autorité compétente renvoie la décision d’habilitation et l’enga gement de responsabilité à l’autorité ayant décidé l’habilitation. La précédente autorité d’habilitation transmet à la nouvelle au torité d’habilitation une attestation d’avis de sécurité (cf. Annexe 15) assortie de sa durée de validité. Parallèlement, afin d’éclairer sa décision, la nouvelle autorité d’habilitatio n peut demander au service enquêteur que l’avis de sécurité lui soit renvoyé, ainsi que le s motifs l’ayant justifié. Cessation ou modification des droits associés à l’habilitation Le service des ressources humaines collabore avec l’autorité d’ emploi et l’officier de sécurité afin de gérer les aspects liés au départ ou au changement de fo nction de la personne habilitée (sensibilisation, retrait des droits d’accès au site et aux sys tèmes d’information classifiés, etc.). En outre, l’officier de sécurité s’assure du retrait immédiat d es différents droits d’accès. Il en informe l’officier de sécurité des systèmes d’information conce rnés qui veille au retrait des droits et moyens d’accès aux syst èmes d’information classifiés. Un inventaire des informations e t supports classifiés dont l’in téressé a été le détenteur est établi",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_4",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.4 : dans les conditions énumérées à la partie 7.4. Les...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.4",
+                "Fausse réponse 2 pour la section 7.4",
+                "Fausse réponse 3 pour la section 7.4"
+            ],
+            "extrait_source": "dans les conditions énumérées à la partie 7.4. Les obligations relatives à la protection des informations clas sifiées auxquelles il a pu être donné accès, perdurent au-delà du terme mis aux fonctions ou à l’habilitation de l’intéressé. Ce dernier en est informé lorsqu’ il signe le second volet de l’engagement de responsabilité. Une fois signé, ce document est retourné à l’autorité d’habilitatio n. FORMATION ET SENSIBILISATIO N DE LA PERSON NE HABILITEE Lors de la notification de sa décision d’habilitation, la perso nne habilitée est sensibilisée aux enjeux de la protection du secret. À cette occasion, elle est i nformée qu’elle ne peut se prévaloir de sa décision d’habilitation en dehors de l’exercice de ses fo nctions ou de l’accomplissement",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_4_3",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.4.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.4.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.4.3 : de sa mission (cf. 3.4.3). La personne habilitée e...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.4.3",
+                "Fausse réponse 2 pour la section 3.4.3",
+                "Fausse réponse 3 pour la section 3.4.3"
+            ],
+            "extrait_source": "de sa mission (cf. 3.4.3). La personne habilitée est formée de manière adaptée à ses fonct ions, à la protection du secret, de façon à développer les compétences nécessaires pour traiter des informations et supports classifiés. Ces actions de form ation sont renforcées pour les p ersonnes ayant des responsabilités particulièrement sensi bles au regard de la protection du secret 79. La formation, organisée par l’officier de sécurité et l’officie r d e s é c u r i t é d e s s y s t è m e s d’information, porte notamment sur : - les risques d’investigations ou d’approches par des individus ou des organisations étrangers ; - les dispositions législatives et réglementaires en vigueur (co de pénal, code de la défense, présente instruction, instructi on ministérielle), ainsi que les accords et règles internationales applicables ; - la politique de protection du secret, y compris celle des syst èmes d’information de l’organisme ; 79 Officier de sécurité, officier de sécurité des systèmes d’info rmation, personnel servant dans les bureaux de protection du secret, personnes en charge de l’administration d e la sécurité des systèmes d’information classifiés ou disposant de droits d’accès privilégiés à ces systèmes.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2_1",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.2.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.2.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.2.1 : b) Obligations du responsable légal En sa qualité ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.2.1",
+                "Fausse réponse 2 pour la section 2.2.1",
+                "Fausse réponse 3 pour la section 2.2.1"
+            ],
+            "extrait_source": "b) Obligations du responsable légal En sa qualité de responsable d’organisme (cf. 2.2.1), le respon sable légal de la personne morale s’engage, sous sa responsabilité pénale et contractuelle et cel le de la personne morale, à assurer la protection des informations et supports classifiés dont son organisme et son personnel ont à connaître, selon les dispositions r églementaires applicables (c f. Annexe 4) et le plan contractuel de sécurité qu’il a conclu avec l’autorité publique contractant e. À ce titre, il approuve la politique de sécurité des systèmes d ’information et la politique de",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_4_1",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.4.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.4.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.4.1 : transmis à l’autorité d’habilitation selon les mod...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.4.1",
+                "Fausse réponse 2 pour la section 4.4.1",
+                "Fausse réponse 3 pour la section 4.4.1"
+            ],
+            "extrait_source": "transmis à l’autorité d’habilitation selon les modalités définies au 4.4.1.4 b). L’accès à des informations et supports classifiés par un sous-t raitant ou un sous-contractant ne peut se faire que sous couvert d’ un contrat comportant un plan contractuel de sécurité approuvé par l’autorité publique contractante de référence et sous réser ve de l’habilitation préalable du sous-traitant ou du sous-contract ant et de ses employés appelés à en connaître. Cet accès est strictement limité au besoin d’e n connaître de sou s-traitants o u sous-contractants, eu égard aux prestations définies par le s ous-traité ou le sous-contrat. Dans le cas où l’autorité publique contractante reconnaît ou id entifie le besoin du sous-traitant ou du sous-contractant d’accéder à des informations et supports classifiés, le primo-contractant informe le sous-traitant ou le sous-contractant pressenti. Mesures de sécurité liées à la dé tention d’informations et supp orts classifiés Durant l’exécution du contrat, le titulaire est tenu de mettre en œuvre les mesures de sécurité requises pour assurer la protection des informations et support s classifiés. Ces mesures sont détaillées dans un plan contractuel de sécurité partie intégran te au contrat. a) Plan contractuel de sécurité Toute convention ou tout contrat nécessitant l’accès à des info rmations ou supports classifiés comporte un plan contractuel de sécurité qui énumère les exigen ces de sécurité relatives à la convention ou au contrat et déter mine le besoin d’en connaître. Il stipule que des inspections, contrôles ou audits peuvent être organisés dans l es établisseme nts de la personne morale abritant des informations et s upports classifiés aux fins de s’ assurer de leur condition de protection. Le plan contractuel de sécurité répond aux exigences mentionnée s en Annexe 28. Celles-ci peuvent être adaptées par l’aut orité publique contractante en l iaison avec le titulaire sans pouvoir leur être contraires. Il doit mentionner, entre autres, la classification suivant le niveau retenu ( Secret, Très Secret ) et la nature (France, OTAN, UE, autres) des informations et supports classifiés. Lorsque son contenu le justifie, le plan contractuel de sécurit é est classifié en tout ou partie. Il peut être modifié en cours d’ex écution de la convention ou du c ontrat à l’initiative de l’autorité publique contractante ou sur pr oposition de la personne morale. L’autorité publique contractante valide le plan contractuel de sécurité des éventuels sous-traités et des sous-contrats au contrat principal. Le plan contractuel de sécurité d u primo-contrat intègre la lis te des sous-traités et des sous- contrats concernés identifiés l ors de la rédaction du plan cont ractuel de sécurité, les travaux réalisés, leurs dates prévisionne lles de début et de fin d’exéc ution ainsi que les informations et supports classifiés dont la connaissance est nécessaire à leur réalisation. Le suivi des plans contractuels d e sécurité des sous-traités ou des sous-contrats est effectué par le contractant principal sous l a responsabilité et le contrôle de l’autorité publique contractante de référence. Les modalités de ce contrôle peuvent être définie s dans des clauses particulières ou dans le plan contractuel de s écurité du contrat principal.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_4_2",
+            "chapitre": "PARTIE 4 - ENVIRONNEMENT PERSONNEL COMPLEMENTAIRE",
+            "section": "4.4.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 4.4.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 4.4.2 : exigences décrites au paragraphe 4.4.2.3 a) et en ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 4.4.2",
+                "Fausse réponse 2 pour la section 4.4.2",
+                "Fausse réponse 3 pour la section 4.4.2"
+            ],
+            "extrait_source": "exigences décrites au paragraphe 4.4.2.3 a) et en Annexe 17, le s engagements pris par la personne morale pour protéger ces informations et supports classifiés. L’État peut décider de suspendr e ou de mettre fin unilatéraleme nt à la convention à tout moment. En cas de fin de la conve ntion, les informations et sup ports classifiés transmis à la collectivité territoriale ou à la personne morale de droit privé sont restitués ou détruits conformément aux sti pulations du plan contractuel de sécurité. Lorsque la coopération le justifie , l’État peut exiger que l’ex écution de la convention soit conditionnée à l’habilitation préalable de la personne morale s elon les modalités décrites à la",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3_4",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.3.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.3.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.3.4 : dresse le bilan qualita tif dans le compte rendu a...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.3.4",
+                "Fausse réponse 2 pour la section 2.3.4",
+                "Fausse réponse 3 pour la section 2.3.4"
+            ],
+            "extrait_source": "dresse le bilan qualita tif dans le compte rendu annuel sur la protection du secret (cf. 2.3.4). MESURES APPLICABLES DANS LE CADRE D ’UN CONTRAT DE LA COMMANDE PUBLIQUE , D’UN CONTRAT DE SOUS -TRAITANCE OU D ’UN SOUS -CONTRAT A UN CONTRAT DE LA COMMA NDE PUBLIQUE OU D ’UN CONTRAT DE SUBVENTION Les dispositions de la présente partie s’applique nt, selon les modalités définies ci-après, aux personnes morales (y compris les a utoentrepreneurs), candidates ou parties à un contrat de la commande publique, à un contrat de sous-traitance, à un sous-co ntrat à un contrat de la commande publique, à un contrat de subvention, ci-après désigné sous le terme générique de « contrat », ou à un contrat exécuté au profit d’une entité étr angère impliquant l’accès du contractant à des informations et supports classifiés (cf. Anne xe 18). L’État doit pouvoir, y compris dans l’exercice de ses missions en matière de défense et de sécurité nationale, s’appuyer sur des compétences extérieures, en particulier dans les domaines technique, technologique, industriel ou pour l’optimisation des fonctions de soutien. Il doit alors être en mesure d’échanger en toute confiance avec ses cocontrac tants et leurs sous-traitants, y compris des informations et s upports couverts par le secret de la défense nationale. Ainsi, la procédure d’habilitation propre à la personne morale vise un double objectif : - à travers les vérifications effectuées dans son cadre sur l’ac tionnariat de la personne morale, son équipe dirigeante, se s modes de financement, sa str atégie, ses relations contractuelles, elle permet à l’État de prendre des garanties s ur la fiabilité de ses co- contractants et leur chaîne de sous-traitance, indépendamment d e celle qu’offre la procédure d’habilitation du représ entant légal de la personne m orale et de ses seuls préposés susceptibles d’accéder à des informations et supports classifiés ;",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2_2",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.2.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.2.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.2.2 : des systèmes d’information, ré pondant aux exigenc...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.2.2",
+                "Fausse réponse 2 pour la section 2.2.2",
+                "Fausse réponse 3 pour la section 2.2.2"
+            ],
+            "extrait_source": "des systèmes d’information, ré pondant aux exigences définies au x 2.2.2.1 et 2.2.3.2 pour être les correspondants de l’autorité publique contractante et de l’ autorité d’habilitation. Communication d’informations et supports classifiés en phase pr écontractuelle Sauf si l’autorité publique contractante exige l’habilitation d ès la candidature86, lorsqu’en phase précontractuelle d’un contrat de la commande publique ou d’un contrat de subvention, l’accès à des informations et supports c lassifiés par les candidats adm is est nécessaire, l’habilitation des personnes physiques employées par la personne morale candid ate est possible sans que la personne morale qui les emploie ne soit elle-même habilitée, à condition que la procédure d’habilitation la concernant ait été engagée et que les lieux destinés à abriter les informations et supports classifiés soient apte s à les conserver conformémen t aux dispositions mentionnées au chapitre 5, à moins que l’a utorité publique contractante ou le pouvoir adjudicateur lui permette de disposer d’un accès a ux informations et supports cl assifiés dans ses propres locaux. Le candidat désigne parmi son pe rsonnel, au plus tard lorsque sa candidature a été retenue pour établir une offre, les personnes qui accèderont aux information s et supports classifiés dans le strict besoin de l’élaboration de l’offre. Si les personnes dés ignées ne sont pas titulaires d’une habilitation ou si la décision d’habilitation les concernant n’ est pas appropriée aux besoins du",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1_3",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.1.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.1.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.1.3 : d’habilitation au servi ce enquêteur compétent con...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.1.3",
+                "Fausse réponse 2 pour la section 3.1.3",
+                "Fausse réponse 3 pour la section 3.1.3"
+            ],
+            "extrait_source": "d’habilitation au servi ce enquêteur compétent conformément au 3 .3.1.3 b). Le service enquêteur mène les investigations nécessaires sur ch aque personne morale pour évaluer l’absence de vulnérabilité pour la défense et la sécuri té nationale. Le service enquêteur émet un avis de sécurité qui est ensuite t ransmis à l’autorité d’habilitation. Sauf changement dans la situation de fait ou de droit de la per sonne morale, la durée de validité",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.1 : modalités précisées à la partie 6.1. Si la personn...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.1",
+                "Fausse réponse 2 pour la section 6.1",
+                "Fausse réponse 3 pour la section 6.1"
+            ],
+            "extrait_source": "modalités précisées à la partie 6.1. Si la personne morale dispose déjà d’un système d’information classifié homologué au niveau requis, la décision d’homologati on demeure valide. La personne morale adresse alors une copie de la décision d’homologation à l’ autorité publique contractant e, ainsi qu’à l’autorité d’habilitation. Exécution du contrat Décisions administratives préalables au lancement de l’exécutio n des prestations du contrat nécessita n t l ’ a c c è s à d e s i n f o r m a t i o n s o u supports classifiés a) Finalisation du dossier d’aptitude physique Si les attestations d’aptitude physique ne sont pas parvenues d ans le délai prédéfini ou si des carences sont constatées lors des contrôles effectués par le se rvice enquêteur conformément au",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2_2",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.2.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.2.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.2.2 : et internes à la personne morale (cf. 3.2.2), le n...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.2.2",
+                "Fausse réponse 2 pour la section 3.2.2",
+                "Fausse réponse 3 pour la section 3.2.2"
+            ],
+            "extrait_source": "et internes à la personne morale (cf. 3.2.2), le niveau et la durée de validité de cette habilitation ne peuvent excéder ceux de l’h abilitation de la personne morale . Un catalogue des emplois, tenu par l’officier de sécurité de la personne morale, est établi et mis",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5_6",
+            "chapitre": "PARTIE 3 - ENVIRONNEMENT INTERNATIONAL",
+            "section": "3.5.6",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 3.5.6 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 3.5.6 : validité de la décision est alor s prorogée dans l...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 3.5.6",
+                "Fausse réponse 2 pour la section 3.5.6",
+                "Fausse réponse 3 pour la section 3.5.6"
+            ],
+            "extrait_source": "validité de la décision est alor s prorogée dans les conditions définies au paragraphe 3.5.6. L’habilitation peut être abrogée en cours de validité ou peut n e pas être renouvelée si la personne morale de droit privé ne remplit plus les conditions nécessaires à sa délivrance. L’abrogation de la décision d’habilitation (cf. Annexe 24) est notifiée au représentant légal de",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1_4",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.1.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.1.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.1.4 : d’information classifiés, ces mesures figurent dan...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.1.4",
+                "Fausse réponse 2 pour la section 6.1.4",
+                "Fausse réponse 3 pour la section 6.1.4"
+            ],
+            "extrait_source": "d’information classifiés, ces mesures figurent dans le dossier d’homologation (cf. 6.1.4). Ces mesures concernent notamment les dispositifs contre les inc endies, les dégâts des eaux, les risques liés à l’alimentation électrique et tout autre risque e nvironnemental identifié.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_8_1",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.8.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.8.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.8.1 : (cf. 6.8.1) ou qu’ils soient des tinés à réaliser ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.8.1",
+                "Fausse réponse 2 pour la section 6.8.1",
+                "Fausse réponse 3 pour la section 6.8.1"
+            ],
+            "extrait_source": "(cf. 6.8.1) ou qu’ils soient des tinés à réaliser des échanges a vec d’autres systèmes d’information",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_8_2",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.8.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.8.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.8.2 : (cf. 6.8.2). Par la décision d’ homologation, l’au...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.8.2",
+                "Fausse réponse 2 pour la section 6.8.2",
+                "Fausse réponse 3 pour la section 6.8.2"
+            ],
+            "extrait_source": "(cf. 6.8.2). Par la décision d’ homologation, l’autorité d’homol ogation accepte les risques résiduels de sécurité, en pl eine connaissance de cause. En particulier, une grande attention est prêtée à : - l’interconnexion avec d’autres systèmes ; - l’usage de supports amovibles ; - l’accès à distance par des utilisateurs en mobilité ; - les moyens de visualisation et d ’hébergement des informations classifiées ; - les opérations de maintenance ou d’exploitation du système ou d’administration, en particulier lorsqu’elles sont effe ctuées par des prestataires e xternes. Autorité d’homologation L’autorité d’homologation est : - le secrétaire général de la défense et de la sécurité nationale : pour les systèmes d’information traitant d’infor mations classif iées au niveau Très Secret faisant l’objet d’une c lassification spéciale ; pour les systèmes d’information amenés à traiter des informatio ns classifiées de l’Union européenne ou de l’OTAN, ou toute autre autorité à laqu elle il délègue cette responsabilité ; pour les systèmes d’information classifiés utilisés par des organismes relevant de son périmètre au titre de l’ar ticle 2 du décret n° 2012-383 du 20 mars 2012 relatif aux attributions du haut foncti onnaire de défense et de sécurité auprès du Premier ministre. - l’autorité qualifiée en sécurité des systèmes d’information ou la personne qu’elle désigne pour les systèmes d’information traitant d’informations classifiées au niveau Secret ou Très Secret , hors classifications spéciales. Dans le cas où le système d’inf ormation classifié dépend de la responsabilité de plusieurs ministres, les autorités qualifiées en sécurité des systèmes d’ information désignent une autorité d’homologation unique. Commission d’homologation L’autorité d’homologation met en place une commission d’homolog ation chargée de l’assister et de préparer la décision d’homologation. Cette commission comprend notamment des représentants de l’autorité d’em ploi du système d’information, dont l’officier de sécurité des systèmes d’information et le responsable de la sécurité du système d’information, ainsi que des représentants du service du haut fonctionnaire de défense et de sécurité compétent. Des représentants du service enquête ur compétent peuvent être conviés à la commission et sont obligatoirement présents lorsque l’homologation est au profit d ’une personne morale de droit privé. Dans le cadre de l’utilisation d’un système d’informatio n classifié en exécution d’un contrat au sens de la partie 4 .4, l’autorité contractante parti cipe également à la commission.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_5_2",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.5.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.5.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.5.2 : informations classifiées. Ces dispositifs de sécur...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.5.2",
+                "Fausse réponse 2 pour la section 6.5.2",
+                "Fausse réponse 3 pour la section 6.5.2"
+            ],
+            "extrait_source": "informations classifiées. Ces dispositifs de sécurité sont agré és (cf. 6.5.2). En absence de dispositifs agréés et après en avoir rendu compte à l’autori té qualifiée en sécurité des systèmes d’information et au se rvice du haut fonctionnaire de d éfense et de sécurité compétents, des mesures palliatives sont prises et décrites dan s le dossier d’homologation. AUDIT DES SYSTEMES D ’INFORMATION En complément des tâches de maintien en condition de sécurité, l’autorité d’homologation réalise ou fait réaliser, en lie n avec la chaîne fonctionnelle de la sécurité des systèmes d’information classifiés, des a udits de sécurité périodiques de s systèmes d’information classifiés, avant chaque homol ogation ou renouvelle ment d’homologation. L’autorité d’emploi du système d’information visé précise les c onditions du déroulement de l’audit, notamment de l’utilisation et de la restitution des éq uipements nécessaires à l’audit. L’autorité d’homologation et l’a utorité d’emploi du système d’i nformation formalisent les conditions de réalisation de l’a udit, le cas échéant, par une c onvention d’audit. Ces audits de sécurité doivent, au-delà de la conformité aux règles de la pré sente instruction, évaluer le niveau de robustesse des systèmes d’information eu égard aux évolution s de la menace informatique. Il s’agit de vérifier l’application de mesures de défense en pr ofondeur, de les éprouver par des techniques et outils à l’état de l’art et de réaliser des tests complémentaires qui peuvent être conduits inopinément en fonction des relevé s d’audit initiaux. Les risques associés à l’utilisation des outils d’audit, des pr ivilèges et de communication des relevés techniques nécessaires à la réalisation de l’audit de s écurité figurent dans le dossier d’homologation du système visé, que l que soit son niveau de cla ssification et sans préjudice des dispositions de la présente instruction. Les rapports d’aud it portant sur des systèmes d’information classifiés sont classifiés au moins au niveau Secret . Les relevés techniques d’audit sont classifi és au maximum au même niveau que le rappor t. L’autorité d’homologation et l’officier de la sécurité des syst èmes d’information tiennent les rapports d’audit à disposition de l’agence nationale de la sécu rité des systèmes d’information, du service du haut fonctionnaire de défense et de sécurité et d u service enquêteur compétents. Les modalités de consultation de s rapports d’audit sont détermi nées en accord avec le service du haut fonctionnaire de défense et de sécurité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_1_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.1.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.1.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.1.1 : déclassifiés ou déclassés par le ur auteur conform...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.1.1",
+                "Fausse réponse 2 pour la section 7.1.1",
+                "Fausse réponse 3 pour la section 7.1.1"
+            ],
+            "extrait_source": "déclassifiés ou déclassés par le ur auteur conformément au derni er paragraphe du a) du 7.1.1.2. Chaque support d’informations classifiées au niveau Très Secret fait l’objet d’une double numérotation présentée sous la fo rme d’une fraction comportant le numéro d’enregistrement de l’auteur sur le numéro d’enregi strement du bureau de protection du secret chargé de leur traitement. Conservation Le responsable d’organisme met en place des moyens de conservat ion sécurisés et pérennes des informations et supports classifiés. Lorsque l’organisme dispose de plusieurs établissements, chaque établissement détenant de s informations ou supports clas sifiés dispose des moyens sécurisés et pérennes nécessaires à leur conservation. En dehors des périodes d’utilis ation, les supports classifiés s ont conservés dans un meuble de sécurité (coffre-fort ou armoire forte) répondant aux exigences énoncées dans la présente instruction (cf. Annexe 30). Le niveau de classification des do cuments contenus ne doit pas figurer à l’extérieur du meuble. Des informations et supports cla ssifiés de diverses origines peuvent être conservés à l’intérieur d’un même meuble de sécurité à c ondition d’en assurer le cloiso nnement en séparant et 116 Un support amovible est enregistré comme un seul document même s’il contient plusieurs fichiers et ceux-ci sont inscrits dans le document d’enregistrement. La traçabilité intrinsèque du support dématérialisé permet de connaître les fichiers qu’il contient ou qu’il a contenus.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_5",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.5",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.5 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.5 : système d’information. Les équipements sont utilis...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.5",
+                "Fausse réponse 2 pour la section 6.5",
+                "Fausse réponse 3 pour la section 6.5"
+            ],
+            "extrait_source": "système d’information. Les équipements sont utilisés conforméme nt aux parties 6.5 et 6.7. Tout élément constitutif d’un système d’information traitant d’informations classifiées est maintenu en condition opérationne lle et en condition de sécurit é.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1_1",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.1.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.1.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.1.1 : d’homologation du système d’inform ation classifié...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.1.1",
+                "Fausse réponse 2 pour la section 6.1.1",
+                "Fausse réponse 3 pour la section 6.1.1"
+            ],
+            "extrait_source": "d’homologation du système d’inform ation classifié (cf. 6.1.1) l orsqu’ils sont gérés, administrés et mis à disposition par l’autorité d’emploi du système d’infor mation classifié. Tout support amovible susceptible de contenir ou d’avoir conten u de l’information classifiée d’un niveau donné est classifié au moins au même niveau et est soumis à ce titre aux obligations décrites au chapitre 7. En aucun cas, un support amovible class ifié ne peut être connecté à un système d’information non-cla ssifié ou de classification inféri eure. L o r s q u e d e s i n f o r m a t i o n s c l a s s i f i é e s s o n t t r a n s p o r t é e s à l ’ a i d e de supports amovibles, les supports amovibles respectent les exigences en matière de trans port d’informations classifiées",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_3_2",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.3.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.3.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.3.2 : - un bordereau de prise en compte ; - un procès-ve...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.3.2",
+                "Fausse réponse 2 pour la section 7.3.2",
+                "Fausse réponse 3 pour la section 7.3.2"
+            ],
+            "extrait_source": "- un bordereau de prise en compte ; - un procès-verbal de destruction (cf. Annexe 45) ; - une fiche de suivi du s upport (cf. 7.3.2.1 a)) ; - un procès-verbal de versement a u service public d’archives com pétent. Un inventaire est effectué, sous forme contradictoire, à chaque mutation de personnel, l’ancien détenteur et le nouveau apposant tous deux leur signature sur l e procès-verbal. FIN D’EXPLOITATION DES INFORMATIONS ET SUPPORTS CLASSIFIES Toute autorité détenant des in formations et supports classifiés , produits ou reçus, a pour obligation de faire assurer leur conservation et leur protectio n conformément aux dispositions législatives et réglem entaires en vigueur. À l’expiration de leur période d’utilisation courante, les info rmations et supports classifiés font l’objet d’un tri, selon la péri odicité prévue par chaque ministre, visant à séparer les supports destinés à être conservés de ceux dépourvus d’utilité administr ative ou d’intérêt historique ou scientifique : - les supports présentant une utilité administrative ou un intér êt historique ou scientifique sont versés aux services pub lics d’archives compétents122 ; - les autres supports sont détruits selon les principes développés au paragraphe suivant. 121 Ces pièces ne sont jointes à l’i nventaire que si elles concern ent des mouvements de do cuments ayant eu lieu depuis la production du procès-verbal d’inventaire de l’année p récédente. 122 Articles L. 212-2, L. 212-3, L. 212-4 et R. 212-1 et suivants du code du patrimoine.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_2",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.2 : du code pénal (cf. 1.2). b) Autres mentions partic...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.2",
+                "Fausse réponse 2 pour la section 1.2",
+                "Fausse réponse 3 pour la section 1.2"
+            ],
+            "extrait_source": "du code pénal (cf. 1.2). b) Autres mentions particulières Les informations et supports classifiés devant faire l’objet de restrictions spécifiques de diffusion en raison de leur contenu portent, en plus de la marq ue éventuelle de leur niveau de classification, une mention par ticulière précisant les services, les États ou les organisations internationales, les institutions, organes ou organismes de l’U nion européenne pouvant y avoir accès ou la classification sp éciale dont ils font l’objet 110. Les modalités d’emploi de ces mentions peuvent faire l’objet de directives d’application. Cette mention, apposée par l’aute ur d’informations ou supports classifiés sous la responsabilité de l’autorité émettrice, a pour e ffet de circonscrire expressément le périmètre de diffusion de ces informations et supports ainsi que d’attirer l’attention su r le strict besoin d’en connaître. Les mesures de sécurité du niveau de classification sont appliq uées et leur acheminement est réalisé de façon à garantir le re spect du périmètre de diffusion ainsi délimité. Marquage Visibilité du marquage L’accès à une information ou un support classifié par une perso nne non qualifiée est prohibé par le code pénal. Aussi, une inf ormation doit pouvoir être ide ntifiée comme étant classifiée avant même d’être consultée. C haque information et support classifié porte ainsi la marque du niveau de classification des informations qu’il contient. Cette marque est qualifiée de « timbre de classification ». Le marquage constitue une marque de l’autorité publique 111 dont l’usage est strictement réservé aux seules personnes autorisées dans le cadre de la présente in struction. Des abréviations indiquant la classification peuvent être utilisées pour préciser le niveau de classification des paragraphes du texte d’une information ou d’ un support classifié. Les abréviations employées sont les suivantes : -Secret : S ; 110 Article R. 2311-4 du code de la défense. 111 Articles 444-1 à 444-9 du code pénal et loi du 18 mars 1918 ré glementant la fabrication et la vente des sceaux, timbres et cachets officiels.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_4",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.4 : l’autorité émettrice (cf. 1.4) peut décider de rec...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.4",
+                "Fausse réponse 2 pour la section 1.4",
+                "Fausse réponse 3 pour la section 1.4"
+            ],
+            "extrait_source": "l’autorité émettrice (cf. 1.4) peut décider de reclasser, décla sser ou déclassifier le support. Pour autant, chaque ministre pe ut, pour les informations et sup ports dont il est autorité émettrice, organiser dans son champ d’attribution, la fonction de déclassification comme il le souhaite et décider, s’il l’estim e pertinent, de la centraliser , sans qu’il soit nécessaire de consulter, préalablement à l’adop tion de la décision de déclass ification, le service auteur ayant procédé à son marquage, ni, le cas échéant, le service successeur. Matérialisation de la décision de déclassification sur le supp ort classifié Pour que la décision de déclassi fication des informations et supports classifiés, qui ne mentionnent pas dans leur timbr e de classification de date à pa rtir de laquelle ils sont automatiquement déclassifiés, produise pleinement ses effets et permette leur manipulation sans risque de compromission, elle doit être matérialisée sur le sup port par l’apposition d’un timbre de déclassification qui précise la date et la référence de la d écision de déclassification, conformément au modèle de l’Annexe 38. Ce tte opération est appe lée « démarquage ».",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_3",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.3 : l’autorité compétente, le cas échéant, de sanction...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.3",
+                "Fausse réponse 2 pour la section 1.3",
+                "Fausse réponse 3 pour la section 1.3"
+            ],
+            "extrait_source": "l’autorité compétente, le cas échéant, de sanctionner. b) Le choix du niveau de classification Ainsi que rappelé à la partie 1.3, il existe deux niveaux de classification 106 : -Secret : réservé aux informations et supports dont la divulgation ou auxquels l’accès est de nature à porter atteinte à la défense et à la sécurité natio nale ; -Très Secret : réservé aux informations et supports dont la divulgation ou auxquels l’accès aurait des conséquences exceptionnellement graves pour la défense et la sécurité nationale. Des classifications spéciales sont créées, pour le n iveau Très Secret , pour protéger les informations rela tives aux priorités gouvernementa les en matière de défense et de sécurité nationale. Chaque ministre précise dans son instruction ministérielle les modalités de classification et de protection des informations et supports et souligne l’importanc e de ne classifier que ce qui est réellement nécessair e (cf. Annexe 3). Le niveau de classification est déterminé par la nature et le c ontexte de l’information ou du support classifié. La source de l ’information peut également êt re prise en considération lorsque sa sensibilité justifie une protection107. Les cas manifestes de sur -classification ou de sous- classification sont signalés par le(s) destinataire(s) à l’auto rité émettrice ou à l’auteur de l’information ou du support cla ssifié qui procède, si nécessair e, à la modification appropriée, en informe l’ensemble des destinataires et prend les mesures né cessaires pour éviter une compromission lorsque l’infor mation change de niveau. 105 Ou procédé, objet, document, réseau informatique, données informatisées ou fichier intéressant la défense nationale au sens de l’article 413-9 du code pénal. 106 Articles R. 2311-2 et R. 2311-3 du code de la défense. 107 Par source, il est ici entendu le(s) système(s) de renseigneme nt ayant permis de produire une information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_5_2",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.5.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.5.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.5.2 : 7.5.2). La reproduction numérique d’infor mations ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.5.2",
+                "Fausse réponse 2 pour la section 7.5.2",
+                "Fausse réponse 3 pour la section 7.5.2"
+            ],
+            "extrait_source": "7.5.2). La reproduction numérique d’infor mations classifiées dématérial isées est autorisée et se fait sous la responsabilité de l’utilisateur, qui est sensibilisé pa r l’officier de sécurité des systèmes d’information sur les bonnes pratiques en la matière. Il veille ainsi à limiter la diffusion de ces informations classifiées dématérialisées selon le strict besoin d’en connaître et s’assure que la convention de marquage de ces inf ormations est respectée. Lorsq ue la reproduction numérique est réalisée sur un support amovible, elle respecte les exigenc es prévues par la présente",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_5_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.5.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.5.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.5.1 : respectivement définies aux 7.5.1, 7.5.2 et 7.5.4....",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.5.1",
+                "Fausse réponse 2 pour la section 7.5.1",
+                "Fausse réponse 3 pour la section 7.5.1"
+            ],
+            "extrait_source": "respectivement définies aux 7.5.1, 7.5.2 et 7.5.4. Banalisation d’une période dédiée à l’inventaire Afin de permettre aux détenteu rs d’informations et supports cla ssifiés de procéder à cet examen rigoureux, chaque responsable d’or ganisme arrête une période ou vrée dédiée à l’inventaire, au cours de laquelle les détenteurs sont déchargés de leurs missio ns habituelles.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_6_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.6.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.6.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.6.1 : pour les supports classifiés après c ette entrée e...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.6.1",
+                "Fausse réponse 2 pour la section 7.6.1",
+                "Fausse réponse 3 pour la section 7.6.1"
+            ],
+            "extrait_source": "pour les supports classifiés après c ette entrée en vigueur (cf. 7.6.1) – et que les délais de communicabilité prévus à l’article L. 213-2 du code du patrimoine ne sont pas échus, seule",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_1_2",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.1.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.1.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.1.2 : niveau inférieur ou ne les a pas classifiés (cf. 7...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.1.2",
+                "Fausse réponse 2 pour la section 7.1.2",
+                "Fausse réponse 3 pour la section 7.1.2"
+            ],
+            "extrait_source": "niveau inférieur ou ne les a pas classifiés (cf. 7.1.2.3 b)). Au niveau Très Secret La reproduction des informations papier et supports classifiés n’est possible qu’avec l’autorisation écrite préalable de l’autorité émettrice. Le détenteur de l’information papier ou du support classifié qu i souhaite en effectuer une reproduction adresse une demande m otivée (cf. Annexe 39) à cette autorité via son bureau de protection du secret, en précisa nt le nombre d’exemplaires. Si l’autorité émettrice consent à la reproduction (cf. Annexe 40), elle porte mention de cette reprod uction sur l’exemplaire en sa possession. Le bureau de protecti on du secret du détenteur assu re l’enregistrement de cet(ces) exemplaire(s) et le fait prendr e en compte par les personnes ci tées dans la demande. En cas d’urgence et à titre excep tionnel, le détenteur peut s’a ffranchir de cette procédure à la condition de prendre les dispositions suivantes via son bureau de protection du secret : - limiter au minimum indispensabl e le nombre de reproductions ; - procéder au marquage réglementai re en attribuant à chaque exem plaire un numéro individuel composé de deux nombr es fractionnaires, en numérateu r le numéro d’ordre de la copie dans la série des reproductions et en dénominateur le nombre total de reproductions ; - porter, sur l’exemplaire repr oduit, la destination qui en est faite ou établir une liste séparée des destinataires ; - rendre compte sans délai à l’autorité émettrice du nombre de r eproductions, des numéros de reproduction et de la destina tion des exemplaires. L’autorité émettrice porte mention de cette reproduction sur l’exemplaire en sa possession. Pour les informations classifiées dématérialisées, ce suivi est a s s u r é p a r l e s f o n c t i o n s d e",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_3_1",
+            "chapitre": "PARTIE 5 - ENVIRONNEMENT NUMERIQUE",
+            "section": "5.3.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 5.3.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 5.3.1 : dispose d’une zone réservée (cf. 5.3.1.2). Le bure...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 5.3.1",
+                "Fausse réponse 2 pour la section 5.3.1",
+                "Fausse réponse 3 pour la section 5.3.1"
+            ],
+            "extrait_source": "dispose d’une zone réservée (cf. 5.3.1.2). Le bureau de protection du secret assure le traitement, le marq uage, la conservation et le suivi des informations et supports classifiés au niveau Très Secret jusqu’à leur destruction ou leur versement à un service d’archives . À ce titre, il est responsable de l’enregistrement, de l’expédition, de la réception et de la circulation des informat ions et supports classifiés à ce 113 Les critères et les modalités d’organisation de la protection des informations et supports classifiés Très Secret faisant l’objet d’une des classifications spéciales mentionnées à l’article R. 2311-3 du code de la défense relèvent de dispositions spécifiques prises par le Premier ministre.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1_1",
+            "chapitre": "PARTIE 2 - GESTION DES RISQUES",
+            "section": "2.1.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 2.1.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 2.1.1 : de la défense et de la sécurité nationale ou l’aut...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 2.1.1",
+                "Fausse réponse 2 pour la section 2.1.1",
+                "Fausse réponse 3 pour la section 2.1.1"
+            ],
+            "extrait_source": "de la défense et de la sécurité nationale ou l’autorité de sécu rité déléguée (cf. 2.1.1.2 b)) des modalités de gestion des informations et supports classifiés ém ises dans le cadre de l’organisation intern ationale, quel que soit le niveau de class ification des informations et supports considérés. Ainsi, le s ecrétariat général de la défens e et de la sécurité nationale est notamment bureau d’ordre central pour les informations et suppo rts classifiés de l’OTAN et des institutions, organes ou organismes de l’Union européenne, dont les règles de gestion sont complétées par des instructions interministérielles spécifiques 115. Enfin, des règles complémentaires, si nécessaire plus restricti ves, peuvent être stipulées dans le plan contractuel de sécurité att aché à des contrats internation aux nécessitant d’échanger ou de produire des informations ou s upports classifiés avec un parten aire étranger. À défaut d’instruction ou de sti pulations complémentaires, les dispositions de la présente instruction s’appliquent. Enregistrement Tout support d’information classi fiée est enregistré, dans l’or dre chronologique, dans un système d’enregistrement spéci fique, manuel ou informatisé, don t l’accès est restreint aux 115\u0003Instruction interministérielle n° 2100 pour l’application en Fr ance du système de sécurité de l’OTAN et instruction générale interministérielle n° 2102 sur la protection en France des informations classifiées de l’Union européenne. \u0003",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_8",
+            "chapitre": "PARTIE 6 - AUTRES RENSEIGNEMENTS DE SECURITE",
+            "section": "6.8",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 6.8 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 6.8 : instruction (cf. 6.8 et 7.3.1.1) Au niveau Secret ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 6.8",
+                "Fausse réponse 2 pour la section 6.8",
+                "Fausse réponse 3 pour la section 6.8"
+            ],
+            "extrait_source": "instruction (cf. 6.8 et 7.3.1.1) Au niveau Secret La reproduction totale est effectuée par le détenteur, sous sa responsabilité, à condition de conserver sur un système d’enregistrement détenu par les person nes en charge de la gestion des informations et supports classifiés à ce niveau, les traces du nombre et des destinataires des exemplaires papiers reproduits. Pour les informations classifiées dématérialisées, ce suivi est a s s u r é p a r l e s f o n c t i o n s d e traçabilité du système d’informati on prévues par la présente in struction. La reproduction partielle est possible dans les mêmes condition s que la reproduc tion totale. Les extraits d’informations classifiées ainsi reproduits sont class ifiés au même niveau que le document dont ils sont extraits, sa uf si l’autorité émettrice l es a expressément classifiés à un",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_3_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.3.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.3.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.3.1 : destinataire (cf. 7.3.1) qui cons erve le premier ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.3.1",
+                "Fausse réponse 2 pour la section 7.3.1",
+                "Fausse réponse 3 pour la section 7.3.1"
+            ],
+            "extrait_source": "destinataire (cf. 7.3.1) qui cons erve le premier comme élément de preuve et renvoie le second à titre d’accusé de réception ; - le feuillet B’ est conservé par l’expéditeur jusqu’à réception du feuillet B qui lui est alors substitué. L’expéditeur s’assure de la date et de l’heure de livraison. Il en avise aussitôt le service destinataire par courrier élect ronique en indiquant le bureau d e dépôt du courrier et les références du support, à l’exclusion de leur objet et de leur c aractère secret. Tout retard anormal doit conduire à suspecter une compromission. Le bureau de protection du secret ou le service",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2_2",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.2.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.2.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.2.2 : faire l’objet d’un enregistrement (cf. 7.2.2). Dan...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.2.2",
+                "Fausse réponse 2 pour la section 7.2.2",
+                "Fausse réponse 3 pour la section 7.2.2"
+            ],
+            "extrait_source": "faire l’objet d’un enregistrement (cf. 7.2.2). Dans le cas d’un e information classifiée dématérialisée, la réception est attestée par les fonctions de traçabilité du système d’information classifié prévues par la présente instruction. Dans le cas d’un acheminement à l’étranger, le destinataire appose son visa sur la liste d’inventaire présentée par le porteur (cf. Annexe 43 et Annexe 44). INVENTAIRE Principes généraux Tout support classifié, y compris les supports de stockage d’in formations classifiées dématérialisées, fait l’objet d’un suivi permanent afin d’assur er sa traçabilité et sa prise en compte par des détenteurs habilités. 120 Instruction interministérielle n° 3100/SGDN/ACD/PS/DR du 25 ju in 19 80 s ur la s écuri té des trans ports de certains matériels sensibles effectués sous responsabilité civi le et directive interministérielle n° 312/SGDN/ANS/DR du 21 août 1981 sur la sécurité nucléaire da ns le domaine de la défense.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_6_2",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.6.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.6.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.6.2 : au 7.6.2, chaque organisme détenteur vérifie, en o...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.6.2",
+                "Fausse réponse 2 pour la section 7.6.2",
+                "Fausse réponse 3 pour la section 7.6.2"
+            ],
+            "extrait_source": "au 7.6.2, chaque organisme détenteur vérifie, en outre, au mome nt de l’inventaire, si les supports qu’il détient ont fait l’objet d’une déclassification et procède, le cas échéant, à leur démarquage conforméme nt à l’Annexe 38. Appréciation de l’utilité administrative courante Lors de l’inventaire, chaque dét enteur identifie les informations et supports classifiés ne présentant plus d’utilité administrative courante et procède à leur destruction, après accord de l’administration des archives, ou à leur versement aux archives selon les modalités",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_5_4",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.5.4",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.5.4 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.5.4 : et comme prévu au 7.5.4.1 b). L’ ensemble est cons...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.5.4",
+                "Fausse réponse 2 pour la section 7.5.4",
+                "Fausse réponse 3 pour la section 7.5.4"
+            ],
+            "extrait_source": "et comme prévu au 7.5.4.1 b). L’ ensemble est conservé conformém ent aux exigences détaillées au chapitre 7. Accès aux informations et support s ayant fait l’objet d’une mes ure de classification versés dans un service public d’archives Les dispositions qui suivent s’a ppliquent conformément à la vol onté du Gouvernement et du législateur de garantir l’accès le plus large et le plus précoc e possible aux archives publiques, dans le respect de l’impératif d e sauvegarde des intérêts fonda mentaux de la Nation. Accès aux informations et supports ayant fait l’objet d’une mes ure de classification devenus co mmunicables de plein droit Les informations et supports com portant un timbre de classifica tion matérialisant une mesure de classification au sens de l’article 413-9 du code pénal sont automatiquement déclassifiés, sans qu’une décision formelle d e déclassification (matérialisée par l’apposition d’un timbre de déclassification) ne soit nécessa ire, dès lors qu’ils deviennen t communicables de plein droit en application de l’ar ticle L. 213-2 du code du patrimoine. Ils pe uvent alors être librement communiqués. Par exception, les mesures de classification dont font l’objet, le cas échéant, les documents mentionnés au 4° du I de l’artic le L. 213-2 du code du patrimoi ne, et notamment les documents relatifs aux enquêtes réalisées par les services de la police judiciaire et aux affaires portées devant les juridictions , prennent automati quement fin dès l’exp iration des délais prévus au 3° du I du même article L. 213- 2 du code du patrimoine. Dans la grande majorité des cas, la déclassification automatiqu e intervient donc dans un délai de cinquante ans. Ce délai est , dans certains cas, porté à cent ans125. Accès aux informations et supports ayant fait l’objet d’une mes ure de classification devenue caduque du fait de l’échéance de la date mentionnée 125 Cf. article 5° du I de l’article L. 213-2 du code du patrimoin e.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_6",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.6",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.6 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.6 : déclassification formelle (cf. 7.6 .3.2) ni automa...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.6",
+                "Fausse réponse 2 pour la section 7.6",
+                "Fausse réponse 3 pour la section 7.6"
+            ],
+            "extrait_source": "déclassification formelle (cf. 7.6 .3.2) ni automatique (cf. 7.6.3.1). Seule une personne habilitée et qui dispose du besoin d’en conn aître pour l’exercice de sa fonction ou l’accomplissement de sa mission peut accéder à une information ou à un support classifié détenu par un service public d’archives. Elle doit, p our ce faire, obtenir préalablement une autorisation de consultation anticipée par dérogation aux d élais de communicabilité des archives publiques, conformément aux articles L. 213-3 et L. 21 3-4 du code du patrimoine. Cette autorisation peut être assortie de conditions spécifiques . Une telle autorisation n’est pas nécessaire pour les représentants de l’autorité dont émanent les documents, les agents des services des archives concernés et les représentants de leur au torité de tutelle. Lorsqu’une personne habilitée mais ne disposant pas du besoin d ’en connaître pour l’exercice de sa fonction ou l’accomplisseme nt de sa mission, ou bien lors qu’une personne non habilitée souhaite accéder à une informa tion ou un support classifié déte nu par un service public",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_2_3",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.2.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.2.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.2.3 : d’archives, sa demande est instruite selon la proc...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.2.3",
+                "Fausse réponse 2 pour la section 1.2.3",
+                "Fausse réponse 3 pour la section 1.2.3"
+            ],
+            "extrait_source": "d’archives, sa demande est instruite selon la procédure définie au 1.2.3. Incommunicabilité perpétuelle des informations et supports clas sifiés dont la communication est susceptible d’e ntraîner la diffusion d’inform ations permettant de concevoir, fabriquer, utiliser ou localiser des a rmes nucléaires, radiologiques, biologiques, chimi ques ou toutes autres armes ay ant des effets directs ou indirects de destr uction d’un niveau analogue Conformément au II. de l’article L. 213-2 du code du patrimoine , les informations et supports classifiés dont la communication est susceptible d’entraîner la diffusion d’informations permettant de concevoir, fabriquer, utiliser ou localiser des a rmes nucléaires, radiologiques, biologiques, chimiques ou toutes a utres armes ayant des effets directs ou indirects de destruction d’un niveau analogue ne peuvent être communiqués ni ne peuvent, conformément",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_4_1",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.4.1",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.4.1 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.4.1 : annuels mentionnés au 7.4.1.2, le niveau de classi...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.4.1",
+                "Fausse réponse 2 pour la section 7.4.1",
+                "Fausse réponse 3 pour la section 7.4.1"
+            ],
+            "extrait_source": "annuels mentionnés au 7.4.1.2, le niveau de classification doit impérativement être réévalué. Cette date ou ce délai n’excède pas vingt ans à compter de la d ate de production du support. Par dérogation aux dispositions précédentes, les informations c lassifiées dont la divulgation est susceptible d’entraîner la diffusion d’informations permettant de concevoir, fabriquer, utiliser ou localiser des armes nucléaire s, radiologiques, biologiques, chimiques ou toutes autres armes ayant des effets directs ou indirects de niveau analogue ne com portent aucune échéance de classification et ne peuvent être déclassifiées. Réexamen de la classification des informations et supports clas sifiés détenus par les services publics d’archives Afin de faciliter l’accès aux archives publiques, le comité int erministériel aux Archives de France, sur proposition des administrations des archives, ident ifie, parmi les ensembles d’archives versées et comporta nt un volume important de documen ts ayant fait l’objet d’une",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_3_2",
+            "chapitre": "PARTIE 1 - DESCRIPTION DE LA PERSONNE MORALE",
+            "section": "1.3.2",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 1.3.2 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 1.3.2 : Comme rappelé au paragr aphe 1.3.2 de la présente ...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 1.3.2",
+                "Fausse réponse 2 pour la section 1.3.2",
+                "Fausse réponse 3 pour la section 1.3.2"
+            ],
+            "extrait_source": "Comme rappelé au paragr aphe 1.3.2 de la présente instruction, la mention Diffusion Restreinte (DR) n’est pas un niveau de classification mais une mention de protection. Son objectif principal est de sensibiliser l’utilisateur à la nécessaire di scrétion dont il doit faire pre uve dans la manipulation des informations et supports couverts par cette mention. 1. Condition d’emploi de la mention Diffusion Restreinte Il appartient au Premier ministre et aux ministres de fixer les directives permettant de considérer que la diffusion d’une information doit êt re restreinte et d’identifie r les organismes autorisés à apposer la mention de protection Diffusion Restreinte. Ainsi, sous l’autorité de chaque ministre, sont autorisés à apposer sur des informations et supports la mention Diffusion Restreinte et à y accéder : - les services centraux, services déconcentrés et services à com pétence nationale relevant de son autorité ; - les établissements publics placés sous sa tutelle ; - les opérateurs d’importance vita le dont il est le ministre coordonnateur ; - les collectivités territoriales et les personnes morales de dr oit privé avec lesquelles il a conclu une convention ; - les personnes morales, publique s ou privées, avec lesquelles i l a conclu un contrat de commande publique ou un contrat de subven tion, ainsi que les sous-traita nts ou sous-contractants de ces personnes morales ayant également besoin d’accéder à des informations ou supports protégés par la mention Diffusion Restreinte pour l’exécution de travaux réa lisés en appui du contrat princ ipal ; - les personnels qui, au sein de ces différents organismes, ont besoin, pour l’exercice de leur fonction ou l’accomplissement de leur mission, d’accéder à des informati ons ou supports protégés par la mention Diffusion Restreinte . Il revient à tout signataire d’ un document émis pour le compte de l’une des autorités précitées d’apprécier, dans le respect des directives du Premier ministre et du minist re compétent, la sensibilité des informations qu’il contient et notamment d’a pprécier si elles sont susceptib les de comporter des éléments dont la consultation ou la communication porterait atteinte à l’un des secrets, autres que le secret de la défense nationale, mentionnés au 2° de l’article L. 311-5 du code des r elations entre le public et l’administration, et de décider, en conséquence, de l’opportunité d’y apposer la men tion Diffusion Restreinte . Il est recommandé de faire signer aux personnes susceptibles d’ avoir accès à des informations Diffusion Restreinte un engagement de non-divulgation. L’utilisation de la mention complémentaire de protection Spécial France , en sus de la mention Diffusion Restreinte, reste soumise aux dispositions d e la présente instruction. 2. Élaboration, marquage et enregistrement L’élaboration des documents Diffusion Restreinte ne peut être effectuée que dans les lieux offrant des conditions de sécurité suffisantes interdisant l’accès de perso nnes non autorisées à ces documents. Les documents Diffusion Restreinte sont identifiés sur la première page avec les références de l’a utorité émettrice ou de l’organisme auteur, la date d’émission et le nu méro d’enregistrement. I ls portent le marquage suivant :",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2_3",
+            "chapitre": "CHAPITRE Ier - DISPOSITIONS PRINCIPALES",
+            "section": "7.2.3",
+            "question": "Quelle est l'exigence principale ou la définition associée à la section 7.2.3 ?",
+            "bonne_reponse": "Réponse basée sur l'extrait de la section 7.2.3 : motorisé. Les clés de secours s ont conservées sel...",
+            "fausses_reponses": [
+                "Fausse réponse 1 pour la section 7.2.3",
+                "Fausse réponse 2 pour la section 7.2.3",
+                "Fausse réponse 3 pour la section 7.2.3"
+            ],
+            "extrait_source": "motorisé. Les clés de secours s ont conservées selon les disposi tions du 7.2.3.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        }
+    ]
+}
