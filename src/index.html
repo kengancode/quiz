@@ -8,23 +8,68 @@
 </head>
 <body>
     <div class="app-container">
+        <button id="themeToggle" class="theme-toggle" aria-label="Basculer entre mode clair et mode sombre">
+            <span class="theme-icon">🌙</span>
+        </button>
+
         <!-- Écran 1: Chargement JSON -->
         <section id="screen1" class="screen active">
-            <h1>Charger un fichier JSON</h1>
-            <div class="file-upload">
-                <input type="file" id="jsonFile" accept=".json" required>
-                <label for="jsonFile" class="file-label">
-                    <span class="button">Choisir un fichier</span>
-                    <span id="fileName">Aucun fichier sélectionné</span>
-                </label>
-                <span id="fileError" class="error"></span>
+            <h1>Charger un ou plusieurs référentiels de questions</h1>
+            
+            <div class="loading-options">
+                <div class="option-card">
+                    <h3>Option 1: Sélectionner des référentiels existants</h3>
+                    <p>Choisissez un ou plusieurs fichiers JSON disponibles dans le dossier <code>json/</code></p>
+                    <div id="availableJsonList" class="json-list">
+                        <p class="loading-placeholder">Chargement des fichiers disponibles...</p>
+                    </div>
+                    <span id="selectionError" class="error"></span>
+                </div>
+
+                <div class="option-card">
+                    <h3>Option 2: Télécharger un fichier JSON</h3>
+                    <p>Chargez votre propre fichier JSON contenant des questions</p>
+                    <div class="file-upload">
+                        <input type="file" id="jsonFile" accept=".json">
+                        <label for="jsonFile" class="file-label">
+                            <span class="button">Choisir un fichier</span>
+                            <span id="fileName">Aucun fichier sélectionné</span>
+                        </label>
+                        <span id="fileError" class="error"></span>
+                    </div>
+                </div>
+
+                <div class="option-card">
+                    <h3>Option 3: Utiliser un référentiel au hasard</h3>
+                    <p>Laissez le système sélectionner un fichier JSON aléatoirement parmi ceux disponibles</p>
+                    <button id="randomBtn" class="option-button">Sélectionner au hasard</button>
+                    <span id="randomSelection" class="selection-info"></span>
+                </div>
+
+                <div class="option-card">
+                    <h3>Option 4: Utiliser tous les référentiels</h3>
+                    <p>Chargez toutes les questions de tous les fichiers JSON disponibles</p>
+                    <button id="allBtn" class="option-button">Utiliser tous les fichiers</button>
+                    <span id="allSelection" class="selection-info"></span>
+                </div>
             </div>
+
+            <div id="validationContainer" class="validation-container hidden">
+                <h3>Validation des fichiers</h3>
+                <div id="validationErrors"></div>
+                <div class="button-group">
+                    <button id="cancelValidationBtn" class="button secondary">Annuler</button>
+                    <button id="continueWithValidBtn" class="button primary hidden">Continuer avec les fichiers valides</button>
+                </div>
+            </div>
+
             <button id="nextBtn1" class="next-btn" disabled>Suivant</button>
         </section>
 
         <!-- Écran 2: Sélection nombre de questions -->
         <section id="screen2" class="screen">
             <h1>Nombre de questions</h1>
+            <p id="totalQuestionsInfo">Questions disponibles: <span id="totalQuestionsCount">0</span></p>
             <div class="radio-group">
                 <label>
                     <input type="radio" name="questionCount" value="5" checked>
@@ -39,25 +84,52 @@
                     <span>20 questions</span>
                 </label>
                 <label>
+                    <input type="radio" name="questionCount" value="100">
+                    <span>100 questions</span>
+                </label>
+                <label>
                     <input type="radio" name="questionCount" value="custom">
                     <span>Autre :</span>
-                    <input type="number" id="customCount" min="1" max="100" disabled>
+                    <input type="number" id="customCount" min="1" max="1000" disabled>
                 </label>
             </div>
             <span id="countError" class="error"></span>
-            <button id="nextBtn2" class="next-btn">Suivant</button>
+            <div class="button-group">
+                <button id="backBtn2" class="button secondary">Retour</button>
+                <button id="nextBtn2" class="next-btn">Suivant</button>
+            </div>
         </section>
 
         <!-- Écran 3: Quiz -->
         <section id="screen3" class="screen">
             <h1>Quiz</h1>
+            <div class="quiz-options">
+                <label>
+                    <input type="checkbox" id="showAllQuestions" checked>
+                    <span>Afficher toutes les questions ensemble</span>
+                </label>
+            </div>
+            <div id="quizProgress" class="quiz-progress hidden">
+                <span>Question <span id="currentQuestionNum">1</span> / <span id="totalQuestionsNum">1</span></span>
+                <div class="progress-bar">
+                    <div id="progressBar" class="progress-fill"></div>
+                </div>
+            </div>
             <form id="quizForm">
                 <div id="questionsContainer"></div>
-                <button type="submit" id="validateBtn" class="validate-btn">Valider</button>
+                <div class="button-group">
+                    <button type="button" id="prevQuestionBtn" class="button secondary hidden">Précédent</button>
+                    <button type="button" id="nextQuestionBtn" class="button secondary hidden">Suivant</button>
+                    <button type="submit" id="validateBtn" class="validate-btn">Valider</button>
+                </div>
             </form>
             <div id="results" class="hidden">
                 <h2>Résultats : <span id="score">0/0</span></h2>
                 <div id="resultsDetails"></div>
+                <div class="button-group">
+                    <button id="restartBtn" class="button primary">Recommencer</button>
+                    <button id="backToStartBtn" class="button secondary">Retour à l'accueil</button>
+                </div>
             </div>
         </section>
     </div>
