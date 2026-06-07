@@ -1,0 +1,831 @@
+{
+    "metadata": {
+        "titre": "ReCyF v2.5 - Référentiel de Cybersécurité France (NIS 2 – Transposition Nationale)",
+        "source": "20260317_NIS_V2_ReCyF_v2.5.pdf",
+        "date_creation": "2026-06-07",
+        "nombre_questions": 53,
+        "chapitres_couverts": [
+            "Présentation du document",
+            "Glossaire",
+            "Objectif de sécurité 1 : Recensement des systèmes d'information",
+            "Objectif de sécurité 2 : Mise en œuvre d'un cadre de gouvernance de la sécurité numérique",
+            "Objectif de sécurité 3 : Maîtrise de l'écosystème",
+            "Objectif de sécurité 4 : Intégration de la sécurité numérique dans la gestion des ressources humaines",
+            "Objectif de sécurité 5 : Maîtrise des systèmes d'information",
+            "Objectif de sécurité 6 : Maîtrise des accès physiques aux locaux",
+            "Objectif de sécurité 7 : Sécurisation de l'architecture des systèmes d'information",
+            "Objectif de sécurité 8 : Sécurisation des accès distants aux systèmes d'information",
+            "Objectif de sécurité 9 : Protection des systèmes d'information contre les codes malveillants",
+            "Objectif de sécurité 10 : Gestion des identités et des accès des utilisateurs aux systèmes d'information",
+            "Objectif de sécurité 11 : Maîtrise de l'administration des systèmes d'information",
+            "Objectif de sécurité 12 : Identification et réaction aux incidents de sécurité",
+            "Objectif de sécurité 13 : Continuité et reprise d'activité",
+            "Objectif de sécurité 14 : Réaction aux crises d'origine cyber",
+            "Objectif de sécurité 15 : Exercices, tests et entraînements",
+            "Objectif de sécurité 16 : Mise en œuvre d'une approche par les risques",
+            "Objectif de sécurité 17 : Audit de la sécurité des systèmes d'information",
+            "Objectif de sécurité 18 : Sécurisation de la configuration des ressources des systèmes d'information",
+            "Objectif de sécurité 19 : Administration des systèmes d'information depuis des ressources dédiées",
+            "Objectif de sécurité 20 : Supervision de la sécurité des systèmes d'information",
+            "Justifications et risques associés",
+            "Tableaux de correspondance"
+        ]
+    },
+    "questions": [
+        {
+            "id": "Q1_1",
+            "chapitre": "Présentation du document",
+            "section": "Définition du ReCyF",
+            "question": "Quel est le rôle principal du ReCyF dans le cadre de la transposition nationale de la directive NIS 2 ?",
+            "bonne_reponse": "Fournir un référentiel de cybersécurité pour les entités importantes et essentielles, incluant des objectifs de sécurité et des moyens acceptables de conformité.",
+            "fausses_reponses": [
+                "Remplacer intégralement la directive NIS 2 au niveau européen.",
+                "Définir des normes de conformité exclusives pour les PME.",
+                "Créer un cadre légal pour les startups technologiques."
+            ],
+            "extrait_source": "RECYF constitue le référentiel de cybersécurité mentionné au 6ème alinéa de l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (PJL). Il se compose d'objectifs de sécurité et, pour chacun d'eux, de moyens acceptables de conformité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_2",
+            "chapitre": "Présentation du document",
+            "section": "Portée du ReCyF",
+            "question": "Quels types d'entités sont concernés par le ReCyF ?",
+            "bonne_reponse": "Les entités importantes (EI), les entités essentielles (EE) et les opérateurs d'importance vitale (OIV) sur leurs systèmes d'information autres que leurs SIIV.",
+            "fausses_reponses": [
+                "Uniquement les grandes entreprises cotées en bourse.",
+                "Les PME et TPE sans distinction.",
+                "Les collectivités locales uniquement."
+            ],
+            "extrait_source": "Par défaut, les objectifs sont applicables aux entités importantes (EI), entités essentielles (EE) et aux opérateurs d'importance vitale sur leurs SI autres que leurs SIIV.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_3",
+            "chapitre": "Présentation du document",
+            "section": "Conformité",
+            "question": "Que permettent les Moyens Acceptables de Conformité (MAC) dans le ReCyF ?",
+            "bonne_reponse": "Ils proposent des mesures à mettre en œuvre pour atteindre les objectifs de sécurité, sans être obligatoires (sauf cas particuliers).",
+            "fausses_reponses": [
+                "Ils imposent des mesures obligatoires pour toutes les entités.",
+                "Ils remplacent les objectifs de sécurité.",
+                "Ils sont réservés aux entités essentielles uniquement."
+            ],
+            "extrait_source": "Les Moyens acceptables de conformité sont les mesures à mettre en œuvre proposées par l'ANSSI aux assujettis pour atteindre l'objectif. Ils ne sont pas d'application obligatoire (sauf cas particuliers prévus à l'article 16 du PJL).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1",
+            "chapitre": "Glossaire",
+            "section": "Authentification multifacteur",
+            "question": "Que désigne le terme 'Authentification multifacteur' dans le ReCyF ?",
+            "bonne_reponse": "Une authentification mettant en œuvre plusieurs facteurs d'authentification appartenant à au moins deux des trois catégories suivantes : facteur de connaissance, facteur de possession, facteur inhérent.",
+            "fausses_reponses": [
+                "Une authentification utilisant uniquement un mot de passe complexe.",
+                "Un système de reconnaissance faciale seul.",
+                "Une authentification basée sur un certificat numérique unique."
+            ],
+            "extrait_source": "Authentification mettant en œuvre plusieurs facteurs d'authentification appartenant à au moins deux des trois catégories suivantes : • Facteur de connaissance (par exemple : un mot de passe) ; • Facteur de possession (par exemple : une application mobile) ; • Facteur inhérent (par exemple : l'empreinte digitale).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2",
+            "chapitre": "Glossaire",
+            "section": "Incident de sécurité",
+            "question": "Qu'est-ce qu'un 'Incident de sécurité' selon le ReCyF ?",
+            "bonne_reponse": "Un événement compromettant la disponibilité, l'authenticité, l'intégrité ou la confidentialité des données ou des services.",
+            "fausses_reponses": [
+                "Un événement mineure sans impact sur les systèmes d'information.",
+                "Une simple alerte technique sans conséquence.",
+                "Un bug logiciel sans impact sur la sécurité."
+            ],
+            "extrait_source": "Incident de sécurité : Événement compromettant la disponibilité, l'authenticité, l'intégrité ou la confidentialité des données stockées, transmises ou faisant l'objet d'un traitement, ou des services que les réseaux et systèmes d'information offrent ou rendent accessibles.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3",
+            "chapitre": "Glossaire",
+            "section": "Cœur de confiance",
+            "question": "Que désigne le terme 'Cœur de confiance' dans le ReCyF ?",
+            "bonne_reponse": "L'ensemble des ressources regroupant les annuaires, les ressources hébergeant ces annuaires ou permettant d'en prendre le contrôle.",
+            "fausses_reponses": [
+                "Un serveur centralisé pour la gestion des accès.",
+                "Un ensemble de pare-feu et de routeurs.",
+                "Un système de sauvegarde des données."
+            ],
+            "extrait_source": "Cœur de confiance : Ensemble des ressources regroupant les annuaires, les ressources hébergeant ces annuaires ou permettant d'en prendre le contrôle.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1",
+            "chapitre": "Objectif de sécurité 1 : Recensement des systèmes d'information",
+            "section": "Obligation principale",
+            "question": "Que doivent faire les entités importantes ou essentielles concernant leurs systèmes d'information ?",
+            "bonne_reponse": "Réaliser et maintenir à jour une liste de l'ensemble de leurs activités, services et systèmes d'information y contribuant.",
+            "fausses_reponses": [
+                "Externaliser la gestion de tous leurs systèmes d'information à un prestataire unique.",
+                "Supprimer les systèmes d'information non critiques sans justification.",
+                "Ne pas documenter les systèmes d'information non exposés à des risques."
+            ],
+            "extrait_source": "Les entités [importantes ou essentielles] réalisent et maintiennent à jour une liste de l'ensemble de leurs activités et services ainsi que des systèmes d'information y contribuant.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2",
+            "chapitre": "Objectif de sécurité 1 : Recensement des systèmes d'information",
+            "section": "Risques justifiant l'application des objectifs",
+            "question": "Quels sont les 3 risques principaux justifiant l'application des objectifs de sécurité sur un système d'information ?",
+            "bonne_reponse": "1. La dégradation ou l'interruption des activités ou services de l'entité. 2. La divulgation à des personnes non autorisées d'informations sensibles. 3. L'altération des informations nécessaires aux activités ou services.",
+            "fausses_reponses": [
+                "1. La perte de connectivité Internet temporaire. 2. L'augmentation des coûts de maintenance. 3. La réduction de la productivité des employés.",
+                "1. Le vol de matériel informatique. 2. La panne électrique. 3. L'erreur humaine.",
+                "1. Le non-respect des délais de projet. 2. La baisse de la satisfaction client. 3. La concurrence déloyale."
+            ],
+            "extrait_source": "Ces entités sont tenues d'appliquer les [objectifs de sécurité] sur l'ensemble de leurs systèmes d'information, à l'exception de ceux pour lesquels elles justifient, sur la base d'une analyse de risques, qu'ils ne sont pas exposés à l'un des risques suivants : 1. La dégradation ou l'interruption... 2. La divulgation... 3. L'altération...",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3",
+            "chapitre": "Objectif de sécurité 1 : Recensement des systèmes d'information",
+            "section": "Fréquence de réexamen",
+            "question": "À quelle fréquence la liste des systèmes d'information doit-elle être réexaminée ?",
+            "bonne_reponse": "Annuellement, et en tant que de besoin (par exemple, en cas d'évolution des activités ou de mise en service d'un nouveau système).",
+            "fausses_reponses": [
+                "Tous les 5 ans.",
+                "Uniquement en cas d'incident de sécurité.",
+                "Tous les 2 ans."
+            ],
+            "extrait_source": "L'entité valide et réexamine annuellement la liste prévue au 1.1-EI/EE, et en tant que de besoin, notamment en cas d'évolution des activités et services de l'entité ou en cas de mise en service d'un nouveau système d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_1",
+            "chapitre": "Objectif de sécurité 2 : Mise en œuvre d'un cadre de gouvernance de la sécurité numérique",
+            "section": "Responsabilité",
+            "question": "Qui est responsable de la sécurité numérique au sein d'une entité selon le ReCyF ?",
+            "bonne_reponse": "Le dirigeant exécutif.",
+            "fausses_reponses": [
+                "Le responsable informatique (DSI).",
+                "Un prestataire externe mandaté.",
+                "Le comité de direction dans son ensemble."
+            ],
+            "extrait_source": "Le dirigeant exécutif de l’entité est responsable de la sécurité numérique au sein de son entité et en particulier du suivi de la conformité des systèmes d’information aux présentes mesures.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_2",
+            "chapitre": "Objectif de sécurité 2 : Mise en œuvre d'un cadre de gouvernance de la sécurité numérique",
+            "section": "Contenu de la PSSI",
+            "question": "Quels éléments doivent obligatoirement figurer dans une Politique de Sécurité des Systèmes d'Information (PSSI) ?",
+            "bonne_reponse": "L'organisation de la gouvernance, les orientations stratégiques, l'engagement du dirigeant, et les dispositions en matière d'usage du chiffrement, de contrôle d'accès physique et logique, et de revue des mesures.",
+            "fausses_reponses": [
+                "Une liste exhaustive des logiciels autorisés.",
+                "Les coordonnées des fournisseurs de matériel informatique.",
+                "Les budgets alloués à la cybersécurité."
+            ],
+            "extrait_source": "Cette PSSI comprend au moins : • L'organisation de la gouvernance de la sécurité numérique... • Les orientations et objectifs stratégiques... • L'engagement du dirigeant exécutif... • Les dispositions en matière d'usage du chiffrement, de contrôle d'accès physique et logique et de revue de l'application des mesures.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_3",
+            "chapitre": "Objectif de sécurité 2 : Mise en œuvre d'un cadre de gouvernance de la sécurité numérique",
+            "section": "Fréquence de revue de la PSSI",
+            "question": "À quelle fréquence la PSSI doit-elle être revue ?",
+            "bonne_reponse": "Au minimum annuellement, et mise à jour lorsque nécessaire (par exemple, en cas d'évolutions majeures de la menace ou du contexte).",
+            "fausses_reponses": [
+                "Tous les 2 ans.",
+                "Uniquement en cas de changement de dirigeant.",
+                "Tous les 5 ans."
+            ],
+            "extrait_source": "La PSSI est au minimum revue annuellement et mise à jour lorsque nécessaire, notamment en cas d'évolutions majeures de la menace, du contexte métier, technique ou organisationnel intervenues après son approbation.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_1",
+            "chapitre": "Objectif de sécurité 3 : Maîtrise de l'écosystème",
+            "section": "Cartographie de l'écosystème",
+            "question": "Que doit contenir la cartographie de l'écosystème d'une entité ?",
+            "bonne_reponse": "La liste des prestataires et fournisseurs informatiques contribuant aux activités ou services, ainsi que la liste des interconnexions avec les systèmes d'information de l'entité.",
+            "fausses_reponses": [
+                "Les coordonnées bancaires des prestataires.",
+                "Les contrats commerciaux signés avec les clients.",
+                "Les historiques des incidents de sécurité passés."
+            ],
+            "extrait_source": "L'entité définit et maintient à jour une cartographie de l'écosystème dans lequel ses systèmes d'information sont mis en œuvre et contenant, au minimum, les informations suivantes : • La liste des prestataires et fournisseurs informatiques... • La liste des interconnexions avec les systèmes d'information de l'entité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_2",
+            "chapitre": "Objectif de sécurité 3 : Maîtrise de l'écosystème",
+            "section": "Conformité des prestataires",
+            "question": "Comment une entité peut-elle s'assurer de la conformité des prestataires informatiques ?",
+            "bonne_reponse": "En s'assurant que la prestation est conforme aux obligations de l'entité, notamment via des clauses contractuelles (par exemple : plan d'assurance sécurité, charte de télémaintenance).",
+            "fausses_reponses": [
+                "En externalisant entièrement la gestion de la sécurité.",
+                "En ignorant les risques liés aux prestataires.",
+                "En confiant la sécurité à un seul prestataire."
+            ],
+            "extrait_source": "En cas de recours à un prestataire ou à un fournisseur informatique, l'entité s'assure que la prestation est conforme aux obligations auxquelles l'entité est assujettie, notamment en matière de gestion des risques... et s'assure de disposer des assurances contractuelles de cette conformité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1",
+            "chapitre": "Objectif de sécurité 4 : Intégration de la sécurité numérique dans la gestion des ressources humaines",
+            "section": "Charte d'usage",
+            "question": "Que doit définir une entité concernant l'usage des systèmes d'information ?",
+            "bonne_reponse": "Une charte d'usage des systèmes d'information, rendue opposable à chaque utilisateur.",
+            "fausses_reponses": [
+                "Un manuel technique réservé aux administrateurs.",
+                "Une liste de logiciels interdits.",
+                "Un guide de dépannage informatique."
+            ],
+            "extrait_source": "L'entité définit et met en œuvre une charte d'usage des systèmes d'information, et la rend opposable à chacun des utilisateurs de ces systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_2",
+            "chapitre": "Objectif de sécurité 4 : Intégration de la sécurité numérique dans la gestion des ressources humaines",
+            "section": "Programme de sensibilisation",
+            "question": "Que doit mettre en place une entité pour sensibiliser ses utilisateurs à la sécurité numérique ?",
+            "bonne_reponse": "Un programme de sensibilisation à la sécurité numérique pour l'ensemble des utilisateurs, avec des actions tout au long de leur présence dans l'entité.",
+            "fausses_reponses": [
+                "Une formation unique à l'embauche.",
+                "Un affichage des bonnes pratiques dans les locaux.",
+                "Un quiz annuel en ligne."
+            ],
+            "extrait_source": "L'entité définit et met en œuvre un programme de sensibilisation à la sécurité numérique de l'ensemble des utilisateurs. Ce programme doit comporter des actions tout au long de la présence des utilisateurs dans l'entité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_3",
+            "chapitre": "Objectif de sécurité 4 : Intégration de la sécurité numérique dans la gestion des ressources humaines",
+            "section": "Gestion des arrivées et départs",
+            "question": "Que doit prévoir le processus de gestion des arrivées et départs des personnels ?",
+            "bonne_reponse": "La prise de connaissance des règles de sécurité, l'attribution des accès appropriés, la mise à jour des accès en cas de changement de fonction, et la désactivation des accès logiques et physiques au départ.",
+            "fausses_reponses": [
+                "Uniquement la remise d'un badge d'accès.",
+                "La signature d'un contrat de confidentialité.",
+                "L'archivage des emails de l'employé."
+            ],
+            "extrait_source": "L'entité définit et met en œuvre un processus de gestion des arrivées, des départs et des changements de fonction des personnels... Ce processus prévoit : • La prise de connaissance des règles de sécurité... • L'attribution des accès appropriés... • La mise à jour des accès... • La restitution du matériel et la désactivation des accès logiques et physiques.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_1",
+            "chapitre": "Objectif de sécurité 5 : Maîtrise des systèmes d'information",
+            "section": "Objectif de la cartographie",
+            "question": "Quel est l'objectif principal de la cartographie des systèmes d'information ?",
+            "bonne_reponse": "Faciliter le maintien en condition opérationnelle et de sécurité des systèmes d'information, ainsi que l'amélioration de la réactivité en cas d'incident.",
+            "fausses_reponses": [
+                "Remplacer les audits de sécurité.",
+                "Centraliser la gestion des logiciels.",
+                "Automatiser les mises à jour."
+            ],
+            "extrait_source": "Les entités [importantes ou essentielles] disposent d'au moins une cartographie de leurs systèmes d'information suffisamment détaillée pour faciliter : 1° Le maintien en condition opérationnelle et de sécurité... 2° L'amélioration de la réactivité... en cas d'incident de sécurité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2",
+            "chapitre": "Objectif de sécurité 5 : Maîtrise des systèmes d'information",
+            "section": "Maintien en condition opérationnelle",
+            "question": "Que doit faire une entité en cas de publication d'un correctif de sécurité ?",
+            "bonne_reponse": "Mettre en œuvre, sans délai, les actions visant à l'installation des correctifs de sécurité, et appliquer ces correctifs sans retard injustifié sur les ressources exposées.",
+            "fausses_reponses": [
+                "Ignorer les correctifs si le système fonctionne correctement.",
+                "Attendre une panne pour appliquer les correctifs.",
+                "Confier la gestion des correctifs à un tiers sans suivi."
+            ],
+            "extrait_source": "L'entité met en œuvre, au regard de la nature de la vulnérabilité : • sans délai : les actions visant à l'installation des correctifs de sécurité... • sans retard injustifié : l'application effective des correctifs de sécurité... sur les ressources exposées.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q8_1",
+            "chapitre": "Objectif de sécurité 6 : Maîtrise des accès physiques aux locaux",
+            "section": "Mesures de sécurité",
+            "question": "Quelles mesures doivent être mises en place pour limiter l'accès aux locaux techniques ?",
+            "bonne_reponse": "Des mesures comme la tenue d'un registre des visiteurs, des badges d'accès, etc.",
+            "fausses_reponses": [
+                "Uniquement des caméras de surveillance.",
+                "Un gardien 24/7.",
+                "Des alarmes sonores."
+            ],
+            "extrait_source": "L'entité met en place des mesures de sécurité permettant de limiter l'accès de personnes non autorisées à ses locaux, ses salles serveurs et ses locaux techniques (par exemple : tenue d'un registre des visiteurs, badges d'accès, etc).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q8_2",
+            "chapitre": "Objectif de sécurité 6 : Maîtrise des accès physiques aux locaux",
+            "section": "Accès des personnes externes",
+            "question": "Que doit faire une entité pour les personnes externes accédant aux locaux techniques ?",
+            "bonne_reponse": "S'assurer qu'elles sont accompagnées ou dûment autorisées.",
+            "fausses_reponses": [
+                "Leur interdire l'accès.",
+                "Leur donner un accès libre.",
+                "Leur faire signer un accord de confidentialité."
+            ],
+            "extrait_source": "L'entité s'assure que les personnes externes accédant aux locaux techniques et salles serveurs de l'entité sont accompagnées ou dûment autorisées.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q9_1",
+            "chapitre": "Objectif de sécurité 7 : Sécurisation de l'architecture des systèmes d'information",
+            "section": "Cloisonnement",
+            "question": "Comment les entités doivent-elles cloisonner leurs systèmes d'information ?",
+            "bonne_reponse": "Physiquement et/ou logiquement, vis-à-vis des autres systèmes d'information, y compris des systèmes tiers.",
+            "fausses_reponses": [
+                "Uniquement par des pare-feu.",
+                "En les isolant complètement d'Internet.",
+                "En utilisant uniquement des connexions VPN."
+            ],
+            "extrait_source": "L'entité cloisonne physiquement et/ou logiquement l'ensemble de ses systèmes d'information vis-à-vis des autres systèmes d'information, y compris des systèmes d'information pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité et les systèmes d'information tiers.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q9_2",
+            "chapitre": "Objectif de sécurité 7 : Sécurisation de l'architecture des systèmes d'information",
+            "section": "Filtrage des communications",
+            "question": "Quels flux doivent être filtrés par les entités ?",
+            "bonne_reponse": "Les communications entrantes et sortantes de leurs systèmes d'information, en particulier les flux dont l'origine, le transit ou la destination est un système d'information tiers.",
+            "fausses_reponses": [
+                "Uniquement les flux internes.",
+                "Les flux vers les utilisateurs finaux.",
+                "Les flux de sauvegarde."
+            ],
+            "extrait_source": "Les entités [importantes ou essentielles] filtrent les communications entrantes et sortantes de leurs systèmes d'information, en particulier les flux dont l'origine, le transit ou la destination est un système d'information tiers.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q10_1",
+            "chapitre": "Objectif de sécurité 8 : Sécurisation des accès distants aux systèmes d'information",
+            "section": "Mécanismes de sécurisation",
+            "question": "Quels mécanismes doivent être utilisés pour sécuriser les accès distants aux systèmes d'information ?",
+            "bonne_reponse": "Des mécanismes de chiffrement conformes aux recommandations de l'ANSSI (par exemple : VPN TLS ou IPSec, protocoles applicatifs chiffrés comme TLS, SSH).",
+            "fausses_reponses": [
+                "Uniquement des mots de passe complexes.",
+                "Des connexions non chiffrées.",
+                "Des accès ouverts sans authentification."
+            ],
+            "extrait_source": "L'entité protège les accès à ses systèmes d'information effectués à travers un système d'information tiers au moyen de mécanismes de chiffrement conformes aux recommandations de l'autorité nationale de sécurité des systèmes d'information (par exemple : VPN TLS ou IPSec, protocoles applicatifs chiffrés comme TLS, SSH, etc.).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q10_2",
+            "chapitre": "Objectif de sécurité 8 : Sécurisation des accès distants aux systèmes d'information",
+            "section": "Authentification multifacteur",
+            "question": "Dans quel cas une authentification multifacteur est-elle obligatoire pour les entités essentielles ?",
+            "bonne_reponse": "Pour les accès distants effectués par les personnels et prestataires autorisés.",
+            "fausses_reponses": [
+                "Uniquement pour les accès locaux.",
+                "Pour les accès aux sites publics.",
+                "Pour les accès aux systèmes non critiques."
+            ],
+            "extrait_source": "Pour les accès visés à la mesure 8.2-EI/EE, le mécanisme d'authentification est multifacteur et repose sur au moins un facteur de connaissance (par exemple : authentification avec une carte à puce et un code PIN).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q11_1",
+            "chapitre": "Objectif de sécurité 9 : Protection des systèmes d'information contre les codes malveillants",
+            "section": "Ressources autorisées",
+            "question": "Quels types de ressources matérielles sont autorisés à se connecter aux systèmes d'information selon le ReCyF ?",
+            "bonne_reponse": "Les ressources matérielles définies par l'entité (par exemple : terminaux autorisés).",
+            "fausses_reponses": [
+                "Tous les terminaux personnels (BYOD).",
+                "Uniquement les serveurs.",
+                "Les terminaux non maîtrisés par l'entité."
+            ],
+            "extrait_source": "L'entité définit les ressources matérielles, en particulier les terminaux, autorisées à se connecter à ses systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q11_2",
+            "chapitre": "Objectif de sécurité 9 : Protection des systèmes d'information contre les codes malveillants",
+            "section": "Mécanismes de protection",
+            "question": "Quels mécanismes doivent être mis en place pour protéger contre les codes malveillants ?",
+            "bonne_reponse": "Des mécanismes de protection contre les risques d'exécution de codes malveillants (par exemple : antivirus, EDR) sur les postes de travail, serveurs et équipements mobiles.",
+            "fausses_reponses": [
+                "Uniquement des pare-feu.",
+                "Des analyses manuelles hebdomadaires.",
+                "Des sauvegardes quotidiennes."
+            ],
+            "extrait_source": "Les postes de travail, les serveurs et les équipements mobiles... disposent de mécanismes de protection contre les risques d'exécution de codes malveillants (par exemple : un antivirus ou un EDR).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q12_1",
+            "chapitre": "Objectif de sécurité 10 : Gestion des identités et des accès des utilisateurs aux systèmes d'information",
+            "section": "Comptes utilisateurs",
+            "question": "Quels types de comptes doivent être utilisés pour les utilisateurs selon le ReCyF ?",
+            "bonne_reponse": "Des comptes individuels pour chaque utilisateur et processus automatique.",
+            "fausses_reponses": [
+                "Des comptes partagés pour tous les utilisateurs.",
+                "Des comptes anonymes.",
+                "Des comptes temporaires."
+            ],
+            "extrait_source": "Les utilisateurs et les processus automatiques accédant aux ressources des systèmes d'information de l'entité disposent de comptes individuels.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q12_2",
+            "chapitre": "Objectif de sécurité 10 : Gestion des identités et des accès des utilisateurs aux systèmes d'information",
+            "section": "Désactivation des comptes",
+            "question": "Que doit faire une entité en cas de départ d'un utilisateur ?",
+            "bonne_reponse": "Désactiver le compte utilisateur dans les délais prévus par sa politique de gestion des comptes (par exemple : sous 7 jours).",
+            "fausses_reponses": [
+                "Attendre 30 jours avant de désactiver le compte.",
+                "Supprimer immédiatement le compte sans archive.",
+                "Laisser le compte actif pour les archives."
+            ],
+            "extrait_source": "L'entité désactive les comptes qui ne sont plus nécessaires dans les délais prévus par sa politique de gestion des comptes (par exemple : sous 7 jours).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q13_1",
+            "chapitre": "Objectif de sécurité 11 : Maîtrise de l'administration des systèmes d'information",
+            "section": "Comptes d'administration",
+            "question": "Comment les actions d'administration doivent-elles être effectuées selon le ReCyF ?",
+            "bonne_reponse": "Exclusivement à partir de comptes d'administration dédiés, utilisés uniquement pour les actions d'administration.",
+            "fausses_reponses": [
+                "À partir de comptes utilisateurs standards.",
+                "Via des accès temporaires.",
+                "Sans restriction."
+            ],
+            "extrait_source": "Les actions d'administration sont effectuées exclusivement à partir de comptes d'administration et les comptes d'administration sont utilisés exclusivement pour les actions d'administration.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q13_2",
+            "chapitre": "Objectif de sécurité 11 : Maîtrise de l'administration des systèmes d'information",
+            "section": "Cœur de confiance",
+            "question": "Qu'est-ce qu'un 'cœur de confiance' dans le ReCyF ?",
+            "bonne_reponse": "L'ensemble des ressources regroupant les annuaires, les ressources hébergeant ces annuaires ou permettant d'en prendre le contrôle.",
+            "fausses_reponses": [
+                "Un serveur centralisé pour la gestion des accès.",
+                "Un ensemble de pare-feu et de routeurs.",
+                "Un système de sauvegarde des données."
+            ],
+            "extrait_source": "Cœur de confiance : Ensemble des ressources regroupant les annuaires, les ressources hébergeant ces annuaires ou permettant d'en prendre le contrôle.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q14_1",
+            "chapitre": "Objectif de sécurité 12 : Identification et réaction aux incidents de sécurité",
+            "section": "Procédure de traitement",
+            "question": "Que doit faire une entité essentielle en cas d'incident de sécurité ?",
+            "bonne_reponse": "Élaborer, maintenir à jour et mettre en œuvre une procédure de traitement des incidents de sécurité.",
+            "fausses_reponses": [
+                "Ignorer l'incident si les impacts sont mineurs.",
+                "Attendre les instructions de l'ANSSI.",
+                "Supprimer les logs pour éviter les fuites."
+            ],
+            "extrait_source": "L'entité s'assure de l'élaboration, du maintien à jour et de la mise en œuvre d'une procédure de traitement des incidents de sécurité affectant ses systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q14_2",
+            "chapitre": "Objectif de sécurité 12 : Identification et réaction aux incidents de sécurité",
+            "section": "Collecte des signalements",
+            "question": "Quels outils peuvent être utilisés pour collecter les signalements d'incidents ?",
+            "bonne_reponse": "Des outils permettant de collecter les signalements remontés par les employés, les clients, les usagers, les prestataires et les fournisseurs.",
+            "fausses_reponses": [
+                "Uniquement des emails.",
+                "Des appels téléphoniques.",
+                "Des réunions hebdomadaires."
+            ],
+            "extrait_source": "L'entité s'assure de la mise en œuvre des outils permettant de collecter les signalements remontés, en particulier par les sources suivantes : • Les employés... • Les clients et les usagers... • Les prestataires et les fournisseurs.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q15_1",
+            "chapitre": "Objectif de sécurité 13 : Continuité et reprise d'activité",
+            "section": "Fréquence des tests",
+            "question": "À quelle fréquence les processus de sauvegarde et de restauration doivent-ils être testés ?",
+            "bonne_reponse": "Au minimum une fois par an.",
+            "fausses_reponses": [
+                "Tous les 2 ans.",
+                "Uniquement en cas de changement majeur.",
+                "Tous les 5 ans."
+            ],
+            "extrait_source": "L'entité s'assure que les processus de sauvegarde et de restauration sont testés au minimum une fois par an.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q15_2",
+            "chapitre": "Objectif de sécurité 13 : Continuité et reprise d'activité",
+            "section": "DMIA et PRD",
+            "question": "Que doivent définir les entités essentielles pour chaque activité et service ?",
+            "bonne_reponse": "La durée maximale d'interruption admissible (DMIA) et le point de rétablissement des données (PRD).",
+            "fausses_reponses": [
+                "Un budget dédié à la reprise d'activité.",
+                "Une liste des responsables.",
+                "Un calendrier de maintenance."
+            ],
+            "extrait_source": "L'entité, pour chacun de ses activités et services, définit et documente la durée maximale d'interruption admissible (DMIA) et le point de rétablissement des données (PRD).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q16_1",
+            "chapitre": "Objectif de sécurité 14 : Réaction aux crises d'origine cyber",
+            "section": "Procédure de gestion de crise",
+            "question": "Que doit contenir une procédure de gestion de crise selon le ReCyF ?",
+            "bonne_reponse": "Une définition claire des rôles et responsabilités, ainsi que des mécanismes pour réagir aux incidents nécessitant le passage en mode crise.",
+            "fausses_reponses": [
+                "Uniquement une liste de contacts.",
+                "Un budget dédié.",
+                "Un calendrier de réunions."
+            ],
+            "extrait_source": "L'entité s'assure de la définition, du maintien à jour et de la mise en œuvre d'une procédure de gestion de crises en cas d'incident de sécurité sur ses systèmes d'information nécessitant le passage en mode crise.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q16_2",
+            "chapitre": "Objectif de sécurité 14 : Réaction aux crises d'origine cyber",
+            "section": "Retour d'expérience (RETEX)",
+            "question": "Comment les entités essentielles doivent-elles gérer les retours d'expérience (RETEX) ?",
+            "bonne_reponse": "En identifiant les axes d'amélioration et les mesures associées à mettre en œuvre suite à un entraînement, un exercice ou une crise réelle.",
+            "fausses_reponses": [
+                "En les ignorant.",
+                "En les archivant sans action.",
+                "En les partageant uniquement avec l'ANSSI."
+            ],
+            "extrait_source": "L'entité s'assure de la mise en œuvre de retour d'expérience (RETEX) permettant d'identifier les axes d'amélioration et les mesures associées à mettre en œuvre suite à un entraînement, un exercice ou une crise réelle.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q17_1",
+            "chapitre": "Objectif de sécurité 15 : Exercices, tests et entraînements",
+            "section": "Fréquence des exercices",
+            "question": "À quelle fréquence les exercices sur table doivent-ils être réalisés pour les personnes mobilisables dans le dispositif de gestion des crises ?",
+            "bonne_reponse": "À une fréquence définie par l'entité.",
+            "fausses_reponses": [
+                "Tous les 2 ans.",
+                "Uniquement en cas d'incident.",
+                "Tous les 5 ans."
+            ],
+            "extrait_source": "L'entité s'assure de la sensibilisation et de la mise en œuvre d'au moins un exercice sur table à une fréquence qu'elle définit pour les personnes mobilisables dans le dispositif de gestion des crises d'origine cyber.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q17_2",
+            "chapitre": "Objectif de sécurité 15 : Exercices, tests et entraînements",
+            "section": "Stratégie d'entraînement",
+            "question": "Que doit inclure une stratégie d'entraînement selon le ReCyF ?",
+            "bonne_reponse": "Une liste des acteurs, des exercices, des objectifs, des moyens de vérification, des scénarios de risques, et une comitologie de suivi.",
+            "fausses_reponses": [
+                "Uniquement une liste des acteurs.",
+                "Un budget dédié.",
+                "Un calendrier de réunions."
+            ],
+            "extrait_source": "L'entité définit et met en œuvre une stratégie d'entraînement qui comporte, au minimum, les éléments suivants : - Une liste des acteurs... - Une liste d'exercices... - Les objectifs visés... - Les moyens de vérification... - Les scénarios de risques... - La comitologie de suivi.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q18_1",
+            "chapitre": "Objectif de sécurité 16 : Mise en œuvre d'une approche par les risques",
+            "section": "Responsabilité",
+            "question": "Qui est responsable de l'approche par les risques selon le ReCyF ?",
+            "bonne_reponse": "Le dirigeant exécutif.",
+            "fausses_reponses": [
+                "Le responsable informatique.",
+                "Un prestataire externe.",
+                "Le comité de direction."
+            ],
+            "extrait_source": "L’entité définit, met en œuvre et maintient à jour une gouvernance par les risques. Cette gouvernance vise à s’assurer que le risque numérique est pris en compte par le dirigeant exécutif.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q18_2",
+            "chapitre": "Objectif de sécurité 16 : Mise en œuvre d'une approche par les risques",
+            "section": "Fréquence de réexamen",
+            "question": "À quelle fréquence l'analyse des risques doit-elle être réexaminée ?",
+            "bonne_reponse": "Au minimum tous les 3 ans, et en tant que de besoin (par exemple, en cas d'incident de sécurité ou d'évolutions majeures).",
+            "fausses_reponses": [
+                "Tous les ans.",
+                "Tous les 5 ans.",
+                "Uniquement en cas de changement de dirigeant."
+            ],
+            "extrait_source": "L’entité réexamine l’analyse de risques au minimum tous les trois ans et en tant que de besoin, notamment en cas d’incident de sécurité ou d’évolutions majeures du contexte métier, technique ou organisationnel.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q19_1",
+            "chapitre": "Objectif de sécurité 17 : Audit de la sécurité des systèmes d'information",
+            "section": "Objectif de l'audit",
+            "question": "Que doit permettre un audit de sécurité selon le ReCyF ?",
+            "bonne_reponse": "Vérifier la conformité aux objectifs fixés par la réglementation et évaluer le niveau de sécurité des systèmes d'information audités.",
+            "fausses_reponses": [
+                "Remplacer les tests de pénétration.",
+                "Automatiser la gestion des correctifs.",
+                "Centraliser les logs."
+            ],
+            "extrait_source": "Les audits de sécurité permettent de vérifier la conformité des systèmes d'information aux objectifs fixés par la réglementation ainsi que d'évaluer le niveau de sécurité du système d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q19_2",
+            "chapitre": "Objectif de sécurité 17 : Audit de la sécurité des systèmes d'information",
+            "section": "Types d'audits",
+            "question": "Quels types d'audits peuvent être réalisés selon le ReCyF ?",
+            "bonne_reponse": "Un test d'intrusion, un audit de configuration, un audit d'architecture, un audit organisationnel et physique, et un audit de code.",
+            "fausses_reponses": [
+                "Uniquement des tests d'intrusion.",
+                "Des audits financiers.",
+                "Des audits RH."
+            ],
+            "extrait_source": "L'audit de sécurité comprend au minimum une activité parmi les suivantes : un test d'intrusion... un audit de configuration... un audit d'architecture... un audit organisationnel et physique et, lorsque cela est pertinent, un audit de code.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q20_1",
+            "chapitre": "Objectif de sécurité 18 : Sécurisation de la configuration des ressources des systèmes d'information",
+            "section": "Ressources logicielles",
+            "question": "Quelles ressources logicielles peuvent être installées sur les systèmes d'information selon le ReCyF ?",
+            "bonne_reponse": "Uniquement les ressources logicielles nécessaires à la réalisation des activités et services ou au maintien en condition opérationnelle ou de sécurité.",
+            "fausses_reponses": [
+                "Toutes les ressources logicielles disponibles.",
+                "Les ressources logicielles demandées par les utilisateurs.",
+                "Les ressources logicielles gratuites."
+            ],
+            "extrait_source": "L'entité n'installe et ne conserve sur ses systèmes d'information que les ressources logicielles nécessaires à la réalisation de ses activités et services ou au maintien en condition opérationnelle ou de sécurité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q20_2",
+            "chapitre": "Objectif de sécurité 18 : Sécurisation de la configuration des ressources des systèmes d'information",
+            "section": "Configuration sécurisée",
+            "question": "Comment les ressources doivent-elles être configurées selon le ReCyF ?",
+            "bonne_reponse": "De manière sécurisée, en s'appuyant sur les recommandations de l'éditeur, du fabricant ou de l'ANSSI.",
+            "fausses_reponses": [
+                "Avec les paramètres par défaut.",
+                "Sans restriction.",
+                "En fonction des préférences des utilisateurs."
+            ],
+            "extrait_source": "L'entité configure les ressources de ses systèmes d'information de manière sécurisée en s'appuyant sur les recommandations de l'éditeur de la fonctionnalité, du fabricant de la ressource ou de l'autorité nationale de sécurité des systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q21_1",
+            "chapitre": "Objectif de sécurité 19 : Administration des systèmes d'information depuis des ressources dédiées",
+            "section": "Postes d'administration",
+            "question": "Depuis quels types de postes les actions d'administration doivent-elles être effectuées selon le ReCyF ?",
+            "bonne_reponse": "Depuis des postes d'administration maîtrisés par l'entité ou un prestataire mandaté, et conformes aux recommandations de l'ANSSI.",
+            "fausses_reponses": [
+                "Depuis n'importe quel poste utilisateur.",
+                "Depuis des postes non sécurisés.",
+                "Depuis des postes personnels."
+            ],
+            "extrait_source": "Les entités [essentielles] mettent en place pour l'administration de leurs systèmes d'information : 1° des postes d'administrations maîtrisés par l'entité ou toute personne qu'elle a mandatée pour réaliser cette activité et qui sont conformes aux recommandations de l'autorité nationale de sécurité des systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q21_2",
+            "chapitre": "Objectif de sécurité 19 : Administration des systèmes d'information depuis des ressources dédiées",
+            "section": "Réseau d'administration",
+            "question": "Comment les réseaux d'administration doivent-ils être sécurisés selon le ReCyF ?",
+            "bonne_reponse": "Ils doivent être dédiés, cloisonnés, et les communications associées doivent être protégées par des mécanismes de chiffrement et d'authentification.",
+            "fausses_reponses": [
+                "Ils doivent être accessibles depuis n'importe quel réseau.",
+                "Ils doivent être non chiffrés.",
+                "Ils doivent être partagés avec d'autres activités."
+            ],
+            "extrait_source": "Les entités essentielles mettent en place... une sécurisation et un cloisonnement des flux dédiés à cette activité, qui s'appuient sur les recommandations de l'autorité nationale de sécurité des systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q22_1",
+            "chapitre": "Objectif de sécurité 20 : Supervision de la sécurité des systèmes d'information",
+            "section": "Délai de prise en compte",
+            "question": "Dans quel délai les événements de sécurité doivent-ils être pris en compte selon le ReCyF ?",
+            "bonne_reponse": "Sans retard injustifié et au maximum sous 24 heures ouvrées.",
+            "fausses_reponses": [
+                "Sous 48 heures.",
+                "Sous 72 heures.",
+                "Immédiatement."
+            ],
+            "extrait_source": "L'entité s'assure que les équipes en charge de l'activité de supervision de sécurité... prennent en compte les journaux et les événements de sécurité, sans retard injustifié et au maximum sous 24h ouvrés.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q22_2",
+            "chapitre": "Objectif de sécurité 20 : Supervision de la sécurité des systèmes d'information",
+            "section": "Durée de conservation",
+            "question": "Quelle est la durée minimale de conservation des journaux et événements de sécurité selon le ReCyF ?",
+            "bonne_reponse": "Au moins trois mois, sans préjudice d'autres obligations légales.",
+            "fausses_reponses": [
+                "1 mois.",
+                "6 mois.",
+                "1 an."
+            ],
+            "extrait_source": "L'entité s'assure que les données de supervision et les événements de sécurité sont conservés pour une durée d'au moins trois mois, sans préjudice d'autres obligations légales et réglementaires.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q23_1",
+            "chapitre": "Justifications et risques associés",
+            "section": "Cloisonnement des SI",
+            "question": "Pourquoi est-il important de cloisonner les systèmes d'information selon le ReCyF ?",
+            "bonne_reponse": "Pour réduire l'exposition à la menace cyber et limiter la propagation des attaques entre systèmes.",
+            "fausses_reponses": [
+                "Pour centraliser la gestion des accès.",
+                "Pour réduire les coûts de maintenance.",
+                "Pour simplifier l'architecture réseau."
+            ],
+            "extrait_source": "Par l'atteinte de cet objectif, l'entité réduit son exposition à la menace d'origine cyber... Les conséquences de cette compromission peuvent être aggravées par les possibilités de l'attaquant à étendre son attaque à d'autres systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q23_2",
+            "chapitre": "Justifications et risques associés",
+            "section": "Absence de cartographie",
+            "question": "Quels risques sont associés à l'absence de cartographie des systèmes d'information ?",
+            "bonne_reponse": "Le maintien de ressources vulnérables sur les systèmes d'information et l'exploitation de ces vulnérabilités, pouvant entraîner la dégradation ou l'interruption des activités ou services.",
+            "fausses_reponses": [
+                "Une augmentation des coûts de maintenance.",
+                "Une baisse de la productivité.",
+                "Une perte de données non critiques."
+            ],
+            "extrait_source": "L'absence de cartographie expose l'entité au maintien de ressources vulnérables sur ses systèmes d'information et, par conséquent, à l'exploitation de ces vulnérabilités pouvant entraîner la dégradation ou l'interruption des activités ou des services.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q24_1",
+            "chapitre": "Tableaux de correspondance",
+            "section": "Pilier de l'objectif 1",
+            "question": "À quel pilier appartient l'objectif de sécurité 1 (Recensement des systèmes d'information) dans le modèle Gouvernance/Protection/Défense/Résilience ?",
+            "bonne_reponse": "Gouvernance.",
+            "fausses_reponses": [
+                "Protection.",
+                "Défense.",
+                "Résilience."
+            ],
+            "extrait_source": "Pilier : Gouvernance | Objectif : Objectif de sécurité 1 – Recensement des systèmes d'information.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q24_2",
+            "chapitre": "Tableaux de correspondance",
+            "section": "Correspondance NIS 2",
+            "question": "Quelle mesure NIS 2 correspond à l'objectif de sécurité 2 (Mise en œuvre d'un cadre de gouvernance) ?",
+            "bonne_reponse": "Art. 20, Art. 21.2.a, Art. 21.2.f, Art. 21.2.h, Art. 21.2.i.",
+            "fausses_reponses": [
+                "Art. 21.2.b.",
+                "Art. 21.2.c.",
+                "Art. 21.2.d."
+            ],
+            "extrait_source": "Objectif de sécurité 2 - Mise en œuvre d'un cadre de gouvernance de la sécurité numérique | Art. 20, Art. 21.2.a, Art. 21.2.f, Art. 21.2.h, Art. 21.2.i.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        }
+    ]
+}

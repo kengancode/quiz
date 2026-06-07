@@ -27,11 +27,11 @@ Pour chaque question nous indiquons le référentiel utilisé ainsi que le chapi
 
 ## Pour générer un fichier JSON à partir du référentiel, tu peux utiliser le prompt suivant : 
 
- partir du fichier génères une matrice pour chaque exigence ou chapitre une question qcm, la bonne réponse, l'extrait du texte incluant les images et 3 fausses réponses.  Fais cela pour l'intégralité du document et génères un Fichier de sortie json
+ partir du fichier INSERERNOM génères une matrice pour chaque exigence ou chapitre une question qcm, la bonne réponse, l'extrait du texte incluant les images et 3 fausses réponses.  Fais cela pour l'intégralité du document et génères un Fichier de sortie json au format suivant :
  {
   "metadata": {
-      "titre": "Titre affiché dans la liste",
-      "source": "Document source",
+      "titre": "Nom du référentiel",
+      "source": "Nom du document",
       "date_creation": "Date de création du JSON",
       "nombre_questions": 2,
       "chapitres_couverts": [
