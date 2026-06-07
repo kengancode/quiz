@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function displayAvailableJsonFiles() {
     if (availableJsonFiles.length === 0) {
-      availableJsonList.innerHTML = '<p class="loading-placeholder">Aucun fichier JSON trouvé dans le dossier json/</p>';
+      availableJsonList.innerHTML = '<p class="loading-placeholder">Aucun fichier JSON trouvé dans le dossier json/A</p>';
       return;
     }
 
