@@ -1,63 +1,116 @@
 # Quiz Application
 
-Une application web de quiz avec 3 écrans permettant de charger un fichier JSON de questions, sélectionner le nombre de questions, et répondre à un QCM avec affichage des résultats.
+Une application web de quiz complète avec 3 écrans permettant de charger un ou plusieurs fichiers JSON de questions, sélectionner le nombre de questions, et répondre à un QCM avec affichage détaillé des résultats.
 
-## Structure du projet
+## 📁 Structure du projet
 
 ```
 quiz-app/
 ├── index.html          # Page principale avec 3 écrans
 ├── style.css           # Styles CSS modernes et responsive
 ├── script.js           # Logique JavaScript complète
-├── assets/
-│   └── quiz_example.json  # Exemple de fichier JSON avec 10 questions
+├── json/               # Dossier pour les fichiers JSON
+│   ├── quiz_example.json
+│   └── anssi_qcm_architectures_si_sensibles.json
 └── README.md           # Documentation
 ```
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 
-### Écran 1: Chargement du JSON
-- Sélection d'un fichier JSON via input file
-- Validation automatique de la structure
-- Affichage du nom du fichier
-- Bouton "Suivant" activé uniquement si le JSON est valide
+### Écran 1: Chargement des référentiels de questions
+L'application propose **4 options** pour charger les questions :
+
+1. **Sélectionner un ou plusieurs référentiels existants**
+   - Liste à choix multiples des fichiers JSON disponibles dans le dossier `json/`
+   - Affichage du titre du JSON (champ `metadata.titre`)
+   - Sélection multiple possible
+
+2. **Télécharger un fichier JSON**
+   - Input de type file pour charger un fichier JSON personnalisé
+   - Validation automatique du format
+   - Affichage du nom du fichier sélectionné
+
+3. **Utiliser un référentiel au hasard**
+   - Sélection aléatoire d'un fichier parmi ceux disponibles dans `json/`
+   - Affichage du fichier sélectionné
+
+4. **Utiliser tous les référentiels**
+   - Charge toutes les questions de tous les fichiers JSON disponibles
+   - Combinaison automatique des questions
+
+**Validation des fichiers** :
+- Vérification de la structure JSON
+- Affichage des erreurs pour les fichiers non conformes
+- Possibilité de continuer avec les fichiers valides uniquement
+- Boutons "Annuler" ou "Continuer avec les fichiers valides"
 
 ### Écran 2: Sélection du nombre de questions
-- Boutons radio pour 5, 10 ou 20 questions
-- Option "Autre" avec champ numérique personnalisé
+- Boutons radio pour 5, 10, 20 ou 100 questions
+- Champ libre pour un nombre personnalisé
 - Validation que le nombre ne dépasse pas le total disponible
-- Bouton "Suivant" pour démarrer le quiz
+- Affichage du nombre total de questions disponibles
+- Bouton "Retour" pour revenir à l'écran 1
 
-### Écran 3: Quiz + Résultats
-- **Toutes les questions affichées ensemble**
-- Pour chaque question :
+### Écran 3: Quiz
+- **Deux modes d'affichage** :
+  - Afficher toutes les questions ensemble (par défaut)
+  - Afficher les questions une par une avec navigation Précédent/Suivant
+
+- **Pour chaque question** :
+  - Affichage du nom du référentiel source
+  - Affichage du chapitre et de la section
   - Texte de la question avec indication de difficulté
   - Réponses mélangées aléatoirement (bonne réponse + fausses réponses)
   - Sélection par boutons radio
-- Bouton "Valider" à la fin
-- **Après validation** :
-  - Score affiché (X/Y)
-  - Pour chaque question :
-    - Indication visuelle (vert = correct, rouge = incorrect)
-    - Votre réponse
-    - La bonne réponse
-    - L'explication (extrait_source)
 
-## Format du JSON
+- **Barre de progression** en mode question par question
+- Bouton "Valider" pour soumettre les réponses
 
-Le fichier JSON doit contenir un tableau `questions` avec des objets ayant la structure suivante :
+**Après validation** :
+- Score affiché (X/Y)
+- Pour chaque question :
+  - Indication visuelle (vert = correct, rouge = incorrect)
+  - Nom du référentiel, chapitre et section
+  - Votre réponse
+  - La bonne réponse
+  - L'explication (extrait_source)
+- Boutons "Recommencer" ou "Retour à l'accueil"
+
+### Fonctionnalités supplémentaires
+- **Mode clair/sombre** : Bouton de bascule en haut à droite
+  - Utilise la préférence système par défaut
+  - Sauvegarde la préférence dans localStorage
+  - Design adapté pour les deux modes
+
+- **Responsive design** : Adapté aux mobiles, tablettes et desktop
+- **Animations fluides** : Transitions entre écrans et effets visuels
+- **Accessibilité** : Labels ARIA et navigation clavier
+
+## 📋 Format du JSON
+
+Le fichier JSON doit contenir un objet avec `metadata` et un tableau `questions` :
 
 ```json
 {
+  "metadata": {
+    "titre": "Titre affiché dans la liste",
+    "source": "Document source",
+    "date_creation": "Date de création du JSON",
+    "nombre_questions": 2,
+    "chapitres_couverts": [
+      "Chapitre 1",
+      "Chapitre 2"
+    ]
+  },
   "questions": [
     {
       "id": "Q1_1",
-      "chapitre": "Histoire",
-      "section": "Révolution Française",
-      "question": "En quelle année a eu lieu la prise de la Bastille ?",
-      "bonne_reponse": "1789",
-      "fausses_reponses": ["1492", "1815", "1914"],
-      "extrait_source": "La prise de la Bastille le 14 juillet 1789 marque le début de la Révolution Française.",
+      "chapitre": "Chapitre 1",
+      "section": "Section 1",
+      "question": "Quelle est la capitale de la France ?",
+      "bonne_reponse": "Paris",
+      "fausses_reponses": ["Londres", "Berlin", "Madrid"],
+      "extrait_source": "Paris est la capitale de la France depuis le Xe siècle.",
       "difficulte": "Facile",
       "figure_associee": null
     }
@@ -76,39 +129,83 @@ Le fichier JSON doit contenir un tableau `questions` avec des objets ayant la st
 - `section` : Sous-catégorie
 - `extrait_source` : Explication ou source
 - `difficulte` : Niveau de difficulté (Facile, Moyen, Difficile)
-- `figure_associee` : Référence à une image (non utilisé dans cette version)
+- `figure_associee` : Référence à une image (non utilisé actuellement)
 
-## Utilisation
+## 🚀 Utilisation
 
-1. Ouvrez `index.html` dans un navigateur web moderne
-2. Chargez un fichier JSON contenant les questions (ex: `assets/quiz_example.json`)
-3. Sélectionnez le nombre de questions souhaité
-4. Répondez à toutes les questions
-5. Cliquez sur "Valider" pour voir vos résultats
+1. **Ouvrir l'application** : Ouvrez `index.html` dans un navigateur web moderne
+2. **Choisir les référentiels** : Sélectionnez une des 4 options pour charger les questions
+3. **Valider la sélection** : Cliquez sur "Suivant" (si des fichiers sont invalides, vous pourrez choisir de continuer avec les valides)
+4. **Sélectionner le nombre de questions** : Choisissez combien de questions vous voulez
+5. **Configurer l'affichage** : Cochez ou décochez "Afficher toutes les questions ensemble"
+6. **Répondre au quiz** : Sélectionnez vos réponses
+7. **Voir les résultats** : Cliquez sur "Valider" pour voir votre score et les explications
 
-## Technologie
+## 🛠️ Technologie
 
-- **HTML5** : Structure sémantique
+- **HTML5** : Structure sémantique et accessible
 - **CSS3** : Styles modernes avec variables CSS, animations, responsive design
+  - Variables CSS pour les couleurs et espacements
+  - Media queries pour le responsive
+  - Keyframes pour les animations
+  - Support du mode sombre
 - **JavaScript (Vanilla)** : Logique complète sans framework
+  - Gestion asynchrone des fichiers
+  - Validation des données
+  - Mélange aléatoire des réponses
+  - Calcul du score
+  - Persistance des préférences (localStorage)
 - **Pas de dépendances externes**
 
-## Compatibilité
+## 🎯 Compatibilité
 
 Testé et fonctionnel sur les navigateurs modernes :
-- Chrome
+- Chrome (recommandé)
 - Firefox
 - Edge
 - Safari
 
-## Personnalisation
+## 🎨 Personnalisation
 
 Vous pouvez facilement :
-- Modifier les couleurs dans les variables CSS (`:root`)
-- Adapter les styles dans `style.css`
-- Ajouter des questions dans le fichier JSON
-- Modifier la logique dans `script.js`
+- **Modifier les couleurs** : Éditez les variables CSS dans `:root` et `.dark-mode`
+- **Adapter les styles** : Modifiez les classes dans `style.css`
+- **Ajouter des questions** : Créez de nouveaux fichiers JSON dans le dossier `json/`
+- **Modifier la logique** : Adaptez le code dans `script.js`
+- **Changer les options** : Modifiez les boutons radio dans l'écran 2
 
-## Auteur
+## 📊 Exemples de fichiers JSON
+
+L'application inclut deux fichiers JSON d'exemple :
+- `quiz_example.json` : 2 questions simples sur l'histoire et la géographie
+- `anssi_qcm_architectures_si_sensibles.json` : 42 questions sur la cybersécurité (ANSSI)
+
+## 💡 Conseils
+
+- Pour de meilleurs résultats, utilisez des fichiers JSON avec des métadonnées complètes
+- Les questions avec `chapitre`, `section` et `extrait_source` offrent une meilleure expérience utilisateur
+- Testez toujours vos fichiers JSON avec la validation intégrée
+- Le mode sombre est plus reposant pour les yeux en faible luminosité
+
+## 📝 Historique des versions
+
+### v2.0 (actuelle)
+- Ajout des 4 options de chargement JSON
+- Validation multiple des fichiers
+- Mode question par question ou toutes ensemble
+- Bouton de bascule mode clair/sombre
+- Affichage des métadonnées (référentiel, chapitre, section)
+- Meilleure gestion des erreurs
+- Design amélioré et responsive
+
+### v1.0
+- Version initiale avec chargement simple de JSON
+- Quiz basique avec toutes les questions ensemble
+
+## 🤝 Auteur
 
 Application créée avec Mistral Vibe
+
+## 📄 Licence
+
+Ce projet est open source et peut être utilisé librement.
