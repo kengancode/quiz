@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Écran 1: Chargement JSON -->
+        <section id="screen1" class="screen active">
+            <h1>Charger un fichier JSON</h1>
+            <div class="file-upload">
+                <input type="file" id="jsonFile" accept=".json" required>
+                <label for="jsonFile" class="file-label">
+                    <span class="button">Choisir un fichier</span>
+                    <span id="fileName">Aucun fichier sélectionné</span>
+                </label>
+                <span id="fileError" class="error"></span>
+            </div>
+            <button id="nextBtn1" class="next-btn" disabled>Suivant</button>
+        </section>
+
+        <!-- Écran 2: Sélection nombre de questions -->
+        <section id="screen2" class="screen">
+            <h1>Nombre de questions</h1>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="questionCount" value="5" checked>
+                    <span>5 questions</span>
+                </label>
+                <label>
+                    <input type="radio" name="questionCount" value="10">
+                    <span>10 questions</span>
+                </label>
+                <label>
+                    <input type="radio" name="questionCount" value="20">
+                    <span>20 questions</span>
+                </label>
+                <label>
+                    <input type="radio" name="questionCount" value="custom">
+                    <span>Autre :</span>
+                    <input type="number" id="customCount" min="1" max="100" disabled>
+                </label>
+            </div>
+            <span id="countError" class="error"></span>
+            <button id="nextBtn2" class="next-btn">Suivant</button>
+        </section>
+
+        <!-- Écran 3: Quiz -->
+        <section id="screen3" class="screen">
+            <h1>Quiz</h1>
+            <form id="quizForm">
+                <div id="questionsContainer"></div>
+                <button type="submit" id="validateBtn" class="validate-btn">Valider</button>
+            </form>
+            <div id="results" class="hidden">
+                <h2>Résultats : <span id="score">0/0</span></h2>
+                <div id="resultsDetails"></div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

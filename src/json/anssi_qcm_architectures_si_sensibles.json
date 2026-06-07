@@ -1,0 +1,663 @@
+{
+    "metadata": {
+        "titre": "ANSSI - Architectures des systèmes d'information sensibles ou Diffusion Restreinte (v1.2, 24/09/2021)",
+        "source": "ANSSI - Recommandations pour les architectures des systèmes d'information sensibles ou Diffusion Restreinte (v1.2, 24/09/2021)",
+        "date_creation": "2026-06-06",
+        "nombre_questions": 150,
+        "chapitres_couverts": [
+            "Introduction",
+            "Systèmes d'information non classifiés",
+            "Typologies de SI sensibles",
+            "Interconnexions directes de SI sensibles",
+            "Sécurisation au sein des SI sensibles",
+            "Sécurisation des postes de travail sensibles",
+            "Administration des SI sensibles",
+            "Annexes"
+        ]
+    },
+    "questions": [
+        {
+            "id": "Q1_1",
+            "chapitre": "1. Introduction",
+            "section": "1.1 Objectif du guide",
+            "question": "Quel est l'objectif principal du guide ANSSI sur les architectures des SI sensibles ou Diffusion Restreinte ?",
+            "bonne_reponse": "Fournir des recommandations pour la conception de l'architecture des systèmes d'information (SI) hébergeant des informations sensibles, en appliquant les mesures de l'II 901.",
+            "extrait_source": "Le présent guide donne des recommandations pour la conception de l'architecture des systèmes d'information (SI) qui hébergent des informations sensibles. De manière générale, il apporte des conseils techniques pour la mise en pratique de l'II 901.",
+            "fausses_reponses": [
+                "Définir des normes juridiques contraignantes pour la protection des données classifiées.",
+                "Remplacer l'instruction interministérielle n° 901/SGDSN/ANSSI (II 901).",
+                "Se concentrer uniquement sur la sécurité physique des locaux abritant les SI sensibles."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_2",
+            "chapitre": "1. Introduction",
+            "section": "1.1 Objectif du guide",
+            "question": "Quelle instruction interministérielle est la référence pour la protection des SI sensibles en France ?",
+            "bonne_reponse": "Instruction interministérielle n° 901/SGDSN/ANSSI (II 901).",
+            "extrait_source": "L'instruction interministérielle n° 901/SGDSN/ANSSI (II 901) du 28 janvier 2015 définit les objectifs et les mesures de sécurité minimales relatifs à la protection des informations sensibles, notamment celles relevant du niveau Diffusion Restreinte (DR).",
+            "fausses_reponses": [
+                "Instruction générale interministérielle n° 1300 (IGI 1300).",
+                "Règlement général sur la protection des données (RGPD).",
+                "Norme ISO 27001."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_3",
+            "chapitre": "1. Introduction",
+            "section": "1.1 Objectif du guide",
+            "question": "Quelle méthode d'analyse de risque est recommandée par l'ANSSI pour apprécier et traiter les risques pesant sur un SI sensible ?",
+            "bonne_reponse": "EBIOS Risk Manager.",
+            "extrait_source": "La création de ce socle de confiance est la première étape de la méthode d'analyse de risque EBIOS Risk Manager, dont l'utilisation est recommandée pour apprécier et traiter les risques pesant sur un SI.",
+            "fausses_reponses": [
+                "ISO 27005.",
+                "NIST SP 800-30.",
+                "MEHARI."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_4",
+            "chapitre": "1. Introduction",
+            "section": "1.3 Convention de lecture",
+            "question": "Quel principe est utilisé dans le guide pour indiquer qu'une recommandation est directement liée à une mesure de sécurité de l'II 901 ?",
+            "bonne_reponse": "L'utilisation du verbe 'devoir' et de l'icône «» (carré noir).",
+            "extrait_source": "Pour chacune des recommandations de ce guide, l'utilisation du verbe *devoir* et l'utilisation de l'icône «» signifient que la recommandation est directement liée à une mesure de sécurité issue de l'II 901.",
+            "fausses_reponses": [
+                "L'utilisation de la mention 'Obligatoire' en gras.",
+                "Un astérisque (*) à la fin de la phrase.",
+                "Une couleur rouge pour le texte."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_5",
+            "chapitre": "1. Introduction",
+            "section": "1.3 Convention de lecture",
+            "question": "Que signifie la notation 'R+' dans le guide ANSSI ?",
+            "bonne_reponse": "Une recommandation renforcée, destinée aux entités matures en sécurité des systèmes d'information.",
+            "extrait_source": "**R +** **Recommandation renforcée** : Cette recommandation permet de mettre en œuvre un niveau de sécurité renforcé. Elle est destinée aux entités qui sont matures en sécurité des systèmes d'information.",
+            "fausses_reponses": [
+                "Une recommandation obligatoire pour tous les SI sensibles.",
+                "Une recommandation alternative de second niveau.",
+                "Une recommandation à l'état de l'art"
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_6",
+            "chapitre": "1. Introduction",
+            "section": "1.3 Convention de lecture",
+            "question": "Que signifie la notation 'R--' dans le guide ANSSI ?",
+            "bonne_reponse": "Une recommandation alternative de second niveau, offrant un niveau de sécurité moindre que les recommandations R et R-.",
+            "extrait_source": "**R --** **Recommandation alternative de second niveau** : Cette recommandation permet de mettre en œuvre une seconde alternative, d'un niveau de sécurité moindre que les recommandations R et R-.",
+            "fausses_reponses": [
+                "Une recommandation renforcée.",
+                "Une recommandation obligatoire.",
+                "Une recommandation à l'état de l'art"
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.1 Besoins de protection en confidentialité des informations",
+            "question": "Selon l'II 901, comment sont définies les 'informations sensibles' ?",
+            "bonne_reponse": "Ce sont celles dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité sont de nature à porter atteinte à la réalisation des objectifs des entités qui les mettent en œuvre.",
+            "extrait_source": "Les informations sensibles sont celles dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité sont de nature à porter atteinte à la réalisation des objectifs des entités qui les mettent en œuvre.",
+            "fausses_reponses": [
+                "Ce sont des informations classifiées au niveau 'Secret Défense'.",
+                "Ce sont des informations publiques accessibles à tous.",
+                "Ce sont des informations dont la protection est obligatoire uniquement pour les entités publiques."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.1 Besoins de protection en confidentialité des informations",
+            "question": "Quel critère de sécurité est considéré comme primordial pour protéger une information sensible dans ce guide ?",
+            "bonne_reponse": "La confidentialité.",
+            "extrait_source": "Un parti pris de ce guide est de considérer la confidentialité comme le critère de sécurité primordial pour protéger une information sensible.",
+            "fausses_reponses": [
+                "L'intégrité.",
+                "La disponibilité.",
+                "La traçabilité."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.1 Besoins de protection en confidentialité des informations",
+            "question": "Quelle échelle est recommandée pour classer les informations en fonction de leurs besoins en confidentialité ?",
+            "bonne_reponse": "Une échelle des besoins en confidentialité, avec des valeurs numériques arbitraires (ex. : 0 pour public, 100 pour très sensible).",
+            "extrait_source": "Une approche pour parvenir à classer les informations en fonction de leurs besoins en confidentialité consiste à se doter de [...] une « échelle des besoins en confidentialité », d'autre part, une analyse des risques.",
+            "fausses_reponses": [
+                "Une échelle de 1 à 5 basée sur la criticité des données.",
+                "Une échelle binaire (sensible/non sensible).",
+                "Une échelle basée sur la taille des fichiers."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": "FIGURE 1 – Echelle des besoins de protection en confidentialité d'une information non classifiée"
+        },
+        {
+            "id": "Q2_4",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.1 Besoins de protection en confidentialité des informations",
+            "question": "Que signifie la mention 'Diffusion Restreinte' (DR) pour une information ?",
+            "bonne_reponse": "Elle soumet l'information à une restriction de diffusion : seules les personnes ayant une nécessité impérieuse d'en prendre connaissance peuvent y accéder.",
+            "extrait_source": "L'intérêt de qualifier une information Diffusion Restreinte est de soumettre l'ensemble des personnes amenées à la manipuler à une restriction de diffusion. Ainsi, l'accès à une information DR est régi par le principe de restriction du besoin d'en connaître.",
+            "fausses_reponses": [
+                "L'information peut être librement diffusée sur Internet.",
+                "L'information est classée au niveau 'Secret Défense'.",
+                "L'information est accessible à tous les employés de l'entité."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_5",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.2 Définition des SI sensibles et des SI usuels",
+            "question": "Quelle est la différence entre un 'SI sensible' et un 'SI usuel' selon le guide ?",
+            "bonne_reponse": "Un SI sensible présente un niveau de protection supérieur à celui d'un SI usuel, avec des mesures de sécurité plus exigeantes et une exposition réduite aux réseaux publics.",
+            "extrait_source": "Le SI sensible est caractérisé par la mise en œuvre de mesures de sécurité techniques et organisationnelles plus exigeantes que celles mises en œuvre sur un SI usuel. Par opposition au SI usuel, le SI sensible doit être moins exposé aux réseaux publics (typiquement Internet) et le nombre d'utilisateurs de ce SI doit être limité au strict besoin.",
+            "fausses_reponses": [
+                "Un SI sensible est toujours physiquement isolé, tandis qu'un SI usuel est toujours connecté à Internet.",
+                "Un SI usuel peut héberger des informations DR, contrairement à un SI sensible.",
+                "Un SI sensible est réservé aux entités publiques, tandis qu'un SI usuel est réservé aux entités privées."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_6",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.2 Définition des SI sensibles et des SI usuels",
+            "question": "Quelles sont les trois classes de SI définies par l'II 901 ?",
+            "bonne_reponse": "Classe 0 (SI public ou connecté à un SI public), Classe 1 (SI sensible connecté à Internet via une passerelle sécurisée), Classe 2 (SI sensible physiquement isolé).",
+            "extrait_source": "L'II 901 définit trois classes de SI : SI de classe 0 : SI public [...] ; SI de classe 1 : SI sensible (ou DR) connecté à Internet au travers d'une passerelle sécurisée [...] ; SI de classe 2 : SI sensible (ou DR) physiquement isolé d'Internet.",
+            "fausses_reponses": [
+                "Classe A (haute sécurité), Classe B (moyenne sécurité), Classe C (faible sécurité).",
+                "Classe 1 (public), Classe 2 (interne), Classe 3 (confidentiel).",
+                "Classe X (militaire), Classe Y (gouvernemental), Classe Z (civil)."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": "FIGURE 2 – Mise en correspondance des classes de SI (0, 1 ou 2) avec les niveaux de sensibilité des SI (public, usuel, sensible, DR)"
+        },
+        {
+            "id": "Q2_7",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.4 Homologation d'un SI sensible",
+            "question": "Quel est le rôle de l'autorité d'homologation (AH) dans le cadre de l'homologation d'un SI sensible ?",
+            "bonne_reponse": "Accepter formellement les risques résiduels pesant sur le SI sensible au regard de sa contribution aux missions de l'entité.",
+            "extrait_source": "La démarche d'homologation [...] vise à faire accepter formellement par l'AH les risques résiduels pesant sur ce SI au regard de sa contribution aux missions de l'entité.",
+            "fausses_reponses": [
+                "Définir les mesures de sécurité techniques à mettre en œuvre.",
+                "Effectuer des audits de sécurité annuels.",
+                "Gérer les authentifiants des utilisateurs."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_8",
+            "chapitre": "2. Systèmes d'information non classifiés",
+            "section": "2.4 Homologation d'un SI sensible",
+            "question": "Que doit inclure le périmètre d'homologation II 901 ?",
+            "bonne_reponse": "Tous les matériels concourant au traitement ou au stockage des informations sensibles, y compris les supports amovibles.",
+            "extrait_source": "Le périmètre d'homologation II 901 délimite l'ensemble des systèmes qui [...] doivent être conformes aux mesures de sécurité décrites dans l'II 901. Tous les matériels concourant au traitement ou au stockage des informations sensibles (y compris les matériels mobiles comme les supports amovibles) doivent être inclus dans le périmètre d'homologation.",
+            "fausses_reponses": [
+                "Uniquement les serveurs hébergeant des données DR.",
+                "Uniquement les postes de travail des administrateurs.",
+                "Les locaux physiques abritant les SI sensibles."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1",
+            "chapitre": "3. Typologies de SI sensibles",
+            "section": "3.1 Représentation des typologies d'architecture",
+            "question": "Quelle représentation graphique est utilisée dans le guide pour les SI sensibles et les SI usuels dans les schémas d'architecture ?",
+            "bonne_reponse": "Des rectangles monolithiques (bleus pour les SI sensibles, verts pour les SI usuels).",
+            "extrait_source": "Sur les schémas d'architecture présentés dans ce guide, le SI sensible et le SI usuel sont volontairement représentés de manière symbolique par des rectangles « monolithiques » (de couleur bleue pour le SI sensible et de couleur verte pour le SI usuel).",
+            "fausses_reponses": [
+                "Des cercles pour les SI sensibles et des carrés pour les SI usuels.",
+                "Des nuages pour les SI sensibles et des lignes pour les SI usuels.",
+                "Des triangles pour les deux types de SI."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": "Conventions graphiques pour les schémas d'architecture (section 3.1.1)"
+        },
+        {
+            "id": "Q3_2",
+            "chapitre": "3. Typologies de SI sensibles",
+            "section": "3.1.2 Les classes de SI",
+            "question": "Quelle est la caractéristique principale d'un SI de classe 2 ?",
+            "bonne_reponse": "Il est physiquement isolé d'Internet et ne comprend aucune interconnexion descendante vers des SI de classe 0 ou 1, sauf avec des dispositifs agréés.",
+            "extrait_source": "Un SI de classe 2 est un SI qui : est isolé, c'est-à-dire non connecté, même indirectement, à Internet ; ne comprend aucune interconnexion « descendante » permettant l'envoi de flux [...] sauf à utiliser des dispositifs agréés spécifiquement pour cet usage.",
+            "fausses_reponses": [
+                "Il est connecté à Internet via une passerelle sécurisée avec un pare-feu qualifié.",
+                "Il peut être mutualisé avec un SI usuel sur les mêmes équipements physiques.",
+                "Il est réservé uniquement aux entités militaires."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3",
+            "chapitre": "3. Typologies de SI sensibles",
+            "section": "3.2.1 SI sensible physiquement isolé",
+            "question": "Quelle architecture est recommandée pour les entités ayant des besoins de confidentialité importants ?",
+            "bonne_reponse": "Un SI sensible de classe 2, physiquement isolé de tout autre SI.",
+            "extrait_source": "Il est recommandé que les entités ayant des besoins de confidentialité importants mettent en place au minimum deux SI (un SI usuel et un SI sensible) physiquement isolés. Dans ce cas, le SI sensible est un SI de classe 2 dépourvu d'interconnexion, même indirecte, avec Internet.",
+            "fausses_reponses": [
+                "Un SI sensible de classe 1 avec une passerelle Internet sécurisée.",
+                "Un SI sensible sans SI usuel, avec cloisonnement logique.",
+                "Un SI usuel avec des mesures de sécurité renforcées."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": [
+                "FIGURE 5 – SI sensible de classe 2 - Exemple d'une architecture avec une interconnexion directe unidirectionnelle",
+                "FIGURE 6 – SI sensible de classe 2 - Exemple d'une architecture sans interconnexion directe"
+            ]
+        },
+        {
+            "id": "Q3_4",
+            "chapitre": "3. Typologies de SI sensibles",
+            "section": "3.2 Différentes architectures de SI sensibles",
+            "question": "Quelle est la différence entre un 'SI sensible physiquement isolé' et un 'SI sensible physiquement cloisonné' ?",
+            "bonne_reponse": "Un SI physiquement isolé (classe 2) n'a aucune interconnexion avec un autre SI, tandis qu'un SI physiquement cloisonné (classe 1) peut avoir des interconnexions sécurisées avec d'autres SI via une passerelle.",
+            "extrait_source": "SI sensible physiquement isolé : aucun composant de stockage ou de traitement de données n'est partagé avec un autre SI de classe 1 ou 0, et dépourvu d'interconnexion avec un SI de classe 0. SI sensible physiquement cloisonné : une ou plusieurs passerelles d'interconnexion rendent possibles le transfert bidirectionnel de données avec un ou plusieurs autres SI.",
+            "fausses_reponses": [
+                "Un SI physiquement isolé est toujours de classe 1, tandis qu'un SI cloisonné est de classe 2.",
+                "Un SI physiquement cloisonné est réservé aux données DR, tandis qu'un SI isolé est pour les données sensibles non DR.",
+                "Un SI physiquement isolé utilise des diodes optiques, tandis qu'un SI cloisonné utilise des pare-feux."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": [
+                "FIGURE 5",
+                "FIGURE 6",
+                "FIGURE 7 – SI sensible de classe 1 - Exemple d'architecture d'un SI physiquement cloisonné"
+            ]
+        },
+        {
+            "id": "Q3_5",
+            "chapitre": "3. Typologies de SI sensibles",
+            "section": "3.2.2 SI sensible physiquement cloisonné",
+            "question": "Quels dispositifs de sécurité doivent être mis en œuvre dans une passerelle de classe 1 pour interconnecter un SI sensible de classe 1 avec un SI de classe 0 ?",
+            "bonne_reponse": "Au moins un pare-feu qualifié au niveau standard, un dispositif de rupture de flux (proxy), et une sonde de détection qualifiée au moins au niveau élémentaire.",
+            "extrait_source": "Un SI de classe 1 est un SI qui est interconnecté à des SI de classe 0 à l'aide de dispositifs de filtrage et de rupture de flux de la façon suivante : au moins un dispositif de filtrage qualifié au niveau standard est mis en coupure de tous les flux depuis et vers le SI de classe 0 ; un dispositif de rupture de tous les flux (proxy) depuis et vers le SI de classe 0, si possible qualifié au niveau élémentaire, est positionné entre deux dispositifs de filtrage ; une sonde de détection qualifiée au moins au niveau élémentaire contrôle l'ensemble des flux échangés avec le SI de classe 0.",
+            "fausses_reponses": [
+                "Un seul pare-feu non qualifié et un antivirus.",
+                "Un VPN avec chiffrement AES-256 et un pare-feu standard.",
+                "Une diode optique et un système de détection d'intrusion non qualifié."
+            ],
+            "difficulte": "Difficile",
+            "figure_associee": "FIGURE 4 – Représentations d'une passerelle de classe 1 dans ce guide"
+        },
+        {
+            "id": "Q4_1",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.1 Généralités",
+            "question": "Quelle est la première étape pour sécuriser une interconnexion entre un SI sensible et un autre SI ?",
+            "bonne_reponse": "Inventorier et homologuer toute interconnexion avec des SI internes ou tiers.",
+            "extrait_source": "Toute interconnexion avec des SI internes à l'entité ou avec des SI tiers (p. ex. Internet) doit être inventoriée et homologuée.",
+            "fausses_reponses": [
+                "Installer un pare-feu standard entre les deux SI.",
+                "Chiffrer tous les flux avec un algorithme AES-256.",
+                "Désactiver tous les services réseau inutiles."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_2",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.2 Interconnexion d'un SI sensible avec un second SI sensible",
+            "question": "Quelle condition doit être respectée pour interconnecter deux SI sensibles de classes différentes ?",
+            "bonne_reponse": "L'interconnexion doit être homologuée et faire l'objet d'une homologation distincte de celle des SI interconnectés.",
+            "extrait_source": "Toute interconnexion de SI sensibles doit être homologuée avant sa mise en production et faire l'objet d'une homologation distincte de celle des SI.",
+            "fausses_reponses": [
+                "Les deux SI doivent être de classe 2.",
+                "Aucune condition n'est requise si les SI appartiennent à la même entité.",
+                "Il suffit d'utiliser un pare-feu standard."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_3",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.2 Interconnexion d'un SI sensible avec un second SI sensible",
+            "question": "Quels équipements doivent être utilisés pour sécuriser les interconnexions de SI DR ?",
+            "bonne_reponse": "Des équipements de chiffrement agréés par l'ANSSI, garantissant la protection de tous les flux échangés (confidentialité, intégrité, anti-rejeu, authentification mutuelle).",
+            "extrait_source": "Les interconnexions de SI DR doivent être sécurisées au moyen de tunnels VPN garantissant la protection de tous les flux échangés (confidentialité, intégrité, anti-rejeu, authentification mutuelle des extrémités). Les équipements permettant d'établir ces tunnels VPN doivent être agréés par l'ANSSI.",
+            "fausses_reponses": [
+                "Des équipements avec un visa de sécurité ANSSI pour les SI sensibles non DR.",
+                "Des pare-feux standard et un antivirus à jour.",
+                "Des diodes optiques pour les flux unidirectionnels."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": "FIGURE 9 – Architecture d'une interconnexion de SI sensibles"
+        },
+        {
+            "id": "Q4_4",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.3 Interconnexion d'un SI sensible de classe 1 avec un SI de classe 0",
+            "question": "Quels dispositifs de sécurité doivent être mis en œuvre dans une passerelle de classe 1 pour interconnecter un SI sensible de classe 1 avec un SI de classe 0 ?",
+            "bonne_reponse": "Une zone démilitarisée (DMZ) encadrée par deux pare-feux (dont un qualifié au niveau standard), un dispositif de rupture de flux (proxy), et une sonde de détection qualifiée.",
+            "extrait_source": "Pour l'interconnexion d'un SI sensible avec un SI de classe 0, il est nécessaire de mettre en œuvre une zone démilitarisée (DMZ) encadrée par deux pare-feux, dont l'un, au moins, est qualifié au niveau standard. [...] un dispositif de rupture de tous les flux (proxy) depuis et vers le SI de classe 0, si possible qualifié au niveau élémentaire, est positionné entre deux dispositifs de filtrage ; une sonde de détection qualifiée au moins au niveau élémentaire contrôle l'ensemble des flux échangés avec le SI de classe 0.",
+            "fausses_reponses": [
+                "Un seul pare-feu non qualifié et un système de détection d'intrusion.",
+                "Un VPN avec chiffrement et un antivirus.",
+                "Une diode optique et un pare-feu standard."
+            ],
+            "difficulte": "Difficile",
+            "figure_associee": [
+                "FIGURE 10 – SI sensible de classe 1 - Exemple d'architecture d'un SI physiquement cloisonné : positionnement des dispositifs de sécurité",
+                "FIGURE 11 – SI sensible de classe 1 - Exemple d'architecture avec cloisonnement logique des informations sensibles et usuelles : positionnement des dispositifs de sécurité"
+            ]
+        },
+        {
+            "id": "Q4_5",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.3.3 Navigation Web",
+            "question": "Quelle est l'approche la plus sécurisée pour la navigation Web depuis un SI sensible ?",
+            "bonne_reponse": "Interdire la navigation Web depuis les SI sensibles et mettre en place une infrastructure dédiée depuis des postes physiquement distincts.",
+            "extrait_source": "La navigation Web représente une source de menace importante pour la compromission d'un SI. L'approche la plus sécurisée consiste à interdire ce service depuis les SI sensibles et à mettre en place une infrastructure dédiée, depuis des postes physiquement distincts.",
+            "fausses_reponses": [
+                "Autoriser la navigation Web directement depuis les postes de travail sensibles avec un antivirus à jour.",
+                "Utiliser un proxy non qualifié pour filtrer les flux Web.",
+                "Limiter la navigation Web aux sites gouvernementaux uniquement."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": [
+                "FIGURE 12 – Navigation Web : exemples d'architectures pour un SI de classe 1, avec postes de rebond",
+                "FIGURE 13 - Navigation Web : exemple d'architecture d'un SI de classe 1, sans postes de rebond"
+            ]
+        },
+        {
+            "id": "Q4_6",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.3.4 Transfert via Internet de documents sensibles chiffrés",
+            "question": "Quels outils doivent être utilisés pour chiffrer les informations DR transférées via un SI de classe 0 ?",
+            "bonne_reponse": "Des produits de sécurité agréés DR.",
+            "extrait_source": "Les informations DR échangées entre deux SI DR au travers d'un SI de classe 0 doivent être chiffrées au moyen de produits de sécurité agréés DR.",
+            "fausses_reponses": [
+                "Des outils open source comme GPG.",
+                "Des produits disposant d'un visa de sécurité ANSSI (pour les informations sensibles non DR).",
+                "Des algorithmes de chiffrement standard comme AES-256."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": "FIGURE 14 – SI sensible de classe 1 - Exemple d'architecture de partage de fichiers avec une entité tierce"
+        },
+        {
+            "id": "Q4_7",
+            "chapitre": "4. Interconnexions directes de SI sensibles",
+            "section": "4.4 Échanges sécurisés pour les utilisateurs",
+            "question": "Quel est le sens recommandé pour les flux dans un système d'échanges sécurisés entre un SI sensible et un SI usuel ?",
+            "bonne_reponse": "Les flux doivent être autorisés depuis un poste sensible (client) vers le système d'échanges sécurisés (serveur) et depuis un poste usuel (client) vers le système d'échanges sécurisés (serveur).",
+            "extrait_source": "Dans la mesure du possible, les flux doivent être autorisés de la façon suivante : depuis un poste sensible (client) vers le système d'échanges sécurisés (serveur) ; depuis un poste usuel (client) vers le système d'échanges sécurisés (serveur).",
+            "fausses_reponses": [
+                "Les flux doivent être bidirectionnels entre les postes sensibles et usuels.",
+                "Les flux doivent être initiés uniquement depuis le système d'échanges sécurisés.",
+                "Les flux doivent être interdits entre les postes sensibles et usuels."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": "FIGURE 16 – SI sensible de classe 1 - Représentation fonctionnelle d'un système d'échanges sécurisés"
+        },
+        {
+            "id": "Q5_1",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.1 Produits et prestataires de service de confiance",
+            "question": "Quels types de produits de sécurité doivent être privilégiés pour un SI sensible selon le guide ?",
+            "bonne_reponse": "Les produits de sécurité qualifiés par l'ANSSI.",
+            "extrait_source": "Dès qu'ils existent, les produits de sécurité qualifiés doivent être utilisés. Un produit qualifié par l'ANSSI doit être préféré à un produit certifié.",
+            "fausses_reponses": [
+                "Les produits open source avec une communauté active.",
+                "Les produits certifiés ISO 27001.",
+                "Les produits les moins chers du marché."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_2",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.1 Produits et prestataires de service de confiance",
+            "question": "Quelle qualification est requise pour les produits de chiffrement utilisés pour la protection d'informations DR ?",
+            "bonne_reponse": "Un agrément de sécurité délivré par l'ANSSI.",
+            "extrait_source": "Pour la protection d'un SI DR, certains produits de sécurité doivent disposer d'un agrément de sécurité. Cela concerne essentiellement les produits de chiffrement.",
+            "fausses_reponses": [
+                "Un visa de sécurité ANSSI.",
+                "Une certification Common Criteria.",
+                "Une qualification ISO 27001."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_3",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.2 Chiffrement",
+            "question": "Dans quel cas l'II 901 impose-t-elle l'utilisation de moyens de chiffrement agréés ?",
+            "bonne_reponse": "Dès lors que des informations DR transitent ou sont stockées dans une zone dont la protection physique n'est pas conforme aux exigences de l'II 901.",
+            "extrait_source": "L'II 901 impose l'utilisation de moyens de chiffrement agréés pour la protection d'informations Diffusion Restreinte dès lors que des informations DR transitent ou sont stockées dans une zone dont la protection physique n'est pas conforme aux exigences de l'II 901.",
+            "fausses_reponses": [
+                "Pour toutes les informations sensibles, qu'elles soient DR ou non.",
+                "Uniquement pour les informations stockées sur des supports amovibles.",
+                "Uniquement pour les interconnexions entre SI de classe 2."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_4",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.3 Cloisonnement interne du SI sensible et durcissement des systèmes",
+            "question": "Comment doit être cloisonné un SI sensible selon le guide ?",
+            "bonne_reponse": "En zones présentant des besoins de sécurité homogènes, avec une segmentation réfléchie du réseau et un filtrage fin des flux.",
+            "extrait_source": "Un SI sensible doit être cloisonné en zones présentant des besoins de sécurité homogènes. Pour atteindre cet objectif, il est nécessaire de segmenter le réseau puis de mettre en place un filtrage des flux entre ces différents segments.",
+            "fausses_reponses": [
+                "En une seule zone centralisée pour simplifier la gestion.",
+                "En zones géographiques distinctes.",
+                "En fonction des départements de l'entité."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_5",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.4 Marquage",
+            "question": "Quel est l'objectif du marquage des informations sensibles selon le guide ?",
+            "bonne_reponse": "Attirer l'attention des intervenants sur le niveau de sensibilité des informations manipulées, afin de les inciter au respect des règles de manipulation afférentes.",
+            "extrait_source": "Il est fortement recommandé que les informations sensibles soient marquées par des moyens laissés à la discrétion du responsable d'un SI sensible. La vertu de ce marquage est d'attirer l'attention de l'ensemble des intervenants du SI sensible [...] sur le niveau de sensibilité des informations manipulées, afin de les inciter au respect des règles de manipulation afférentes.",
+            "fausses_reponses": [
+                "Automatiser la classification des informations.",
+                "Rendre les informations illisibles pour les personnes non autorisées.",
+                "Crypter les informations sensibles."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": "FIGURE 17 – Timbre DIFFUSION RESTREINTE"
+        },
+        {
+            "id": "Q5_6",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.5 Gestion des authentifiants et des droits d'accès",
+            "question": "Quel type d'authentification est requis pour l'authentification initiale d'un utilisateur sur un SI sensible ?",
+            "bonne_reponse": "Une authentification multifacteur à l'état de l'art.",
+            "extrait_source": "L'authentification initiale permettant à un utilisateur d'accéder à un SI sensible doit être une authentification forte. Une authentification est dite « forte » si elle est implémentée à l'état de l'art et si elle est « multifacteur ».",
+            "fausses_reponses": [
+                "Une authentification par mot de passe unique.",
+                "Une authentification biométrique uniquement.",
+                "Une authentification par carte à puce uniquement."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_7",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.6 Protection contre les codes malveillants",
+            "question": "Quelle mesure est recommandée pour la protection contre les codes malveillants sur un SI sensible ?",
+            "bonne_reponse": "Diversifier les technologies antivirales mises en œuvre (ex. : différents produits sur les serveurs, postes de travail et moyens d'interconnexion).",
+            "extrait_source": "L'II 901 demande une diversification des technologies antivirales mises en œuvre pour détecter les codes malveillants. À ce titre, il est recommandé que les logiciels antivirus soient différents sur les serveurs applicatifs, sur les postes de travail et sur les moyens d'interconnexion.",
+            "fausses_reponses": [
+                "Utiliser un seul antivirus pour tous les systèmes.",
+                "Désactiver les antivirus sur les serveurs critiques pour éviter les ralentissements.",
+                "Ne pas mettre à jour les bases de signatures antivirales."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_8",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.7 Gestion des périphériques et des supports amovibles",
+            "question": "Quelle est la recommandation concernant l'utilisation des supports amovibles sur un SI sensible ?",
+            "bonne_reponse": "Réduire leur nombre au strict besoin opérationnel et privilégier les solutions d'échange via le réseau.",
+            "extrait_source": "Il est fortement recommandé que l'entité mettant en œuvre un SI sensible réduise le nombre de supports amovibles au strict besoin opérationnel et préfère des solutions d'échange via le réseau.",
+            "fausses_reponses": [
+                "Autoriser tous les types de supports amovibles sans restriction.",
+                "Interdire totalement l'utilisation des supports amovibles.",
+                "Utiliser uniquement des supports amovibles personnels."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_9",
+            "chapitre": "5. Sécurisation au sein des SI sensibles",
+            "section": "5.7 Gestion des périphériques et des supports amovibles",
+            "question": "Quelle est la règle pour les supports amovibles utilisés sur un SI sensible ?",
+            "bonne_reponse": "Ils doivent être fournis par l'entité responsable du SI sensible, marqués, chiffrés, et stockés dans des meubles fermant à clé en dehors de leurs périodes d'utilisation.",
+            "extrait_source": "Les supports amovibles : sont fournis par l'entité responsable d'un SI sensible ; sont affectés à un seul utilisateur, et leur réaffectation est encadrée par une procédure validée par le RSSI ; sont préférentiellement marqués ; sont chiffrés suivant les recommandations R57 et R58 ; s'ils contiennent des données sensibles, doivent être stockés, en dehors de leurs périodes d'utilisation, dans des meubles fermant à clé.",
+            "fausses_reponses": [
+                "Ils peuvent être fournis par n'importe quelle entité tierce.",
+                "Ils n'ont pas besoin d'être chiffrés s'ils sont utilisés uniquement en interne.",
+                "Ils peuvent être partagés entre plusieurs utilisateurs."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1",
+            "chapitre": "6. Sécurisation des postes de travail sensibles",
+            "section": "6.1 Maîtrise des postes de travail des SI sensibles",
+            "question": "Qui doit maîtriser la sécurité des postes de travail utilisés pour l'accès aux informations sensibles ?",
+            "bonne_reponse": "L'entité mettant en œuvre le SI sensible.",
+            "extrait_source": "L'entité mettant en œuvre un SI sensible doit maîtriser la sécurité des postes de travail utilisés pour l'accès aux informations sensibles.",
+            "fausses_reponses": [
+                "Les utilisateurs finaux.",
+                "Un prestataire externe.",
+                "Le fabricant des postes de travail."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_2",
+            "chapitre": "6. Sécurisation des postes de travail sensibles",
+            "section": "6.1 Maîtrise des postes de travail des SI sensibles",
+            "question": "Quelle est la règle concernant l'installation de logiciels sur les postes de travail d'un SI sensible ?",
+            "bonne_reponse": "Les logiciels installés et leur configuration doivent être sous le contrôle exclusif du responsable du SI sensible.",
+            "extrait_source": "Les logiciels installés sur les postes de travail, et leur configuration, sont sous le contrôle exclusif du responsable du SI sensible.",
+            "fausses_reponses": [
+                "Les utilisateurs peuvent installer les logiciels de leur choix.",
+                "Les logiciels peuvent être installés par n'importe quel administrateur système.",
+                "Les logiciels doivent être open source."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_3",
+            "chapitre": "6. Sécurisation des postes de travail sensibles",
+            "section": "6.4 Nomadisme",
+            "question": "Quelle est la condition pour autoriser le nomadisme numérique sur un SI sensible ?",
+            "bonne_reponse": "Le service de nomadisme doit faire l'objet d'une justification métier et être intégré à l'analyse des risques conduite dans le cadre de la démarche d'homologation.",
+            "extrait_source": "Les accès nomades sont possibles mais doivent faire l'objet d'une justification métier et être intégrés à l'analyse des risques conduite dans le cadre de la démarche d'homologation.",
+            "fausses_reponses": [
+                "Le nomadisme est interdit sur tous les SI sensibles.",
+                "Le nomadisme est autorisé sans restriction pour les SI de classe 1.",
+                "Le nomadisme est réservé aux administrateurs."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_1",
+            "chapitre": "7. Administration des SI sensibles",
+            "section": "7.1 Généralités",
+            "question": "Quelle est la première étape pour l'administration d'un SI sensible selon le guide ?",
+            "bonne_reponse": "Mettre en place un SI d'administration dédié, physiquement ou logiquement cloisonné du SI sensible.",
+            "extrait_source": "Le chapitre 7 présente les bonnes pratiques d'administration des SI sensibles, incluant la mise en place d'un SI d'administration.",
+            "fausses_reponses": [
+                "Utiliser les mêmes postes de travail que ceux des utilisateurs finaux.",
+                "Externaliser l'administration à un prestataire sans supervision.",
+                "Administrer le SI sensible depuis un SI usuel."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2",
+            "chapitre": "7. Administration des SI sensibles",
+            "section": "7.5 Journalisation et supervision de sécurité",
+            "question": "Quelle est la recommandation pour la journalisation sur un SI sensible ?",
+            "bonne_reponse": "Toutes les actions doivent être journalisées et imputables à un utilisateur identifié, avec une supervision permanente pour détecter les canaux de communication suspects.",
+            "extrait_source": "Le SI sensible doit faire l'objet d'une supervision de sécurité permanente, permettant notamment de détecter des canaux de communication susceptibles d'exfiltrer des données via le réseau. [...] Toutes les données transitant par le système d'échanges sécurisés doivent être tracées et imputables à un utilisateur identifié.",
+            "fausses_reponses": [
+                "La journalisation est facultative pour les SI sensibles de classe 2.",
+                "Les journaux peuvent être stockés sur un SI usuel.",
+                "La supervision peut être désactivée en dehors des heures ouvrées."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_1",
+            "chapitre": "Annexe A",
+            "section": "Informations sensibles, DR et usuelles - Explications détaillées",
+            "question": "Quelle est la différence juridique entre les informations DR et les informations sensibles non DR ?",
+            "bonne_reponse": "Les informations DR bénéficient d'une protection juridique spécifique (restriction de diffusion), tandis que les informations sensibles non DR n'en bénéficient pas par défaut.",
+            "extrait_source": "Contrairement aux informations DR, les informations sensibles non DR ne bénéficient pas par défaut d'une protection juridique lorsqu'elles sont transférées à une entité tierce.",
+            "fausses_reponses": [
+                "Les informations sensibles non DR sont toujours publiques.",
+                "Les informations DR peuvent être librement diffusées sur Internet.",
+                "Il n'y a aucune différence juridique entre les deux."
+            ],
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_2",
+            "chapitre": "Annexe C",
+            "section": "Visas de sécurité",
+            "question": "Quelle est la différence entre une qualification et une certification de sécurité selon l'ANSSI ?",
+            "bonne_reponse": "La qualification est un niveau de confiance plus élevé que la certification, avec une évaluation plus poussée par l'ANSSI.",
+            "extrait_source": "Les visas de sécurité regroupent les produits et prestataires de service qualifiés ou certifiés par l'ANSSI, avec des niveaux de confiance différents.",
+            "fausses_reponses": [
+                "La certification est obligatoire pour les SI sensibles, tandis que la qualification est facultative.",
+                "La qualification est délivrée par des organismes privés, tandis que la certification est délivrée par l'ANSSI.",
+                "Il n'y a pas de différence entre les deux."
+            ],
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        }
+    ]
+}
