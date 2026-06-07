@@ -44,7 +44,7 @@
   --error: #f85149;
   --warning: #f8961e;
   --light: #2d343a;
-  --dark: #e0e0e0;
+  --dark: #ffffff;
   --gray: #9ca3af;
   --light-gray: #374151;
   --border: #4b5563;
@@ -185,7 +185,7 @@ h4 {
 }
 
 .dark-mode .option-card {
-  background: var(--dark);
+  background: var(--light);
   border-color: var(--border);
 }
 
@@ -316,7 +316,7 @@ h4 {
 }
 
 .dark-mode .validation-container {
-  background: var(--dark);
+  background: var(--light);
 }
 
 .validation-errors {
@@ -429,7 +429,7 @@ h4 {
 }
 
 .dark-mode .radio-group label {
-  background: var(--dark);
+  background: var(--light);
 }
 
 .radio-group label:hover {
@@ -525,7 +525,7 @@ h4 {
 }
 
 .dark-mode .question {
-  background: var(--dark);
+  background: var(--light);
 }
 
 .question:hover {
@@ -617,7 +617,7 @@ h4 {
 }
 
 .dark-mode #results {
-  background: var(--dark);
+  background: var(--light);
 }
 
 #score {
@@ -641,7 +641,7 @@ h4 {
 }
 
 .dark-mode .result-question {
-  background: var(--dark);
+  background: var(--light);
 }
 
 .result-question.correct {
@@ -755,7 +755,7 @@ h4 {
 }
 
 .dark-mode .button.secondary {
-  background: var(--dark);
+  background: var(--light);
   color: var(--primary);
 }
 
@@ -810,7 +810,7 @@ code {
 }
 
 .dark-mode code {
-  background: var(--dark);
+  background: var(--light);
 }
 
 /* ==================== Responsive ==================== */
@@ -913,7 +913,7 @@ code {
 }
 
 .dark-mode ::-webkit-scrollbar-track {
-  background: var(--dark);
+  background: var(--light);
 }
 
 ::-webkit-scrollbar-thumb {

@@ -60,19 +60,40 @@ document.addEventListener('DOMContentLoaded', () => {
   // Charger la liste des fichiers JSON disponibles
   async function loadAvailableJsonFiles() {
     try {
-      // En environnement navigateur, on ne peut pas lister les fichiers directement
-      // On va donc utiliser une approche alternative : essayer de charger les fichiers connus
-      // ou utiliser un endpoint si disponible
-      
-      // Pour le moment, on va simuler avec les fichiers qu'on connaît
-      // Dans une vraie application, il faudrait un backend ou une liste pré-définie
-      const knownFiles = [
+      // Liste des fichiers JSON à tester dans le dossier json/
+      // On essaie de charger plusieurs fichiers pour voir lesquels existent
+      const filesToTest = [
         'quiz_example.json',
-        'anssi_qcm_architectures_si_sensibles.json'
+        'anssi_qcm_architectures_si_sensibles.json',
+        'questions.json',
+        'quiz.json',
+        'data.json',
+        'examen.json',
+        'qcm.json',
+        'test.json'
       ];
       
-      availableJsonFiles = knownFiles;
-      displayAvailableJsonFiles();
+      availableJsonFiles = [];
+      
+      // Tester chaque fichier pour voir s'il existe
+      for (const fileName of filesToTest) {
+        try {
+          const response = await fetch(`json/${fileName}`);
+          if (response.ok) {
+            availableJsonFiles.push(fileName);
+          }
+        } catch (err) {
+          // Fichier non trouvé, on passe au suivant
+          console.log(`Fichier non trouvé: ${fileName}`);
+        }
+      }
+      
+      // Si aucun fichier trouvé, afficher un message
+      if (availableJsonFiles.length === 0) {
+        availableJsonList.innerHTML = '<p class="loading-placeholder">Aucun fichier JSON trouvé dans le dossier json/</p>';
+      } else {
+        displayAvailableJsonFiles();
+      }
     } catch (err) {
       console.error('Erreur lors du chargement des fichiers:', err);
       availableJsonList.innerHTML = '<p class="error">Impossible de charger la liste des fichiers JSON.</p>';
