@@ -59,32 +59,42 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Charger la liste des fichiers JSON disponibles
   async function loadAvailableJsonFiles() {
+    let filesToTest = [
+            {nom: 'NIS2', chemin : 'recyf_v2_5_qcm.json' },
+            {nom: 'Architecture', chemin : 'anssi_qcm_architectures_si_sensibles.json' },
+            {nom: 'IGI1300', chemin : 'igi_1300_qcm_final.json' }
+          ];
     try {
       // Liste des fichiers JSON à tester dans le dossier json/
-      // On essaie de charger plusieurs fichiers pour voir lesquels existent
-      const filesToTest = [
-        'recyf_v2_5_qcm.json',
-        'anssi_qcm_architectures_si_sensibles.json',
-        'questions.json',
-        'igi_1300_qcm_final.json',
-        'data.json',
-        'examen.json',
-        'qcm.json',
-        'test.json'
-      ];
-
+      // on essaie de charger le fichier liste_referentiels
+        const response = await fetch(`json/liste_referentiels.json`);
+        if (response.ok) {
+          filesToTest = await response.json();
+          const validation = validateListeJsonData(filesToTest, 'json/liste_referentiels.json'); 
+        } 
+        else {
+          console.log('Pas de fichier ou erreur sur liste_ referentiels.json, on utilise la liste par défaut');
+          // en cas d'échec on utilise une liste par défaut
+          filesToTest = [
+            {nom: 'NIS2', chemin : 'recyf_v2_5_qcm.json' },
+            {nom: 'Architecture', chemin : 'anssi_qcm_architectures_si_sensibles.json' },
+            {nom: 'IGI1300', chemin : 'igi_1300_qcm_final.json' }
+          ];
+        }
+      
+console.log(filesToTest);
       availableJsonFiles = [];
-
       // Tester chaque fichier pour voir s'il existe
       for (const fileName of filesToTest) {
+        console.log('A')
         try {
-          const response = await fetch(`json/${fileName}`,{ mode: 'no-cors' });
+          const response = await fetch(`json/${fileName.chemin}`);
           if (response.ok) {
             availableJsonFiles.push(fileName);
           }
         } catch (err) {
           // Fichier non trouvé, on passe au suivant
-          console.log(`Fichier non trouvé: ${fileName}`);
+          console.log(`Fichier non trouvé: ${fileName.chemin}`);
         }
       }
       
@@ -108,10 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let html = '<div class="checkbox-group">';
     availableJsonFiles.forEach(fileName => {
-      const displayName = fileName.replace('.json', '');
+      const displayName = fileName.nom;
       html += `
         <label class="json-checkbox">
-          <input type="checkbox" name="availableJson" value="${fileName}">
+          <input type="checkbox" name="availableJson" value="${fileName.chemin}">
           <span class="checkbox-custom"></span>
           <span class="json-name">${displayName}</span>
         </label>
@@ -273,6 +283,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }
+    
+    return {
+      isValid: errors.length === 0,
+      errors: errors
+    };
+  }
+
+  function validateListeJsonData(data, fileName) {
+    const errors = [];
+    if (data) {
+      errors.push('Fichier vide ou invalide');
+      return { isValid: false, errors };
+    }
+    
+    if (!Array.isArray(data)) {
+      errors.push('Le fichier n\'est pas un tableau');
+    }
+
+    if (data.length === 0) {
+      errors.push('Fichier vide ou invalide');
+      return { isValid: false, errors };
+    }
+    
+    // Valider chaque entrée
+    data.forEach((q, index) => {
+      if (!q.nom) {
+        errors.push(`Entrée ${index + 1}: le champ "nom" est manquant`);
+      }
+      if (!q.chemin) {
+          errors.push(`Entrée ${index + 1}: le champ "chemin" est manquant`);
+      }
+        
+    });
     
     return {
       isValid: errors.length === 0,
@@ -541,7 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ${q.difficulte ? `<span class="difficulty">${q.difficulte}</span>` : ''}
       </div>
     `;
-
+      //${metadataHtml} etait dans innerHTML
     questionDiv.innerHTML = `
       ${metadataHtml}
       <h3>Question ${index + 1}${q.difficulte ? ` (${q.difficulte})` : ''}</h3>
