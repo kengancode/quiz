@@ -63,22 +63,22 @@ document.addEventListener('DOMContentLoaded', () => {
       // Liste des fichiers JSON à tester dans le dossier json/
       // On essaie de charger plusieurs fichiers pour voir lesquels existent
       const filesToTest = [
-        'quiz_example.json',
+        'recyf_v2_5_qcm.json',
         'anssi_qcm_architectures_si_sensibles.json',
         'questions.json',
-        'quiz.json',
+        'igi_1300_qcm_final.json',
         'data.json',
         'examen.json',
         'qcm.json',
         'test.json'
       ];
-      
+
       availableJsonFiles = [];
-      
+
       // Tester chaque fichier pour voir s'il existe
       for (const fileName of filesToTest) {
         try {
-          const response = await fetch(`json/${fileName}`);
+          const response = await fetch(`json/${fileName}`,{ mode: 'no-cors' });
           if (response.ok) {
             availableJsonFiles.push(fileName);
           }
@@ -750,6 +750,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==================== Initialisation ====================
+
   loadThemePreference();
   loadAvailableJsonFiles();
   updateNextBtn1State();
