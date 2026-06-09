@@ -1,6 +1,6 @@
 # Quiz Application
 
-Une application web de quiz complète avec 3 écrans permettant de charger un ou plusieurs fichiers JSON de questions, sélectionner le nombre de questions, et répondre à un QCM avec affichage détaillé des résultats.
+Une application web légère de quiz complète permettant de charger un ou plusieurs fichiers JSON de questions, sélectionner le nombre de questions, et répondre à un QCM avec affichage détaillé des résultats.
 
 ## 📁 Structure du projet
 
@@ -21,8 +21,8 @@ quiz-app/
 L'application propose **4 options** pour charger les questions :
 
 1. **Sélectionner un ou plusieurs référentiels existants**
-   - Liste à choix multiples des fichiers JSON disponibles dans le dossier `json/`
-   - Affichage du titre du JSON (champ `metadata.titre`)
+   - Liste à choix multiples des fichiers Quiz au format JSON disponibles depuis le fichier  json/liste_referentiels.json. Par défaut les référentiels sont stockés dans le dossier json
+   - Affichage du nom du référentiel (champ `nom`)
    - Sélection multiple possible
 
 2. **Télécharger un fichier JSON**
@@ -47,7 +47,7 @@ L'application propose **4 options** pour charger les questions :
 ### Écran 2: Sélection du nombre de questions
 - Boutons radio pour 5, 10, 20 ou 100 questions
 - Champ libre pour un nombre personnalisé
-- Validation que le nombre ne dépasse pas le total disponible
+- Validation que le nombre ne dépasse pas le total disponible sinon l'application utilise le nombre total de questions
 - Affichage du nombre total de questions disponibles
 - Bouton "Retour" pour revenir à l'écran 1
 
@@ -57,9 +57,7 @@ L'application propose **4 options** pour charger les questions :
   - Afficher les questions une par une avec navigation Précédent/Suivant
 
 - **Pour chaque question** :
-  - Affichage du nom du référentiel source
-  - Affichage du chapitre et de la section
-  - Texte de la question avec indication de difficulté
+  - Texte de la question 
   - Réponses mélangées aléatoirement (bonne réponse + fausses réponses)
   - Sélection par boutons radio
 
@@ -88,7 +86,7 @@ L'application propose **4 options** pour charger les questions :
 
 ## 📋 Format du JSON
 
-Le fichier JSON doit contenir un objet avec `metadata` et un tableau `questions` :
+Le fichier JSON des quiz doit contenir un objet avec `metadata` et un tableau `questions` :
 
 ```json
 {
@@ -118,7 +116,7 @@ Le fichier JSON doit contenir un objet avec `metadata` et un tableau `questions`
 }
 ```
 
-### Champs requis
+ Champs requis
 - `id` : Identifiant unique de la question
 - `question` : Texte de la question
 - `bonne_reponse` : La réponse correcte
@@ -131,6 +129,27 @@ Le fichier JSON doit contenir un objet avec `metadata` et un tableau `questions`
 - `difficulte` : Niveau de difficulté (Facile, Moyen, Difficile)
 - `figure_associee` : Référence à une image (non utilisé actuellement)
 
+Le fichier liste_referentiels.json a le format suivant :
+```json
+[
+  {
+    "nom": "Quiz 1",
+    "chemin": "quiz1.json"
+  },
+  {
+    "nom": "Quiz 2",
+    "chemin": "quiz2.json"
+  }
+  
+]
+```
+
+ Champs requis
+- `nom` : Nom d'affichage du quiz
+- `chemin` : Chemin (peut être une URL) de chargement du quiz
+
+
+###
 ## 🚀 Utilisation
 
 1. **Ouvrir l'application** : Ouvrez `index.html` dans un navigateur web moderne
@@ -157,6 +176,10 @@ Le fichier JSON doit contenir un objet avec `metadata` et un tableau `questions`
   - Persistance des préférences (localStorage)
 - **Pas de dépendances externes**
 
+- Pour exécuter localement vous pouvez utiliser :
+  - Linux : A Dead Simple Fileserver (ADSF - https://github.com/denisdefreyne/adsf/)
+  - Windows : Simple Web Server (https://simplewebserver.org/)
+
 ## 🎯 Compatibilité
 
 Testé et fonctionnel sur les navigateurs modernes :
@@ -174,11 +197,43 @@ Vous pouvez facilement :
 - **Modifier la logique** : Adaptez le code dans `script.js`
 - **Changer les options** : Modifiez les boutons radio dans l'écran 2
 
-## 📊 Exemples de fichiers JSON
+## 📊 Modification de la liste des quiz par défaut
 
-L'application inclut deux fichiers JSON d'exemple :
-- `quiz_example.json` : 2 questions simples sur l'histoire et la géographie
+L'ajout se fait en mettant à jour le fichier liste_referentiels.json dans le dossier json. Cela doit être fait par un utilisateur pouvant éditer ce fichier.
+Le fichier peut pointer n'importe où mais il est recommandé de stocker les json dans le dossier json. Par exemple, l'application contient des référentiels publics ANSSI tels que :
 - `anssi_qcm_architectures_si_sensibles.json` : 42 questions sur la cybersécurité (ANSSI)
+
+## 📊 Création d'un quiz à partir d'un document existant
+
+Pour générer un fichier JSON à partir du référentiel, tu peux utiliser une IA avec le prompt suivant : 
+```
+ partir du fichier INSERERNOM génères une matrice pour chaque exigence ou chapitre une question qcm, la bonne réponse, l'extrait du texte incluant les images et 3 fausses réponses.  Fais cela pour l'intégralité du document et génères un Fichier de sortie json au format suivant :
+ {
+  "metadata": {
+      "titre": "Nom du référentiel",
+      "source": "Nom du document",
+      "date_creation": "Date de création du JSON",
+      "nombre_questions": 2,
+      "chapitres_couverts": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ]
+    },
+  "questions": [
+    {
+      "id" : "Q1_1",
+      "chapitre" : "Chapitre 1",
+      "section" : "section",
+      "question": "Quelle est la capitale de la France ?",
+      "bonne_reponse": "Paris",
+      "fausses_reponses": ["Londres", "Berlin", "Madrid"],
+      "extrait_source": "Paris est la capitale de la France depuis le Xe siècle.",
+      "difficulte" : "Difficulté",
+      "figure_associee": null
+    }
+  ]
+}
+```
 
 ## 💡 Conseils
 
@@ -191,6 +246,7 @@ L'application inclut deux fichiers JSON d'exemple :
 
 ### v2.0 (actuelle)
 - Ajout des 4 options de chargement JSON
+- Chargement de la liste des Quiz depuis le fichier liste_referentiels.json
 - Validation multiple des fichiers
 - Mode question par question ou toutes ensemble
 - Bouton de bascule mode clair/sombre
@@ -204,7 +260,7 @@ L'application inclut deux fichiers JSON d'exemple :
 
 ## 🤝 Auteur
 
-Application créée avec Mistral Vibe
+Application créée par Gérald Grévrend avec Mistral Vibe
 
 ## 📄 Licence
 
