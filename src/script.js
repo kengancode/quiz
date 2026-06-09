@@ -521,12 +521,23 @@ console.log(filesToTest);
   // ==================== Écran 3: Quiz ====================
   
   const getRandomQuestions = (count) => {
-    const shuffled = [...quizData.questions].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, count);
+    for (let i = [...quizData.questions].length - 1; i > 0; i--) {
+    	const j = Math.floor(Math.random() * (i + 1));
+    	[[...quizData.questions][i], [...quizData.questions][j]] = [[...quizData.questions][j], [...quizData.questions][i]];
+  	}
+  	return [...quizData.questions].slice(0, count);
+    //ancienne méthode
+    // //const shuffled = [...quizData.questions].sort(() => 0.5 - Math.random());
+    //return shuffled.slice(0, count);
   };
 
   const shuffleArray = (array) => {
-    return [...array].sort(() => 0.5 - Math.random());
+    for (let i = [...array].length - 1; i > 0; i--) {
+    	const j = Math.floor(Math.random() * (i + 1));
+    	[[...array][i], [...array][j]] = [[...array][j], [...array][i]];
+  	}
+  	return [...array];
+    //ancienne méthode : return [...array].sort(() => 0.5 - Math.random());
   };
 
   function renderQuiz() {
@@ -580,7 +591,7 @@ console.log(filesToTest);
 
     // Ajouter les métadonnées de la question
     const metadataHtml = `
-      <div class="question-metadata" style="visibility: hidden ; display:inline;">
+      <div class="question-metadata" style="visibility: hidden ; display:none;">
         <span class="source">📚 ${q.sourceTitle || q.sourceFile}</span>
         ${q.chapitre ? `<span class="chapitre">📖 ${q.chapitre}</span>` : ''}
         ${q.section ? `<span class="section">📝 ${q.section}</span>` : ''}
