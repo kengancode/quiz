@@ -1,0 +1,888 @@
+{
+    "metadata": {
+        "titre": "Instruction interministérielle relative à la protection des systèmes d'information sensibles",
+        "source": "cir_39217.pdf",
+        "date_creation": "2026-06-09",
+        "nombre_questions": 58,
+        "chapitres_couverts": [
+            "Annexe 2 - Différentes classes de réseau",
+            "Titre II - Protection des systèmes d'information sensibles",
+            "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "Titre I - Définition et périmètre",
+            "Titre IV - Dispositions transitoires et finales",
+            "Titre III - Protection des systèmes d'information Diffusion Restreinte"
+        ]
+    },
+    "questions": [
+        {
+            "id": "Q1_1",
+            "chapitre": "Titre I - Définition et périmètre",
+            "section": "Article 1 : Définitions",
+            "question": "Quelle est la définition des systèmes d'information sensibles ?",
+            "bonne_reponse": "Les systèmes d'information sensibles sont ceux qui traitent d'informations dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité sont de nature à porter atteinte à la réalisation des objectifs des entités qui les mettent en œuvre.",
+            "fausses_reponses": [
+                "Les systèmes d'information sensibles sont ceux qui sont uniquement utilisés par les administrations de l'État.",
+                "Les systèmes d'information sensibles sont ceux qui ne traitent que des informations publiques.",
+                "Les systèmes d'information sensibles sont ceux qui sont protégés par un mot de passe."
+            ],
+            "extrait_source": "Les systèmes d'information sensibles sont ceux qui traitent d'informations dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité sont de nature à porter atteinte à la réalisation des objectifs des entités qui les mettent en œuvre.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_2",
+            "chapitre": "Titre I - Définition et périmètre",
+            "section": "Article 1 : Définitions",
+            "question": "Que sont les systèmes d'information Diffusion Restreinte ?",
+            "bonne_reponse": "Les systèmes d'information Diffusion Restreinte sont les systèmes d'information sensibles qui traitent d'informations portant la mention Diffusion Restreinte ou ses équivalentes européennes ou internationales.",
+            "fausses_reponses": [
+                "Les systèmes d'information Diffusion Restreinte sont ceux qui sont utilisés uniquement par les militaires.",
+                "Les systèmes d'information Diffusion Restreinte sont ceux qui ne contiennent que des informations publiques.",
+                "Les systèmes d'information Diffusion Restreinte sont ceux qui sont protégés par un pare-feu."
+            ],
+            "extrait_source": "Les systèmes d'information Diffusion Restreinte sont les systèmes d'information sensibles qui traitent d'informations portant la mention Diffusion Restreinte ou ses équivalentes européennes ou internationales.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_3",
+            "chapitre": "Titre I - Définition et périmètre",
+            "section": "Article 2 : Champ d'application",
+            "question": "À qui s'applique l'instruction relative à la protection des systèmes d'information sensibles ?",
+            "bonne_reponse": "L'instruction s'applique aux administrations de l'État, aux entités publiques ou privées soumises à la réglementation relative à la protection du potentiel scientifique et technique de la nation (PPST), et à toute autre entité publique ou privée qui met en œuvre des systèmes d'information Diffusion Restreinte.",
+            "fausses_reponses": [
+                "L'instruction s'applique uniquement aux administrations de l'État.",
+                "L'instruction s'applique uniquement aux entités privées.",
+                "L'instruction s'applique uniquement aux entités publiques."
+            ],
+            "extrait_source": "L'instruction s'applique aux administrations de l'État, aux entités publiques ou privées soumises à la réglementation relative à la protection du potentiel scientifique et technique de la nation (PPST), et à toute autre entité publique ou privée qui met en œuvre des systèmes d'information Diffusion Restreinte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_4",
+            "chapitre": "Titre I - Définition et périmètre",
+            "section": "Article 3 : Principes stratégiques appliqués",
+            "question": "Quels sont les cinq principes stratégiques appliqués dans l'instruction ?",
+            "bonne_reponse": "Mettre en place une organisation dédiée à la sécurité, évaluer les risques périodiquement, défendre en profondeur, respecter les règles d'hygiène informatique, recourir à des produits de sécurité agréés ou certifiés.",
+            "fausses_reponses": [
+                "Utiliser uniquement des logiciels open source, former les utilisateurs une fois par an, limiter l'accès aux locaux sensibles, externaliser la sécurité.",
+                "Centraliser la gestion des mots de passe, utiliser des pare-feu, former les administrateurs, externaliser les données.",
+                "Chiffrer toutes les données, utiliser des antivirus, limiter l'accès physique, former les utilisateurs."
+            ],
+            "extrait_source": "Mettre en place une organisation dédiée à la sécurité des systèmes d'information, incluant des volets préventifs et défensifs et reposant sur des moyens humains, matériels et financiers identifiés ; évaluer les risques périodiquement, dans une démarche d'amélioration continue ; défendre en profondeur ; respecter les règles élémentaires d'hygiène informatique ; recourir à des produits de sécurité agréés, qualifiés ou, à défaut, certifiés et à des prestataires de services de confiance qualifiés par l'ANSSI.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q1_5",
+            "chapitre": "Titre I - Définition et périmètre",
+            "section": "Article 4 : Application des règles",
+            "question": "Que doivent appliquer les administrations de l'État qui mettent en œuvre des systèmes d'information sensibles ?",
+            "bonne_reponse": "Les administrations de l'État qui mettent en œuvre des systèmes d'information sensibles appliquent la politique de sécurité des systèmes d'information de l'État (PSSIE).",
+            "fausses_reponses": [
+                "Elles doivent appliquer uniquement les règles de l'ANSSI.",
+                "Elles doivent appliquer les règles de l'Union Européenne.",
+                "Elles doivent appliquer les règles de l'OTAN."
+            ],
+            "extrait_source": "Les administrations de l'État qui mettent en œuvre des systèmes d'information sensibles appliquent la politique de sécurité des systèmes d'information de l'État (PSSIE).",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_1",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 5 : Détermination de la sensibilité des informations",
+            "question": "Que doit faire chaque entité mettant en œuvre un système d'information sensible concernant l'information sensible ?",
+            "bonne_reponse": "Identifier l'information sensible, la marquer, déterminer une échelle de sensibilité, et appliquer des mesures de protection adaptées.",
+            "fausses_reponses": [
+                "Chiffrer toutes les informations sensibles et les stocker dans un cloud public.",
+                "Supprimer toutes les informations sensibles après utilisation.",
+                "Partager toutes les informations sensibles avec les partenaires externes."
+            ],
+            "extrait_source": "Chaque entité mettant en œuvre un système d'information sensible identifie l'information sensible qu'elle traite, marque cette information, détermine une échelle de sensibilité, et applique des mesures de protection adaptées.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_2",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 6 : Gouvernance de la protection des systèmes d'information",
+            "question": "Que doit appliquer chaque entité en matière de gouvernance de la protection des systèmes d'information ?",
+            "bonne_reponse": "Chaque entité applique une politique de sécurité des systèmes d'information (PSSI), validée au plus haut niveau, et organise la gouvernance et attribue les responsabilités en matière de sécurité.",
+            "fausses_reponses": [
+                "Chaque entité doit externaliser la gouvernance de la sécurité.",
+                "Chaque entité doit nommer un seul responsable pour toute la sécurité.",
+                "Chaque entité doit utiliser uniquement des outils open source pour la gouvernance."
+            ],
+            "extrait_source": "Chaque entité applique une politique de sécurité des systèmes d'information (PSSI), validée au plus haut niveau de l'entité et couvrant tous les aspects, techniques ou non, de la sécurité. Elle organise la gouvernance et attribue les responsabilités en matière de sécurité des systèmes d'information.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_3",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 7 : Maîtrise des risques",
+            "question": "Sur quoi repose la PSSI de l'entité en matière de maîtrise des risques ?",
+            "bonne_reponse": "La PSSI résulte d'une analyse des risques menée pour tous les risques, pour chaque système d'information, en appréciant l'impact qu'une menace pourrait avoir sur les missions de l'entité, son image, son patrimoine ou la sécurité des biens et des personnes.",
+            "fausses_reponses": [
+                "La PSSI repose uniquement sur des audits externes.",
+                "La PSSI repose uniquement sur des logiciels de détection d'intrusion.",
+                "La PSSI repose uniquement sur des pare-feu et des antivirus."
+            ],
+            "extrait_source": "La PSSI de l'entité résulte d'une analyse des risques menée pour tous les risques, pas seulement techniques, qu'ils soient d'origine humaine ou non, pour chacun des systèmes d'information de l'entité, en appréciant l'impact qu'une menace sur un composant du système pourrait avoir sur les missions de l'entité, son image, son patrimoine ou la sécurité des biens et des personnes.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_4",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 8 : Homologation des systèmes d'information sensibles",
+            "question": "Que doit faire tout système d'information sensible avant sa mise en service ?",
+            "bonne_reponse": "Tout système d'information sensible doit faire l'objet d'une homologation de sécurité avant sa mise en service.",
+            "fausses_reponses": [
+                "Il doit être certifié ISO 27001.",
+                "Il doit être validé par un organisme international.",
+                "Il doit être testé par des hackers éthiques."
+            ],
+            "extrait_source": "Tout système d'information sensible doit faire l'objet d'une homologation de sécurité avant sa mise en service.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_5",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 9 : Protection des systèmes d'information",
+            "question": "Sur quoi repose la protection des systèmes d'information selon l'article 9 ?",
+            "bonne_reponse": "La protection repose sur des volets physique, logique et organisationnel.",
+            "fausses_reponses": [
+                "La protection repose uniquement sur des pare-feu.",
+                "La protection repose uniquement sur des antivirus.",
+                "La protection repose uniquement sur des audits annuels."
+            ],
+            "extrait_source": "La protection repose sur plusieurs volets : physique, logique, et organisationnel.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_6",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 10 : Gestion des incidents de sécurité des systèmes d'information",
+            "question": "Que doit faire une entité pour se préparer à subir des attaques sur ses systèmes d'information ?",
+            "bonne_reponse": "Elle intègre la sécurité des systèmes d'information dans ses procédures de gestion de crise et dans ses exercices périodiques, et se dote d'une capacité de détection, d'analyse, de qualification et de réaction.",
+            "fausses_reponses": [
+                "Elle doit externaliser la gestion des incidents.",
+                "Elle doit ignorer les incidents mineurs.",
+                "Elle doit attendre une attaque pour agir."
+            ],
+            "extrait_source": "Même protégée, l'entité se prépare à subir des attaques sur ses systèmes d'information. Elle intègre la sécurité des systèmes d'information dans ses procédures de gestion de crise et dans ses exercices périodiques. Pour être en mesure d'agir, elle se dote d'une capacité de détection, d'analyse, de qualification et de réaction.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_7",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 11 : Évaluation du niveau de sécurité",
+            "question": "Que doit faire l'entité concernant l'évaluation du niveau de sécurité de ses systèmes d'information ?",
+            "bonne_reponse": "L'entité évalue en permanence le niveau de sécurité de ses systèmes d'information et les risques résiduels, effectue régulièrement des vérifications et réalise des audits fonctionnels et techniques.",
+            "fausses_reponses": [
+                "L'entité doit évaluer le niveau de sécurité une fois par an.",
+                "L'entité doit externaliser l'évaluation du niveau de sécurité.",
+                "L'entité doit ignorer les risques résiduels."
+            ],
+            "extrait_source": "L'entité évalue en permanence le niveau de sécurité de ses systèmes d'information et les risques résiduels. Elle effectue régulièrement des vérifications et réalise des audits fonctionnels et techniques de sécurité des systèmes d'information.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q2_8",
+            "chapitre": "Titre II - Protection des systèmes d'information sensibles",
+            "section": "Article 12 : Relations avec les autorités de l'État",
+            "question": "Que doit faire chaque entité en matière de coopération avec les autorités de l'État ?",
+            "bonne_reponse": "Chaque entité coopère avec les autorités de l'État, comme l'ANSSI ou les ministères de tutelle, pour assurer la sécurité de ses systèmes d'information.",
+            "fausses_reponses": [
+                "Chaque entité doit refuser toute coopération avec les autorités de l'État.",
+                "Chaque entité doit externaliser la coopération avec les autorités de l'État.",
+                "Chaque entité doit attendre une crise pour coopérer avec les autorités de l'État."
+            ],
+            "extrait_source": "Sans préjudice des dispositions législatives et réglementaires spéciales, chaque entité coopère avec les autorités de l'État telles que l'ANSSI ou les ministères de tutelle pour assurer la sécurité de ses systèmes d'information.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_1",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 13 : Homologation des systèmes d'information Diffusion Restreinte",
+            "question": "Que prévoit l'homologation des systèmes d'information Diffusion Restreinte ?",
+            "bonne_reponse": "L'homologation prévoit la manière dont est contrôlée et maîtrisée la destruction du système lui-même ou d'autres supports ayant contenu des informations portant la mention Diffusion Restreinte.",
+            "fausses_reponses": [
+                "L'homologation prévoit uniquement la certification ISO 27001.",
+                "L'homologation prévoit uniquement l'utilisation de logiciels open source.",
+                "L'homologation prévoit uniquement des audits externes."
+            ],
+            "extrait_source": "Tout système d'information Diffusion Restreinte est homologué à ce titre dans les conditions prévues à l'article 8. L'homologation prévoit en particulier la manière dont est contrôlée et maîtrisée la destruction du système lui-même ou d'autres supports ayant contenu des informations portant la mention Diffusion Restreinte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 14 : Traitement des informations portant la mention Diffusion Restreinte",
+            "question": "Sur quels types de réseaux le traitement en clair des informations Diffusion Restreinte peut-il s'effectuer ?",
+            "bonne_reponse": "Le traitement en clair des informations Diffusion Restreinte s'effectue sur des réseaux de classe 1 ou 2.",
+            "fausses_reponses": [
+                "Le traitement en clair peut s'effectuer sur n'importe quel réseau.",
+                "Le traitement en clair peut s'effectuer uniquement sur des réseaux de classe 0.",
+                "Le traitement en clair peut s'effectuer uniquement sur des réseaux privés."
+            ],
+            "extrait_source": "Le traitement en clair des informations portant la mention Diffusion Restreinte, notamment leur stockage et leur diffusion, s'effectue sur des réseaux de classe 1 ou 2. Le choix d'un réseau de classe 2 est fortement recommandé.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 15 : Protection physique des locaux",
+            "question": "Quels sont les objectifs des mesures de sécurité physique des locaux pour les informations Diffusion Restreinte ?",
+            "bonne_reponse": "Prévenir la perte, l'altération ou la détérioration d'une information Diffusion Restreinte et recueillir des informations pour résoudre des incidents informatiques.",
+            "fausses_reponses": [
+                "Les mesures de sécurité physique visent uniquement à empêcher l'accès aux locaux.",
+                "Les mesures de sécurité physique visent uniquement à surveiller les employés.",
+                "Les mesures de sécurité physique visent uniquement à protéger contre les incendies."
+            ],
+            "extrait_source": "Les mesures de sécurité physique sont choisies en proportion des menaces déterminées par l'analyse des risques. Elles ont pour objectif de prévenir la perte, l'altération ou la détérioration d'une information portant la mention Diffusion Restreinte et de recueillir des informations pour résoudre des incidents informatiques.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_4",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 16 : Externalisation",
+            "question": "Que doivent faire l'entité et son prestataire en cas d'externalisation d'une prestation mettant en œuvre un système d'information Diffusion Restreinte ?",
+            "bonne_reponse": "L'entité et son prestataire tiennent compte des recommandations du guide de l'ANSSI relatif à l'externalisation, et le contrat garantit la conformité du système d'information aux règles prévues par l'instruction.",
+            "fausses_reponses": [
+                "L'entité et son prestataire doivent ignorer les recommandations de l'ANSSI.",
+                "L'entité et son prestataire doivent externaliser uniquement à l'étranger.",
+                "L'entité et son prestataire doivent utiliser uniquement des logiciels open source."
+            ],
+            "extrait_source": "En cas d'externalisation d'une prestation qui met en œuvre un système d'information Diffusion Restreinte, l'entité et son prestataire tiennent compte des recommandations figurant dans le guide de l'ANSSI relatif à l'externalisation. Le contrat qui les lie garantit la conformité du système d'information aux règles prévues par la présente instruction.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 17 : Utilisation en milieu non maîtrisé",
+            "question": "Comment doivent être traitées les informations Diffusion Restreinte contenues dans des dispositifs nomades ?",
+            "bonne_reponse": "Les informations Diffusion Restreinte contenues dans des dispositifs nomades sont chiffrées par des moyens agréés par l'ANSSI.",
+            "fausses_reponses": [
+                "Les informations Diffusion Restreinte ne doivent pas être stockées sur des dispositifs nomades.",
+                "Les informations Diffusion Restreinte doivent être accessibles sans chiffrement.",
+                "Les informations Diffusion Restreinte doivent être stockées uniquement sur des serveurs."
+            ],
+            "extrait_source": "Les informations portant la mention Diffusion Restreinte contenues dans des dispositifs nomades (ordinateurs portables, média amovibles, téléphones, etc.) sont chiffrées par des moyens agréés par l'ANSSI, afin de limiter le risque de divulgation en cas de perte ou de vol.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_6",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 18 : Supports audiovisuels",
+            "question": "Que doit vérifier le responsable de la diffusion avant de diffuser des informations Diffusion Restreinte sur un support audiovisuel ?",
+            "bonne_reponse": "Le responsable de la diffusion vérifie que les participants ont besoin d'en connaître et s'assure que les systèmes d'information utilisés sont homologués.",
+            "fausses_reponses": [
+                "Le responsable de la diffusion doit vérifier que les participants sont des employés de l'entité.",
+                "Le responsable de la diffusion doit vérifier que les systèmes d'information sont certifiés ISO 27001.",
+                "Le responsable de la diffusion doit vérifier que les informations sont publiques."
+            ],
+            "extrait_source": "Avant de diffuser des informations portant la mention Diffusion Restreinte sur un support audiovisuel, le responsable de la diffusion vérifie que les participants ont besoin d'en connaître. Il s'assure également que les systèmes d'information utilisés sont homologués pour traiter des informations portant la mention Diffusion Restreinte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_7",
+            "chapitre": "Titre III - Protection des systèmes d'information Diffusion Restreinte",
+            "section": "Article 19 : Autorisations de dérogation",
+            "question": "Qui peut accorder des dérogations aux règles prévues par l'instruction pour un système d'information Diffusion Restreinte ?",
+            "bonne_reponse": "Le haut fonctionnaire de défense et de sécurité du ministère dont relève l'entité peut accorder des dérogations.",
+            "fausses_reponses": [
+                "Seul le Premier ministre peut accorder des dérogations.",
+                "Seul le président de la République peut accorder des dérogations.",
+                "Seul le directeur de l'ANSSI peut accorder des dérogations."
+            ],
+            "extrait_source": "Lorsque les circonstances l'imposent, des dérogations, limitées dans le temps, aux règles prévues par la présente instruction peuvent être accordées à une entité pour un système d'information Diffusion Restreinte qu'elle met en œuvre. Les dérogations sont accordées par le haut fonctionnaire de défense et de sécurité du ministère dont relève l'entité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_1",
+            "chapitre": "Titre IV - Dispositions transitoires et finales",
+            "section": "Article 20 : Dispositions transitoires",
+            "question": "Quel délai est accordé aux entités pour mettre en conformité leurs systèmes d'information Diffusion Restreinte ?",
+            "bonne_reponse": "Les entités disposent d'un délai de trois ans à compter de la date de publication de l'instruction.",
+            "fausses_reponses": [
+                "Les entités disposent d'un délai d'un an.",
+                "Les entités disposent d'un délai de cinq ans.",
+                "Les entités disposent d'un délai de six mois."
+            ],
+            "extrait_source": "Les entités disposent d'un délai de trois ans à compter de la date de publication de la présente instruction pour mettre en conformité avec les règles qu'elle prévoit leurs systèmes d'information Diffusion Restreinte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_2",
+            "chapitre": "Titre IV - Dispositions transitoires et finales",
+            "section": "Article 21 : Abrogation",
+            "question": "Quelles recommandations l'instruction abroge-t-elle ?",
+            "bonne_reponse": "L'instruction abroge la recommandation n° 901/DISSI/SCSSI du 2 mars 1994 et la recommandation n° 600/DISSI/SCSSI de mars 1993.",
+            "fausses_reponses": [
+                "L'instruction abroge uniquement la recommandation n° 901/DISSI/SCSSI.",
+                "L'instruction abroge uniquement la recommandation n° 600/DISSI/SCSSI.",
+                "L'instruction abroge toutes les recommandations antérieures."
+            ],
+            "extrait_source": "La présente instruction abroge la recommandation n° 901/DISSI/SCSSI du 2 mars 1994 pour la protection des systèmes d'information traitant des informations sensibles non classifiées de défense et la recommandation n° 600/DISSI/SCSSI de mars 1993 pour la protection des informations sensibles ne relevant pas du secret de défense.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_1",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 1 : Organisation SSI",
+            "question": "Que doit faire chaque entité en matière d'organisation de la SSI ?",
+            "bonne_reponse": "Chaque entité doit déployer une organisation dédiée à la SSI, définissant les responsabilités internes et externes, et écrire des procédures d'application des mesures.",
+            "fausses_reponses": [
+                "Chaque entité doit externaliser toute l'organisation de la SSI.",
+                "Chaque entité doit utiliser uniquement des outils open source pour la SSI.",
+                "Chaque entité doit ignorer les responsabilités en matière de SSI."
+            ],
+            "extrait_source": "Une organisation dédiée à la SSI est déployée au sein de chaque entité. Cette organisation définit les responsabilités internes et à l'égard des tiers, les modalités de coordination avec les autorités externes ainsi que les modalités d'application des mesures de protection. Des procédures d'application des mesures sont écrites et portées à la connaissance de tous.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_2",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 2 : Ressources humaines",
+            "question": "Que doit faire chaque entité concernant la charte d'application de la SSI ?",
+            "bonne_reponse": "Chaque entité doit communiquer une charte d'application de la PSSI à tous ses agents, récapitulant les mesures pratiques d'utilisation sécurisée des ressources informatiques.",
+            "fausses_reponses": [
+                "Chaque entité doit imposer une charte sans la communiquer.",
+                "Chaque entité doit externaliser la rédaction de la charte.",
+                "Chaque entité doit ignorer la charte d'application de la SSI."
+            ],
+            "extrait_source": "Une charte d'application de la PSSI, récapitulant les mesures pratiques d'utilisation sécurisée des ressources informatiques et élaborée sous le pilotage de la chaîne fonctionnelle de la SSI, est communiquée à l'ensemble des agents de chaque entité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_3",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 3 : Gestion des biens",
+            "question": "Que doit faire chaque entité concernant l'inventaire des ressources informatiques ?",
+            "bonne_reponse": "Chaque entité doit établir et maintenir à jour un inventaire des ressources informatiques sous sa responsabilité.",
+            "fausses_reponses": [
+                "Chaque entité doit externaliser la gestion de l'inventaire.",
+                "Chaque entité doit ignorer l'inventaire des ressources informatiques.",
+                "Chaque entité doit utiliser uniquement des outils open source pour l'inventaire."
+            ],
+            "extrait_source": "Chaque entité établit et maintient à jour un inventaire des ressources informatiques sous sa responsabilité, en s'appuyant sur un outillage adapté.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_4",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 5 : Intégration de la SSI dans le cycle de vie des systèmes d'information",
+            "question": "Que doit faire toute entité concernant l'homologation de sécurité des systèmes d'information ?",
+            "bonne_reponse": "Tout système d'information doit faire l'objet d'une décision d'homologation de sa sécurité avant sa mise en exploitation.",
+            "fausses_reponses": [
+                "L'homologation de sécurité est facultative.",
+                "L'homologation de sécurité peut être externalisée.",
+                "L'homologation de sécurité est uniquement nécessaire pour les systèmes critiques."
+            ],
+            "extrait_source": "Tout système d'information doit faire l'objet d'une décision d'homologation de sa sécurité avant sa mise en exploitation. L'homologation est l'acte selon lequel une autorité atteste formellement que le système d'information est protégé conformément aux objectifs de sécurité fixés.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_5",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 7 : Utilisation de produits et services labellisés",
+            "question": "Que doivent utiliser les entités lorsqu'ils sont disponibles ?",
+            "bonne_reponse": "Les entités doivent utiliser des produits de sécurité ou des services de confiance labellisés (agréés, qualifiés ou certifiés) par l'ANSSI.",
+            "fausses_reponses": [
+                "Les entités doivent utiliser uniquement des produits open source.",
+                "Les entités doivent utiliser uniquement des produits internationaux.",
+                "Les entités doivent ignorer les produits labellisés."
+            ],
+            "extrait_source": "Lorsqu'ils sont disponibles, des produits de sécurité ou des services de confiance labellisés (agréés, qualifiés ou certifiés) par l'ANSSI doivent être utilisés.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA2_1",
+            "chapitre": "Annexe 2 - Différentes classes de réseau",
+            "section": "Définition des classes de réseau",
+            "question": "Qu'est-ce qu'un réseau de classe 0 ?",
+            "bonne_reponse": "Un réseau de classe 0 est un réseau public (Internet, etc.) ou un réseau connecté à un réseau public qui ne respecte pas les exigences de la classe 1.",
+            "fausses_reponses": [
+                "Un réseau de classe 0 est un réseau privé isolé.",
+                "Un réseau de classe 0 est un réseau gouvernemental.",
+                "Un réseau de classe 0 est un réseau militaire."
+            ],
+            "extrait_source": "Un réseau de classe 0 est un réseau public (Internet, etc.) ou un réseau connecté à un réseau public qui ne respecte pas les exigences de la classe 1.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA2_2",
+            "chapitre": "Annexe 2 - Différentes classes de réseau",
+            "section": "Définition des classes de réseau",
+            "question": "Qu'est-ce qu'un réseau de classe 1 ?",
+            "bonne_reponse": "Un réseau de classe 1 est un réseau isolé de tout réseau de classe 0 à l'aide de dispositifs de filtrage et de rupture de flux.",
+            "fausses_reponses": [
+                "Un réseau de classe 1 est un réseau public.",
+                "Un réseau de classe 1 est un réseau militaire.",
+                "Un réseau de classe 1 est un réseau sans aucune protection."
+            ],
+            "extrait_source": "Un réseau de classe 1 est un réseau qui est isolé de tout réseau de classe 0 à l'aide de dispositifs de filtrage et de rupture de flux.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA2_3",
+            "chapitre": "Annexe 2 - Différentes classes de réseau",
+            "section": "Définition des classes de réseau",
+            "question": "Qu'est-ce qu'un réseau de classe 2 ?",
+            "bonne_reponse": "Un réseau de classe 2 est un réseau isolé, non connecté à Internet, et ne comprend aucune interconnexion descendante vers les réseaux de classe 0 ou 1, sauf avec des dispositifs agréés.",
+            "fausses_reponses": [
+                "Un réseau de classe 2 est un réseau public.",
+                "Un réseau de classe 2 est un réseau connecté directement à Internet.",
+                "Un réseau de classe 2 est un réseau sans aucune restriction."
+            ],
+            "extrait_source": "Un réseau de classe 2 est un réseau qui est isolé, non connecté, même indirectement, à Internet, et ne comprend aucune interconnexion descendante permettant l'envoi de flux à destination des réseaux de classe 0 ou 1, sauf à utiliser des dispositifs agréés.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_6",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 8 : Gestion des prestataires",
+            "question": "Que doivent spécifier les clauses de sécurité dans toute prestation dans le domaine des SI ?",
+            "bonne_reponse": "Les clauses de sécurité doivent spécifier les mesures SSI que le prestataire doit respecter dans le cadre de ses activités.",
+            "fausses_reponses": [
+                "Les clauses de sécurité doivent spécifier uniquement les coûts de la prestation.",
+                "Les clauses de sécurité doivent spécifier uniquement les délais de livraison.",
+                "Les clauses de sécurité doivent spécifier uniquement les technologies utilisées."
+            ],
+            "extrait_source": "Toute prestation dans le domaine des SI est encadrée par des clauses de sécurité. Ces clauses spécifient les mesures SSI que le prestataire doit respecter dans le cadre de ses activités.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_7",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 8 : Gestion des prestataires",
+            "question": "Que doit comprendre le suivi et contrôle des prestations fournies ?",
+            "bonne_reponse": "Le suivi et contrôle des prestations fournies doit comprendre un contrôle périodique par l'équipe encadrant la prestation et un contrôle externe sur la pertinence du cahier des charges et la conformité des réponses.",
+            "fausses_reponses": [
+                "Le suivi et contrôle des prestations fournies doit comprendre uniquement des audits annuels.",
+                "Le suivi et contrôle des prestations fournies doit comprendre uniquement des rapports mensuels.",
+                "Le suivi et contrôle des prestations fournies doit comprendre uniquement des réunions hebdomadaires."
+            ],
+            "extrait_source": "Le maintien d'un niveau de sécurité au cours du temps nécessite un double contrôle : l'un, effectué périodiquement par l'équipe encadrant la prestation, qui porte sur les actions du sous-traitant et la conformité au cahier des charges ; l'autre, effectué par une équipe externe, qui porte sur la pertinence du cahier des charges en amont des projets, la conformité des réponses apportées par le sous-traitant en phase de recette et le niveau de sécurité global obtenu en phase de production.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_8",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 9 : Sécurisation physique des SI",
+            "question": "Que doit faire une entité concernant le découpage des sites en zones de sécurité ?",
+            "bonne_reponse": "Un découpage des sites en zones physiques de sécurité doit être effectué, avec des critères précis d'autorisation d'accès pour chaque zone.",
+            "fausses_reponses": [
+                "Une entité doit ignorer le découpage des sites en zones de sécurité.",
+                "Une entité doit externaliser le découpage des sites en zones de sécurité.",
+                "Une entité doit utiliser uniquement des outils open source pour le découpage des sites."
+            ],
+            "extrait_source": "Un découpage des sites en zones physiques de sécurité doit être effectué, en liaison avec le RSSI, les correspondants locaux de la SSI et les services chargés de l'immobilier, de la sécurité et des moyens généraux. Pour chaque zone de sécurité, des critères précis d'autorisation d'accès sont établis.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_9",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 10 : Protection physique des centres informatiques",
+            "question": "Que doit faire une entité concernant le découpage des locaux en zones de sécurité dans un centre informatique ?",
+            "bonne_reponse": "Un découpage du centre informatique en zones physiques de sécurité doit être effectué, avec des règles fixant les conditions d'accès à ces zones.",
+            "fausses_reponses": [
+                "Une entité doit ignorer le découpage des locaux en zones de sécurité.",
+                "Une entité doit externaliser le découpage des locaux en zones de sécurité.",
+                "Une entité doit utiliser uniquement des outils open source pour le découpage des locaux."
+            ],
+            "extrait_source": "Un découpage du centre informatique en zones physiques de sécurité doit être effectué, en liaison avec le RSSI et les services chargés de l'immobilier, de la sécurité et des moyens généraux. Des règles doivent fixer les conditions d'accès à ces différentes zones.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_10",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 11 : Sécurité globale des SI et communications",
+            "question": "Que regroupent les services de systèmes d'information et de communication de sûreté ?",
+            "bonne_reponse": "Les services support des activités de contrôle d'accès, de détection d'intrusion, de vidéo-surveillance, de gestion technique des bâtiments, et de sécurité contre les incendies.",
+            "fausses_reponses": [
+                "Les services de systèmes d'information et de communication de sûreté regroupent uniquement les services de contrôle d'accès.",
+                "Les services de systèmes d'information et de communication de sûreté regroupent uniquement les services de vidéo-surveillance.",
+                "Les services de systèmes d'information et de communication de sûreté regroupent uniquement les services de gestion technique des bâtiments."
+            ],
+            "extrait_source": "Les services support des activités de sûreté physique regroupent : les services support des activités de contrôle d'accès et de détection d'intrusion, de vidéo-surveillance, de gestion technique des bâtiments, et de sécurité contre les incendies.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_11",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 12 : Utilisation des infrastructures maîtrisées",
+            "question": "Quels équipements peuvent être connectés au réseau local d'une entité ?",
+            "bonne_reponse": "Seuls les équipements gérés et configurés par les équipes informatiques habilitées peuvent être connectés au réseau local d'une entité.",
+            "fausses_reponses": [
+                "Tous les équipements peuvent être connectés au réseau local d'une entité.",
+                "Seuls les équipements personnels peuvent être connectés au réseau local d'une entité.",
+                "Seuls les équipements certifiés ISO 27001 peuvent être connectés au réseau local d'une entité."
+            ],
+            "extrait_source": "Seuls les équipements gérés et configurés par les équipes informatiques habilitées peuvent être connectés au réseau local d'une entité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_12",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 13 : Maîtrise des interconnexions",
+            "question": "Que doit faire une entité concernant le cloisonnement du SI en sous-réseaux ?",
+            "bonne_reponse": "Le système d'information doit être segmenté selon des zones présentant chacune un niveau de sécurité homogène.",
+            "fausses_reponses": [
+                "Le système d'information doit être entièrement ouvert.",
+                "Le système d'information doit être entièrement isolé.",
+                "Le système d'information doit être entièrement externalisé."
+            ],
+            "extrait_source": "Par analogie avec le cloisonnement physique d'un bâtiment, le système d'information doit être segmenté selon des zones présentant chacune un niveau de sécurité homogène.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_13",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 14 : Accès non supervisés",
+            "question": "Dans quelles conditions les accès spécifiques à Internet peuvent-ils être mis en place ?",
+            "bonne_reponse": "Les accès spécifiques à Internet nécessitant des droits particuliers pour un usage professionnel ne peuvent être mis en place que sur dérogation dûment justifiée et sur des machines isolées physiquement et séparées du réseau de l'entité.",
+            "fausses_reponses": [
+                "Les accès spécifiques à Internet peuvent être mis en place sans aucune restriction.",
+                "Les accès spécifiques à Internet peuvent être mis en place uniquement sur des machines certifiées ISO 27001.",
+                "Les accès spécifiques à Internet peuvent être mis en place uniquement sur des machines personnelles."
+            ],
+            "extrait_source": "Les accès spécifiques à Internet nécessitant des droits particuliers pour un usage professionnel ne peuvent être mis en place que sur dérogation dûment justifiée et sur des machines isolées physiquement et séparées du réseau de l'entité, après validation préalable de l'autorité d'homologation.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_14",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 15 : Réseaux sans fil",
+            "question": "Que doit faire une entité concernant le déploiement de réseaux sans fil ?",
+            "bonne_reponse": "Le déploiement de réseaux sans fil doit faire l'objet d'une analyse de risques spécifique et des mesures complémentaires doivent être prises dans le cadre de la défense en profondeur.",
+            "fausses_reponses": [
+                "Le déploiement de réseaux sans fil peut être fait sans analyse de risques.",
+                "Le déploiement de réseaux sans fil doit être externalisé.",
+                "Le déploiement de réseaux sans fil doit être ignoré."
+            ],
+            "extrait_source": "Le déploiement de réseaux sans fil doit faire l'objet d'une analyse de risques spécifique. Les protections intrinsèques étant insuffisantes, des mesures complémentaires doivent être prises dans le cadre de la défense en profondeur.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_15",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 16 : Mécanismes de commutation et de routage",
+            "question": "Que doit faire une entité concernant les mécanismes de protection contre les attaques sur les couches basses ?",
+            "bonne_reponse": "Une attention particulière doit être apportée à l'implantation des protocoles de couches basses, de façon à se prémunir des attaques usuelles par saturation ou empoisonnement de cache.",
+            "fausses_reponses": [
+                "Une entité doit ignorer les mécanismes de protection contre les attaques sur les couches basses.",
+                "Une entité doit externaliser les mécanismes de protection contre les attaques sur les couches basses.",
+                "Une entité doit utiliser uniquement des outils open source pour les mécanismes de protection."
+            ],
+            "extrait_source": "Une attention particulière doit être apportée à l'implantation des protocoles de couches basses, de façon à se prémunir des attaques usuelles par saturation ou empoisonnement de cache. Cela concerne, par exemple, le protocole ARP.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_16",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 17 : Cartographie de réseau",
+            "question": "Que doit faire une entité concernant l'architecture en réseau du système d'information ?",
+            "bonne_reponse": "L'architecture en réseau du système d'information doit être décrite et formalisée à travers des schémas d'architecture et des configurations, maintenus au fil des évolutions apportées au SI.",
+            "fausses_reponses": [
+                "Une entité doit ignorer l'architecture en réseau du système d'information.",
+                "Une entité doit externaliser la description de l'architecture en réseau.",
+                "Une entité doit utiliser uniquement des outils open source pour la cartographie."
+            ],
+            "extrait_source": "L'architecture en réseau du système d'information doit être décrite et formalisée à travers des schémas d'architecture et des configurations, maintenus au fil des évolutions apportées au SI.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_17",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 18 : Défense en profondeur",
+            "question": "Que doit respecter l'architecture des infrastructures des centres informatiques ?",
+            "bonne_reponse": "L'architecture des infrastructures des centres informatiques est conçue de façon à satisfaire l'ensemble des besoins en disponibilité, confidentialité, traçabilité et intégrité, en respectant le principe de défense en profondeur.",
+            "fausses_reponses": [
+                "L'architecture des infrastructures des centres informatiques doit être entièrement ouverte.",
+                "L'architecture des infrastructures des centres informatiques doit être entièrement externalisée.",
+                "L'architecture des infrastructures des centres informatiques doit être entièrement isolée."
+            ],
+            "extrait_source": "L'architecture des infrastructures des centres informatiques est conçue de façon à satisfaire l'ensemble des besoins en disponibilité, confidentialité, traçabilité et intégrité. Le principe de défense en profondeur doit être respecté.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_18",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 19 : Protection des informations sensibles",
+            "question": "Que doivent faire les entités pour garantir la protection des informations sensibles ?",
+            "bonne_reponse": "Des mesures doivent être mises en œuvre afin de garantir la protection des informations sensibles en termes de confidentialité et d'intégrité. À défaut d'utilisation d'un réseau homologué, ces informations doivent être chiffrées.",
+            "fausses_reponses": [
+                "Les entités doivent ignorer la protection des informations sensibles.",
+                "Les entités doivent externaliser la protection des informations sensibles.",
+                "Les entités doivent utiliser uniquement des outils open source pour la protection des informations sensibles."
+            ],
+            "extrait_source": "Des mesures doivent être mises en œuvre afin de garantir la protection des informations sensibles en termes de confidentialité et d'intégrité. À défaut d'utilisation d'un réseau homologué, ces informations doivent être chiffrées à l'aide d'un moyen de chiffrement labellisé.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_19",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 20 : Durcissement des configurations",
+            "question": "Que doit faire une entité concernant les interventions de maintenance sur les ressources informatiques ?",
+            "bonne_reponse": "Les interventions de maintenance sur les ressources informatiques de l'entité doivent être tracées par le service informatique, et les traces doivent être accessibles au correspondant local de la SSI durant au moins un an.",
+            "fausses_reponses": [
+                "Les entités doivent ignorer les interventions de maintenance.",
+                "Les entités doivent externaliser les interventions de maintenance.",
+                "Les entités doivent utiliser uniquement des outils open source pour les interventions de maintenance."
+            ],
+            "extrait_source": "Les interventions de maintenance sur les ressources informatiques de l'entité doivent être tracées par le service informatique. Les traces doivent être accessibles au correspondant local de la SSI durant au moins un an.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_20",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 21 : Contrôle des accès logiques",
+            "question": "Que doit nécessiter l'accès à toute ressource non publique ?",
+            "bonne_reponse": "L'accès à toute ressource non publique doit nécessiter une identification et une authentification individuelle de l'utilisateur. Dans le cas de l'accès à des données sensibles, des moyens d'authentification forte doivent être utilisés.",
+            "fausses_reponses": [
+                "L'accès à toute ressource non publique doit nécessiter uniquement un mot de passe.",
+                "L'accès à toute ressource non publique doit être entièrement ouvert.",
+                "L'accès à toute ressource non publique doit être externalisé."
+            ],
+            "extrait_source": "L'accès à toute ressource non publique doit nécessiter une identification et une authentification individuelle de l'utilisateur. Dans le cas de l'accès à des données sensibles, des moyens d'authentification forte doivent être utilisés.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_21",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 22 : Administration des systèmes",
+            "question": "Que doit faire une entité concernant les droits d'administration des utilisateurs ?",
+            "bonne_reponse": "Sauf exception dûment motivée et validée par le RSSI, les utilisateurs n'ont pas de droits d'administration.",
+            "fausses_reponses": [
+                "Les utilisateurs doivent avoir des droits d'administration par défaut.",
+                "Les utilisateurs doivent externaliser les droits d'administration.",
+                "Les utilisateurs doivent utiliser uniquement des outils open source pour l'administration."
+            ],
+            "extrait_source": "Sauf exception dûment motivée et validée par le RSSI, les utilisateurs n'ont pas de droits d'administration.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_22",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 23 : Défense des systèmes d'information",
+            "question": "Que doit faire l'équipe en charge de la SSI concernant la surveillance des comportements anormaux ?",
+            "bonne_reponse": "L'équipe en charge de la SSI doit procéder à la surveillance des comportements anormaux au sein du système d'information et à la surveillance des flux d'entrée et de sortie du système d'information.",
+            "fausses_reponses": [
+                "L'équipe en charge de la SSI doit ignorer les comportements anormaux.",
+                "L'équipe en charge de la SSI doit externaliser la surveillance des comportements anormaux.",
+                "L'équipe en charge de la SSI doit utiliser uniquement des outils open source pour la surveillance."
+            ],
+            "extrait_source": "L'équipe en charge de la SSI doit procéder, notamment via l'analyse des journaux, à la surveillance des comportements anormaux au sein du système d'information et à la surveillance des flux d'entrée et de sortie du système d'information.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_23",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 24 : Exploitation sécurisée des centres informatiques",
+            "question": "Que doivent faire les postes de travail utilisés dans le cadre professionnel ?",
+            "bonne_reponse": "Les postes de travail utilisés dans le cadre professionnel sont fournis à l'utilisateur par l'entité, gérés et configurés sous la responsabilité de l'entité.",
+            "fausses_reponses": [
+                "Les postes de travail doivent être fournis par les utilisateurs.",
+                "Les postes de travail doivent être entièrement externalisés.",
+                "Les postes de travail doivent être entièrement ouverts."
+            ],
+            "extrait_source": "Les postes de travail, y compris dans le cas d'une location, sont fournis à l'utilisateur par l'entité, gérés et configurés sous la responsabilité de l'entité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_24",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 25 : Durcissement des postes de travail",
+            "question": "Que doit faire une entité concernant la gestion des privilèges des utilisateurs sur leurs postes de travail ?",
+            "bonne_reponse": "La gestion des privilèges des utilisateurs sur leurs postes de travail doit suivre le principe du moindre privilège : chaque utilisateur ne doit disposer que des privilèges nécessaires à la conduite des actions relevant de sa mission.",
+            "fausses_reponses": [
+                "Les utilisateurs doivent avoir tous les privilèges par défaut.",
+                "Les utilisateurs doivent externaliser la gestion des privilèges.",
+                "Les utilisateurs doivent utiliser uniquement des outils open source pour la gestion des privilèges."
+            ],
+            "extrait_source": "La gestion des privilèges des utilisateurs sur leurs postes de travail doit suivre le principe du moindre privilège : chaque utilisateur ne doit disposer que des privilèges nécessaires à la conduite des actions relevant de sa mission.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_25",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 26 : Sécurisation des imprimantes et copieurs",
+            "question": "Que doit faire une entité concernant le durcissement des imprimantes et des copieurs multifonctions ?",
+            "bonne_reponse": "Les imprimantes et les copieurs multifonctions doivent faire l'objet d'un durcissement en termes de sécurité : changement des mots de passe, désactivation des interfaces inutiles, suppression des services inutiles, chiffrement des données sur le disque dur.",
+            "fausses_reponses": [
+                "Les imprimantes et les copieurs multifonctions doivent être entièrement ouverts.",
+                "Les imprimantes et les copieurs multifonctions doivent être externalisés.",
+                "Les imprimantes et les copieurs multifonctions doivent être ignorés."
+            ],
+            "extrait_source": "Les imprimantes et les copieurs multifonctions hébergés localement dans une entité doivent faire l'objet d'un durcissement en termes de sécurité : changement des mots de passe initialement fixés par le constructeur, désactivation des interfaces en réseau inutiles, suppression des services inutiles, chiffrement des données sur le disque dur lorsque cette fonctionnalité est disponible, configuration de réseau statique.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_26",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 27 : Sécurisation de la téléphonie",
+            "question": "Que doit faire une entité concernant la configuration des autocommutateurs ?",
+            "bonne_reponse": "Les autocommutateurs doivent être maintenus à jour en ce qui concerne les correctifs de sécurité, leur configuration doit être durcie, et une revue de la programmation téléphonique doit être organisée périodiquement.",
+            "fausses_reponses": [
+                "Les autocommutateurs doivent être entièrement ouverts.",
+                "Les autocommutateurs doivent être externalisés.",
+                "Les autocommutateurs doivent être ignorés."
+            ],
+            "extrait_source": "Les autocommutateurs doivent être maintenus à jour en ce qui concerne les correctifs de sécurité. Leur configuration doit être durcie. Une revue de la programmation téléphonique doit être organisée périodiquement.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_27",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 28 : Contrôles de conformité",
+            "question": "Que doit faire une entité concernant la vérification de la conformité des postes de travail ?",
+            "bonne_reponse": "Un outil de vérification régulière de la conformité des éléments de configuration des postes de travail doit être mis en place, afin d'éviter une dérive dans le temps de ces éléments de configuration.",
+            "fausses_reponses": [
+                "Une entité doit ignorer la vérification de la conformité.",
+                "Une entité doit externaliser la vérification de la conformité.",
+                "Une entité doit utiliser uniquement des outils open source pour la vérification de la conformité."
+            ],
+            "extrait_source": "Un outil de vérification régulière de la conformité des éléments de configuration des postes de travail doit être mis en place, afin d'éviter une dérive dans le temps de ces éléments de configuration.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_28",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 29 : Développement des systèmes",
+            "question": "Que doit respecter toute initiative locale de développement informatique ?",
+            "bonne_reponse": "Toute initiative locale de développement informatique doit respecter les recommandations de l'ANSSI, concernant la prise en compte de la sécurité dans les projets et les développements informatiques.",
+            "fausses_reponses": [
+                "Toute initiative locale de développement informatique doit être entièrement externalisée.",
+                "Toute initiative locale de développement informatique doit ignorer les recommandations de l'ANSSI.",
+                "Toute initiative locale de développement informatique doit utiliser uniquement des outils open source."
+            ],
+            "extrait_source": "Toute initiative locale de développement informatique doit respecter les recommandations de l'ANSSI, concernant la prise en compte de la sécurité dans les projets et les développements informatiques.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_29",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 30 : Développements des logiciels et sécurité",
+            "question": "Que doit faire une entité concernant les fuites d'informations techniques sur les logiciels utilisés ?",
+            "bonne_reponse": "Il est impératif de limiter fortement la diffusion d'informations au sujet des produits utilisés, car les fuites d'informations techniques permettent aux attaquants de déceler plus facilement d'éventuelles vulnérabilités.",
+            "fausses_reponses": [
+                "Une entité doit ignorer les fuites d'informations techniques.",
+                "Une entité doit externaliser la gestion des fuites d'informations techniques.",
+                "Une entité doit utiliser uniquement des outils open source pour limiter les fuites d'informations techniques."
+            ],
+            "extrait_source": "Les fuites d'informations techniques sur les logiciels utilisés permettent aux attaquants de déceler plus facilement d'éventuelles vulnérabilités. Il est impératif de limiter fortement la diffusion d'informations au sujet des produits utilisés.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_30",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 31 : Applications à risques",
+            "question": "Que doit faire une entité concernant les applications à risques ?",
+            "bonne_reponse": "Devant les applications à risques, il est recommandé de faire usage d'une solution tierce de filtrage applicatif.",
+            "fausses_reponses": [
+                "Une entité doit ignorer les applications à risques.",
+                "Une entité doit externaliser les applications à risques.",
+                "Une entité doit utiliser uniquement des outils open source pour les applications à risques."
+            ],
+            "extrait_source": "Devant les applications à risques, il est recommandé de faire usage d'une solution tierce de filtrage applicatif.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_31",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 32 : Chaînes opérationnelles",
+            "question": "Comment les alertes et les incidents doivent-ils être gérés ?",
+            "bonne_reponse": "Les alertes et les incidents sont gérés selon des procédures testées lors d'exercices, avec une coordination des compétences organisée à l'échelon de l'entité.",
+            "fausses_reponses": [
+                "Les alertes et les incidents doivent être ignorés.",
+                "Les alertes et les incidents doivent être externalisés.",
+                "Les alertes et les incidents doivent être gérés uniquement par des outils open source."
+            ],
+            "extrait_source": "Les alertes et les incidents sont gérés selon des procédures testées lors d'exercices. La coordination des compétences est organisée à l'échelon de l'entité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_32",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 33 : Continuité d'activité",
+            "question": "Que doit définir chaque entité concernant la continuité d'activité des SI ?",
+            "bonne_reponse": "Chaque entité définit un plan de continuité d'activité des SI permettant d'assurer, en cas de sinistre, la continuité d'activité des SI.",
+            "fausses_reponses": [
+                "Chaque entité doit ignorer la continuité d'activité des SI.",
+                "Chaque entité doit externaliser la continuité d'activité des SI.",
+                "Chaque entité doit utiliser uniquement des outils open source pour la continuité d'activité des SI."
+            ],
+            "extrait_source": "Chaque entité définit un plan de continuité d'activité des SI permettant d'assurer, en cas de sinistre, la continuité d'activité des SI.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA1_33",
+            "chapitre": "Annexe 1 - Règles pour les entités situées hors du champ d'application de la PSSIE",
+            "section": "Objectif 34 : Contrôles",
+            "question": "Que doit faire une entité concernant la conformité à la PSSI ?",
+            "bonne_reponse": "La conformité à la PSSI de l'entité est vérifiée par des contrôles réguliers, et les RSSI de chaque entité conduisent des actions locales d'évaluation de la conformité à la PSSI.",
+            "fausses_reponses": [
+                "Une entité doit ignorer la conformité à la PSSI.",
+                "Une entité doit externaliser la conformité à la PSSI.",
+                "Une entité doit utiliser uniquement des outils open source pour la conformité à la PSSI."
+            ],
+            "extrait_source": "La conformité à la PSSI de l'entité est vérifiée par des contrôles réguliers. Les RSSI de chaque entité conduisent des actions locales d'évaluation de la conformité à la PSSI et contribuent à la consolidation, dans un bilan annuel, de l'état d'avancement de sa mise en œuvre.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        }
+    ]
+}
