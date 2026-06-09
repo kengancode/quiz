@@ -505,8 +505,9 @@ console.log(filesToTest);
     } else {
       count = parseInt(selectedRadio.value);
       if (count > quizData.questions.length) {
-        countError.textContent = `Nombre trop élevé. Maximum disponible: ${quizData.questions.length}`;
-        return;
+        //countError.textContent = `Nombre trop élevé. Maximum disponible: ${quizData.questions.length}`;
+        count = quizData.questions.length;
+        //return;
       }
     }
 
@@ -579,17 +580,16 @@ console.log(filesToTest);
 
     // Ajouter les métadonnées de la question
     const metadataHtml = `
-      <div class="question-metadata">
+      <div class="question-metadata" style="visibility: hidden ; display:inline;">
         <span class="source">📚 ${q.sourceTitle || q.sourceFile}</span>
         ${q.chapitre ? `<span class="chapitre">📖 ${q.chapitre}</span>` : ''}
         ${q.section ? `<span class="section">📝 ${q.section}</span>` : ''}
-        ${q.difficulte ? `<span class="difficulty">${q.difficulte}</span>` : ''}
       </div>
     `;
       //${metadataHtml} etait dans innerHTML
     questionDiv.innerHTML = `
       ${metadataHtml}
-      <h3>Question ${index + 1}${q.difficulte ? ` (${q.difficulte})` : ''}</h3>
+      <h3>Question ${index + 1}</h3>
       <p>${q.question}</p>
       <div class="options">
         ${options.map((option, i) => `
