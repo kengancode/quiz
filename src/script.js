@@ -1,3 +1,5 @@
+// Développé par Gérald Grévrend avec l'aide de Mistral Vibe
+
 document.addEventListener('DOMContentLoaded', () => {
   // ==================== Éléments DOM ====================
   const screens = document.querySelectorAll('.screen');
