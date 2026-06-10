@@ -1,0 +1,1068 @@
+{
+    "metadata": {
+        "titre": "ISO 19011:2018 - Lignes directrices pour l'audit des systèmes de management",
+        "source": "Norme ISO 19011:2018(F)",
+        "date_creation": "2026-06-10 08:29:26",
+        "nombre_questions": 70,
+        "chapitres_couverts": [
+            "Chapitre 3: Termes et définitions",
+            "Chapitre 4: Principes de l'audit",
+            "Chapitre 5: Management d'un programme d'audit",
+            "Chapitre 6: Réalisation d'un audit",
+            "Chapitre 7: Compétence et évaluation des auditeurs",
+            "Annexe A: Lignes directrices supplémentaires"
+        ]
+    },
+    "questions": [
+        {
+            "id": "Q3_1",
+            "chapitre": "Chapitre 3",
+            "section": "3.1",
+            "question": "Selon ISO 19011:2018, quelle est la définition d'un audit ?",
+            "bonne_reponse": "Un processus méthodique, indépendant et documenté, permettant d'obtenir des preuves objectives et de les évaluer de manière objective pour déterminer dans quelle mesure les critères d'audit sont satisfaits",
+            "fausses_reponses": [
+                "Un processus aléatoire et non documenté pour vérifier la conformité",
+                "Une inspection visuelle sans évaluation objective",
+                "Un contrôle interne réalisé uniquement par la direction de l'organisme"
+            ],
+            "extrait_source": "3.1 audit: processus méthodique, indépendant et documenté, permettant d'obtenir des preuves objectives (3.8) et de les évaluer de manière objective pour déterminer dans quelle mesure les critères d'audit (3.7) sont satisfaits",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_2",
+            "chapitre": "Chapitre 3",
+            "section": "3.2",
+            "question": "Qu'est-ce qu'un audit combiné selon ISO 19011:2018 ?",
+            "bonne_reponse": "Un audit réalisé simultanément auprès d'un seul audité sur deux systèmes de management ou plus",
+            "fausses_reponses": [
+                "Un audit réalisé par plusieurs organismes d'audit sur un même site",
+                "Un audit qui combine des méthodes d'audit sur site et à distance",
+                "Un audit qui couvre plusieurs sites d'un même organisme"
+            ],
+            "extrait_source": "3.2 audit combiné: audit (3.1) réalisé simultanément auprès d'un seul audité (3.18) sur deux systèmes de management (3.19) ou plus",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_3",
+            "chapitre": "Chapitre 3",
+            "section": "3.4",
+            "question": "Comment est défini un 'programme d'audit' dans ISO 19011:2018 ?",
+            "bonne_reponse": "Dispositions relatives à un ensemble d'un ou plusieurs audits planifiés pour une durée spécifique et dirigés dans un but spécifique",
+            "fausses_reponses": [
+                "Un document qui décrit les résultats d'un audit unique",
+                "Un plan détaillé pour un audit interne",
+                "Un ensemble de procédures pour la certification des auditeurs"
+            ],
+            "extrait_source": "3.4 programme d'audit: dispositions relatives à un ensemble d'un ou plusieurs audits (3.1) planifié pour une durée spécifique et dirigé dans un but spécifique",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_4",
+            "chapitre": "Chapitre 3",
+            "section": "3.5",
+            "question": "Que comprend généralement le 'champ de l'audit' selon ISO 19011:2018 ?",
+            "bonne_reponse": "Les lieux physiques et virtuels, les fonctions, les unités organisationnelles, les activités et les processus ainsi que la période de temps couverte",
+            "fausses_reponses": [
+                "Uniquement les documents et enregistrements à auditer",
+                "Les compétences des auditeurs et les méthodes utilisées",
+                "Les résultats des audits précédents"
+            ],
+            "extrait_source": "3.5 champ de l'audit: étendue et limites d'un audit (3.1). Note 1 à l'article: Le champ de l'audit décrit généralement les lieux physiques et virtuels, les fonctions, les unités organisationnelles, les activités et les processus ainsi que la période de temps couverte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_5",
+            "chapitre": "Chapitre 3",
+            "section": "3.7",
+            "question": "Que sont les 'critères d'audit' selon ISO 19011:2018 ?",
+            "bonne_reponse": "Un ensemble d'exigences utilisées comme référence vis-à-vis de laquelle les preuves objectives sont comparées",
+            "fausses_reponses": [
+                "Les résultats obtenus lors de l'audit",
+                "Les compétences requises pour les auditeurs",
+                "Les méthodes utilisées pour réaliser l'audit"
+            ],
+            "extrait_source": "3.7 critères d'audit: ensemble d'exigences (3.23) utilisées comme référence vis-à-vis de laquelle les preuves objectives (3.8) sont comparées",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_6",
+            "chapitre": "Chapitre 3",
+            "section": "3.8",
+            "question": "Comment sont définies les 'preuves objectives' dans ISO 19011:2018 ?",
+            "bonne_reponse": "Données démontrant l'existence ou la véracité de quelque chose",
+            "fausses_reponses": [
+                "Les opinions des auditeurs sur le système audité",
+                "Les rapports finaux de l'audit",
+                "Les plans d'action correctifs"
+            ],
+            "extrait_source": "3.8 preuves objectives: données démontrant l'existence ou la véracité de quelque chose. Note 1 à l'article: Les preuves objectives sont obtenues par observation, mesure, essai ou par un autre moyen.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_7",
+            "chapitre": "Chapitre 3",
+            "section": "3.10",
+            "question": "Que sont les 'constatations d'audit' selon ISO 19011:2018 ?",
+            "bonne_reponse": "Résultats de l'évaluation des preuves d'audit recueillies, par rapport aux critères d'audit",
+            "fausses_reponses": [
+                "Les objectifs fixés pour l'audit",
+                "Les compétences des membres de l'équipe d'audit",
+                "Les ressources allouées à l'audit"
+            ],
+            "extrait_source": "3.10 constatations d'audit: résultats de l'évaluation des preuves d'audit (3.9) recueillies, par rapport aux critères d'audit (3.7)",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_8",
+            "chapitre": "Chapitre 3",
+            "section": "3.20",
+            "question": "Comment est définie la 'conformité' dans ISO 19011:2018 ?",
+            "bonne_reponse": "Satisfaction d'une exigence",
+            "fausses_reponses": [
+                "L'absence de non-conformités majeures",
+                "La réalisation de tous les objectifs de l'audit",
+                "L'approbation du rapport d'audit par le client"
+            ],
+            "extrait_source": "3.20 conformité: satisfaction d'une exigence (3.23)",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_9",
+            "chapitre": "Chapitre 3",
+            "section": "3.21",
+            "question": "Que signifie 'non-conformité' selon ISO 19011:2018 ?",
+            "bonne_reponse": "Non-satisfaction d'une exigence",
+            "fausses_reponses": [
+                "Un désaccord entre l'auditeur et l'audité",
+                "L'absence de preuves d'audit",
+                "Un retard dans la réalisation de l'audit"
+            ],
+            "extrait_source": "3.21 non-conformité: non-satisfaction d'une exigence (3.23)",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q3_10",
+            "chapitre": "Chapitre 3",
+            "section": "3.22",
+            "question": "Comment est définie la 'compétence' dans ISO 19011:2018 ?",
+            "bonne_reponse": "Aptitude à mettre en pratique des connaissances et des savoir-faire pour obtenir les résultats escomptés",
+            "fausses_reponses": [
+                "La capacité à réaliser un audit sans formation préalable",
+                "L'expérience professionnelle dans un domaine spécifique",
+                "La certification obtenue après une formation"
+            ],
+            "extrait_source": "3.22 compétence: aptitude à mettre en pratique des connaissances et des savoir-faire pour obtenir les résultats escomptés",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_1",
+            "chapitre": "Chapitre 4",
+            "section": "4a",
+            "question": "Quel est le premier principe de l'audit mentionné dans ISO 19011:2018 ?",
+            "bonne_reponse": "Déontologie: le fondement du professionnalisme",
+            "fausses_reponses": [
+                "Confidentialité: sécurité des informations",
+                "Approche fondée sur la preuve: méthode rationnelle pour parvenir à des conclusions d'audit fiables",
+                "Indépendance: le fondement de l'impartialité de l'audit"
+            ],
+            "extrait_source": "4 Principes de l'audit: a) Déontologie: le fondement du professionnalisme. Il convient que les auditeurs et la ou les personnes responsables du management du programme d'audit réalisent leurs tâches de manière éthique, avec honnêteté et responsabilité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_2",
+            "chapitre": "Chapitre 4",
+            "section": "4b",
+            "question": "Que signifie le principe de 'restitution impartiale' dans l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "L'obligation de rendre compte de manière sincère et précise",
+            "fausses_reponses": [
+                "La capacité à travailler sans supervision",
+                "L'utilisation exclusive de preuves documentaires",
+                "La réalisation d'audits uniquement pour des clients internes"
+            ],
+            "extrait_source": "b) Restitution impartiale: l'obligation de rendre compte de manière sincère et précise. Il convient que les constatations, conclusions et rapports d'audit reflètent de manière sincère et précise les activités d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_3",
+            "chapitre": "Chapitre 4",
+            "section": "4c",
+            "question": "Qu'implique le principe de 'conscience professionnelle' pour les auditeurs selon ISO 19011:2018 ?",
+            "bonne_reponse": "Une attitude diligente et avisée au cours de l'audit",
+            "fausses_reponses": [
+                "La capacité à travailler rapidement sans se soucier de la qualité",
+                "L'obligation de suivre strictement un script prédéterminé",
+                "La nécessité de toujours donner raison à l'audité"
+            ],
+            "extrait_source": "c) Conscience professionnelle: l'attitude diligente et avisée au cours de l'audit. Il convient que les auditeurs agissent en accord avec l'importance des tâches qu'ils réalisent et la confiance que leur ont accordée le client de l'audit et les autres parties intéressées.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_4",
+            "chapitre": "Chapitre 4",
+            "section": "4d",
+            "question": "Que couvre le principe de 'confidentialité' dans l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Sécurité des informations",
+            "fausses_reponses": [
+                "La transparence totale envers toutes les parties",
+                "L'obligation de publier tous les résultats d'audit",
+                "Le partage systématique des informations avec les régulateurs"
+            ],
+            "extrait_source": "d) Confidentialité: sécurité des informations. Il convient que les auditeurs utilisent avec précaution les informations acquises au cours de leurs missions.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_5",
+            "chapitre": "Chapitre 4",
+            "section": "4e",
+            "question": "Pourquoi le principe d''indépendance' est-il important dans l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "C'est le fondement de l'impartialité de l'audit et de l'objectivité des conclusions d'audit",
+            "fausses_reponses": [
+                "Pour permettre aux auditeurs de travailler plus rapidement",
+                "Pour réduire les coûts de l'audit",
+                "Pour éviter toute interaction avec l'audité"
+            ],
+            "extrait_source": "e) Indépendance: le fondement de l'impartialité de l'audit et de l'objectivité des conclusions d'audit. Il convient que les auditeurs soient indépendants de l'activité auditée et n'aient ni parti pris ni conflit d'intérêt.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_6",
+            "chapitre": "Chapitre 4",
+            "section": "4f",
+            "question": "Que signifie le principe d''approche fondée sur la preuve' dans l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Une méthode rationnelle pour parvenir à des conclusions d'audit fiables et reproductibles dans un processus d'audit systématique",
+            "fausses_reponses": [
+                "L'utilisation exclusive de l'intuition de l'auditeur",
+                "La collecte de toutes les données disponibles sans échantillonnage",
+                "La confiance absolue dans les déclarations de l'audité"
+            ],
+            "extrait_source": "f) Approche fondée sur la preuve: la méthode rationnelle pour parvenir à des conclusions d'audit fiables et reproductibles dans un processus d'audit systématique. Il convient que les preuves d'audit soient vérifiables.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q4_7",
+            "chapitre": "Chapitre 4",
+            "section": "4g",
+            "question": "Quelle influence doit avoir l'approche par les risques sur l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Elle doit avoir une influence substantielle sur la planification, la réalisation et le compte rendu des audits",
+            "fausses_reponses": [
+                "Elle doit remplacer complètement les autres principes d'audit",
+                "Elle doit se limiter à l'identification des risques financiers",
+                "Elle doit être appliquée uniquement aux audits externes"
+            ],
+            "extrait_source": "g) Approche par les risques: approche d'audit prenant en considération les risques et les opportunités. Il convient que l'approche par les risques ait une influence substantielle sur la planification, la réalisation et le compte rendu des audits.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_1",
+            "chapitre": "Chapitre 5",
+            "section": "5.1",
+            "question": "Que doit inclure un programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Des audits prenant en compte une ou plusieurs normes de système de management ou d'autres exigences, réalisés de manière individuelle ou combinée",
+            "fausses_reponses": [
+                "Uniquement des audits internes",
+                "Exclusivement des audits de certification",
+                "Seulement des audits réalisés par des organismes externes"
+            ],
+            "extrait_source": "5.1 Généralités: Il convient d'établir un programme d'audit pouvant inclure des audits prenant en compte une ou plusieurs normes de système de management ou d'autres exigences, réalisés de manière individuelle ou combinée (audit combiné).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_2",
+            "chapitre": "Chapitre 5",
+            "section": "5.1",
+            "question": "De quoi doit tenir compte l'étendue d'un programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "De la taille et de la nature de l'audité, ainsi que de la nature, de la fonctionnalité, de la complexité, du type de risques et opportunités et du niveau de maturité du ou des systèmes de management à auditer",
+            "fausses_reponses": [
+                "Uniquement des ressources financières disponibles",
+                "Exclusivement des exigences légales applicables",
+                "Seulement des préférences du client de l'audit"
+            ],
+            "extrait_source": "Il convient que l'étendue d'un programme d'audit tienne compte de la taille et de la nature de l'audité, ainsi que de la nature, de la fonctionnalité, de la complexité, du type de risques et opportunités et du niveau de maturité du ou des systèmes de management à auditer.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_3",
+            "chapitre": "Chapitre 5",
+            "section": "5.2",
+            "question": "Qui doit s'assurer de la détermination des objectifs du programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Le client de l'audit",
+            "fausses_reponses": [
+                "Le responsable de l'équipe d'audit",
+                "L'audité",
+                "Les parties intéressées externes"
+            ],
+            "extrait_source": "5.2 Détermination des objectifs du programme d'audit: Il convient que le client de l'audit s'assure de la détermination des objectifs du programme d'audit permettant le pilotage de la planification et de la réalisation des audits.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_4",
+            "chapitre": "Chapitre 5",
+            "section": "5.2",
+            "question": "Avec quoi les objectifs du programme d'audit doivent-ils être cohérents selon ISO 19011:2018 ?",
+            "bonne_reponse": "Avec l'orientation stratégique du client de l'audit et étayer la politique et les objectifs du système de management",
+            "fausses_reponses": [
+                "Avec les préférences personnelles des auditeurs",
+                "Avec les normes internationales uniquement",
+                "Avec les résultats des audits précédents"
+            ],
+            "extrait_source": "Il convient que les objectifs du programme d'audit soient cohérents avec l'orientation stratégique du client de l'audit et étayent la politique et les objectifs du système de management.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_5",
+            "chapitre": "Chapitre 5",
+            "section": "5.3",
+            "question": "Quels types de risques peuvent être associés à un programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Des risques liés à la planification, aux ressources, à la constitution de l'équipe d'audit, à la communication, à la mise en œuvre, à la maîtrise des informations documentées, à la surveillance, et à la disponibilité de l'audité",
+            "fausses_reponses": [
+                "Uniquement des risques financiers",
+                "Exclusivement des risques liés à la sécurité des informations",
+                "Seulement des risques juridiques"
+            ],
+            "extrait_source": "5.3 Détermination et évaluation des risques et des opportunités du programme d'audit: Des risques peuvent être associés aux éléments suivants: a) la planification, b) les ressources, c) la constitution de l'équipe d'audit, d) la communication, e) la mise en œuvre, f) la maîtrise des informations documentées, g) la surveillance, h) la disponibilité et la coopération de l'audité.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_6",
+            "chapitre": "Chapitre 5",
+            "section": "5.4.1",
+            "question": "Quelle est une des responsabilités des personnes responsables du management du programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Établir l'étendue du programme d'audit en fonction des objectifs pertinents et de toute contrainte connue",
+            "fausses_reponses": [
+                "Réaliser personnellement tous les audits du programme",
+                "Déterminer les salaires des auditeurs",
+                "Approuver les rapports financiers de l'organisme"
+            ],
+            "extrait_source": "5.4.1 Rôles et responsabilités: Il convient que la ou les personnes responsables du management du programme d'audit: a) établissent l'étendue du programme d'audit en fonction des objectifs pertinents (voir 5.2) et de toute contrainte connue;",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_7",
+            "chapitre": "Chapitre 5",
+            "section": "5.4.2",
+            "question": "Quelle connaissance est requise pour les personnes responsables du management du programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Une connaissance des principes, méthodes et processus d'audit, des normes de système de management, et des informations concernant l'audité et son contexte",
+            "fausses_reponses": [
+                "Une connaissance approfondie en comptabilité",
+                "Une expertise exclusive en technologies de l'information",
+                "Une formation en droit international"
+            ],
+            "extrait_source": "5.4.2 Compétence: Il convient que la ou les personnes responsables du management du programme d'audit disposent de la compétence nécessaire pour gérer de manière efficace et efficiente ce programme ainsi que les risques et opportunités et les enjeux externes et internes qui lui sont associés, y compris une connaissance: a) des principes, des méthodes et des processus d'audit; b) des normes de système de management; c) des informations concernant l'audité et son contexte.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_8",
+            "chapitre": "Chapitre 5",
+            "section": "5.4.3",
+            "question": "Quels facteurs peuvent influencer l'étendue d'un programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "L'objectif, le champ et la durée de chaque audit, les normes applicables, la complexité des activités, les résultats des audits précédents, et les préoccupations des parties intéressées",
+            "fausses_reponses": [
+                "Uniquement le budget alloué à l'audit",
+                "Exclusivement la taille de l'équipe d'audit",
+                "Seulement la localisation géographique de l'audité"
+            ],
+            "extrait_source": "5.4.3 Détermination de l'étendue du programme d'audit: Les autres facteurs ayant une incidence sur l'étendue d'un programme d'audit peuvent comprendre: a) l'objectif, le champ et la durée de chaque audit; b) les normes de système de management ou d'autres critères applicables; c) le nombre, l'importance, la complexité, la similitude et la localisation des activités à auditer; d) les résultats des audits internes ou externes précédents.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_9",
+            "chapitre": "Chapitre 5",
+            "section": "5.4.4",
+            "question": "Quels éléments doivent être considérés lors de la détermination des ressources pour un programme d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Les ressources financières, le temps, les méthodes d'audit, la disponibilité des auditeurs, l'étendue du programme, et les technologies de l'information et de la communication",
+            "fausses_reponses": [
+                "Uniquement le nombre d'auditeurs disponibles",
+                "Exclusivement le budget alloué",
+                "Seulement les logiciels d'audit"
+            ],
+            "extrait_source": "5.4.4 Détermination des ressources du programme d'audit: a) les ressources financières et le temps nécessaires; b) les méthodes d'audit; c) la disponibilité individuelle et globale des auditeurs; d) l'étendue du programme d'audit; e) les temps et les coûts de transport; f) la disponibilité de technologies de l'information et de la communication.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_10",
+            "chapitre": "Chapitre 5",
+            "section": "5.5.1",
+            "question": "Que doit faire la personne responsable du management du programme d'audit lors de sa mise en œuvre selon ISO 19011:2018 ?",
+            "bonne_reponse": "Communiquer les parties pertinentes du programme d'audit aux parties intéressées et les informer régulièrement de son avancement",
+            "fausses_reponses": [
+                "Réaliser personnellement tous les audits",
+                "Approuver les rapports financiers",
+                "Déterminer les salaires des auditeurs"
+            ],
+            "extrait_source": "5.5.1 Généralités: Il convient que la ou les personnes responsables du management du programme d'audit: a) communiquent les parties pertinentes du programme d'audit, y compris les risques et opportunités impliqués, aux parties intéressées pertinentes et les informent régulièrement de son avancement.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_11",
+            "chapitre": "Chapitre 5",
+            "section": "5.5.2",
+            "question": "Que peuvent comprendre les objectifs d'un audit individuel selon ISO 19011:2018 ?",
+            "bonne_reponse": "La détermination du degré de conformité, l'évaluation de l'aptitude du système de management, l'évaluation de l'efficacité du système, et l'identification des opportunités d'amélioration",
+            "fausses_reponses": [
+                "La certification immédiate de l'organisme",
+                "La fixation des salaires des employés",
+                "La négociation des contrats avec les fournisseurs"
+            ],
+            "extrait_source": "5.5.2 Définition des objectifs, du champ et des critères pour chaque audit individuel: Les objectifs d'audit définissent ce qui est attendu de l'audit individuel et peuvent comprendre: a) la détermination du degré de conformité; b) l'évaluation de l'aptitude du système de management; c) l'évaluation de l'efficacité du système de management; d) l'identification des opportunités d'amélioration.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_12",
+            "chapitre": "Chapitre 5",
+            "section": "5.5.3",
+            "question": "Quelles méthodes d'audit peuvent être utilisées selon ISO 19011:2018 ?",
+            "bonne_reponse": "Les audits peuvent être réalisés sur le site, à distance ou sous forme d'une combinaison des deux",
+            "fausses_reponses": [
+                "Uniquement des audits sur site",
+                "Exclusivement des audits à distance",
+                "Seulement des audits documentaires"
+            ],
+            "extrait_source": "5.5.3 Choix et détermination des méthodes d'audit: Les audits peuvent être réalisés sur le site, à distance ou sous forme d'une combinaison des deux.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q5_13",
+            "chapitre": "Chapitre 5",
+            "section": "5.5.4",
+            "question": "Quels éléments doivent être pris en compte lors de la constitution d'une équipe d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "La compétence globale nécessaire, la complexité de l'audit, l'assurance de l'objectivité, et la capacité à travailler avec l'audité",
+            "fausses_reponses": [
+                "Uniquement le nombre d'auditeurs disponibles",
+                "Exclusivement les préférences personnelles du responsable",
+                "Seulement les coûts associés"
+            ],
+            "extrait_source": "5.5.4 Choix des membres de l'équipe d'audit: a) la compétence globale de l'équipe d'audit nécessaire; b) la complexité de l'audit; e) l'assurance de l'objectivité et de l'impartialité; f) la capacité des membres de l'équipe d'audit à travailler et avoir des échanges efficaces avec les représentants de l'audité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_1",
+            "chapitre": "Chapitre 6",
+            "section": "6.2.1",
+            "question": "Qui a la responsabilité de la réalisation de l'audit jusqu'à son achèvement selon ISO 19011:2018 ?",
+            "bonne_reponse": "Le responsable de l'équipe d'audit désigné",
+            "fausses_reponses": [
+                "Le client de l'audit",
+                "L'audité",
+                "Les parties intéressées"
+            ],
+            "extrait_source": "6.2.1 Généralités: Il convient que la responsabilité de la réalisation de l'audit incombe au responsable de l'équipe d'audit désigné (voir 5.5.5), jusqu'à l'achèvement de l'audit (voir 6.6).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_2",
+            "chapitre": "Chapitre 6",
+            "section": "6.2.2",
+            "question": "Que doit faire le responsable de l'équipe d'audit lors de la prise de contact avec l'audité selon ISO 19011:2018 ?",
+            "bonne_reponse": "Confirmer les circuits de communication, la légitimité de l'audit, fournir des informations sur les objectifs et le champ, et demander l'accès aux informations pertinentes",
+            "fausses_reponses": [
+                "Négocier le prix de l'audit",
+                "Signer un contrat commercial",
+                "Déterminer les salaires des auditeurs"
+            ],
+            "extrait_source": "6.2.2 Prise de contact avec l'audité: Il convient que le responsable de l'équipe d'audit s'assure qu'un contact est pris avec l'audité pour: a) confirmer les circuits de communication; b) confirmer la légitimité de la réalisation de l'audit; c) fournir des informations pertinentes sur les objectifs, le champ, les critères et les méthodes de l'audit; d) demander l'accès aux informations pertinentes.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_3",
+            "chapitre": "Chapitre 6",
+            "section": "6.2.3",
+            "question": "Quels facteurs doivent être pris en compte pour déterminer la faisabilité de l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "L'existence d'informations suffisantes, la coopération de l'audité, et les ressources et le temps nécessaires",
+            "fausses_reponses": [
+                "Uniquement le budget disponible",
+                "Exclusivement la disponibilité des auditeurs",
+                "Seulement la complexité des processus"
+            ],
+            "extrait_source": "6.2.3 Détermination de la faisabilité de l'audit: Il convient de déterminer la faisabilité de l'audit pour s'assurer de la confiance raisonnable dans le fait que les objectifs d'audit peuvent être atteints. a) d'informations suffisantes et appropriées; b) d'une coopération adéquate de la part de l'audité; c) des ressources et du temps nécessaires.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_4",
+            "chapitre": "Chapitre 6",
+            "section": "6.3.1",
+            "question": "Pourquoi une revue des informations documentées est-elle réalisée avant un audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Pour recueillir les informations nécessaires à la compréhension des opérations de l'audité et préparer les activités d'audit",
+            "fausses_reponses": [
+                "Pour certifier immédiatement l'organisme",
+                "Pour déterminer les salaires des employés",
+                "Pour négocier les contrats avec les fournisseurs"
+            ],
+            "extrait_source": "6.3.1 Réalisation d'une revue des informations documentées: Il convient de passer en revue les informations documentées du système de management pertinent de l'audité afin de recueillir les informations nécessaires à la compréhension des opérations de l'audité et à la préparation des activités d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_5",
+            "chapitre": "Chapitre 6",
+            "section": "6.3.2",
+            "question": "Quelle approche doit adopter le responsable de l'équipe d'audit pour planifier l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Une approche par les risques",
+            "fausses_reponses": [
+                "Une approche aléatoire",
+                "Une approche basée uniquement sur l'expérience passée",
+                "Une approche standardisée pour tous les audits"
+            ],
+            "extrait_source": "6.3.2.1 Approche par les risques pour la planification: Il convient que le responsable de l'équipe d'audit adopte une approche par les risques pour planifier l'audit sur la base des informations contenues dans le programme d'audit et des informations documentées fournies par l'audité.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_6",
+            "chapitre": "Chapitre 6",
+            "section": "6.3.3",
+            "question": "Sur quels critères le responsable de l'équipe d'audit doit-il baser la répartition des tâches selon ISO 19011:2018 ?",
+            "bonne_reponse": "L'impartialité, l'objectivité et la compétence des auditeurs, ainsi que l'utilisation efficace des ressources",
+            "fausses_reponses": [
+                "Les préférences personnelles des auditeurs",
+                "La proximité géographique avec l'audité",
+                "Les relations personnelles avec l'audité"
+            ],
+            "extrait_source": "6.3.3 Répartition des tâches au sein de l'équipe d'audit: Il convient que cette répartition des tâches tienne compte de l'impartialité, de l'objectivité et de la compétence des auditeurs, de l'utilisation efficace des ressources.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_7",
+            "chapitre": "Chapitre 6",
+            "section": "6.4.3",
+            "question": "Quel est l'objectif principal de la réunion d'ouverture selon ISO 19011:2018 ?",
+            "bonne_reponse": "Confirmer l'accord de tous les participants concernant le plan d'audit et présenter l'équipe d'audit",
+            "fausses_reponses": [
+                "Négocier le prix de l'audit",
+                "Signer le rapport final",
+                "Déterminer les actions correctives"
+            ],
+            "extrait_source": "6.4.3 Conduite de la réunion d'ouverture: La réunion d'ouverture a pour objet a) de confirmer l'accord de tous les participants concernant le plan d'audit; b) de présenter l'équipe d'audit et les rôles de ses membres; c) de s'assurer que toutes les activités planifiées peuvent être réalisées.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_8",
+            "chapitre": "Chapitre 6",
+            "section": "6.4.4",
+            "question": "Que doit faire l'équipe d'audit concernant la communication pendant l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Faire régulièrement le point pour échanger des informations et évaluer l'avancement, et informer l'audité des constatations importantes",
+            "fausses_reponses": [
+                "Éviter toute communication avec l'audité",
+                "Communiquer uniquement avec le client de l'audit",
+                "Ne communiquer qu'à la fin de l'audit"
+            ],
+            "extrait_source": "6.4.4 Communication pendant l'audit: Il peut être nécessaire de définir des dispositions formelles pour la communication au sein de l'équipe d'audit et avec l'audité. Pendant l'audit, il convient que le responsable de l'équipe d'audit informe régulièrement l'audité de l'avancement de l'audit, de toutes constatations importantes et de toute difficulté.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_9",
+            "chapitre": "Chapitre 6",
+            "section": "6.4.7",
+            "question": "Comment les informations doivent-elles être recueillies pendant l'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "À l'aide d'un échantillonnage approprié, et vérifiées dans la mesure du possible",
+            "fausses_reponses": [
+                "En collectant toutes les données disponibles sans exception",
+                "En se basant uniquement sur les déclarations de l'audité",
+                "En utilisant uniquement des méthodes aléatoires"
+            ],
+            "extrait_source": "6.4.7 Recueil et vérification des informations: Pendant l'audit, il convient de recueillir, à l'aide d'un échantillonnage approprié, les informations relatives aux objectifs, au champ et aux critères d'audit, y compris les informations relatives aux interfaces entre les fonctions, activités et processus, puis de les vérifier dans la mesure du possible.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_10",
+            "chapitre": "Chapitre 6",
+            "section": "6.4.8",
+            "question": "Comment sont produites les constatations d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "En évaluant les preuves d'audit par rapport aux critères d'audit",
+            "fausses_reponses": [
+                "En se basant sur l'intuition de l'auditeur",
+                "En utilisant uniquement les rapports précédents",
+                "En suivant les préférences du client"
+            ],
+            "extrait_source": "6.4.8 Production de constatations d'audit: Il convient d'évaluer les preuves d'audit par rapport aux critères d'audit pour élaborer les constatations d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_11",
+            "chapitre": "Chapitre 6",
+            "section": "6.4.10",
+            "question": "Quel est l'objectif principal de la réunion de clôture selon ISO 19011:2018 ?",
+            "bonne_reponse": "Présenter les constatations et les conclusions d'audit",
+            "fausses_reponses": [
+                "Négocier les actions correctives",
+                "Signer le contrat pour le prochain audit",
+                "Déterminer le budget pour l'audit suivant"
+            ],
+            "extrait_source": "6.4.10 Conduite de la réunion de clôture: Il convient de tenir une réunion de clôture pour présenter les constatations et les conclusions d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_12",
+            "chapitre": "Chapitre 6",
+            "section": "6.5.1",
+            "question": "Que doit comprendre un rapport d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "Les objectifs, le champ, les critères, les constatations et les conclusions d'audit, ainsi qu'une déclaration sur le degré de conformité",
+            "fausses_reponses": [
+                "Uniquement les non-conformités majeures",
+                "Exclusivement les recommandations pour le prochain audit",
+                "Seulement les noms des auditeurs"
+            ],
+            "extrait_source": "6.5.1 Préparation du rapport d'audit: Il convient que le rapport d'audit fournisse un enregistrement complet, précis, concis et clair de l'audit et qu'il comprenne ou fasse référence aux éléments suivants: a) les objectifs de l'audit; b) le champ de l'audit; c) les critères d'audit; g) les constatations d'audit et les preuves associées; h) les conclusions d'audit; i) une déclaration sur le degré de conformité aux critères d'audit.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_13",
+            "chapitre": "Chapitre 6",
+            "section": "6.6",
+            "question": "Quand un audit est-il considéré comme fini selon ISO 19011:2018 ?",
+            "bonne_reponse": "Lorsque toutes les activités décrites dans le plan d'audit ont été réalisées ou autrement convenues avec le client",
+            "fausses_reponses": [
+                "Dès que le rapport est signé",
+                "Lorsque l'audité a mis en œuvre toutes les actions correctives",
+                "Après la réunion de clôture"
+            ],
+            "extrait_source": "6.6 Clôture de l'audit: L'audit est fini lorsque toutes les activités décrites dans le plan d'audit ont été réalisées ou autrement convenues avec le client.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q6_14",
+            "chapitre": "Chapitre 6",
+            "section": "6.7",
+            "question": "Que peut mentionner le suivi d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "La nécessité de corrections ou d'actions correctives, ou des opportunités d'amélioration",
+            "fausses_reponses": [
+                "Les noms des prochains auditeurs",
+                "Le budget pour les audits futurs",
+                "Les contrats avec les fournisseurs"
+            ],
+            "extrait_source": "6.7 Réalisation du suivi d'audit: Les conclusions de l'audit peuvent mentionner, selon les objectifs de l'audit, la nécessité de corrections ou d'actions correctives, ou des opportunités d'amélioration.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_1",
+            "chapitre": "Chapitre 7",
+            "section": "7.1",
+            "question": "De quoi dépend la confiance accordée au processus d'audit selon ISO 19011:2018 ?",
+            "bonne_reponse": "De la compétence du personnel impliqué dans la réalisation des audits, y compris les auditeurs et les responsables de l'équipe d'audit",
+            "fausses_reponses": [
+                "Du nombre d'audits réalisés",
+                "De la durée de chaque audit",
+                "Du coût de l'audit"
+            ],
+            "extrait_source": "7.1 Généralités: La confiance accordée au processus d'audit et à la capacité de réaliser ses objectifs dépend de la compétence du personnel impliqué dans la réalisation des audits, y compris les auditeurs et les responsables de l'équipe d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_2",
+            "chapitre": "Chapitre 7",
+            "section": "7.1",
+            "question": "Comment la compétence doit-elle être évaluée selon ISO 19011:2018 ?",
+            "bonne_reponse": "De manière régulière au moyen d'un processus tenant compte des comportements personnels et de la capacité à appliquer les connaissances et aptitudes",
+            "fausses_reponses": [
+                "Uniquement lors de la première certification",
+                "Exclusivement par des tests écrits",
+                "Seulement par observation directe"
+            ],
+            "extrait_source": "Il convient d'évaluer régulièrement la compétence au moyen d'un processus tenant compte des comportements personnels et de la capacité à appliquer les connaissances et aptitudes obtenues par la formation initiale, l'expérience professionnelle, la formation d'auditeur et l'expérience d'audit.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_3",
+            "chapitre": "Chapitre 7",
+            "section": "7.2.2",
+            "question": "Quels comportements personnels sont attendus des auditeurs selon ISO 19011:2018 ?",
+            "bonne_reponse": "Être intègres, ouverts d'esprit, diplomates, observateurs, perspicaces, polyvalents, tenaces, capables de décision, autonomes, courageux, ouverts aux améliorations, ouverts aux différences culturelles, et acteurs en équipe",
+            "fausses_reponses": [
+                "Être autoritaires et inflexibles",
+                "Éviter tout contact avec l'audité",
+                "Se concentrer uniquement sur les non-conformités"
+            ],
+            "extrait_source": "7.2.2 Comportements personnels: Il convient que les auditeurs possèdent les qualités personnelles nécessaires pour leur permettre d'agir en accord avec les principes de l'audit. Les comportements professionnels souhaités consistent à être: a) intègres; b) ouverts d'esprit; c) diplomates; d) observateurs; e) perspicaces; f) polyvalents; g) tenaces; h) capables de décision; i) autonomes; j) capables d'agir avec courage; k) ouverts aux améliorations; l) ouverts aux différences culturelles; m) acteurs en équipe.",
+            "difficulte": "Difficile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_4",
+            "chapitre": "Chapitre 7",
+            "section": "7.2.3.2",
+            "question": "Quelles connaissances et aptitudes générales doivent posséder les auditeurs selon ISO 19011:2018 ?",
+            "bonne_reponse": "Les principes, processus et méthodes d'audit; les normes de système de management; l'organisme et son contexte; les exigences légales et réglementaires",
+            "fausses_reponses": [
+                "Uniquement les techniques de vente",
+                "Exclusivement les compétences en programmation",
+                "Seulement les connaissances en comptabilité"
+            ],
+            "extrait_source": "7.2.3.2 Connaissances et aptitudes générales des auditeurs: a) Principes, processus et méthodes d'audit; b) Normes de système de management; c) L'organisme et son contexte; d) Exigences légales et réglementaires.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_5",
+            "chapitre": "Chapitre 7",
+            "section": "7.2.4",
+            "question": "Comment la compétence des auditeurs peut-elle être acquise selon ISO 19011:2018 ?",
+            "bonne_reponse": "Par une combinaison de programmes de formation, d'expérience professionnelle, de formation initiale et continue, et d'expérience d'audit",
+            "fausses_reponses": [
+                "Uniquement par la lecture de normes",
+                "Exclusivement par des examens théoriques",
+                "Seulement par l'observation d'autres auditeurs"
+            ],
+            "extrait_source": "7.2.4 Acquisition de la compétence d'auditeur: La compétence des auditeurs peut être acquise par une combinaison des facteurs suivants: a) programmes de formation; b) expérience professionnelle; c) formation initiale et continue; d) expérience d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_6",
+            "chapitre": "Chapitre 7",
+            "section": "7.4",
+            "question": "Quelles méthodes peuvent être utilisées pour évaluer les auditeurs selon ISO 19011:2018 ?",
+            "bonne_reponse": "Revue d'enregistrements, retour d'information, entretien, observation, tests, revue post-audit",
+            "fausses_reponses": [
+                "Uniquement des examens écrits",
+                "Exclusivement des entretiens",
+                "Seulement des observations en situation réelle"
+            ],
+            "extrait_source": "Tableau 2 — Méthodes d'évaluation des auditeurs: Revue d'enregistrements, Retour d'information, Entretien, Observation, Tests, Revue post-audit.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "Q7_7",
+            "chapitre": "Chapitre 7",
+            "section": "7.6",
+            "question": "Comment les auditeurs doivent-ils maintenir et améliorer leur compétence selon ISO 19011:2018 ?",
+            "bonne_reponse": "En participant régulièrement à des audits et en suivant une formation continue",
+            "fausses_reponses": [
+                "En lisant uniquement les normes",
+                "En évitant les audits complexes",
+                "En se basant uniquement sur leur expérience passée"
+            ],
+            "extrait_source": "7.6 Maintien et amélioration de la compétence: Il convient que les auditeurs et les responsables d'équipe d'audit améliorent leur compétence de façon continue. Il convient que les auditeurs maintiennent leur capacité à auditer en participant régulièrement à des audits de systèmes de management et en suivant une formation continue.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_1",
+            "chapitre": "Annexe A",
+            "section": "A.1",
+            "question": "Quelles méthodes d'audit peuvent être utilisées selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Les audits peuvent être réalisés sur site, à distance, ou en combinant les deux méthodes",
+            "fausses_reponses": [
+                "Uniquement des audits sur site",
+                "Exclusivement des audits documentaires",
+                "Seulement des audits par entretiens"
+            ],
+            "extrait_source": "A.1 Application des méthodes d'audit: Un audit peut être réalisé en utilisant une gamme de méthodes d'audit. Les audits peuvent être réalisés sur le site, à distance ou sous forme d'une combinaison des deux.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_2",
+            "chapitre": "Annexe A",
+            "section": "A.2",
+            "question": "Que signifie l'approche processus pour l'audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Auditer les processus d'un organisme et leurs interactions par rapport à une ou plusieurs normes de système de management",
+            "fausses_reponses": [
+                "Se concentrer uniquement sur les documents",
+                "Ignorer les interactions entre processus",
+                "Auditer uniquement les résultats finaux"
+            ],
+            "extrait_source": "A.2 Approche processus pour l'audit: Il convient que les auditeurs comprennent qu'auditer un système de management consiste à auditer les processus d'un organisme et leurs interactions par rapport à une ou plusieurs normes de système de management.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_3",
+            "chapitre": "Annexe A",
+            "section": "A.3",
+            "question": "Pourquoi le jugement professionnel est-il important dans l'audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Pour déterminer si l'intention d'un article de la norme a été satisfaite, surtout lorsque les articles ne se prêtent pas aisément à l'audit en termes de comparaison directe",
+            "fausses_reponses": [
+                "Pour éviter toute interaction avec l'audité",
+                "Pour accélérer le processus d'audit",
+                "Pour réduire les coûts de l'audit"
+            ],
+            "extrait_source": "A.3 Jugement professionnel: Il convient que les auditeurs appliquent un jugement professionnel durant le processus d'audit et évitent de se concentrer sur les exigences spécifiques de chaque article de la norme au détriment de l'obtention du résultat escompté du système de management.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_4",
+            "chapitre": "Annexe A",
+            "section": "A.4",
+            "question": "Sur quoi les auditeurs doivent-ils se concentrer selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Sur le résultat escompté du système de management tout au long du processus d'audit",
+            "fausses_reponses": [
+                "Uniquement sur les processus individuels",
+                "Exclusivement sur les non-conformités",
+                "Seulement sur les documents"
+            ],
+            "extrait_source": "A.4 Résultats relatifs aux performances: Il convient que les auditeurs se concentrent sur le résultat escompté du système de management tout au long du processus d'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_5",
+            "chapitre": "Annexe A",
+            "section": "A.5",
+            "question": "Quels critères doivent être vérifiés pour les informations selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Les informations doivent être complètes, correctes, cohérentes et actualisées",
+            "fausses_reponses": [
+                "Les informations doivent être uniquement en format numérique",
+                "Les informations doivent être certifiées par un tiers",
+                "Les informations doivent être en anglais"
+            ],
+            "extrait_source": "A.5 Vérification des informations: a) complètes; b) correctes; c) cohérentes; d) actualisées.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_6",
+            "chapitre": "Annexe A",
+            "section": "A.6",
+            "question": "Pourquoi l'échantillonnage est-il utilisé dans l'audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Lorsqu'il n'est pas possible ou trop onéreux d'examiner toutes les informations disponibles pendant l'audit",
+            "fausses_reponses": [
+                "Pour accélérer le processus sans se soucier de la qualité",
+                "Pour éviter toute interaction avec l'audité",
+                "Pour réduire les coûts sans tenir compte des risques"
+            ],
+            "extrait_source": "A.6.1 Généralités: L'échantillonnage pour audit est réalisé lorsqu'il n'est pas possible ou se révèle trop onéreux d'examiner toutes les informations disponibles pendant l'audit.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_7",
+            "chapitre": "Annexe A",
+            "section": "A.6",
+            "question": "Quels types d'échantillonnage sont mentionnés dans l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "L'échantillonnage fondé sur le jugement et l'échantillonnage fondé sur les statistiques",
+            "fausses_reponses": [
+                "L'échantillonnage aléatoire et l'échantillonnage systématique uniquement",
+                "L'échantillonnage par quotas et l'échantillonnage stratifié uniquement",
+                "L'échantillonnage par convenance uniquement"
+            ],
+            "extrait_source": "Les audits peuvent utiliser soit l'échantillonnage fondé sur le jugement (voir A.6.2), soit l'échantillonnage fondé sur les statistiques (voir A.6.3).",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_8",
+            "chapitre": "Annexe A",
+            "section": "A.7",
+            "question": "Que doit déterminer l'équipe d'audit concernant la conformité selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Si l'audité dispose de processus efficaces pour identifier, gérer et évaluer son état de conformité aux exigences pertinentes",
+            "fausses_reponses": [
+                "Si l'audité a déjà été certifié",
+                "Si l'audité a des relations avec les régulateurs",
+                "Si l'audité a un service juridique interne"
+            ],
+            "extrait_source": "A.7 Audit de la conformité: Il convient que l'équipe d'audit détermine si l'audité dispose de processus efficaces pour: a) identifier les exigences légales et réglementaires; b) gérer ses activités de manière à satisfaire à ces exigences; c) évaluer son état de conformité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_9",
+            "chapitre": "Annexe A",
+            "section": "A.8",
+            "question": "Que doivent vérifier les auditeurs concernant le contexte de l'organisme selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Que des processus appropriés ont été élaborés et mis en œuvre pour déterminer le contexte, y compris les besoins et attentes des parties intéressées et les enjeux externes et internes",
+            "fausses_reponses": [
+                "Que le contexte a été déterminé par un consultant externe",
+                "Que le contexte est identique à celui des concurrents",
+                "Que le contexte n'a pas changé depuis la dernière certification"
+            ],
+            "extrait_source": "A.8 Audit du contexte: Il convient que les auditeurs s'assurent que des processus appropriés ont été élaborés à cet effet et sont mis en œuvre de manière efficace, de sorte que leurs résultats fournissent une base fiable pour la détermination du domaine d'application et l'élaboration du système de management.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_10",
+            "chapitre": "Annexe A",
+            "section": "A.9",
+            "question": "Sur quoi les auditeurs doivent-ils obtenir des preuves objectives concernant le leadership selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Sur le degré d'implication de la direction dans les prises de décision relatives au système de management et son engagement pour assurer son efficacité",
+            "fausses_reponses": [
+                "Sur les relations personnelles entre la direction et les auditeurs",
+                "Sur les salaires des membres de la direction",
+                "Sur les investissements financiers de la direction"
+            ],
+            "extrait_source": "A.9 Audit du leadership et de l'engagement: Il convient que les auditeurs obtiennent des preuves objectives du degré d'implication de la direction dans les prises de décision relatives au système de management et de son degré d'engagement pour assurer son efficacité.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_11",
+            "chapitre": "Annexe A",
+            "section": "A.10",
+            "question": "Quels sont les objectifs principaux de l'audit des risques et opportunités selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Donner une assurance quant à la crédibilité du processus d'identification des risques et opportunités, et que les risques et opportunités sont déterminés et gérés correctement",
+            "fausses_reponses": [
+                "Identifier tous les risques financiers de l'organisme",
+                "Éliminer tous les risques pour l'organisme",
+                "Garantir que l'organisme n'aura plus jamais de problèmes"
+            ],
+            "extrait_source": "A.10 Audit des risques et opportunités: Les objectifs principaux d'une telle tâche d'audit sont de: donner une assurance quant à la crédibilité du processus d'identification des risques et opportunités; donner l'assurance que les risques et opportunités sont déterminés et gérés correctement.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_12",
+            "chapitre": "Annexe A",
+            "section": "A.11",
+            "question": "Que implique une perspective de cycle de vie dans l'audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Prendre en compte la maîtrise et l'influence de l'organisme sur les étapes du cycle de vie de ses produits et services",
+            "fausses_reponses": [
+                "Se concentrer uniquement sur la phase de production",
+                "Ignorer les impacts environnementaux",
+                "Ne considérer que les coûts de production"
+            ],
+            "extrait_source": "A.11 Cycle de vie: Une perspective de cycle de vie implique de prendre en compte la maîtrise et l'influence de l'organisme sur les étapes du cycle de vie de ses produits et services.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_13",
+            "chapitre": "Annexe A",
+            "section": "A.12",
+            "question": "Que peut comprendre le champ de l'audit de la chaîne d'approvisionnement selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Audit complet du système de management, audit d'un seul processus, audit d'un produit, ou audit d'une configuration",
+            "fausses_reponses": [
+                "Uniquement l'audit des fournisseurs locaux",
+                "Exclusivement l'audit des contrats",
+                "Seulement l'audit des prix"
+            ],
+            "extrait_source": "A.12 Audit de la chaîne d'approvisionnement: Le champ de l'audit de la chaîne d'approvisionnement peut varier, par exemple audit complet du système de management, audit d'un seul processus, audit d'un produit, audit d'une configuration.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_14",
+            "chapitre": "Annexe A",
+            "section": "A.13",
+            "question": "Que doivent se demander les membres de l'équipe d'audit lors de la préparation des documents de travail selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Quel enregistrement d'audit sera généré, quelle activité est concernée, qui sera l'utilisateur, et quelles informations sont nécessaires",
+            "fausses_reponses": [
+                "Combien de temps cela prendra-t-il",
+                "Qui paiera pour ces documents",
+                "Où ces documents seront-ils stockés après l'audit"
+            ],
+            "extrait_source": "A.13 Préparation des documents de travail: Lors de la préparation des documents de travail relatifs à l'audit, il convient que l'équipe d'audit se pose les questions suivantes: a) Quel enregistrement d'audit sera généré; b) Quelle activité d'audit est concernée; c) Quel sera l'utilisateur; d) Quelles informations sont nécessaires.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_15",
+            "chapitre": "Annexe A",
+            "section": "A.14",
+            "question": "Quelles peuvent être les sources d'information pour un audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Entretiens, observation des activités, informations documentées, enregistrements, synthèses de données, rapports d'autres sources, bases de données et sites Internet",
+            "fausses_reponses": [
+                "Uniquement les entretiens avec la direction",
+                "Exclusivement les documents officiels",
+                "Seulement les rapports financiers"
+            ],
+            "extrait_source": "A.14 Choix des sources d'information: a) des entretiens; b) l'observation des activités; c) des informations documentées; d) des enregistrements; e) des synthèses de données; f) des rapports d'autres sources; h) des bases de données et sites Internet.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_16",
+            "chapitre": "Annexe A",
+            "section": "A.15",
+            "question": "Quels éléments doivent être pris en compte pour réduire l'interférence lors des visites du site selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Planifier la visite, éviter les perturbations inutiles, utiliser les EPI de manière appropriée, et respecter les procédures d'urgence",
+            "fausses_reponses": [
+                "Arriver sans prévenir",
+                "Ignorer les règles de sécurité",
+                "Manipuler l'équipement sans autorisation"
+            ],
+            "extrait_source": "A.15 Visites du site: a) planification de la visite; b) activités sur site: éviter toute perturbation inutile, s'assurer que l'équipe d'audit utilise un EPI de manière appropriée, s'assurer de la communication des procédures d'urgence.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_17",
+            "chapitre": "Annexe A",
+            "section": "A.16",
+            "question": "Que sont les audits virtuels selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Des audits réalisés lorsqu'un organisme utilise un environnement en ligne pour exécuter les processus, quel que soit le lieu physique",
+            "fausses_reponses": [
+                "Des audits réalisés uniquement par téléphone",
+                "Des audits qui ne nécessitent aucune technologie",
+                "Des audits qui se concentrent uniquement sur les documents"
+            ],
+            "extrait_source": "A.16 Audit d'activités et lieux virtuels: Des audits virtuels sont réalisés lorsqu'un organisme réalise un travail ou fournit un service en utilisant un environnement en ligne permettant à des personnes d'exécuter les processus quel que soit le lieu physique.",
+            "difficulte": "Facile",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_18",
+            "chapitre": "Annexe A",
+            "section": "A.17",
+            "question": "Quels éléments les auditeurs doivent-ils prendre en compte lors de la conduite des entretiens selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Organiser des entretiens avec des personnes appropriées, mettre la personne à l'aise, expliquer les raisons de l'entretien, sélectionner attentivement le type de questions, et résumer les résultats",
+            "fausses_reponses": [
+                "Éviter de prendre des notes",
+                "Poser uniquement des questions fermées",
+                "Ne pas expliquer l'objectif de l'entretien"
+            ],
+            "extrait_source": "A.17 Conduite des entretiens: a) organiser des entretiens avec des personnes appropriées; b) mettre la personne à l'aise; c) expliquer les raisons de l'entretien; f) sélectionner attentivement le type de question; h) résumer et passer en revue les résultats.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        },
+        {
+            "id": "QA_19",
+            "chapitre": "Annexe A",
+            "section": "A.18",
+            "question": "Quels éléments doivent être pris en compte lors de la détermination des constatations d'audit selon l'Annexe A de ISO 19011:2018 ?",
+            "bonne_reponse": "Le suivi des enregistrements et conclusions d'audits précédents, les exigences du client, le caractère exact et suffisant des preuves, et la taille de l'échantillon",
+            "fausses_reponses": [
+                "Uniquement les préférences de l'auditeur",
+                "Exclusivement les résultats financiers",
+                "Seulement les opinions des parties intéressées"
+            ],
+            "extrait_source": "A.18.1 Détermination des constatations d'audit: a) le suivi des enregistrements et des conclusions d'audits précédents; b) les exigences du client; c) le caractère exact, suffisant et adéquat des preuves objectives; f) la taille de l'échantillon.",
+            "difficulte": "Moyenne",
+            "figure_associee": null
+        }
+    ]
+}
