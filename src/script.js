@@ -88,7 +88,6 @@ console.log(filesToTest);
       availableJsonFiles = [];
       // Tester chaque fichier pour voir s'il existe
       for (const fileName of filesToTest) {
-        console.log('A')
         try {
           const response = await fetch(`json/${fileName.chemin}`);
           if (response.ok) {
