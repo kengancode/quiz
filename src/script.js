@@ -83,8 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {nom: 'IGI1300', chemin : 'igi_1300_qcm_final.json' }
           ];
         }
-      
-console.log(filesToTest);
+    
       availableJsonFiles = [];
       // Tester chaque fichier pour voir s'il existe
       for (const fileName of filesToTest) {
@@ -156,7 +155,7 @@ console.log(filesToTest);
   // Charger les fichiers JSON sélectionnés
   async function loadSelectedJsonFiles() {
     const filesToLoad = [...selectedFiles];
-    
+
     // Ajouter le fichier téléchargé si présent
     if (jsonFile.files.length > 0) {
       filesToLoad.push('uploaded:' + jsonFile.files[0].name);
@@ -167,15 +166,15 @@ console.log(filesToTest);
       // Extraire le nom du fichier de la sélection aléatoire
       const match = randomSelection.textContent.match(/Fichier sélectionné: ([^\s]+)/);
       if (match) {
-        filesToLoad.push(match[1]);
+        //filesToLoad.push(match[1]);
+        filesToLoad.push(randomSelection.chemin);
       }
     }
     
     // Ajouter tous les fichiers si sélectionné
     if (allSelection.textContent) {
-      filesToLoad.push(...availableJsonFiles);
+      availableJsonFiles.forEach(fileName => {filesToLoad.push(fileName.chemin); });
     }
-    
     // Éviter les doublons
     const uniqueFiles = [...new Set(filesToLoad)];
     
@@ -434,7 +433,8 @@ console.log(filesToTest);
     
     const randomIndex = Math.floor(Math.random() * availableJsonFiles.length);
     const selectedFile = availableJsonFiles[randomIndex];
-    randomSelection.textContent = `Fichier sélectionné: ${selectedFile}`;
+    randomSelection.textContent = `Fichier sélectionné: ${selectedFile.nom}`;
+    randomSelection.chemin = selectedFile.chemin;
     randomSelection.classList.remove('error');
     updateNextBtn1State();
   });
