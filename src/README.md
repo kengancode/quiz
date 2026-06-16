@@ -228,7 +228,6 @@ Pour générer un fichier JSON à partir du référentiel, tu peux utiliser une 
       "bonne_reponse": "Paris",
       "fausses_reponses": ["Londres", "Berlin", "Madrid"],
       "extrait_source": "Paris est la capitale de la France depuis le Xe siècle.",
-      "difficulte" : "Difficulté",
       "figure_associee": null
     }
   ]

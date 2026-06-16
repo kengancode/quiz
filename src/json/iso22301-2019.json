@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "titre": "ISO 22301:2019 - Systèmes de management de la continuité d'activité",
+    "source": "NF EN ISO 22301:2019",
+    "date_creation": "2026-06-16",
+    "nombre_questions": 24,
+    "chapitres_couverts": [
+      "Chapitre 4 : Contexte de l'organisme",
+      "Chapitre 5 : Leadership",
+      "Chapitre 6 : Planification",
+      "Chapitre 7 : Support",
+      "Chapitre 8 : Fonctionnement",
+      "Chapitre 9 : Évaluation de la performance",
+      "Chapitre 10 : Amélioration"
+    ]
+  },
+  "questions": [
+    // ========== Chapitre 4 : Contexte de l'organisme ==========
+    {
+      "id": "Q4_1",
+      "chapitre": "4",
+      "section": "4.1 Compréhension de l'organisme et de son contexte",
+      "question": "Quelle est la première étape pour établir le contexte du SMCA selon l'ISO 22301 ?",
+      "bonne_reponse": "Déterminer les questions externes et internes pertinentes par rapport à la finalité de l'organisme.",
+      "fausses_reponses": [
+        "Définir immédiatement les objectifs de continuité d'activité sans analyse préalable.",
+        "Mettre en place un audit interne pour évaluer les processus existants.",
+        "Externaliser la gestion des risques à un prestataire spécialisé."
+      ],
+      "extrait_source": "L'organisme doit déterminer les questions externes et internes pertinentes par rapport à sa finalité, et qui affectent sa capacité à atteindre le ou les résultats attendus de son SMCA.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_2",
+      "chapitre": "4",
+      "section": "4.2 Compréhension des besoins et attentes des parties intéressées",
+      "question": "Que doit faire l'organisme concernant les parties intéressées lors de l'établissement de son SMCA ?",
+      "bonne_reponse": "Déterminer les parties intéressées pertinentes et leurs exigences.",
+      "fausses_reponses": [
+        "Ignorer les attentes des parties intéressées pour se concentrer sur les processus internes.",
+        "Se limiter aux exigences légales sans tenir compte des autres parties intéressées.",
+        "Externaliser la gestion des relations avec les parties intéressées."
+      ],
+      "extrait_source": "Lors de l'établissement de son SMCA, l'organisme doit déterminer : a) les parties intéressées qui sont pertinentes pour le SMCA ; b) les exigences de ces parties intéressées.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_3",
+      "chapitre": "4",
+      "section": "4.3 Détermination du domaine d'application du SMCA",
+      "question": "Que doit inclure le domaine d'application du SMCA ?",
+      "bonne_reponse": "Les limites et l'applicabilité du système, en prenant en compte les questions externes et internes, les exigences, et la mission de l'organisme.",
+      "fausses_reponses": [
+        "Une liste exhaustive des fournisseurs et partenaires.",
+        "Les résultats des audits précédents.",
+        "Les budgets alloués à chaque département."
+      ],
+      "extrait_source": "Pour établir le domaine d'application du SMCA, l'organisme doit en déterminer les limites et l'applicabilité. a) Lorsqu'il établit ce domaine d'application, il doit prendre en considération : b) les questions externes et internes ; c) les exigences ; d) sa mission, ses buts et ses obligations internes et externes.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_4",
+      "chapitre": "4",
+      "section": "4.4 Système de management de la continuité d'activité",
+      "question": "Que doit faire l'organisme pour son SMCA selon l'ISO 22301 ?",
+      "bonne_reponse": "Établir, mettre en œuvre, maintenir et améliorer continuellement le SMCA, incluant les processus nécessaires et leurs interactions.",
+      "fausses_reponses": [
+        "Se concentrer uniquement sur la documentation sans mise en œuvre pratique.",
+        "Externaliser entièrement la gestion du SMCA.",
+        "Ignorer les interactions entre les processus."
+      ],
+      "extrait_source": "L'organisme doit établir, mettre en œuvre, maintenir et continuellement améliorer un SMCA, incluant les processus nécessaires et leurs interactions, en accord avec les exigences du présent document.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 5 : Leadership ==========
+    {
+      "id": "Q5_1",
+      "chapitre": "5",
+      "section": "5.1 Leadership et engagement",
+      "question": "Quel rôle la Direction générale doit-elle jouer dans le SMCA ?",
+      "bonne_reponse": "Démontrer son leadership et son engagement en s'assurant que la politique et les objectifs de continuité d'activité sont établis et compatibles avec l'orientation stratégique de l'organisme.",
+      "fausses_reponses": [
+        "Externaliser la gestion des risques et des opportunités.",
+        "Ignorer les retours des parties intéressées.",
+        "Se concentrer uniquement sur les aspects financiers."
+      ],
+      "extrait_source": "La Direction générale doit démontrer son leadership et son engagement en faveur du SMCA en : a) s'assurant que la politique et les objectifs de continuité d'activité sont établis et qu'ils sont compatibles avec l'orientation stratégique de l'organisme.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_2",
+      "chapitre": "5",
+      "section": "5.2 Politique",
+      "question": "Que doit inclure la politique de continuité d'activité selon l'ISO 22301 ?",
+      "bonne_reponse": "Un engagement à satisfaire aux exigences applicables et à l'amélioration continue du SMCA.",
+      "fausses_reponses": [
+        "Une liste détaillée des employés et de leurs rôles.",
+        "Les détails techniques des solutions IT.",
+        "Les contrats avec les fournisseurs."
+      ],
+      "extrait_source": "La politique de continuité d'activité doit : a) être appropriée à la mission de l'organisme ; b) fournir un cadre pour l'établissement d'objectifs de continuité d'activité ; c) inclure l'engagement de satisfaire aux exigences applicables ; d) inclure l'engagement d'amélioration continue du SMCA.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_3",
+      "chapitre": "5",
+      "section": "5.3 Rôles, responsabilités et autorités",
+      "question": "Que doit faire la Direction générale concernant les rôles et responsabilités dans le SMCA ?",
+      "bonne_reponse": "S'assurer que les responsabilités et autorités pour les rôles pertinents sont attribuées et communiquées au sein de l'organisme.",
+      "fausses_reponses": [
+        "Centraliser toutes les responsabilités au niveau de la Direction générale.",
+        "Externaliser la gestion des rôles et responsabilités.",
+        "Ignorer la communication des rôles aux parties intéressées."
+      ],
+      "extrait_source": "La Direction générale doit s'assurer que les responsabilités et autorités pour les rôles pertinents sont attribuées et communiquées au sein de l'organisme.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 6 : Planification ==========
+    {
+      "id": "Q6_1",
+      "chapitre": "6",
+      "section": "6.1 Actions face aux risques et opportunités",
+      "question": "Que doit faire l'organisme lors de la détermination des risques et opportunités pour le SMCA ?",
+      "bonne_reponse": "Prendre en considération les questions externes et internes (4.1) et les exigences (4.2) pour déterminer les risques et opportunités à traiter.",
+      "fausses_reponses": [
+        "Ignorer les attentes des parties intéressées.",
+        "Se concentrer uniquement sur les risques financiers.",
+        "Externaliser la planification des actions."
+      ],
+      "extrait_source": "Lorsqu'il conçoit son SMCA, l'organisme doit prendre en considération les questions auxquelles il est fait référence en 4.1 et les exigences auxquelles il est fait référence en 4.2 et déterminer les risques et opportunités auxquels il faut faire face.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_2",
+      "chapitre": "6",
+      "section": "6.2 Objectifs de continuité d'activité",
+      "question": "Que doivent inclure les objectifs de continuité d'activité selon l'ISO 22301 ?",
+      "bonne_reponse": "Être cohérents avec la politique de continuité d'activité, mesurables (si possible), et prendre en compte les exigences applicables.",
+      "fausses_reponses": [
+        "Être définis uniquement par la Direction générale sans consultation.",
+        "Ignorer les retours des parties intéressées.",
+        "Se limiter aux aspects techniques."
+      ],
+      "extrait_source": "Les objectifs de continuité d'activité doivent : a) être cohérents avec la politique de continuité d'activité ; b) être mesurables (si possible) ; c) prendre en compte les exigences applicables (voir 4.1 et 4.2).",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_3",
+      "chapitre": "6",
+      "section": "6.3 Planification des modifications du SMCA",
+      "question": "Que doit faire l'organisme lors de la planification des modifications du SMCA ?",
+      "bonne_reponse": "Prendre en considération l'objet des modifications, leurs conséquences potentielles, l'intégrité du SMCA, et la disponibilité des ressources.",
+      "fausses_reponses": [
+        "Ignorer les conséquences potentielles des modifications.",
+        "Externaliser la planification des modifications.",
+        "Se concentrer uniquement sur les aspects techniques."
+      ],
+      "extrait_source": "Lorsque l'organisme détermine le besoin d'apporter des modifications au SMCA, les modifications doivent être réalisées de façon planifiée. L'organisme doit prendre en considération : a) l'objet des modifications et leurs conséquences potentielles ; b) l'intégrité du SMCA ; c) la disponibilité des ressources.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 7 : Support ==========
+    {
+      "id": "Q7_1",
+      "chapitre": "7",
+      "section": "7.1 Ressources",
+      "question": "Que doit faire l'organisme concernant les ressources pour le SMCA ?",
+      "bonne_reponse": "Déterminer et fournir les ressources nécessaires à l'établissement, la mise en œuvre, la maintenance et l'amélioration continue du SMCA.",
+      "fausses_reponses": [
+        "Externaliser toutes les ressources nécessaires.",
+        "Ignorer les compétences internes.",
+        "Se concentrer uniquement sur les ressources financières."
+      ],
+      "extrait_source": "L'organisme doit déterminer et fournir les ressources nécessaires à l'établissement, la mise en œuvre, la maintenance et l'amélioration continue du SMCA.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_2",
+      "chapitre": "7",
+      "section": "7.2 Compétences",
+      "question": "Que doit faire l'organisme concernant les compétences des personnes affectant la continuité d'activité ?",
+      "bonne_reponse": "Déterminer les compétences nécessaires, s'assurer que les personnes sont compétentes, et conserver des informations documentées comme preuves.",
+      "fausses_reponses": [
+        "Ignorer les compétences nécessaires pour les rôles critiques.",
+        "Externaliser la formation des employés.",
+        "Se concentrer uniquement sur les compétences techniques."
+      ],
+      "extrait_source": "L'organisme doit : a) déterminer les compétences nécessaires de la ou des personnes effectuant, sous son contrôle, un travail qui affecte ses performances de continuité d'activité ; b) s'assurer que ces personnes sont compétentes sur la base d'une formation initiale, d'une formation professionnelle ou d'une expérience appropriée ; c) conserver des informations documentées appropriées comme preuves de ces compétences.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_3",
+      "chapitre": "7",
+      "section": "7.5 Informations documentées",
+      "question": "Que doit inclure la maîtrise des informations documentées selon l'ISO 22301 ?",
+      "bonne_reponse": "S'assurer que les informations documentées sont disponibles, protégées, et maîtrisées (distribution, accès, stockage, modifications, conservation).",
+      "fausses_reponses": [
+        "Ignorer la protection des informations documentées.",
+        "Externaliser la gestion des informations documentées.",
+        "Se limiter à la conservation des informations sans maîtrise des versions."
+      ],
+      "extrait_source": "Les informations documentées exigées par le SMCA et par le présent document doivent être maîtrisées pour s'assurer : a) qu'elles sont disponibles et propres à être utilisées, où et quand c'est nécessaire ; b) qu'elles sont convenablement protégées. Pour maîtriser les informations documentées, l'organisme doit s'occuper des activités suivantes : a) distribution, accès, récupération et utilisation ; b) stockage et préservation ; c) maîtrise des modifications ; d) conservation et élimination des informations.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 8 : Fonctionnement ==========
+    {
+      "id": "Q8_1",
+      "chapitre": "8",
+      "section": "8.1 Planification opérationnelle et maîtrise",
+      "question": "Que doit faire l'organisme pour la planification opérationnelle du SMCA ?",
+      "bonne_reponse": "Planifier, mettre en œuvre et maîtriser les processus nécessaires pour satisfaire aux exigences et réaliser les actions déterminées, en établissant des critères et en conservant des informations documentées.",
+      "fausses_reponses": [
+        "Ignorer les critères pour les processus.",
+        "Externaliser la maîtrise des processus.",
+        "Se concentrer uniquement sur les processus IT."
+      ],
+      "extrait_source": "L'organisme doit planifier, mettre en œuvre et maîtriser les processus nécessaires pour satisfaire aux exigences et réaliser les actions déterminées en 6.1, en : a) établissant les critères pour ces processus ; b) mettant en œuvre la maîtrise de ces processus en accord avec ces critères ; c) conservant des informations documentées pour être en mesure de montrer que les processus ont été menés comme prévu.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_2",
+      "chapitre": "8",
+      "section": "8.2 Bilan d'impact sur l'activité",
+      "question": "Que doit inclure le processus de bilan d'impact sur l'activité ?",
+      "bonne_reponse": "Définir les types d'impacts, identifier les activités supportant la livraison des produits/services, et déterminer les délais maximaux tolérables de perturbation (DMTP) et les objectifs de délai de rétablissement (RTO).",
+      "fausses_reponses": [
+        "Se limiter à une liste des activités sans analyse d'impact.",
+        "Ignorer les délais de rétablissement.",
+        "Externaliser le bilan d'impact."
+      ],
+      "extrait_source": "Le processus de bilan d'impact sur l'activité doit : a) définir les types d'impacts et les critères pertinents pour le contexte de l'organisme ; b) identifier les activités qui supportent la livraison des produits et la fourniture des services ; c) utiliser les types d'impacts et les critères pour apprécier les impacts dans le temps découlant de la perturbation de ces activités ; d) identifier la durée au-delà de laquelle les impacts d'une non-reprise de ces activités deviendraient inacceptables (DMTP) ; e) déterminer les délais par ordre de priorité pour reprendre les activités perturbées (RTO).",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_3",
+      "chapitre": "8",
+      "section": "8.2.3 Appréciation du risque",
+      "question": "Que doit faire l'organisme pour l'appréciation du risque selon l'ISO 22301 ?",
+      "bonne_reponse": "Identifier les risques de perturbation pour les activités prioritaires, analyser et évaluer ces risques, et déterminer quels risques exigent un traitement.",
+      "fausses_reponses": [
+        "Ignorer les risques identifiés.",
+        "Se concentrer uniquement sur les risques financiers.",
+        "Externaliser l'appréciation du risque."
+      ],
+      "extrait_source": "L'organisme doit : a) identifier les risques de perturbation pour les activités prioritaires de l'organisme, ainsi que pour les ressources requises ; b) analyser et évaluer les risques identifiés ; c) déterminer quels risques exigent un traitement.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_4",
+      "chapitre": "8",
+      "section": "8.3 Stratégies et solutions de continuité d'activité",
+      "question": "Que doit prendre en considération l'organisme lors de l'identification des stratégies et solutions de continuité d'activité ?",
+      "bonne_reponse": "Satisfaire aux exigences pour poursuivre et rétablir les activités prioritaires, réduire la vraisemblance des perturbations, et limiter l'impact des perturbations.",
+      "fausses_reponses": [
+        "Ignorer les activités prioritaires.",
+        "Se concentrer uniquement sur les solutions IT.",
+        "Externaliser toutes les stratégies."
+      ],
+      "extrait_source": "L'identification des stratégies et solutions doit prendre en considération dans quelle mesure elles : a) satisfont aux exigences pour poursuivre et rétablir les activités prioritaires dans les délais identifiés et au niveau de capacité convenu ; b) protègent les activités prioritaires ; c) réduisent la vraisemblance des perturbations ; d) raccourcissent la période de perturbation ; e) limitent l'impact de la perturbation sur les produits et services.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_5",
+      "chapitre": "8",
+      "section": "8.4 Plans et procédures de continuité d'activité",
+      "question": "Que doivent inclure les plans de continuité d'activité selon l'ISO 22301 ?",
+      "bonne_reponse": "Les détails des actions pour continuer ou rétablir les activités prioritaires, les seuils prédéfinis, les procédures de livraison des produits/services, et les informations pour gérer les conséquences immédiates.",
+      "fausses_reponses": [
+        "Une liste exhaustive des employés.",
+        "Les détails des audits précédents.",
+        "Les budgets alloués à chaque département."
+      ],
+      "extrait_source": "Les plans de continuité d'activité doivent globalement contenir : a) les détails des actions que les équipes accompliront afin de : 1) continuer ou rétablir les activités prioritaires dans des délais prédéterminés ; 2) surveiller l'impact de la perturbation et la réponse de l'organisme ; b) la référence au(x) seuil(s) prédéfini(s) et au processus visant à activer la réponse ; c) les procédures permettant la livraison des produits et la fourniture des services au niveau de capacité convenu.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_6",
+      "chapitre": "8",
+      "section": "8.5 Programme d'exercices",
+      "question": "Que doit faire l'organisme concernant le programme d'exercices pour le SMCA ?",
+      "bonne_reponse": "Mener des exercices et tests cohérents avec les objectifs de continuité d'activité, basés sur des scénarios appropriés, et valider les stratégies et solutions de continuité d'activité.",
+      "fausses_reponses": [
+        "Ignorer les résultats des exercices.",
+        "Externaliser tous les tests.",
+        "Se concentrer uniquement sur les tests IT."
+      ],
+      "extrait_source": "L'organisme doit mener des exercices et des tests qui : a) sont cohérents avec ses objectifs de continuité d'activité ; b) sont basés sur des scénarios appropriés ; c) développent le travail d'équipe, les compétences, la confiance et les connaissances ; d) valident ses stratégies et solutions de continuité d'activité.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 9 : Évaluation de la performance ==========
+    {
+      "id": "Q9_1",
+      "chapitre": "9",
+      "section": "9.1 Surveillance, mesurage, analyse et évaluation",
+      "question": "Que doit déterminer l'organisme pour la surveillance et le mesurage du SMCA ?",
+      "bonne_reponse": "Déterminer ce qu'il est nécessaire de surveiller et mesurer, les méthodes à utiliser, et quand et par qui ces actions doivent être réalisées.",
+      "fausses_reponses": [
+        "Ignorer les résultats de la surveillance.",
+        "Externaliser le mesurage.",
+        "Se concentrer uniquement sur les aspects financiers."
+      ],
+      "extrait_source": "L'organisme doit déterminer : a) ce qu'il est nécessaire de surveiller et mesurer ; b) les méthodes de surveillance, de mesurage, d'analyse et d'évaluation ; c) quand et par qui la surveillance et le mesurage doivent être effectués ; d) quand et par qui les résultats doivent être analysés et évalués.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2",
+      "chapitre": "9",
+      "section": "9.2 Audit interne",
+      "question": "Que doit faire l'organisme concernant les audits internes du SMCA ?",
+      "bonne_reponse": "Réaliser des audits internes à des intervalles planifiés pour vérifier la conformité du SMCA aux exigences de l'organisme et de la norme ISO 22301.",
+      "fausses_reponses": [
+        "Ignorer les résultats des audits.",
+        "Externaliser tous les audits.",
+        "Se concentrer uniquement sur les aspects techniques."
+      ],
+      "extrait_source": "L'organisme doit réaliser des audits internes à des intervalles planifiés afin de fournir des informations permettant de déterminer si le SMCA : a) est conforme aux exigences propres de l'organisme concernant son SMCA ; b) est conformes aux exigences du présent document.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_3",
+      "chapitre": "9",
+      "section": "9.3 Revue de direction",
+      "question": "Que doit faire la Direction générale lors de la revue de direction du SMCA ?",
+      "bonne_reponse": "Passer en revue le SMCA à des intervalles planifiés pour s'assurer qu'il est toujours adapté, adéquat et efficace, en prenant en compte les éléments d'entrée comme les non-conformités, les résultats des audits, et les retours des parties intéressées.",
+      "fausses_reponses": [
+        "Ignorer les résultats des audits.",
+        "Externaliser la revue de direction.",
+        "Se concentrer uniquement sur les aspects financiers."
+      ],
+      "extrait_source": "La Direction générale doit passer en revue le SMCA de l'organisme, à des intervalles planifiés, afin de s'assurer qu'il est toujours adapté, adéquat et efficace. La revue de direction doit prendre en considération : a) l'état d'avancement des actions décidées lors des revues précédentes ; b) les modifications des questions externes et internes ; c) les informations sur les performances du SMCA.",
+      "figure_associee": null
+    },
+
+    // ========== Chapitre 10 : Amélioration ==========
+    {
+      "id": "Q10_1",
+      "chapitre": "10",
+      "section": "10.1 Non-conformité et actions correctives",
+      "question": "Que doit faire l'organisme en cas de non-conformité dans le SMCA ?",
+      "bonne_reponse": "Réagir à la non-conformité, la maîtriser et la corriger, évaluer le besoin d'éliminer ses causes, et mettre en œuvre les actions nécessaires pour éviter sa réapparition.",
+      "fausses_reponses": [
+        "Ignorer la non-conformité.",
+        "Externaliser la gestion des non-conformités.",
+        "Se concentrer uniquement sur les aspects financiers."
+      ],
+      "extrait_source": "Lorsqu'une non-conformité se produit, l'organisme doit : a) réagir à la non-conformité, et le cas échéant : 1) agir pour la maîtriser et la corriger ; 2) faire face aux conséquences ; b) évaluer le besoin d'agir pour éliminer la ou les causes de la non-conformité, de sorte qu'elle ne se reproduise pas.",
+      "figure_associee": null
+    },
+    {
+      "id": "Q10_2",
+      "chapitre": "10",
+      "section": "10.2 Amélioration continue",
+      "question": "Que doit faire l'organisme pour l'amélioration continue du SMCA ?",
+      "bonne_reponse": "Améliorer continuellement l'adaptation, l'adéquation et l'efficacité du SMCA sur la base de mesures qualitatives et quantitatives, en prenant en compte les résultats de l'analyse et de l'évaluation.",
+      "fausses_reponses": [
+        "Ignorer les résultats des revues de direction.",
+        "Externaliser l'amélioration continue.",
+        "Se concentrer uniquement sur les aspects techniques."
+      ],
+      "extrait_source": "L'organisme doit continuellement améliorer l'adaptation, l'adéquation et l'efficacité du SMCA sur la base de mesures qualitatives et quantitatives. L'organisme doit prendre en considération les résultats de l'analyse et de l'évaluation, ainsi que les éléments de sortie de la revue de direction.",
+      "figure_associee": null
+    }
+  ]
+}

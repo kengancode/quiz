@@ -1,0 +1,1048 @@
+{
+  "metadata": {
+    "titre": "QCM ISO/IEC 27001:2022 - Annexe A (Mesures de sécurité)",
+    "source": "NF ISO/IEC 27001:2023-01 - Sécurité de l'information, cybersécurité et protection de la vie privée - Systèmes de management de la sécurité de l'information - Exigences",
+    "date_creation": "2026-06-16",
+    "nombre_questions": 100,
+    "chapitres_couverts": [
+      "Annexe A - Mesures de sécurité de l'information"
+    ]
+  },
+  "questions": [
+    {
+      "id": "QA5_1_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.1 Politiques de sécurité de l'information",
+      "question": "Que doit faire une organisation concernant ses politiques de sécurité de l'information selon l'Annexe A ?",
+      "bonne_reponse": "Définir, approuver par la direction, publier, communiquer et demander une confirmation au personnel et aux parties intéressées concernés, ainsi que les réviser à intervalles planifiés ou en cas de changements significatifs.",
+      "fausses_reponses": [
+        "Les politiques doivent être définies uniquement par les équipes techniques.",
+        "Les politiques doivent être communiquées uniquement en cas d'incident.",
+        "Les politiques n'ont pas besoin d'être approuvées par la direction."
+      ],
+      "extrait_source": "Une politique de sécurité de l'information et des politiques spécifiques à une thématique doivent être définies, approuvées par la direction, publiées, communiquées et demandées en confirmation au personnel et aux parties intéressées concernés, ainsi que révisées à intervalles planifiés et si des changements significatifs ont lieu.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_2_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.2 Fonctions et responsabilités liées à la sécurité de l'information",
+      "question": "Comment les fonctions et responsabilités liées à la sécurité de l'information doivent-elles être gérées ?",
+      "bonne_reponse": "Elles doivent être définies et attribuées selon les besoins de l'organisation.",
+      "fausses_reponses": [
+        "Elles doivent être externalisées.",
+        "Elles doivent être attribuées uniquement aux équipes techniques.",
+        "Elles n'ont pas besoin d'être documentées."
+      ],
+      "extrait_source": "Les fonctions et responsabilités liées à la sécurité de l'information doivent être définies et attribuées selon les besoins de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_3_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.3 Séparation des tâches",
+      "question": "Que doit faire une organisation concernant les tâches et domaines de responsabilité incompatibles ?",
+      "bonne_reponse": "Les séparer.",
+      "fausses_reponses": [
+        "Les externaliser.",
+        "Les ignorer.",
+        "Les regrouper pour simplifier la gestion."
+      ],
+      "extrait_source": "Les tâches et les domaines de responsabilité incompatibles doivent être séparés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_4_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.4 Responsabilités de la direction",
+      "question": "Que doit faire la direction concernant l'application des mesures de sécurité de l'information ?",
+      "bonne_reponse": "Demander à tout le personnel d'appliquer les mesures de sécurité de l'information conformément à la politique de sécurité de l'information, aux politiques spécifiques et aux procédures établies.",
+      "fausses_reponses": [
+        "La direction n'a pas besoin de s'impliquer.",
+        "La direction doit uniquement valider les rapports.",
+        "La direction doit externaliser l'application des mesures."
+      ],
+      "extrait_source": "La direction doit demander à tout le personnel d'appliquer les mesures de sécurité de l'information conformément à la politique de sécurité de l'information, aux politiques spécifiques à une thématique et aux procédures établies de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_5_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.5 Contacts avec les autorités",
+      "question": "Que doit établir une organisation concernant les contacts avec les autorités ?",
+      "bonne_reponse": "Établir et maintenir le contact avec les autorités appropriées.",
+      "fausses_reponses": [
+        "Ignorer les contacts avec les autorités.",
+        "Externaliser les contacts avec les autorités.",
+        "Se concentrer uniquement sur les contacts internes."
+      ],
+      "extrait_source": "L'organisation doit établir et maintenir le contact avec les autorités appropriées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_6_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.6 Contacts avec des groupes d'intérêt spécifiques",
+      "question": "Que doit faire une organisation concernant les contacts avec des groupes d'intérêt spécifiques ?",
+      "bonne_reponse": "Établir et maintenir des contacts avec des groupes d'intérêt spécifiques ou d'autres forums spécialisés sur la sécurité et associations professionnelles.",
+      "fausses_reponses": [
+        "Ignorer les groupes d'intérêt spécifiques.",
+        "Externaliser les contacts.",
+        "Se concentrer uniquement sur les contacts internes."
+      ],
+      "extrait_source": "L'organisation doit établir et maintenir des contacts avec des groupes d'intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_7_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.7 Renseignement sur les menaces",
+      "question": "Que doit faire une organisation concernant les informations relatives aux menaces de sécurité de l'information ?",
+      "bonne_reponse": "Collecter et analyser les informations pour produire des renseignements sur les menaces.",
+      "fausses_reponses": [
+        "Ignorer les renseignements sur les menaces.",
+        "Externaliser la collecte et l'analyse.",
+        "Se concentrer uniquement sur les menaces internes."
+      ],
+      "extrait_source": "Les informations relatives aux menaces de sécurité de l'information doivent être collectées et analysées pour produire les renseignements sur les menaces.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_8_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.8 Sécurité de l'information dans la gestion de projet",
+      "question": "Comment la sécurité de l'information doit-elle être intégrée dans la gestion de projet ?",
+      "bonne_reponse": "La sécurité de l'information doit être intégrée à la gestion de projet.",
+      "fausses_reponses": [
+        "La sécurité de l'information n'a pas besoin d'être intégrée.",
+        "La sécurité de l'information doit être externalisée.",
+        "La sécurité de l'information doit être gérée séparément."
+      ],
+      "extrait_source": "La sécurité de l'information doit être intégrée à la gestion de projet.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_9_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.9 Inventaire des informations et autres actifs associés",
+      "question": "Que doit faire une organisation concernant l'inventaire des informations et des actifs associés ?",
+      "bonne_reponse": "Élaborer et tenir à jour un inventaire des informations et des autres actifs associés, y compris leurs propriétaires.",
+      "fausses_reponses": [
+        "Ignorer l'inventaire des actifs.",
+        "Externaliser l'inventaire.",
+        "Se concentrer uniquement sur les actifs physiques."
+      ],
+      "extrait_source": "Un inventaire des informations et des autres actifs associés, y compris leurs propriétaires, doit être élaboré et tenu à jour.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_10_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.10 Utilisation correcte des informations et autres actifs associés",
+      "question": "Que doit faire une organisation concernant l'utilisation des informations et autres actifs associés ?",
+      "bonne_reponse": "Identifier, documenter et mettre en œuvre des règles d'utilisation correcte et des procédures de traitement.",
+      "fausses_reponses": [
+        "Ignorer les règles d'utilisation.",
+        "Externaliser l'utilisation.",
+        "Se concentrer uniquement sur les actifs physiques."
+      ],
+      "extrait_source": "Des règles d'utilisation correcte et des procédures de traitement des informations et autres actifs associés doivent être identifiées, documentées et mises en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_11_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.11 Restitution des actifs",
+      "question": "Que doit faire une organisation concernant la restitution des actifs ?",
+      "bonne_reponse": "Le personnel et les autres parties intéressées doivent restituer tous les actifs de l'organisation en leur possession au moment du changement ou de la fin de leur emploi, contrat ou accord.",
+      "fausses_reponses": [
+        "Ignorer la restitution des actifs.",
+        "Externaliser la restitution.",
+        "Se concentrer uniquement sur les actifs physiques."
+      ],
+      "extrait_source": "Le personnel et les autres parties intéressées, selon le cas, doivent restituer tous les actifs de l'organisation qui sont en leur possession au moment du changement ou de la fin de leur emploi, contrat ou accord.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_12_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.12 Classification des informations",
+      "question": "Comment les informations doivent-elles être classifiées selon l'Annexe A ?",
+      "bonne_reponse": "Les informations doivent être classifiées conformément aux besoins de sécurité de l'information de l'organisation, sur la base des exigences de confidentialité, d'intégrité, de disponibilité, et des exigences des parties intéressées.",
+      "fausses_reponses": [
+        "Les informations n'ont pas besoin d'être classifiées.",
+        "Les informations doivent être classifiées uniquement par les équipes techniques.",
+        "Les informations doivent être classifiées selon leur taille."
+      ],
+      "extrait_source": "Les informations doivent être classifiées conformément aux besoins de sécurité de l'information de l'organisation, sur la base des exigences de confidentialité, d'intégrité, de disponibilité, et des exigences importantes des parties intéressées.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_13_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.13 Marquage des informations",
+      "question": "Que doit faire une organisation concernant le marquage des informations ?",
+      "bonne_reponse": "Élaborer et mettre en œuvre un ensemble approprié de procédures pour le marquage des informations conformément au schéma de classification adopté.",
+      "fausses_reponses": [
+        "Ignorer le marquage des informations.",
+        "Externaliser le marquage.",
+        "Se concentrer uniquement sur le marquage physique."
+      ],
+      "extrait_source": "Un ensemble approprié de procédures pour le marquage des informations doit être élaboré et mis en œuvre conformément au schéma de classification des informations adopté par l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_14_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.14 Transfert des informations",
+      "question": "Que doit faire une organisation concernant le transfert des informations ?",
+      "bonne_reponse": "Mettre en place des règles, procédures ou accords sur le transfert des informations pour tous les types de moyens de transfert.",
+      "fausses_reponses": [
+        "Ignorer les règles de transfert.",
+        "Externaliser le transfert.",
+        "Se concentrer uniquement sur le transfert physique."
+      ],
+      "extrait_source": "Des règles, procédures ou accords sur le transfert des informations doivent être mis en place pour tous les types de moyens de transfert au sein de l'organisation et entre l'organisation et des tierces parties.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_15_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.15 Contrôle d'accès",
+      "question": "Que doit faire une organisation concernant le contrôle d'accès aux informations ?",
+      "bonne_reponse": "Définir et mettre en œuvre des règles visant à contrôler l'accès physique et logique aux informations et autres actifs associés, en fonction des exigences métier et de sécurité.",
+      "fausses_reponses": [
+        "Ignorer le contrôle d'accès.",
+        "Externaliser le contrôle d'accès.",
+        "Se concentrer uniquement sur l'accès physique."
+      ],
+      "extrait_source": "Des règles visant à contrôler l'accès physiques et logique aux informations et autres actifs associés doivent être définies et mises en œuvre, en fonction des exigences métier et de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_16_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.16 Gestion des identités",
+      "question": "Que doit faire une organisation concernant la gestion des identités ?",
+      "bonne_reponse": "Gérer le cycle de vie complet des identités.",
+      "fausses_reponses": [
+        "Ignorer la gestion des identités.",
+        "Externaliser la gestion des identités.",
+        "Se concentrer uniquement sur les identités internes."
+      ],
+      "extrait_source": "Le cycle de vie complet des identités doit être géré.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_17_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.17 Informations d'authentification",
+      "question": "Comment l'attribution et la gestion des informations d'authentification doivent-elles être contrôlées ?",
+      "bonne_reponse": "Par un processus de gestion, incluant des recommandations au personnel sur l'utilisation appropriée des informations d'authentification.",
+      "fausses_reponses": [
+        "Elles n'ont pas besoin d'être contrôlées.",
+        "Elles doivent être externalisées.",
+        "Elles doivent être gérées uniquement par les équipes techniques."
+      ],
+      "extrait_source": "L'attribution et la gestion des informations d'authentification doivent être contrôlées par un processus de gestion, incluant des recommandations au personnel sur l'utilisation appropriée des informations d'authentification.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_18_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.18 Droits d'accès",
+      "question": "Comment les droits d'accès aux informations doivent-ils être gérés ?",
+      "bonne_reponse": "Les droits d'accès doivent être pourvus, révisés, modifiés et supprimés conformément à la politique spécifique à la thématique du contrôle d'accès et aux règles de contrôle d'accès.",
+      "fausses_reponses": [
+        "Les droits d'accès n'ont pas besoin d'être révisés.",
+        "Les droits d'accès doivent être externalisés.",
+        "Les droits d'accès doivent être gérés uniquement par les équipes techniques."
+      ],
+      "extrait_source": "Les droits d'accès aux informations et autres actifs associés doivent être pourvus, révisés, modifiés et supprimés conformément à la politique spécifique à la thématique du contrôle d'accès et aux règles de contrôle d'accès de l'organisation.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_19_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.19 Sécurité de l'information dans les relations avec les fournisseurs",
+      "question": "Que doit faire une organisation concernant les risques de sécurité de l'information associés aux fournisseurs ?",
+      "bonne_reponse": "Définir et mettre en œuvre des processus et procédures pour gérer les risques de sécurité de l'information associés à l'utilisation des produits ou services du fournisseur.",
+      "fausses_reponses": [
+        "Ignorer les risques associés aux fournisseurs.",
+        "Externaliser la gestion des risques.",
+        "Se concentrer uniquement sur les fournisseurs internes."
+      ],
+      "extrait_source": "Des processus et procédures pour gérer les risques de sécurité de l'information qui sont associés à l'utilisation des produits ou services du fournisseur doivent être définis et mis en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_20_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.20 Sécurité de l'information dans les accords conclus avec les fournisseurs",
+      "question": "Que doit faire une organisation concernant les exigences de sécurité de l'information avec les fournisseurs ?",
+      "bonne_reponse": "Mettre en place et convenir des exigences de sécurité de l'information appropriées avec chaque fournisseur, selon le type de relation.",
+      "fausses_reponses": [
+        "Ignorer les exigences de sécurité avec les fournisseurs.",
+        "Externaliser les accords.",
+        "Se concentrer uniquement sur les fournisseurs internes."
+      ],
+      "extrait_source": "Les exigences de sécurité de l'information appropriées doivent être mises en place et convenues avec chaque fournisseur, selon le type de relation avec le fournisseur.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_21_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.21 Gestion de la sécurité de l'information dans la chaîne d'approvisionnement des TIC",
+      "question": "Que doit faire une organisation concernant les risques de sécurité de l'information dans la chaîne d'approvisionnement des TIC ?",
+      "bonne_reponse": "Définir et mettre en œuvre des processus et procédures pour gérer les risques de sécurité de l'information associés à la chaîne d'approvisionnement des produits et services TIC.",
+      "fausses_reponses": [
+        "Ignorer les risques dans la chaîne d'approvisionnement.",
+        "Externaliser la gestion des risques.",
+        "Se concentrer uniquement sur les fournisseurs internes."
+      ],
+      "extrait_source": "Des processus et procédures pour gérer les risques de sécurité de l'information associés à la chaîne d'approvisionnement des produits et services TIC doivent être définis et mis en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_22_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.22 Surveillance, révision et gestion des changements des services fournisseurs",
+      "question": "Que doit faire une organisation concernant la surveillance des pratiques de sécurité de l'information des fournisseurs ?",
+      "bonne_reponse": "Procéder régulièrement à la surveillance, à la révision, à l'évaluation et à la gestion des changements des pratiques de sécurité de l'information du fournisseur et de prestation de services.",
+      "fausses_reponses": [
+        "Ignorer la surveillance des fournisseurs.",
+        "Externaliser la surveillance.",
+        "Se concentrer uniquement sur les fournisseurs internes."
+      ],
+      "extrait_source": "L'organisation doit procéder régulièrement à la surveillance, à la révision, à l'évaluation et à la gestion des changements des pratiques de sécurité de l'information du fournisseur et de prestation de services.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_23_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.23 Sécurité de l'information dans l'utilisation de services en nuage",
+      "question": "Que doit faire une organisation concernant l'utilisation des services en nuage ?",
+      "bonne_reponse": "Établir des processus d'acquisition, d'utilisation, de gestion et de cessation des services en nuage conformément aux exigences de sécurité de l'information.",
+      "fausses_reponses": [
+        "Ignorer les exigences de sécurité pour les services en nuage.",
+        "Externaliser l'utilisation des services en nuage.",
+        "Se concentrer uniquement sur les services internes."
+      ],
+      "extrait_source": "Les processus d'acquisition, d'utilisation, de gestion et de cessation des services en nuage doivent être établis conformément aux exigences de sécurité de l'information de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_24_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.24 Planification et préparation de la gestion des incidents de sécurité de l'information",
+      "question": "Que doit faire une organisation concernant la gestion des incidents de sécurité de l'information ?",
+      "bonne_reponse": "Planifier et préparer la gestion des incidents de sécurité de l'information en définissant, établissant et communiquant les processus, fonctions et responsabilités.",
+      "fausses_reponses": [
+        "Ignorer la planification des incidents.",
+        "Externaliser la gestion des incidents.",
+        "Se concentrer uniquement sur les incidents majeurs."
+      ],
+      "extrait_source": "L'organisation doit planifier et préparer la gestion des incidents de sécurité de l'information en procédant à la définition, à l'établissement et à la communication des processus, fonctions et responsabilités liés à la gestion des incidents de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_25_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.25 Évaluation des événements de sécurité de l'information et prise de décision",
+      "question": "Que doit faire une organisation concernant les événements de sécurité de l'information ?",
+      "bonne_reponse": "Évaluer les événements de sécurité de l'information et décider s'ils doivent être catégorisés comme des incidents de sécurité de l'information.",
+      "fausses_reponses": [
+        "Ignorer les événements de sécurité.",
+        "Externaliser l'évaluation.",
+        "Se concentrer uniquement sur les incidents majeurs."
+      ],
+      "extrait_source": "L'organisation doit évaluer les événements de sécurité de l'information et décider s'ils doivent être catégorisés comme des incidents de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_26_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.26 Réponse aux incidents de sécurité de l'information",
+      "question": "Comment la réponse aux incidents de sécurité de l'information doit-elle être gérée ?",
+      "bonne_reponse": "La réponse doit être conforme aux procédures documentées.",
+      "fausses_reponses": [
+        "La réponse n'a pas besoin d'être documentée.",
+        "La réponse doit être externalisée.",
+        "La réponse doit être improvisée."
+      ],
+      "extrait_source": "La réponse aux incidents de sécurité de l'information doit être conforme aux procédures documentées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_27_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.27 Tirer des enseignements des incidents de sécurité de l'information",
+      "question": "Que doit faire une organisation avec les connaissances acquises à partir des incidents de sécurité de l'information ?",
+      "bonne_reponse": "Utiliser les connaissances acquises pour renforcer et améliorer les mesures de sécurité de l'information.",
+      "fausses_reponses": [
+        "Ignorer les enseignements tirés.",
+        "Externaliser l'analyse des incidents.",
+        "Se concentrer uniquement sur les incidents majeurs."
+      ],
+      "extrait_source": "Les connaissances acquises à partir des incidents de sécurité de l'information doivent être utilisées pour renforcer et améliorer les mesures de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_28_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.28 Collecte de preuves",
+      "question": "Que doit faire une organisation concernant l'identification, la collecte, l'acquisition et la préservation des preuves ?",
+      "bonne_reponse": "Établir et mettre en œuvre des procédures pour l'identification, la collecte, l'acquisition et la préservation des preuves relatives aux événements de sécurité de l'information.",
+      "fausses_reponses": [
+        "Ignorer la collecte de preuves.",
+        "Externaliser la collecte.",
+        "Se concentrer uniquement sur les preuves physiques."
+      ],
+      "extrait_source": "L'organisation doit établir et mettre en œuvre des procédures pour l'identification, la collecte, l'acquisition et la préservation des preuves relatives aux événements de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_29_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.29 Sécurité de l'information pendant une perturbation",
+      "question": "Que doit faire une organisation concernant la sécurité de l'information pendant une perturbation ?",
+      "bonne_reponse": "Planifier comment maintenir la sécurité de l'information au niveau approprié pendant une perturbation.",
+      "fausses_reponses": [
+        "Ignorer la sécurité pendant une perturbation.",
+        "Externaliser la planification.",
+        "Se concentrer uniquement sur les perturbations majeures."
+      ],
+      "extrait_source": "L'organisation doit planifier comment maintenir la sécurité de l'information au niveau approprié pendant une perturbation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_30_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.30 Préparation des TIC pour la continuité d'activité",
+      "question": "Comment la préparation des TIC doit-elle être gérée pour la continuité d'activité ?",
+      "bonne_reponse": "La préparation des TIC doit être planifiée, mise en œuvre, maintenue et testée en se basant sur les objectifs de continuité d'activité et des exigences de continuité des TIC.",
+      "fausses_reponses": [
+        "La préparation des TIC n'a pas besoin d'être testée.",
+        "La préparation des TIC doit être externalisée.",
+        "La préparation des TIC doit être improvisée."
+      ],
+      "extrait_source": "La préparation des TIC doit être planifiée, mise en œuvre, maintenue et testée en se basant sur les objectifs de continuité d'activité et des exigences de continuité des TIC.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_31_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.31 Exigences légales, statutaires, réglementaires et contractuelles",
+      "question": "Que doit faire une organisation concernant les exigences légales, statutaires, réglementaires et contractuelles ?",
+      "bonne_reponse": "Identifier, documenter et tenir à jour les exigences légales, statutaires, réglementaires et contractuelles pertinentes pour la sécurité de l'information, ainsi que l'approche de l'organisation pour respecter ces exigences.",
+      "fausses_reponses": [
+        "Ignorer les exigences légales.",
+        "Externaliser la gestion des exigences.",
+        "Se concentrer uniquement sur les exigences internes."
+      ],
+      "extrait_source": "Les exigences légales, statutaires, réglementaires et contractuelles pertinentes pour la sécurité de l'information, ainsi que l'approche de l'organisation pour respecter ces exigences, doivent être identifiées, documentées et tenues à jour.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_32_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.32 Droits de propriété intellectuelle",
+      "question": "Que doit faire une organisation concernant la protection des droits de propriété intellectuelle ?",
+      "bonne_reponse": "Mettre en œuvre les procédures appropriées pour protéger les droits de propriété intellectuelle.",
+      "fausses_reponses": [
+        "Ignorer les droits de propriété intellectuelle.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les droits internes."
+      ],
+      "extrait_source": "L'organisation doit mettre en œuvre les procédures appropriées pour protéger les droits de propriété intellectuelle.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_33_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.33 Protection des enregistrements",
+      "question": "Que doit faire une organisation concernant la protection des enregistrements ?",
+      "bonne_reponse": "Protéger les enregistrements de la perte, de la destruction, de la falsification, des accès non autorisés et des diffusions non autorisées.",
+      "fausses_reponses": [
+        "Ignorer la protection des enregistrements.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les enregistrements physiques."
+      ],
+      "extrait_source": "Les enregistrements doivent être protégés de la perte, de la destruction, de la falsification, des accès non autorisés et des diffusions non autorisées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_34_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.34 Protection de la vie privée et des données à caractère personnel (DCP)",
+      "question": "Que doit faire une organisation concernant la protection de la vie privée et des DCP ?",
+      "bonne_reponse": "Identifier et respecter les exigences relatives à la protection de la vie privée et des DCP conformément aux lois, réglementations et exigences contractuelles applicables.",
+      "fausses_reponses": [
+        "Ignorer la protection de la vie privée.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les données internes."
+      ],
+      "extrait_source": "L'organisation doit identifier et respecter les exigences relatives à la protection de la vie privée et des DCP conformément aux lois, réglementations et exigences contractuelles applicables.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_35_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.35 Révision indépendante de la sécurité de l'information",
+      "question": "Que doit faire une organisation concernant la révision indépendante de la sécurité de l'information ?",
+      "bonne_reponse": "Révision de manière indépendante à intervalles planifiés, ou lorsque des changements significatifs se produisent, l'approche de l'organisation pour gérer la sécurité de l'information et sa mise en œuvre.",
+      "fausses_reponses": [
+        "Ignorer la révision indépendante.",
+        "Externaliser la révision.",
+        "Se concentrer uniquement sur les révisions internes."
+      ],
+      "extrait_source": "L'approche de l'organisation pour gérer la sécurité de l'information et sa mise en œuvre, y compris les personnes, les processus et les technologies, doit être révisée de manière indépendante à intervalles planifiés, ou lorsque des changements significatifs se produisent.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_36_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.36 Conformité aux politiques, règles et normes de sécurité de l'information",
+      "question": "Que doit faire une organisation concernant la conformité aux politiques, règles et normes de sécurité de l'information ?",
+      "bonne_reponse": "Vérifier régulièrement la conformité à la politique de sécurité de l'information, aux politiques spécifiques, aux règles et aux normes de l'organisation.",
+      "fausses_reponses": [
+        "Ignorer la conformité.",
+        "Externaliser la vérification.",
+        "Se concentrer uniquement sur les normes externes."
+      ],
+      "extrait_source": "La conformité à la politique de sécurité de l'information, aux politiques spécifiques à une thématique, aux règles et aux normes de l'organisation doit être régulièrement vérifiée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA5_37_1",
+      "chapitre": "Annexe A - Mesures organisationnelles",
+      "section": "A.5.37 Procédures d'exploitation documentées",
+      "question": "Que doit faire une organisation concernant les procédures d'exploitation des moyens de traitement de l'information ?",
+      "bonne_reponse": "Documenter les procédures d'exploitation et les mettre à disposition du personnel qui en a besoin.",
+      "fausses_reponses": [
+        "Ignorer les procédures d'exploitation.",
+        "Externaliser la documentation.",
+        "Se concentrer uniquement sur les procédures physiques."
+      ],
+      "extrait_source": "Les procédures d'exploitation des moyens de traitement de l'information doivent être documentées et mises à disposition du personnel qui en a besoin.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_1_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.1 Sélection des candidats",
+      "question": "Que doit faire une organisation concernant les vérifications des références des candidats à l'embauche ?",
+      "bonne_reponse": "Réaliser des vérifications des références de tous les candidats à l'embauche avant qu'ils n'intègrent l'organisation et de façon continue, en tenant compte des lois, des réglementations et de l'éthique applicables.",
+      "fausses_reponses": [
+        "Ignorer les vérifications des références.",
+        "Externaliser les vérifications.",
+        "Se concentrer uniquement sur les compétences techniques."
+      ],
+      "extrait_source": "Les vérifications des références de tous les candidats à l'embauche doivent être réalisées avant qu'ils n'intègrent l'organisation puis de façon continue en tenant compte des lois, des réglementations et de l'éthique applicables, et doivent être proportionnelles aux exigences métier, à la classification des informations auxquelles ils auront accès et aux risques identifiés.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_2_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.2 Termes et conditions du contrat de travail",
+      "question": "Que doivent indiquer les contrats de travail concernant la sécurité de l'information ?",
+      "bonne_reponse": "Les responsabilités du personnel et de l'organisation en matière de sécurité de l'information.",
+      "fausses_reponses": [
+        "Les contrats de travail n'ont pas besoin d'indiquer les responsabilités.",
+        "Les contrats de travail doivent indiquer uniquement les salaires.",
+        "Les contrats de travail doivent être externalisés."
+      ],
+      "extrait_source": "Les contrats de travail doivent indiquer les responsabilités du personnel et de l'organisation en matière de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_3_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.3 Sensibilisation, enseignement et formation en sécurité de l'information",
+      "question": "Que doit recevoir le personnel de l'organisation concernant la sécurité de l'information ?",
+      "bonne_reponse": "Une sensibilisation, un enseignement et des formations en sécurité de l'information appropriés, ainsi que des mises à jour régulières de la politique de sécurité de l'information.",
+      "fausses_reponses": [
+        "Le personnel n'a pas besoin de formation.",
+        "Le personnel doit recevoir uniquement une formation technique.",
+        "Le personnel doit être externalisé."
+      ],
+      "extrait_source": "Le personnel de l'organisation et les parties intéressées pertinentes doivent recevoir une sensibilisation, un enseignement et des formations en sécurité de l'information appropriés, ainsi que des mises à jour régulières de la politique de sécurité de l'information, des politiques spécifiques à une thématique et des procédures de l'organisation pertinentes à leur fonction.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_4_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.4 Processus disciplinaire",
+      "question": "Que doit faire une organisation concernant les violations de la politique de sécurité de l'information ?",
+      "bonne_reponse": "Formaliser et communiquer un processus disciplinaire permettant de prendre des mesures à l'encontre du personnel et d'autres parties intéressées qui ont commis une violation.",
+      "fausses_reponses": [
+        "Ignorer les violations.",
+        "Externaliser le processus disciplinaire.",
+        "Se concentrer uniquement sur les violations majeures."
+      ],
+      "extrait_source": "Un processus disciplinaire permettant de prendre des mesures à l'encontre du personnel et d'autres parties intéressées qui ont commis une violation de la politique de sécurité de l'information doit être formalisé et communiqué.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_5_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.5 Responsabilités après la fin ou le changement d'un emploi",
+      "question": "Que doit faire une organisation concernant les responsabilités après la fin ou le changement d'un emploi ?",
+      "bonne_reponse": "Définir, appliquer et communiquer les responsabilités et les obligations relatives à la sécurité de l'information qui restent valables après la fin ou le changement d'un emploi.",
+      "fausses_reponses": [
+        "Ignorer les responsabilités après la fin d'un emploi.",
+        "Externaliser les responsabilités.",
+        "Se concentrer uniquement sur les responsabilités internes."
+      ],
+      "extrait_source": "Les responsabilités et les obligations relatives à la sécurité de l'information qui restent valables après la fin ou le changement d'un emploi doivent être définies, appliquées et communiquées au personnel et autres parties intéressées pertinentes.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_6_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.6 Accords de confidentialité ou de non-divulgation",
+      "question": "Que doit faire une organisation concernant les accords de confidentialité ou de non-divulgation ?",
+      "bonne_reponse": "Identifier, documenter, régulièrement réviser et signer des accords de confidentialité ou de non-divulgation représentant les besoins de l'organisation relatifs à la protection des informations.",
+      "fausses_reponses": [
+        "Ignorer les accords de confidentialité.",
+        "Externaliser les accords.",
+        "Se concentrer uniquement sur les accords internes."
+      ],
+      "extrait_source": "Des accords de confidentialité ou de non-divulgation, représentant les besoins de l'organisation relatifs à la protection des informations, doivent être identifiés, documentés, régulièrement révisés et signés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_7_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.7 Travail à distance",
+      "question": "Que doit faire une organisation concernant la sécurité lorsque le personnel travaille à distance ?",
+      "bonne_reponse": "Mettre en œuvre des mesures de sécurité pour protéger les informations accessibles, traitées ou stockées en dehors des locaux de l'organisation.",
+      "fausses_reponses": [
+        "Ignorer le travail à distance.",
+        "Externaliser le travail à distance.",
+        "Se concentrer uniquement sur le travail en présentiel."
+      ],
+      "extrait_source": "Des mesures de sécurité doivent être mises en œuvre lorsque le personnel travaille à distance, pour protéger les informations accessibles, traitées ou stockées en dehors des locaux de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA6_8_1",
+      "chapitre": "Annexe A - Mesures applicables aux personnes",
+      "section": "A.6.8 Déclaration des événements de sécurité de l'information",
+      "question": "Que doit fournir une organisation au personnel concernant les événements de sécurité de l'information ?",
+      "bonne_reponse": "Un mécanisme pour déclarer rapidement les événements de sécurité de l'information observés ou suspectés, à travers des canaux appropriés.",
+      "fausses_reponses": [
+        "Ignorer la déclaration des événements.",
+        "Externaliser la déclaration.",
+        "Se concentrer uniquement sur les événements majeurs."
+      ],
+      "extrait_source": "L'organisation doit fournir un mécanisme au personnel pour déclarer rapidement les événements de sécurité de l'information observés ou suspectés, à travers des canaux appropriés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_1_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.1 Périmètres de sécurité physique",
+      "question": "Que doit faire une organisation concernant les périmètres de sécurité physique ?",
+      "bonne_reponse": "Définir et utiliser des périmètres de sécurité pour protéger les zones qui contiennent les informations et autres actifs associés.",
+      "fausses_reponses": [
+        "Ignorer les périmètres de sécurité.",
+        "Externaliser la définition des périmètres.",
+        "Se concentrer uniquement sur les périmètres virtuels."
+      ],
+      "extrait_source": "Des périmètres de sécurité doivent être définis et utilisés pour protéger les zones qui contiennent les informations et autres actifs associés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_2_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.2 Les entrées physiques",
+      "question": "Comment les zones sécurisées doivent-elles être protégées ?",
+      "bonne_reponse": "Par des mesures de sécurité des accès et des points d'accès appropriés.",
+      "fausses_reponses": [
+        "Les zones sécurisées n'ont pas besoin d'être protégées.",
+        "Les zones sécurisées doivent être externalisées.",
+        "Les zones sécurisées doivent être protégées uniquement par des caméras."
+      ],
+      "extrait_source": "Les zones sécurisées doivent être protégées par des mesures de sécurité des accès et des points d'accès appropriés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_3_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.3 Sécurisation des bureaux, des salles et des installations",
+      "question": "Que doit faire une organisation concernant la sécurisation des bureaux, salles et installations ?",
+      "bonne_reponse": "Concevoir et mettre en œuvre des mesures de sécurité physique pour les bureaux, les salles et les installations.",
+      "fausses_reponses": [
+        "Ignorer la sécurisation des bureaux.",
+        "Externaliser la sécurisation.",
+        "Se concentrer uniquement sur les bureaux."
+      ],
+      "extrait_source": "Des mesures de sécurité physique pour les bureaux, les salles et les installations doivent être conçues et mises en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_4_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.4 Surveillance de la sécurité physique",
+      "question": "Que doit faire une organisation concernant la surveillance des locaux ?",
+      "bonne_reponse": "Surveiller continuellement les locaux pour empêcher l'accès physique non autorisé.",
+      "fausses_reponses": [
+        "Ignorer la surveillance des locaux.",
+        "Externaliser la surveillance.",
+        "Se concentrer uniquement sur la surveillance électronique."
+      ],
+      "extrait_source": "Les locaux doivent être continuellement surveillés pour empêcher l'accès physique non autorisé.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_5_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.5 Protection contre les menaces physiques et environnementales",
+      "question": "Que doit faire une organisation concernant la protection contre les menaces physiques et environnementales ?",
+      "bonne_reponse": "Concevoir et mettre en œuvre une protection contre les menaces physiques et environnementales, telles que les catastrophes naturelles et autres menaces physiques.",
+      "fausses_reponses": [
+        "Ignorer les menaces physiques et environnementales.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les menaces internes."
+      ],
+      "extrait_source": "Une protection contre les menaces physiques et environnementales, telles que les catastrophes naturelles et autres menaces physiques, intentionnelles ou non intentionnelles, impactant l'infrastructure, doit être conçue et mise en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_6_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.6 Travail dans les zones sécurisées",
+      "question": "Que doit faire une organisation concernant le travail dans les zones sécurisées ?",
+      "bonne_reponse": "Concevoir et mettre en œuvre des mesures de sécurité pour le travail dans les zones sécurisées.",
+      "fausses_reponses": [
+        "Ignorer le travail dans les zones sécurisées.",
+        "Externaliser le travail.",
+        "Se concentrer uniquement sur les zones non sécurisées."
+      ],
+      "extrait_source": "Des mesures de sécurité pour le travail dans les zones sécurisées doivent être conçues et mises en œuvre.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_7_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.7 Bureau propre et écran vide",
+      "question": "Que doit faire une organisation concernant les règles du bureau propre et de l'écran vide ?",
+      "bonne_reponse": "Définir et appliquer de manière appropriée des règles du bureau vide, dégagé des documents papier et des supports de stockage amovibles, et des règles de l'écran vide pour les moyens de traitement de l'information.",
+      "fausses_reponses": [
+        "Ignorer les règles du bureau propre et de l'écran vide.",
+        "Externaliser les règles.",
+        "Se concentrer uniquement sur les écrans."
+      ],
+      "extrait_source": "Des règles du bureau vide, dégagé des documents papier et des supports de stockage amovibles, et des règles de l'écran vide pour les moyens de traitement de l'information, doivent être définies et appliquées de manière appropriée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_8_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.8 Emplacement et protection du matériel",
+      "question": "Que doit faire une organisation concernant l'emplacement et la protection du matériel ?",
+      "bonne_reponse": "Choisir et protéger un emplacement sécurisé pour le matériel.",
+      "fausses_reponses": [
+        "Ignorer l'emplacement et la protection du matériel.",
+        "Externaliser l'emplacement.",
+        "Se concentrer uniquement sur le matériel informatique."
+      ],
+      "extrait_source": "Un emplacement sécurisé pour le matériel doit être choisi et protégé.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_9_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.9 Sécurité des actifs hors des locaux",
+      "question": "Que doit faire une organisation concernant les actifs hors du site ?",
+      "bonne_reponse": "Protéger les actifs hors du site.",
+      "fausses_reponses": [
+        "Ignorer les actifs hors du site.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les actifs internes."
+      ],
+      "extrait_source": "Les actifs hors du site doivent être protégés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_10_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.10 Supports de stockage",
+      "question": "Comment les supports de stockage doivent-ils être gérés selon l'Annexe A ?",
+      "bonne_reponse": "Gérer les supports de stockage tout au long de leur cycle de vie d'acquisition, d'utilisation, de transport et de mise au rebut, conformément au schéma de classification et aux exigences de traitement.",
+      "fausses_reponses": [
+        "Ignorer la gestion des supports de stockage.",
+        "Externaliser la gestion.",
+        "Se concentrer uniquement sur les supports physiques."
+      ],
+      "extrait_source": "Les supports de stockage doivent être gérés tout au long de leur cycle de vie d'acquisition, d'utilisation, de transport et de mise au rebut, conformément au schéma de classification et aux exigences de traitement de l'organisation.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_11_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.11 Services supports",
+      "question": "Que doit faire une organisation concernant la protection des moyens de traitement de l'information ?",
+      "bonne_reponse": "Protéger les moyens de traitement de l'information contre les coupures de courant et autres perturbations causées par des défaillances des services supports.",
+      "fausses_reponses": [
+        "Ignorer les services supports.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les coupures de courant."
+      ],
+      "extrait_source": "Les moyens de traitement de l'information doivent être protégés contre les coupures de courant et autres perturbations causées par des défaillances des services supports.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_12_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.12 Sécurité du câblage",
+      "question": "Que doit faire une organisation concernant la sécurité du câblage ?",
+      "bonne_reponse": "Protéger les câbles électriques, transportant des données ou supportant les services d'information, contre des interceptions, interférences ou dommages.",
+      "fausses_reponses": [
+        "Ignorer la sécurité du câblage.",
+        "Externaliser la sécurité.",
+        "Se concentrer uniquement sur les câbles électriques."
+      ],
+      "extrait_source": "Les câbles électriques, transportant des données ou supportant les services d'information, doivent être protégés contre des interceptions, interférences ou dommages.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_13_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.13 Maintenance du matériel",
+      "question": "Pourquoi le matériel doit-il être entretenu correctement ?",
+      "bonne_reponse": "Pour assurer la disponibilité, l'intégrité et la confidentialité de l'information.",
+      "fausses_reponses": [
+        "Le matériel n'a pas besoin d'être entretenu.",
+        "Le matériel doit être entretenu uniquement pour des raisons esthétiques.",
+        "Le matériel doit être externalisé."
+      ],
+      "extrait_source": "Le matériel doit être entretenu correctement pour assurer la disponibilité, l'intégrité et la confidentialité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA7_14_1",
+      "chapitre": "Annexe A - Mesures de sécurité physique",
+      "section": "A.7.14 Élimination ou recyclage sécurisé du matériel",
+      "question": "Que doit faire une organisation concernant l'élimination ou le recyclage du matériel contenant des supports de stockage ?",
+      "bonne_reponse": "Vérifier que toute donnée sensible et tout logiciel sous licence ont été supprimés ou écrasés de façon sécurisée avant son élimination ou sa réutilisation.",
+      "fausses_reponses": [
+        "Ignorer l'élimination sécurisée.",
+        "Externaliser l'élimination.",
+        "Se concentrer uniquement sur le recyclage."
+      ],
+      "extrait_source": "Les éléments du matériel contenant des supports de stockage doivent être vérifiés pour s'assurer que toute donnée sensible et que tout logiciel sous licence ont été supprimés ou écrasés de façon sécurisée, avant son élimination ou sa réutilisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_1_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.1 Terminaux finaux des utilisateurs",
+      "question": "Que doit faire une organisation concernant les informations stockées, traitées ou accessibles via les terminaux finaux des utilisateurs ?",
+      "bonne_reponse": "Protéger les informations stockées, traitées ou accessibles via les terminaux finaux des utilisateurs.",
+      "fausses_reponses": [
+        "Ignorer la protection des terminaux finaux.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les terminaux internes."
+      ],
+      "extrait_source": "Les informations stockées, traitées ou accessibles via les terminaux finaux des utilisateurs, doivent être protégées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_2_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.2 Droits d'accès privilégiés",
+      "question": "Comment l'attribution et l'utilisation des droits d'accès privilégiés doivent-elles être gérées ?",
+      "bonne_reponse": "L'attribution et l'utilisation des droits d'accès privilégiés doivent être limitées et gérées.",
+      "fausses_reponses": [
+        "Les droits d'accès privilégiés n'ont pas besoin d'être limités.",
+        "Les droits d'accès privilégiés doivent être externalisés.",
+        "Les droits d'accès privilégiés doivent être attribués à tous les employés."
+      ],
+      "extrait_source": "L'attribution et l'utilisation des droits d'accès privilégiés doivent être limitées et gérées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_3_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.3 Restriction d'accès aux informations",
+      "question": "Comment l'accès aux informations et autres actifs associés doit-il être restreint ?",
+      "bonne_reponse": "L'accès aux informations et autres actifs associés doit être restreint conformément à la politique spécifique à la thématique du contrôle d'accès.",
+      "fausses_reponses": [
+        "L'accès n'a pas besoin d'être restreint.",
+        "L'accès doit être externalisé.",
+        "L'accès doit être restreint uniquement pour les informations sensibles."
+      ],
+      "extrait_source": "L'accès aux informations et autres actifs associés doit être restreint conformément à la politique spécifique à la thématique du contrôle d'accès qui a été établie.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_4_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.4 Accès aux codes source",
+      "question": "Comment l'accès en lecture et en écriture au code source doit-il être géré ?",
+      "bonne_reponse": "L'accès en lecture et en écriture au code source, aux outils de développement et aux bibliothèques de logiciels doit être géré de manière appropriée.",
+      "fausses_reponses": [
+        "L'accès au code source n'a pas besoin d'être géré.",
+        "L'accès au code source doit être externalisé.",
+        "L'accès au code source doit être libre."
+      ],
+      "extrait_source": "L'accès en lecture et en écriture au code source, aux outils de développement et aux bibliothèques de logiciels doit être géré de manière appropriée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_5_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.5 Authentification sécurisée",
+      "question": "Que doit faire une organisation concernant l'authentification ?",
+      "bonne_reponse": "Mettre en œuvre des technologies et procédures d'authentification sécurisées sur la base des restrictions d'accès aux informations et de la politique spécifique à la thématique du contrôle d'accès.",
+      "fausses_reponses": [
+        "L'authentification n'a pas besoin d'être sécurisée.",
+        "L'authentification doit être externalisée.",
+        "L'authentification doit être unique pour tous les utilisateurs."
+      ],
+      "extrait_source": "Des technologies et procédures d'authentification sécurisées doivent être mises en œuvre sur la base des restrictions d'accès aux informations et de la politique spécifique à la thématique du contrôle d'accès.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_6_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.6 Dimensionnement",
+      "question": "Que doit faire une organisation concernant l'utilisation des ressources ?",
+      "bonne_reponse": "Surveiller et ajuster l'utilisation des ressources selon les besoins de dimensionnement actuels et prévus.",
+      "fausses_reponses": [
+        "Ignorer le dimensionnement.",
+        "Externaliser le dimensionnement.",
+        "Se concentrer uniquement sur les ressources physiques."
+      ],
+      "extrait_source": "L'utilisation des ressources doit être surveillée et ajustée selon les besoins de dimensionnement actuels et prévus.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_7_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.7 Protection contre les programmes malveillants (malware)",
+      "question": "Que doit faire une organisation concernant la protection contre les programmes malveillants ?",
+      "bonne_reponse": "Mettre en œuvre une protection contre les programmes malveillants et la renforcer par une sensibilisation appropriée des utilisateurs.",
+      "fausses_reponses": [
+        "Ignorer la protection contre les programmes malveillants.",
+        "Externaliser la protection.",
+        "Se concentrer uniquement sur les virus."
+      ],
+      "extrait_source": "Une protection contre les programmes malveillants doit être mise en œuvre et renforcée par une sensibilisation appropriée des utilisateurs.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_8_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.8 Gestion des vulnérabilités techniques",
+      "question": "Que doit faire une organisation concernant les vulnérabilités techniques ?",
+      "bonne_reponse": "Obtenir des informations sur les vulnérabilités techniques des systèmes d'information utilisés, évaluer l'exposition de l'organisation à ces vulnérabilités et prendre des mesures appropriées.",
+      "fausses_reponses": [
+        "Ignorer les vulnérabilités techniques.",
+        "Externaliser la gestion des vulnérabilités.",
+        "Se concentrer uniquement sur les vulnérabilités majeures."
+      ],
+      "extrait_source": "Des informations sur les vulnérabilités techniques des systèmes d'information utilisés doivent être obtenues, l'exposition de l'organisation à ces vulnérabilités doit être évaluée et des mesures appropriées doivent être prises.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_9_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.9 Gestion des configurations",
+      "question": "Que doit faire une organisation concernant les configurations des systèmes ?",
+      "bonne_reponse": "Définir, documenter, mettre en œuvre, surveiller et réviser les configurations, y compris les configurations de sécurité, du matériel, des logiciels, des services et des réseaux.",
+      "fausses_reponses": [
+        "Ignorer la gestion des configurations.",
+        "Externaliser la gestion.",
+        "Se concentrer uniquement sur les configurations logicielles."
+      ],
+      "extrait_source": "Les configurations, y compris les configurations de sécurité, du matériel, des logiciels, des services et des réseaux, doivent être définies, documentées, mises en œuvre, surveillées et révisées.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "QA8_10_1",
+      "chapitre": "Annexe A - Mesures de sécurité technologiques",
+      "section": "A.8.10 Suppression des informations",
+      "question": "Que doit faire une organisation concernant la suppression des informations ?",
+      "bonne_reponse": "Supprimer les informations stockées dans les systèmes d'information, les terminaux ou tout autre support de stockage lorsqu'elles ne sont plus nécessaires.",
+      "fausses_reponses": [
+        "Ignorer la suppression des informations.",
+        "Externaliser la suppression.",
+        "Se concentrer uniquement sur les informations sensibles."
+      ],
+      "extrait_source": "Les informations stockées dans les systèmes d'information, les terminaux ou tout autre support de stockage doivent être supprimées lorsqu'elles ne sont plus nécessaires.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    }
+  ]
+}

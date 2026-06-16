@@ -1,0 +1,844 @@
+{
+  "metadata": {
+    "titre": "QCM ISO/IEC 27001:2022 - Par Mesure et Paragraphe",
+    "source": "NF ISO/IEC 27001:2023-01 - Sécurité de l'information, cybersécurité et protection de la vie privée - Systèmes de management de la sécurité de l'information - Exigences",
+    "date_creation": "2026-06-16",
+    "nombre_questions": 120,
+    "chapitres_couverts": [
+      "4. Contexte de l'organisation",
+      "5. Leadership",
+      "6. Planification",
+      "7. Supports",
+      "8. Fonctionnement",
+      "9. Évaluation de la performance",
+      "10. Amélioration"
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q4_1_1",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.1 Compréhension de l'organisation et de son contexte",
+      "question": "Quel est l'objectif principal de la détermination des enjeux externes et internes pour le SMSI ?",
+      "bonne_reponse": "Établir le contexte externe et interne de l'organisation pour évaluer sa capacité à obtenir les résultats attendus du SMSI.",
+      "fausses_reponses": [
+        "Définir un budget pour la sécurité de l'information.",
+        "Créer un plan de communication interne.",
+        "Identifier les fournisseurs de logiciels de sécurité."
+      ],
+      "extrait_source": "L'organisation doit déterminer les enjeux externes et internes pertinents compte tenu de sa mission et qui ont une incidence sur sa capacité à obtenir le(s) résultat(s) attendu(s) de son système de management de la sécurité de l'information. NOTE : Déterminer ces enjeux revient à établir le contexte externe et interne de l'organisation étudiée dans le paragraphe 5.4.1 de l'ISO 31000:2018.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_1_2",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.1 Compréhension de l'organisation et de son contexte",
+      "question": "Quelle norme fournit des lignes directrices pour établir le contexte externe et interne de l'organisation ?",
+      "bonne_reponse": "ISO 31000:2018.",
+      "fausses_reponses": [
+        "ISO/IEC 27002:2022.",
+        "ISO 9001:2015.",
+        "ISO 14001:2015."
+      ],
+      "extrait_source": "NOTE : Déterminer ces enjeux revient à établir le contexte externe et interne de l'organisation étudiée dans le paragraphe 5.4.1 de l'ISO 31000:2018.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_2_1",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.2 Compréhension des besoins et attentes des parties intéressées",
+      "question": "Que doit identifier l'organisation concernant les parties intéressées par le SMSI ?",
+      "bonne_reponse": "Les parties intéressées concernées, leurs exigences pertinentes, et celles qui seront traitées par le SMSI.",
+      "fausses_reponses": [
+        "Uniquement les parties intéressées internes.",
+        "Les parties intéressées et leurs adresses postales.",
+        "Les parties intéressées et leurs préférences en matière de produits."
+      ],
+      "extrait_source": "L'organisation doit déterminer : a) les parties intéressées qui sont concernées par le système de management de la sécurité de l'information ; b) les exigences pertinentes de ces parties intéressées ; c) lesquelles de ces exigences seront traitées par le biais du système de management de la sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_2_2",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.2 Compréhension des besoins et attentes des parties intéressées",
+      "question": "Quels types d'exigences peuvent être inclus dans les besoins des parties intéressées pour le SMSI ?",
+      "bonne_reponse": "Des exigences légales, réglementaires et des obligations contractuelles.",
+      "fausses_reponses": [
+        "Des exigences liées uniquement aux technologies utilisées.",
+        "Des exigences de marketing et de vente.",
+        "Des exigences de design graphique."
+      ],
+      "extrait_source": "NOTE : Les exigences des parties intéressées peuvent inclure des exigences légales et réglementaires et des obligations contractuelles.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_3_1",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.3 Détermination du domaine d'application du SMSI",
+      "question": "Quels éléments l'organisation doit-elle prendre en compte pour établir le domaine d'application du SMSI ?",
+      "bonne_reponse": "Les enjeux externes et internes, les exigences des parties intéressées, et les interfaces/dépendances avec d'autres organisations.",
+      "fausses_reponses": [
+        "Uniquement les ressources financières disponibles.",
+        "Les préférences des employés en matière de logiciels.",
+        "Les tendances du marché."
+      ],
+      "extrait_source": "Lorsque l'organisation établit ce domaine d'application, elle doit prendre en compte : a) les enjeux externes et internes auxquels il est fait référence en 4.1 ; b) les exigences auxquelles il est fait référence en 4.2 ; c) les interfaces et les dépendances existant entre les activités réalisées par l'organisation et celles réalisées par d'autres organisations.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_3_2",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.3 Détermination du domaine d'application du SMSI",
+      "question": "Sous quelle forme le domaine d'application du SMSI doit-il être disponible ?",
+      "bonne_reponse": "Sous la forme d'une information documentée.",
+      "fausses_reponses": [
+        "Sous forme orale uniquement.",
+        "Sous forme de présentation PowerPoint.",
+        "Sous forme de tableau Excel."
+      ],
+      "extrait_source": "Le domaine d'application doit être disponible sous la forme d'une information documentée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q4_4_1",
+      "chapitre": "4. Contexte de l'organisation",
+      "section": "4.4 Système de management de la sécurité de l'information",
+      "question": "Que doit faire l'organisation concernant son SMSI selon la norme ISO/IEC 27001:2022 ?",
+      "bonne_reponse": "Établir, mettre en œuvre, tenir à jour et améliorer en continu le SMSI, y compris les processus nécessaires et leurs interactions.",
+      "fausses_reponses": [
+        "Externaliser entièrement la gestion du SMSI.",
+        "Créer un SMSI uniquement pour les grands projets.",
+        "Ignorer les interactions entre les processus."
+      ],
+      "extrait_source": "L'organisation doit établir, mettre en œuvre, tenir à jour et améliorer en continu un système de management de la sécurité de l'information, y compris les processus nécessaires et leurs interactions, en accord avec les exigences du présent document.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_1_1",
+      "chapitre": "5. Leadership",
+      "section": "5.1 Leadership et engagement",
+      "question": "Quelle est la première action que la direction doit accomplir pour démontrer son leadership envers le SMSI ?",
+      "bonne_reponse": "S'assurer qu'une politique et des objectifs sont établis en matière de sécurité de l'information et qu'ils sont compatibles avec l'orientation stratégique de l'organisation.",
+      "fausses_reponses": [
+        "Déléguer entièrement la responsabilité du SMSI à un sous-traitant.",
+        "Se concentrer uniquement sur les aspects techniques.",
+        "Ignorer les exigences légales."
+      ],
+      "extrait_source": "La direction doit faire preuve de leadership et affirmer son engagement en faveur du SMSI en : a) s'assurant qu'une politique et des objectifs sont établis en matière de sécurité de l'information et qu'ils sont compatibles avec l'orientation stratégique de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_1_2",
+      "chapitre": "5. Leadership",
+      "section": "5.1 Leadership et engagement",
+      "question": "Quel rôle la direction doit-elle jouer dans l'intégration des exigences du SMSI ?",
+      "bonne_reponse": "S'assurer que les exigences liées au SMSI sont intégrées aux processus métiers de l'organisation.",
+      "fausses_reponses": [
+        "La direction n'a pas besoin de s'impliquer dans l'intégration.",
+        "La direction doit uniquement valider les rapports finaux.",
+        "La direction doit externaliser l'intégration."
+      ],
+      "extrait_source": "La direction doit faire preuve de leadership et affirmer son engagement en faveur du SMSI en : b) s'assurant que les exigences liées au SMSI sont intégrées aux processus métiers de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_1_3",
+      "chapitre": "5. Leadership",
+      "section": "5.1 Leadership et engagement",
+      "question": "Que doit faire la direction pour soutenir les personnes contribuant au SMSI ?",
+      "bonne_reponse": "Orienter et soutenir les personnes pour qu'elles contribuent à l'efficacité du SMSI.",
+      "fausses_reponses": [
+        "La direction n'a pas besoin de soutenir les personnes.",
+        "La direction doit uniquement évaluer les performances.",
+        "La direction doit ignorer les contributions individuelles."
+      ],
+      "extrait_source": "La direction doit faire preuve de leadership et affirmer son engagement en faveur du SMSI en : f) orientant et soutenant les personnes pour qu'elles contribuent à l'efficacité du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_1_4",
+      "chapitre": "5. Leadership",
+      "section": "5.1 Leadership et engagement",
+      "question": "Quelle action la direction doit-elle entreprendre pour promouvoir le SMSI ?",
+      "bonne_reponse": "Promouvoir l'amélioration continue du SMSI.",
+      "fausses_reponses": [
+        "La direction doit uniquement communiquer en cas d'incident.",
+        "La direction doit ignorer les opportunités d'amélioration.",
+        "La direction doit externaliser la promotion."
+      ],
+      "extrait_source": "La direction doit faire preuve de leadership et affirmer son engagement en faveur du SMSI en : g) promouvant l'amélioration continue.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_2_1",
+      "chapitre": "5. Leadership",
+      "section": "5.2 Politique",
+      "question": "Que doit inclure la politique de sécurité de l'information selon la norme ?",
+      "bonne_reponse": "Des objectifs de sécurité de l'information, un engagement à satisfaire les exigences applicables, et un engagement pour l'amélioration continue du SMSI.",
+      "fausses_reponses": [
+        "Une liste détaillée des logiciels utilisés.",
+        "Les coordonnées des employés.",
+        "Un plan de marketing."
+      ],
+      "extrait_source": "La direction doit établir une politique de sécurité de l'information qui : a) est appropriée à la mission de l'organisation ; b) inclut des objectifs de sécurité de l'information ou fournit un cadre pour leur établissement ; c) inclut l'engagement de satisfaire aux exigences applicables en matière de sécurité de l'information ; d) inclut l'engagement d'œuvrer pour l'amélioration continue du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_2_2",
+      "chapitre": "5. Leadership",
+      "section": "5.2 Politique",
+      "question": "Comment la politique de sécurité de l'information doit-elle être communiquée ?",
+      "bonne_reponse": "Elle doit être disponible sous forme d'information documentée, communiquée au sein de l'organisation et mise à disposition des parties intéressées.",
+      "fausses_reponses": [
+        "Uniquement sous forme orale.",
+        "Sous forme de tableau Excel.",
+        "Sous forme de présentation interne uniquement."
+      ],
+      "extrait_source": "La politique de sécurité de l'information doit : e) être disponible sous forme d'information documentée ; f) être communiquée au sein de l'organisation ; g) être mise à la disposition des parties intéressées, le cas échéant.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_3_1",
+      "chapitre": "5. Leadership",
+      "section": "5.3 Rôles, responsabilités et autorités",
+      "question": "Que doit faire la direction concernant les rôles liés à la sécurité de l'information ?",
+      "bonne_reponse": "S'assurer que les responsabilités et autorités des rôles concernés par la sécurité de l'information sont attribuées et communiquées.",
+      "fausses_reponses": [
+        "Laisser chaque employé définir ses propres responsabilités.",
+        "Externaliser toutes les responsabilités.",
+        "Ignorer les rôles liés à la sécurité de l'information."
+      ],
+      "extrait_source": "La direction doit s'assurer que les responsabilités et autorités des rôles concernés par la sécurité de l'information sont attribuées et communiquées au sein de l'organisation.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q5_3_2",
+      "chapitre": "5. Leadership",
+      "section": "5.3 Rôles, responsabilités et autorités",
+      "question": "Quelle responsabilité spécifique la direction doit-elle attribuer pour le SMSI ?",
+      "bonne_reponse": "La responsabilité et l'autorité pour s'assurer que le SMSI est conforme aux exigences du présent document et pour rendre compte à la direction des performances du SMSI.",
+      "fausses_reponses": [
+        "La responsabilité de gérer les réseaux sociaux.",
+        "La responsabilité de créer des campagnes publicitaires.",
+        "La responsabilité de gérer les ressources humaines."
+      ],
+      "extrait_source": "La direction doit attribuer la responsabilité et l'autorité pour : a) s'assurer que le SMSI est conforme aux exigences du présent document ; b) rendre compte à la direction des performances du SMSI.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_1_1",
+      "chapitre": "6. Planification",
+      "section": "6.1.1 Généralités",
+      "question": "Que doit prendre en compte l'organisation lors de la conception de son SMSI ?",
+      "bonne_reponse": "Les enjeux de 4.1 et les exigences de 4.2, et déterminer les risques et opportunités à aborder.",
+      "fausses_reponses": [
+        "Uniquement les ressources financières.",
+        "Les préférences des clients en matière de produits.",
+        "Les tendances technologiques uniquement."
+      ],
+      "extrait_source": "Lorsqu'il conçoit son SMSI, l'organisation doit tenir compte des enjeux de 4.1 et des exigences de 4.2, et déterminer les risques et opportunités qui nécessitent d'être abordés.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_1_2",
+      "chapitre": "6. Planification",
+      "section": "6.1.1 Généralités",
+      "question": "Quel est l'objectif principal de l'identification des risques et opportunités dans le SMSI ?",
+      "bonne_reponse": "S'assurer que le SMSI peut atteindre les résultats escomptés, empêcher ou limiter les effets indésirables, et obtenir une démarche d'amélioration continue.",
+      "fausses_reponses": [
+        "Augmenter les profits de l'organisation.",
+        "Réduire le nombre d'employés.",
+        "Créer de nouveaux produits."
+      ],
+      "extrait_source": "L'organisation doit déterminer les risques et opportunités qui nécessitent d'être abordés pour : a) s'assurer que le SMSI peut atteindre le(s) résultat(s) escompté(s) ; b) empêcher ou limiter les effets indésirables ; et c) obtenir une démarche d'amélioration continue.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_2_1",
+      "chapitre": "6. Planification",
+      "section": "6.1.2 Appréciation des risques de sécurité de l'information",
+      "question": "Que doit établir l'organisation pour son processus d'appréciation des risques de sécurité de l'information ?",
+      "bonne_reponse": "Des critères de risque de sécurité de l'information, incluant les critères d'acceptation des risques et les critères de réalisation des appréciations.",
+      "fausses_reponses": [
+        "Un budget dédié à la sécurité.",
+        "Une liste de fournisseurs approuvés.",
+        "Un calendrier de réunions."
+      ],
+      "extrait_source": "L'organisation doit définir et appliquer un processus d'appréciation des risques de sécurité de l'information qui : a) établit et tient à jour les critères de risque de sécurité de l'information incluant : 1) les critères d'acceptation des risques ; 2) les critères de réalisation des appréciations des risques de sécurité de l'information.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_2_2",
+      "chapitre": "6. Planification",
+      "section": "6.1.2 Appréciation des risques de sécurité de l'information",
+      "question": "Que doit garantir l'organisation concernant la répétition des appréciations des risques ?",
+      "bonne_reponse": "Que la répétition de ces appréciations produit des résultats cohérents, valides et comparables.",
+      "fausses_reponses": [
+        "Que les appréciations sont réalisées par des tiers.",
+        "Que les appréciations sont réalisées uniquement une fois par an.",
+        "Que les appréciations sont réalisées sans documentation."
+      ],
+      "extrait_source": "L'organisation doit définir et appliquer un processus d'appréciation des risques de sécurité de l'information qui : b) s'assure que la répétition de ces appréciations des risques produit des résultats cohérents, valides et comparables.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_2_3",
+      "chapitre": "6. Planification",
+      "section": "6.1.2 Appréciation des risques de sécurité de l'information",
+      "question": "Que doit identifier le processus d'appréciation des risques de sécurité de l'information ?",
+      "bonne_reponse": "Les risques de perte de confidentialité, d'intégrité et de disponibilité des informations entrant dans le domaine d'application du SMSI, et les propriétaires des risques.",
+      "fausses_reponses": [
+        "Les opportunités de vente.",
+        "Les tendances du marché.",
+        "Les préférences des employés."
+      ],
+      "extrait_source": "c) identifie les risques de sécurité de l'information : 1) applique le processus d'appréciation des risques de sécurité de l'information pour identifier les risques de perte de confidentialité, d'intégrité et de disponibilité des informations entrant dans le domaine d'application du SMSI ; et 2) identifie les propriétaires des risques.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_2_4",
+      "chapitre": "6. Planification",
+      "section": "6.1.2 Appréciation des risques de sécurité de l'information",
+      "question": "Que doit faire l'organisation pour analyser les risques de sécurité de l'information ?",
+      "bonne_reponse": "Apprécier les conséquences potentielles, évaluer la vraisemblance d'apparition des risques, et déterminer les niveaux des risques.",
+      "fausses_reponses": [
+        "Ignorer les conséquences potentielles.",
+        "Se concentrer uniquement sur les risques financiers.",
+        "Externaliser l'analyse des risques."
+      ],
+      "extrait_source": "d) analyse les risques de sécurité de l'information : 1) apprécie les conséquences potentielles dans le cas où les risques identifiés se concrétisaient ; 2) procède à une évaluation réaliste de la vraisemblance d'apparition des risques identifiés ; et 3) détermine les niveaux des risques.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_2_5",
+      "chapitre": "6. Planification",
+      "section": "6.1.2 Appréciation des risques de sécurité de l'information",
+      "question": "Que doit faire l'organisation pour évaluer les risques de sécurité de l'information ?",
+      "bonne_reponse": "Comparer les résultats d'analyse des risques avec les critères de risque déterminés et prioriser les risques analysés pour le traitement.",
+      "fausses_reponses": [
+        "Ignorer les critères de risque.",
+        "Externaliser l'évaluation des risques.",
+        "Se concentrer uniquement sur les risques majeurs."
+      ],
+      "extrait_source": "e) évalue les risques de sécurité de l'information : 1) compare les résultats d'analyse des risques avec les critères de risque déterminés ; et 2) priorise les risques analysés pour le traitement des risques.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_3_1",
+      "chapitre": "6. Planification",
+      "section": "6.1.3 Traitement des risques de sécurité de l'information",
+      "question": "Que doit faire l'organisation pour traiter les risques de sécurité de l'information ?",
+      "bonne_reponse": "Choisir les options de traitement des risques appropriées, déterminer les mesures de sécurité nécessaires, et comparer ces mesures avec celles de l'Annexe A.",
+      "fausses_reponses": [
+        "Ignorer les risques identifiés.",
+        "Externaliser entièrement le traitement des risques.",
+        "Se concentrer uniquement sur les risques financiers."
+      ],
+      "extrait_source": "L'organisation doit définir et appliquer un processus de traitement des risques de sécurité de l'information pour : a) choisir les options de traitement des risques appropriées, en tenant compte des résultats de l'appréciation des risques ; b) déterminer toutes les mesures de sécurité nécessaires à la mise en œuvre des options de traitement des risques choisies ; c) comparer les mesures de sécurité déterminées avec celles de l'Annexe A.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_3_2",
+      "chapitre": "6. Planification",
+      "section": "6.1.3 Traitement des risques de sécurité de l'information",
+      "question": "Que doit contenir la déclaration d'applicabilité selon la norme ISO/IEC 27001:2022 ?",
+      "bonne_reponse": "Les mesures de sécurité nécessaires, la justification de leur insertion, si elles sont mises en œuvre ou non, et la justification de l'exclusion de mesures de l'Annexe A.",
+      "fausses_reponses": [
+        "Une liste des employés.",
+        "Un calendrier de réunions.",
+        "Un budget détaillé."
+      ],
+      "extrait_source": "d) produire une déclaration d'applicabilité contenant : - les mesures de sécurité nécessaires ; - la justification de leur insertion ; - si les mesures de sécurité nécessaires sont mises en œuvre ou non ; et - la justification de l'exclusion de mesures de sécurité de l'Annexe A.",
+      "difficulte": "Difficile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_1_3_3",
+      "chapitre": "6. Planification",
+      "section": "6.1.3 Traitement des risques de sécurité de l'information",
+      "question": "Que doit faire l'organisation après avoir élaboré un plan de traitement des risques de sécurité de l'information ?",
+      "bonne_reponse": "Obtenir des propriétaires des risques l'approbation du plan de traitement des risques et l'acceptation des risques résiduels.",
+      "fausses_reponses": [
+        "Ignorer l'approbation des propriétaires des risques.",
+        "Externaliser l'approbation.",
+        "Se concentrer uniquement sur les risques majeurs."
+      ],
+      "extrait_source": "e) élaborer un plan de traitement des risques de sécurité de l'information ; et f) obtenir des propriétaires des risques l'approbation du plan de traitement des risques et l'acceptation des risques résiduels de sécurité de l'information.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_2_1",
+      "chapitre": "6. Planification",
+      "section": "6.2 Objectifs de sécurité de l'information et plans pour les atteindre",
+      "question": "Que doivent être les objectifs de sécurité de l'information selon la norme ?",
+      "bonne_reponse": "Cohérents avec la politique de sécurité de l'information, mesurables (si possible), et tenir compte des exigences applicables et des résultats de l'appréciation et du traitement des risques.",
+      "fausses_reponses": [
+        "Basés uniquement sur les préférences de la direction.",
+        "Non documentés.",
+        "Changés chaque mois."
+      ],
+      "extrait_source": "Les objectifs de sécurité de l'information doivent : a) être cohérents avec la politique de sécurité de l'information ; b) être mesurables (si possible) ; c) tenir compte des exigences applicables à la sécurité de l'information, et des résultats de l'appréciation et du traitement des risques.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_2_2",
+      "chapitre": "6. Planification",
+      "section": "6.2 Objectifs de sécurité de l'information et plans pour les atteindre",
+      "question": "Que doit faire l'organisation pour atteindre ses objectifs de sécurité de l'information ?",
+      "bonne_reponse": "Déterminer ce qui sera fait, quelles ressources seront requises, qui sera responsable, les échéances, et la façon dont les résultats seront évalués.",
+      "fausses_reponses": [
+        "Ignorer les ressources nécessaires.",
+        "Externaliser la responsabilité.",
+        "Se concentrer uniquement sur les résultats financiers."
+      ],
+      "extrait_source": "Lorsqu'il planifie la façon d'atteindre ses objectifs de sécurité de l'information, l'organisation doit déterminer : h) ce qui sera fait ; i) quelles ressources seront requises ; j) qui sera responsable ; k) les échéances ; et l) la façon dont les résultats seront évalués.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q6_3_1",
+      "chapitre": "6. Planification",
+      "section": "6.3 Planification des modifications",
+      "question": "Comment les modifications du SMSI doivent-elles être réalisées selon la norme ?",
+      "bonne_reponse": "De façon planifiée.",
+      "fausses_reponses": [
+        "De façon improvisée.",
+        "Sans documentation.",
+        "Uniquement en cas d'urgence."
+      ],
+      "extrait_source": "Lorsque l'organisation détermine qu'il est nécessaire de modifier le SMSI, les modifications doivent être réalisées de façon planifiée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_1_1",
+      "chapitre": "7. Supports",
+      "section": "7.1 Ressources",
+      "question": "Que doit faire l'organisation concernant les ressources pour le SMSI ?",
+      "bonne_reponse": "Identifier et fournir les ressources nécessaires à l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMSI.",
+      "fausses_reponses": [
+        "Externaliser toutes les ressources.",
+        "Ignorer les besoins en ressources.",
+        "Se concentrer uniquement sur les ressources financières."
+      ],
+      "extrait_source": "L'organisation doit identifier et fournir les ressources nécessaires à l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_2_1",
+      "chapitre": "7. Supports",
+      "section": "7.2 Compétences",
+      "question": "Que doit déterminer l'organisation concernant les compétences pour le SMSI ?",
+      "bonne_reponse": "Les compétences nécessaires des personnes effectuant un travail ayant une incidence sur les performances de la sécurité de l'information.",
+      "fausses_reponses": [
+        "Les compétences en marketing.",
+        "Les compétences en design graphique.",
+        "Les compétences en gestion des réseaux sociaux."
+      ],
+      "extrait_source": "L'organisation doit : a) déterminer les compétences nécessaires de la ou des personnes effectuant, sous son contrôle, un travail qui a une incidence sur les performances de la sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_2_2",
+      "chapitre": "7. Supports",
+      "section": "7.2 Compétences",
+      "question": "Que doit faire l'organisation pour garantir les compétences nécessaires ?",
+      "bonne_reponse": "S'assurer que les personnes sont compétentes sur la base d'une formation initiale, d'une formation professionnelle ou d'une expérience appropriée, et mener des actions pour acquérir les compétences nécessaires.",
+      "fausses_reponses": [
+        "Ignorer les besoins en compétences.",
+        "Externaliser toutes les formations.",
+        "Se concentrer uniquement sur les compétences techniques."
+      ],
+      "extrait_source": "L'organisation doit : b) s'assurer que ces personnes sont compétentes sur la base d'une formation initiale, d'une formation professionnelle ou d'une expérience appropriée ; c) le cas échéant, mener des actions pour acquérir les compétences nécessaires et évaluer l'efficacité des actions entreprises.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_3_1",
+      "chapitre": "7. Supports",
+      "section": "7.3 Sensibilisation",
+      "question": "À quoi les personnes effectuant un travail sous le contrôle de l'organisation doivent-elles être sensibilisées ?",
+      "bonne_reponse": "À la politique de sécurité de l'information, à leur contribution à l'efficacité du SMSI, et aux implications de toute non-conformité.",
+      "fausses_reponses": [
+        "Aux dernières tendances technologiques.",
+        "Aux opportunités de vente.",
+        "Aux préférences des clients."
+      ],
+      "extrait_source": "Les personnes effectuant un travail sous le contrôle de l'organisation doivent : a) être sensibilisées à la politique de sécurité de l'information ; b) avoir conscience de leur contribution à l'efficacité du SMSI ; et c) avoir conscience des implications de toute non-conformité aux exigences requises par le SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_4_1",
+      "chapitre": "7. Supports",
+      "section": "7.4 Communication",
+      "question": "Que doit déterminer l'organisation concernant la communication pour le SMSI ?",
+      "bonne_reponse": "Les besoins de communication interne et externe pertinents pour le SMSI, y compris sur quels sujets, quand, avec qui et comment communiquer.",
+      "fausses_reponses": [
+        "Uniquement les canaux de communication internes.",
+        "Les préférences des employés en matière de communication.",
+        "Les tendances des réseaux sociaux."
+      ],
+      "extrait_source": "L'organisation doit déterminer les besoins de communication interne et externe pertinents pour le SMSI, et notamment : a) sur quels sujets communiquer ; b) quand communiquer ; c) avec qui communiquer ; d) comment communiquer.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_5_1",
+      "chapitre": "7. Supports",
+      "section": "7.5.1 Généralités",
+      "question": "Que doit inclure le SMSI en termes d'informations documentées ?",
+      "bonne_reponse": "Les informations documentées exigées par le présent document et celles que l'organisation juge nécessaires à l'efficacité du SMSI.",
+      "fausses_reponses": [
+        "Uniquement les informations financières.",
+        "Les informations sur les préférences des clients.",
+        "Les informations sur les tendances du marché."
+      ],
+      "extrait_source": "Le SMSI de l'organisation doit inclure : a) les informations documentées exigées par le présent document ; et b) les informations documentées que l'organisation juge nécessaires à l'efficacité du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_5_2",
+      "chapitre": "7. Supports",
+      "section": "7.5.2 Création et mise à jour",
+      "question": "Que doit s'assurer l'organisation lors de la création et de la mise à jour des informations documentées ?",
+      "bonne_reponse": "Que l'identification et la description, le format et le support, et la revue et l'approbation du caractère adapté et adéquat des informations sont appropriés.",
+      "fausses_reponses": [
+        "Que les informations sont uniquement en format papier.",
+        "Que les informations sont créées sans revue.",
+        "Que les informations sont externalisées."
+      ],
+      "extrait_source": "Quand il crée et met à jour ses informations documentées, l'organisation doit s'assurer que sont appropriés : a) l'identification et la description (par exemple titre, date, auteur, numéro de référence) ; b) le format (par exemple langue, version logicielle, graphiques) et le support (par exemple, papier, électronique) ; et c) la revue et l'approbation du caractère adapté et adéquat des informations.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q7_5_3",
+      "chapitre": "7. Supports",
+      "section": "7.5.3 Contrôle des informations documentées",
+      "question": "Que doit faire l'organisation pour contrôler les informations documentées du SMSI ?",
+      "bonne_reponse": "S'assurer qu'elles sont disponibles et conviennent à l'utilisation, et qu'elles sont convenablement protégées.",
+      "fausses_reponses": [
+        "Ignorer la protection des informations.",
+        "Externaliser le contrôle.",
+        "Se concentrer uniquement sur les informations financières."
+      ],
+      "extrait_source": "Les informations documentées exigées par le SMSI et par le présent document doivent être contrôlées pour s'assurer : a) qu'elles sont disponibles et conviennent à l'utilisation, où et quand elles sont nécessaires ; et b) qu'elles sont convenablement protégées (par exemple contre la perte de confidentialité, l'utilisation inappropriée ou la perte d'intégrité).",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_1_1",
+      "chapitre": "8. Fonctionnement",
+      "section": "8.1 Planification et contrôle opérationnels",
+      "question": "Que doit faire l'organisation pour satisfaire aux exigences et réaliser les actions déterminées dans l'Article 6 ?",
+      "bonne_reponse": "Planifier, mettre en œuvre et contrôler les processus nécessaires, en établissant des critères pour ces processus et en mettant en œuvre leur contrôle conformément aux critères.",
+      "fausses_reponses": [
+        "Ignorer les processus.",
+        "Externaliser tous les processus.",
+        "Se concentrer uniquement sur les résultats financiers."
+      ],
+      "extrait_source": "L'organisation doit planifier, mettre en œuvre et contrôler les processus nécessaires pour satisfaire aux exigences et réaliser les actions déterminées dans l'Article 6, en : - établissant des critères pour ces processus ; - mettant en œuvre le contrôle de ces processus conformément aux critères.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_1_2",
+      "chapitre": "8. Fonctionnement",
+      "section": "8.1 Planification et contrôle opérationnels",
+      "question": "Que doit faire l'organisation concernant les modifications prévues et imprévues ?",
+      "bonne_reponse": "Contrôler les modifications prévues, analyser les conséquences des modifications imprévues, et mener des actions pour limiter tout effet négatif.",
+      "fausses_reponses": [
+        "Ignorer les modifications imprévues.",
+        "Externaliser la gestion des modifications.",
+        "Se concentrer uniquement sur les modifications majeures."
+      ],
+      "extrait_source": "L'organisation doit contrôler les modifications prévues, analyser les conséquences des modifications imprévues et, si nécessaire, mener des actions pour limiter tout effet négatif.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_1_3",
+      "chapitre": "8. Fonctionnement",
+      "section": "8.1 Planification et contrôle opérationnels",
+      "question": "Que doit s'assurer l'organisation concernant les processus, produits ou services fournis en externe ?",
+      "bonne_reponse": "Qu'ils sont contrôlés s'ils sont pertinents pour le SMSI.",
+      "fausses_reponses": [
+        "Qu'ils sont externalisés sans contrôle.",
+        "Qu'ils sont ignorés.",
+        "Qu'ils sont uniquement évalués financièrement."
+      ],
+      "extrait_source": "L'organisation doit s'assurer que les processus, produits ou services fournis en externe et pertinents pour le SMSI sont contrôlés.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_2_1",
+      "chapitre": "8. Fonctionnement",
+      "section": "8.2 Appréciation des risques de sécurité de l'information",
+      "question": "Quand l'organisation doit-elle réaliser des appréciations des risques de sécurité de l'information ?",
+      "bonne_reponse": "À des intervalles planifiés ou quand des changements significatifs sont prévus ou ont lieu.",
+      "fausses_reponses": [
+        "Uniquement une fois par an.",
+        "Uniquement en cas d'incident.",
+        "Quand un nouveau logiciel est installé."
+      ],
+      "extrait_source": "L'organisation doit réaliser des appréciations des risques de sécurité de l'information à des intervalles planifiés ou quand des changements significatifs sont prévus ou ont lieu, en tenant compte des critères établis en 6.1.2 a).",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q8_3_1",
+      "chapitre": "8. Fonctionnement",
+      "section": "8.3 Traitement des risques de sécurité de l'information",
+      "question": "Que doit faire l'organisation concernant le plan de traitement des risques de sécurité de l'information ?",
+      "bonne_reponse": "Mettre en œuvre le plan de traitement des risques de sécurité de l'information.",
+      "fausses_reponses": [
+        "Ignorer le plan.",
+        "Externaliser le plan.",
+        "Modifier le plan sans documentation."
+      ],
+      "extrait_source": "L'organisation doit mettre en œuvre le plan de traitement des risques de sécurité de l'information.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_1_1",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.1 Surveillance, mesurages, analyse et évaluation",
+      "question": "Que doit déterminer l'organisation concernant la surveillance et le mesurage pour le SMSI ?",
+      "bonne_reponse": "Ce qu'il est nécessaire de surveiller et de mesurer, les méthodes à utiliser, quand les réaliser, qui doit les effectuer, et quand analyser et évaluer les résultats.",
+      "fausses_reponses": [
+        "Uniquement les outils de surveillance.",
+        "Les préférences des employés.",
+        "Les tendances du marché."
+      ],
+      "extrait_source": "L'organisation doit déterminer : a) ce qu'il est nécessaire de surveiller et de mesurer, y compris les processus et les mesures de sécurité de l'information ; b) les méthodes de surveillance, de mesurage, d'analyse et d'évaluation ; c) quand la surveillance et le mesurage doivent être effectués ; d) qui doit effectuer la surveillance et les mesurages ; e) quand les résultats doivent être analysés et évalués ; f) qui doit analyser et évaluer ces résultats.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_1_2",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.1 Surveillance, mesurages, analyse et évaluation",
+      "question": "Que doit faire l'organisation concernant les résultats de la surveillance et du mesurage ?",
+      "bonne_reponse": "Évaluer les performances de sécurité de l'information, ainsi que l'efficacité du SMSI.",
+      "fausses_reponses": [
+        "Ignorer les résultats.",
+        "Externaliser l'évaluation.",
+        "Se concentrer uniquement sur les résultats financiers."
+      ],
+      "extrait_source": "L'organisation doit évaluer les performances de sécurité de l'information, ainsi que l'efficacité du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2_1",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.2.1 Généralités",
+      "question": "Pourquoi l'organisation doit-elle réaliser des audits internes ?",
+      "bonne_reponse": "Pour recueillir des informations permettant de déterminer si le SMSI est conforme aux exigences de l'organisation et du présent document, et s'il est efficacement mis en œuvre et maintenu.",
+      "fausses_reponses": [
+        "Pour évaluer les performances financières.",
+        "Pour évaluer les préférences des clients.",
+        "Pour évaluer les tendances du marché."
+      ],
+      "extrait_source": "L'organisation doit réaliser des audits internes à des intervalles planifiés afin de recueillir des informations permettant de déterminer si le SMSI : a) est conforme aux exigences propres de l'organisation et aux exigences du présent document ; b) est efficacement mis en œuvre et maintenu.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2_2",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.2.2 Programme d'audit interne",
+      "question": "Que doit inclure le programme d'audit interne selon la norme ?",
+      "bonne_reponse": "La fréquence, les méthodes, les responsabilités, les exigences de planification et les comptes rendus.",
+      "fausses_reponses": [
+        "Uniquement les dates des audits.",
+        "Les préférences des auditeurs.",
+        "Les résultats financiers."
+      ],
+      "extrait_source": "L'organisation doit planifier, établir, mettre en œuvre et tenir à jour un ou plusieurs programmes d'audit, couvrant notamment la fréquence, les méthodes, les responsabilités, les exigences de planification et les comptes rendus.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2_3",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.2.2 Programme d'audit interne",
+      "question": "Que doit faire l'organisation lors de l'établissement du programme d'audit interne ?",
+      "bonne_reponse": "Tenir compte de l'importance des processus concernés et des résultats des audits précédents.",
+      "fausses_reponses": [
+        "Ignorer les résultats des audits précédents.",
+        "Se concentrer uniquement sur les processus majeurs.",
+        "Externaliser l'établissement du programme."
+      ],
+      "extrait_source": "Lors de l'établissement du ou des programmes d'audit internes, l'organisation doit tenir compte de l'importance des processus concernés et des résultats des audits précédents.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2_4",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.2.2 Programme d'audit interne",
+      "question": "Que doit faire l'organisation concernant les critères d'audit et le périmètre ?",
+      "bonne_reponse": "Définir les critères d'audit et le périmètre de chaque audit.",
+      "fausses_reponses": [
+        "Ignorer les critères d'audit.",
+        "Externaliser la définition des critères.",
+        "Se concentrer uniquement sur le périmètre."
+      ],
+      "extrait_source": "L'organisation doit : a) définir les critères d'audit et le périmètre de chaque audit.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_2_5",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.2.2 Programme d'audit interne",
+      "question": "Que doit faire l'organisation concernant les résultats des audits ?",
+      "bonne_reponse": "Veiller à ce que les résultats des audits soient communiqués à la direction concernée.",
+      "fausses_reponses": [
+        "Ignorer les résultats des audits.",
+        "Externaliser la communication.",
+        "Se concentrer uniquement sur les résultats positifs."
+      ],
+      "extrait_source": "L'organisation doit : c) veiller à ce que les résultats des audits soient communiqués à la direction concernée.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_3_1",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.3.1 Généralités",
+      "question": "À quelle fréquence la direction doit-elle procéder à la revue du SMSI ?",
+      "bonne_reponse": "À des intervalles planifiés.",
+      "fausses_reponses": [
+        "Uniquement en cas d'incident.",
+        "Une fois par an.",
+        "Quand un nouveau logiciel est installé."
+      ],
+      "extrait_source": "À des intervalles planifiés, la direction doit procéder à la revue du SMSI mis en place par l'organisation, afin de s'assurer qu'il est toujours approprié, adapté et efficace.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_3_2",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.3.2 Éléments d'entrée de la revue de direction",
+      "question": "Que doit prendre en considération la revue de direction selon la norme ?",
+      "bonne_reponse": "L'état d'avancement des actions décidées lors des revues précédentes, les modifications des enjeux externes et internes, les retours sur les performances de sécurité, et les résultats de l'appréciation des risques.",
+      "fausses_reponses": [
+        "Uniquement les résultats financiers.",
+        "Les préférences des employés.",
+        "Les tendances du marché."
+      ],
+      "extrait_source": "La revue de direction doit prendre en considération : a) l'état d'avancement des actions décidées lors des revues de direction précédentes ; b) les modifications des enjeux externes et internes pertinents pour le SMSI ; c) les retours sur les performances de sécurité de l'information ; d) les retours d'information des parties intéressées ; e) les résultats de l'appréciation des risques et l'état d'avancement du plan de traitement des risques ; f) des opportunités d'amélioration continue.",
+      "difficulte": "Difficile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q9_3_3",
+      "chapitre": "9. Évaluation de la performance",
+      "section": "9.3.3 Résultats des revues de direction",
+      "question": "Que doivent inclure les résultats de la revue de direction ?",
+      "bonne_reponse": "Les décisions relatives aux opportunités d'amélioration continue et aux éventuels changements à apporter au SMSI.",
+      "fausses_reponses": [
+        "Uniquement les résultats financiers.",
+        "Les préférences des employés.",
+        "Les tendances du marché."
+      ],
+      "extrait_source": "Les résultats de la revue de direction doivent inclure les décisions relatives aux opportunités d'amélioration continue et aux éventuels changements à apporter au SMSI.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q10_1_1",
+      "chapitre": "10. Amélioration",
+      "section": "10.1 Amélioration continue",
+      "question": "Que doit faire l'organisation concernant l'amélioration du SMSI ?",
+      "bonne_reponse": "Améliorer en continu la pertinence, l'adéquation et l'efficacité du SMSI.",
+      "fausses_reponses": [
+        "Ignorer les opportunités d'amélioration.",
+        "Se concentrer uniquement sur les résultats financiers.",
+        "Externaliser l'amélioration."
+      ],
+      "extrait_source": "L'organisation doit continuellement améliorer la pertinence, l'adéquation et l'efficacité du SMSI.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q10_2_1",
+      "chapitre": "10. Amélioration",
+      "section": "10.2 Non-conformité et action corrective",
+      "question": "Que doit faire l'organisation lorsqu'une non-conformité se produit ?",
+      "bonne_reponse": "Réagir à la non-conformité, évaluer la nécessité d'une action corrective, mettre en œuvre toute action nécessaire, et passer en revue l'efficacité des actions correctives.",
+      "fausses_reponses": [
+        "Ignorer la non-conformité.",
+        "Blâmer un employé.",
+        "Externaliser la gestion de la non-conformité."
+      ],
+      "extrait_source": "Lorsqu'une non-conformité se produit, l'organisation doit : a) réagir à la non-conformité, et le cas échéant : 1) agir pour la contrôler et la corriger ; 2) faire face aux conséquences ; b) évaluer s'il est nécessaire de mener une action pour éliminer les causes de la non-conformité ; c) mettre en œuvre toute action nécessaire ; d) passer en revue l'efficacité de toute action corrective mise en œuvre.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    },
+    {
+      "id": "Q10_2_2",
+      "chapitre": "10. Amélioration",
+      "section": "10.2 Non-conformité et action corrective",
+      "question": "Que doit faire l'organisation concernant les actions correctives ?",
+      "bonne_reponse": "S'assurer que les actions correctives sont appropriées aux conséquences des non-conformités rencontrées.",
+      "fausses_reponses": [
+        "Ignorer les conséquences des non-conformités.",
+        "Externaliser les actions correctives.",
+        "Se concentrer uniquement sur les non-conformités majeures."
+      ],
+      "extrait_source": "Les actions correctives doivent être appropriées aux conséquences des non-conformités rencontrées.",
+      "difficulte": "Facile",
+      "figure_associee": null
+    },
+    {
+      "id": "Q10_2_3",
+      "chapitre": "10. Amélioration",
+      "section": "10.2 Non-conformité et action corrective",
+      "question": "Que doit conserver l'organisation comme preuve concernant les non-conformités ?",
+      "bonne_reponse": "Des informations documentées comme preuve de la nature des non-conformités, des actions menées ultérieurement, et des résultats de toute action corrective.",
+      "fausses_reponses": [
+        "Uniquement les rapports financiers.",
+        "Les préférences des employés.",
+        "Les tendances du marché."
+      ],
+      "extrait_source": "Des informations documentées doivent être disponibles comme preuve : f) de la nature des non-conformités et de toute action menée ultérieurement ; g) des résultats de toute action corrective.",
+      "difficulte": "Moyenne",
+      "figure_associee": null
+    }
+  ]
+}
